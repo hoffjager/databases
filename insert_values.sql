@@ -1,4 +1,4 @@
-﻿INSERT INTO Finances (Game, Price, Paid, Savings)
+﻿INSERT INTO dbo.Finances (Game, Price, Paid, Savings)
 VALUES ("A Bug's Life",€1.49,€1.49,€0.00,
 "Bishi Bashi Special",€4.99,€4.99,€0.00,
 "Buzz Lightyear of Star Command",€1.99,€1.99,€0.00,
@@ -859,3 +859,4 @@ VALUES ("A Bug's Life",€1.49,€1.49,€0.00,
 "VR The Diner Duo",€14.99,€5.99,€9.00,
 "Wanderer",€39.99,€19.99,€20.00,
 "You Are Being Followed",€0.00,€0.00,€0.00);
+GO

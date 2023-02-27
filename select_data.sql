@@ -1,1 +1,2 @@
-﻿SELECT * FROM Finances;
+﻿SELECT * FROM dbo.Finances
+WHERE Savings = 8;
