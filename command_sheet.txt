@@ -1,0 +1,77 @@
+CREATE TABLE [dbo].[Origins]
+(
+    [Id] INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    [Game] VARCHAR(MAX) NULL, 
+    [Console] VARCHAR(MAX) NULL, 
+    [Developer] VARCHAR(MAX) NULL, 
+    [Country] VARCHAR(MAX) NULL
+);
+
+CREATE TABLE [dbo].[Finances]
+(
+    [Id] INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    [Game] VARCHAR(MAX) NULL, 
+    [Full Price] FLOAT NULL, 
+    [Sale Price] FLOAT NULL, 
+    [Savings] FLOAT NULL
+);
+
+CREATE TABLE [dbo].[Dates]
+(
+    [Id] INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+    [Game] VARCHAR(MAX) NULL, 
+    [Console] VARCHAR(MAX) NULL, 
+    [Purchase Date] DATE NULL
+);
+
+NOT NULL is being used because we do not want this field to be NULL.
+So, if a user will try to create a record with a NULL value, then MySQL will raise an error.
+
+AUTO_INCREMENT tells MySQL to go ahead and add the next available number to the id field.
+
+PRIMARY KEY is used to define a column as a primary key.
+You can use multiple columns separated by a comma to define a primary key.
+
+DROP TABLE Origins;
+DROP TABLE Finances;
+DROP TABLE Dates;
+
+INSERT INTO table_name (field1, field2, fieldN)
+   VALUES
+   (
+   value1, value2, valueN
+   );
+
+INSERT INTO Origins (Id, Game, Console, Developer, Country) 
+   VALUES
+   (
+   1,A Bugs Life,PS1,TT Games,England
+   );
+
+INSERT INTO Finances (Id, Game, Full Price, Sale Price, Savings)
+   VALUES
+   (
+   1,A Bugs Life,€1.49,€1.49,€0.00
+   );
+
+INSERT INTO Dates (Id, Game, Console, Purchase Date)
+   VALUES
+   (
+   1,A Bugs Life,PS1,22/05/2017
+   );
+
+SELECT field1, field2, fieldN 
+FROM table_name1, table_name2
+[WHERE Clause]
+
+SELECT field1, field2, fieldN
+FROM table_name1, table_name2
+[WHERE condition1 [AND [OR]] condition2
+
+UPDATE table_name SET field1 = new-value1, field2 = new-value2
+[WHERE Clause]
+
+SELECT *
+FROM Origins
+WHERE Country = "Japan"
+

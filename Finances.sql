@@ -1,8 +1,8 @@
-﻿CREATE TABLE [dbo].[Table]
+﻿CREATE TABLE [dbo].[Finances]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
     [Game] VARCHAR(MAX) NULL, 
-    [Price] FLOAT NULL, 
-    [Paid] FLOAT NULL, 
+    [Full Price] FLOAT NULL, 
+    [Sale Price] FLOAT NULL, 
     [Savings] FLOAT NULL
 )
