@@ -68,10 +68,181 @@ SELECT field1, field2, fieldN
 FROM table_name1, table_name2
 [WHERE condition1 [AND [OR]] condition2
 
-UPDATE table_name SET field1 = new-value1, field2 = new-value2
-[WHERE Clause]
-
 SELECT *
 FROM Origins
 WHERE Country = "Japan"
 
+UPDATE table_name SET field1 = new-value1, field2 = new-value2
+[WHERE Clause]
+
+DELETE FROM Origins WHERE id = 3;
+
+SELECT field1, field2 fieldN table_name1, table_name2
+WHERE field1 LIKE condition1 [AND [OR]] filed2 = 'somevalue'
+
+SELECT field1, field2, fieldN table_name1, table_name2
+ORDER BY field1, [field2...] [ASC [DESC]]
+
+SELECT a.tutorial_id, a.tutorial_author, b.tutorial_count
+FROM tutorials_tbl a, tcount_tbl b
+WHERE a.tutorial_author = b.tutorial_author;
+
+SELECT a.tutorial_id, a.tutorial_author, b.tutorial_count
+FROM tutorials_tbl a LEFT JOIN tcount_tbl b
+ON a.tutorial_author = b.tutorial_author;
+
+REGEXP's
+Consider we have a table called person_tbl and it has a field called name:
+
+Query to find all the names starting with 'st':
+    SELECT name FROM person_tbl WHERE name REGEXP '^st';
+
+Query to find all the names ending with 'ok':
+    SELECT name FROM person_tbl WHERE name REGEXP 'ok$';
+
+Query to find all the names, which contain 'mar':
+    SELECT name FROM person_tbl WHERE name REGEXP 'mar';
+
+Query to find all the names starting with a vowel and ending with 'ok':
+    SELECT FirstName FROM intque.person_tbl WHERE FirstName REGEXP '^[aeiou].*ok$';
+
+CREATE TABLE testalter_tbl
+(
+   i INT,
+   c CHAR(1)
+);
+
+ALTER TABLE testalter_tbl DROP i;
+
+ALTER TABLE testalter_tbl ADD i INT;
+
+ALTER TABLE testalter_tbl MODIFY c CHAR(10);
+
+ALTER TABLE testalter_tbl CHANGE i j BIGINT;
+
+ALTER TABLE testalter_tbl RENAME TO alter_tbl;
+
+FOREIGN KEYS = CHILD TO PARENT PRIMARY KEYS
+
+CREATE TABLE Orders (
+    OrderID int NOT NULL,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    PRIMARY KEY (OrderID),
+    FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+);
+
+CREATE TABLE Orders (
+    OrderID int NOT NULL PRIMARY KEY,
+    OrderNumber int NOT NULL,
+    PersonID int FOREIGN KEY REFERENCES Persons(PersonID)
+);
+
+ALTER TABLE Orders
+ADD FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+
+Be careful when updating records. If you omit the WHERE clause, ALL records will be updated!
+
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'
+WHERE CustomerID = 1;
+
+UPDATE Customers
+SET ContactName = 'Juan'
+WHERE Country = 'Mexico';
+
+SELECT COUNT(ProductID)
+FROM Products;
+
+SELECT AVG(Price)
+FROM Products;
+
+SELECT SUM(Quantity)
+FROM OrderDetails;
+
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
+
+SELECT MAX(Price) AS LargestPrice
+FROM Products;
+
+LIKE Operator 	                Description
+WHERE CustomerName LIKE 'a%' 	Finds any values that start with "a"
+WHERE CustomerName LIKE '%a' 	Finds any values that end with "a"
+WHERE CustomerName LIKE '%or%' 	Finds any values that have "or" in any position
+WHERE CustomerName LIKE '_r%' 	Finds any values that have "r" in the second position
+WHERE CustomerName LIKE 'a_%' 	Finds any values that start with "a" and are at least 2 characters in length
+WHERE CustomerName LIKE 'a__%' 	Finds any values that start with "a" and are at least 3 characters in length
+WHERE ContactName LIKE 'a%o' 	Finds any values that start with "a" and ends with "o"
+https://www.w3schools.com/sql/sql_like.asp
+
+SELECT * FROM Customers
+WHERE Country IN ('Germany', 'France', 'UK');
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20;
+
+SELECT * FROM Products
+WHERE Price BETWEEN 10 AND 20
+AND CategoryID NOT IN (1,2,3);
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN #07/01/1996# AND #07/31/1996#;
+
+SELECT * FROM Orders
+WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
+
+https://www.w3schools.com/sql/sql_join.asp
+
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them:
+
+Notice that the "CustomerID" column in the "Orders" table refers to the "CustomerID" in the "Customers" table.
+The relationship between the two tables above is the "CustomerID" column.
+Then, we can create the following SQL statement (that contains an INNER JOIN), that selects records that have matching values in both tables:
+
+SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
+
+    (INNER) JOIN: Returns records that have matching values in both tables
+    LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+    RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+    FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+The following SQL statement returns the cities (only distinct values) from both the "Customers" and the "Suppliers" table:
+SELECT City FROM Customers
+UNION
+SELECT City FROM Suppliers
+ORDER BY City;
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country;
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+ORDER BY COUNT(CustomerID) DESC;
+
+SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders
+FROM Orders
+LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
+GROUP BY ShipperName;
+
+SELECT COUNT(CustomerID), Country
+FROM Customers
+GROUP BY Country
+HAVING COUNT(CustomerID) > 5;
+
+The following SQL statement returns TRUE and lists the suppliers with a product price less than 20:
+SELECT SupplierName
+FROM Suppliers
+WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price < 20);
