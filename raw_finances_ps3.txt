@@ -1,0 +1,140 @@
+Game,FullPrice,SalePrice,Savings
+Alice: Madness Returns,€19.99,€19.99,€0.00
+Angry Birds Trilogy,€29.99,€29.99,€0.00
+Army of Two,€2.00,€2.00,€0.00
+Bang Bang Racing,€9.99,€9.99,€0.00
+Battlefield 3,€19.99,€0.00,€19.99
+Bayonetta,€14.99,€4.00,€10.99
+Beat Hazard Ultra,€6.99,€6.99,€0.00
+Bentley's Hackpack,€1.99,€1.99,€0.00
+Beyond Good and Evil HD,€9.99,€9.99,€0.00
+Blur,€18.00,€18.00,€0.00
+Brink,€0.50,€0.50,€0.00
+Buzz! Quiz World,€42.00,€42.00,€0.00
+Call of Duty: Modern Warfare 2 (2009),€29.99,€4.00,€25.99
+Crazy Machines Elements,€4.99,€4.99,€0.00
+Daytona USA,€7.99,€7.99,€0.00
+Dead Rising 2,€14.99,€3.50,€11.49
+Dead Space (2008),€12.99,€4.00,€8.99
+Deus Ex: Human Revolution,€12.99,€6.00,€6.99
+Dishonored,€9.99,€3.00,€6.99
+DJ Hero,€2.50,€2.50,€0.00
+DJ Hero 2,€2.50,€2.50,€0.00
+Duke Nukem Forever,€12.99,€3.50,€9.49
+Earthworm Jim HD,€9.99,€9.99,€0.00
+F.E.A.R,€12.00,€12.00,€0.00
+F1 Race Stars,€9.99,€9.99,€0.00
+Family Guy: Back to the Multiverse,€8.00,€8.00,€0.00
+Far Cry 2,€9.99,€2.00,€7.99
+Far Cry Classic,€9.99,€9.99,€0.00
+Fat Princess,€9.99,€9.99,€0.00
+FIFA Street (2012),€4.00,€4.00,€0.00
+Fight Night Champion,€19.99,€15.00,€4.99
+Final Exam,€9.99,€9.99,€0.00
+Final Fantasy XIII,€4.00,€4.00,€0.00
+Girl Fight,€7.99,€7.99,€0.00
+God of War (2005),€12.99,€4.99,€8.00
+God of War II (2007),€12.00,€3.00,€9.00
+Gran Turismo 5,€5.00,€5.00,€0.00
+Grand Theft Auto IV: The Complete Collection,€49.97,€22.00,€27.97
+Hitman: Absolution,€14.99,€5.00,€9.99
+ICO Classics HD,€10.00,€10.00,€0.00
+inFamous,€8.99,€8.99,€0.00
+inFamous 2,€8.00,€8.00,€0.00
+inFamous: Festival of Blood,€8.00,€8.00,€0.00
+Jet Car Stunts,€6.99,€6.99,€0.00
+Joe Danger 2: The Movie,€12.99,€12.99,€0.00
+Kane and Lynch: Dead Men,€9.99,€2.00,€7.99
+Kane and Lynch 2: Dog Days,€9.99,€2.00,€7.99
+Killer is Dead,€19.99,€18.00,€1.99
+Killzone,€12.99,€12.99,€0.00
+LA Noire,€29.99,€29.99,€0.00
+Lemmings (2007),€12.98,€12.98,€0.00
+LittleBigPlanet,€10.50,€10.50,€0.00
+LittleBigPlanet 2,€29.98,€19.49,€10.49
+LittleBigPlanet Karting,€14.99,€14.99,€0.00
+Lollipop Chainsaw,€12.00,€12.00,€0.00
+Lone Survivor: The Director's Cut,€9.99,€9.99,€0.00
+Mafia II,€29.99,€10.00,€19.99
+Malicious,€7.99,€7.99,€0.00
+Mensa Academy,€9.99,€9.99,€0.00
+Metal Gear Solid: Peace Walker,€8.00,€8.00,€0.00
+Metal Gear Solid 2: Sons of Liberty,€23.99,€23.99,€0.00
+Metal Gear Solid 3: Snake Eater,€22.99,€22.99,€0.00
+Metal Gear Solid 4: Guns of the Patriots,€14.99,€14.99,€0.00
+Modnation Racers,€6.00,€6.00,€0.00
+Mortal Kombat (2011),€19.99,€19.99,€0.00
+Mortal Kombat Arcade Kollection,€9.99,€9.99,€0.00
+Motorstorm: Apocalypse,€14.99,€14.99,€0.00
+Motorstorm: Pacific Rift,€5.00,€5.00,€0.00
+Motorstorm RC,€8.99,€3.99,€5.00
+Naughty Bear,€5.00,€5.00,€0.00
+Need for Speed: Most Wanted (2012),€14.99,€0.00,€14.99
+Need for Speed: Shift,€4.00,€4.00,€0.00
+Need for Speed: The Run,€19.99,€4.00,€15.99
+Oddworld: Munch's Oddysee,€8.99,€8.99,€0.00
+Oddworld: Stranger's Wrath,€12.99,€12.99,€0.00
+PAYDAY: The Heist,€12.99,€12.99,€0.00
+PlayStation All Stars Battle Royale,€14.99,€14.99,€0.00
+PlayStation Move Heroes,€12.49,€7.50,€4.99
+Prince of Persia: The Sands of Time,€5.00,€5.00,€0.00
+Prince of Persia: The Two Thrones,€4.99,€4.99,€0.00
+Prince of Persia: Warrior Within,€5.00,€5.00,€0.00
+Pro Evolution Soccer 2010,€0.50,€0.50,€0.00
+Quantum Conundrum,€10.99,€10.99,€0.00
+Ratchet: Gladiator,€14.99,€14.99,€0.00
+Ratchet & Clank (2002),€8.99,€3.99,€5.00
+Ratchet & Clank 2,€8.00,€3.00,€5.00
+Ratchet & Clank 3,€8.00,€3.00,€5.00
+Ratchet & Clank: A Crack in Time,€14.99,€10.00,€4.99
+Ratchet & Clank: Nexus,€14.99,€14.99,€0.00
+Ratchet & Clank: QForce,€14.99,€4.99,€10.00
+Ratchet & Clank: Quest for Booty,€9.99,€9.99,€0.00
+Ratchet & Clank: Tools of Destruction,€14.99,€10.00,€4.99
+Rayman 3 HD,€9.99,€9.99,€0.00
+Rayman Origins,€29.98,€26.99,€2.99
+Red Dead Redemption,€44.98,€18.00,€26.98
+Resistance,€2.00,€2.00,€0.00
+Saints Row 2,€4.99,€0.00,€4.99
+Sam and Max Season 3: The Devils Playhouse TTG,€24.99,€24.99,€0.00
+Shadow of the Colossus Classics HD,€9.99,€9.99,€0.00
+Silent Hill HD Collection,€22.00,€22.00,€0.00
+Siren Blood Curse,€12.99,€12.99,€0.00
+Skate 2,€12.00,€12.00,€0.00
+Sly 2: Band of Thieves,€8.00,€3.00,€5.00
+Sly 3: Honour Among Thieves,€8.00,€3.00,€5.00
+Sly Cooper and the Thievius Raccoonus,€8.99,€1.99,€7.00
+Sonic Generations,€14.99,€14.99,€0.00
+Spec Ops: The Line,€19.99,€19.99,€0.00
+Streets of Rage 2,€4.49,€4.49,€0.00
+Super Rub a Dub,€4.99,€4.99,€0.00
+Superfrog HD,€9.99,€9.99,€0.00
+Syndicate,€1.00,€1.00,€0.00
+Tales of Grace f,€15.00,€15.00,€0.00
+Tales of Xillia,€14.99,€14.99,€0.00
+Tekken 5: Dark Resurrection,€19.99,€19.99,€0.00
+Tekken Revolution,€0.00,€0.00,€0.00
+The Amazing Spider-Man,€15.00,€15.00,€0.00
+The Baconing,€12.99,€12.99,€0.00
+The Cave,€9.99,€0.00,€9.99
+The Cube,€9.99,€9.99,€0.00
+The Darkness,€3.00,€3.00,€0.00
+The Darkness 2,€2.50,€2.50,€0.00
+The House of the Dead: Overkill,€5.00,€5.00,€0.00
+The Secret of Monkey Island: Special Edition,€4.99,€4.99,€0.00
+The Simpsons Arcade Game,€9.99,€9.99,€0.00
+The Simpsons Game,€28.00,€28.00,€0.00
+The Sims 3,€18.00,€18.00,€0.00
+The Sims 3: Pets,€18.00,€18.00,€0.00
+Tiger Woods PGA Tour 11,€1.00,€1.00,€0.00
+ToeJam and Earl (1991),€2.75,€2.75,€0.00
+ToeJam and Earl: Panic on Funkotron,€2.74,€2.74,€0.00
+Tokyo Jungle,€12.99,€12.99,€0.00
+Tony Hawk's Pro Skater HD,€9.99,€9.99,€0.00
+Twisted Metal (2012),€12.99,€5.00,€7.99
+UFC 2009 Undisputed,€2.00,€2.00,€0.00
+Velocity Ultra,€7.99,€7.99,€0.00
+When Vikings Attack,€4.99,€4.99,€0.00
+XCOM Enemy Unknown,€39.98,€25.98,€14.00
+Yakuza: Dead Souls,€19.99,€0.00,€19.99
+Zombie Tycoon II: Brainhov's Revenge,€6.19,€6.19,€0.00
