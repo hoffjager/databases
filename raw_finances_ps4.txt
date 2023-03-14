@@ -1,415 +1,415 @@
 Game,FullPrice,SalePrice,Savings
-(268,'[Prototype]','PS4','2017-08-22'),
-(269,'[Prototype 2]','PS4','2017-08-22'),
-101 Ways To Die,PS4,16/07/2017
-60 Seconds! Reatomized,PS4,20/12/2022
-A Boy And His Blob,PS4,03/08/2017
-Absolute Drift: Zen Edition,PS4,31/01/2017
-Abzu,PS4,24/08/2021
-Active Soccer 2 DX,PS4,31/01/2017
-Amnesia: Collection,PS4,04/11/2020
-Amplitude,PS4,19/01/2017
-Another World,PS4,19/09/2019
-Ape Escape 2,PS4,15/01/2018
-ARK: Survival Evolved,PS4,01/03/2022
-Armello,PS4,04/08/2017
-Armikrog,PS4,15/12/2020
-Art Of Balance,PS4,07/08/2017
-Assault Android Cactus,PS4,17/06/2018
-Aven Colony,PS4,13/03/2020
-Back To The Future TTG,PS4,01/06/2017
-Badland,PS4,23/02/2019
-Batman Season 1 TTG,PS4,26/11/2016
-Batman Season 2 TTG,PS4,17/11/2018
-Batman: Arkham Asylum,PS4,01/04/2020
-Batman: Arkham City,PS4,01/04/2020
-Batman: Arkham Knight,PS4,01/04/2020
-Battlefield 1: Revolution,PS4,18/05/2021
-Bear With Me,PS4,06/02/2020
-Beat Cop,PS4,23/08/2021
-Beyond Eyes,PS4,23/07/2017
-Beyond Two Souls,PS4,04/08/2021
-BioShock 1 & 2: The Collection,PS4,22/08/2017
-BioShock Infinite: The Collection,PS4,22/08/2017
-BLACKSAD: Under the Skin,PS4,27/05/2022
-Blood Bowl 2,PS4,25/12/2019
-Bloodborne,PS4,07/06/2019
-Borderlands: Game of the Year Edition,PS4,03/04/2019
-Borderlands: The Handsome Collection,PS4,22/08/2017
-Bridge Constructor,PS4,24/03/2019
-Broforce,PS4,15/01/2017
-Broken Age,PS4,03/08/2017
-Brothers: A Tale of Two Sons,PS4,28/04/2021
-Bully (Canis Canem Edit),PS4,03/08/2017
-Burnout Paradise: Remastered,PS4,06/05/2019
-Call of Duty: Black Ops III,PS4,29/01/2022
-Captain Tsubasa: Rise of New Champions,PS4,09/12/2021
-Castle Crashers: Remastered,PS4,19/09/2019
-Castlevania Requiem: Symphony of the Night and Rondo of Blood,PS4,02/10/2015
-Catherine: Full Body,PS4,09/09/2019
-Cel Damage HD,PS4,20/05/2017
-Celeste,PS4,23/08/2018
-Child Of Light,PS4,22/09/2016
-Chime Sharp,PS4,23/07/2017
-Cities: Skylines,PS4,22/08/2019
-Claire,PS4,07/04/2017
-ClusterTruck,PS4,24/08/2020
-Code Vein,PS4,07/03/2023
-Color Slayer,PS4,22/03/2020
-Concrete Genie,PS4,13/03/2020
-Cosmophony,PS4,03/08/2017
-CounterSpy,PS4,09/07/2017
-Crash Bandicoot: N Sane Trilogy (2017),PS4,29/06/2017
-Crash Team Racing: Nitro Fueled (2019),PS4,21/06/2019
-Croixleur Sigma,PS4,30/11/2017
-Curse of the Dead Gods,PS4,03/05/2022
-Danger Zone,PS4,23/02/2019
-Dangerous Driving,PS4,23/08/2021
-Dangerous Golf,PS4,23/02/2019
-Dark Chronicle,PS4,07/10/2016
-Dark Cloud,PS4,06/09/2016
-Dark Souls II: Scholar of the First Sin,PS4,17/10/2019
-Dark Souls III,PS4,17/06/2019
-Dark Souls Remastered,PS4,25/12/2019
-Day Of The Tentacle Remastered,PS4,17/03/2017
-Days Gone,PS4,18/05/2021
-Dead End Job,PS4,23/08/2021
-Dead Island: Retro Revenge,PS4,15/01/2017
-Dead or Alive 5: Last Round,PS4,04/05/2017
-Dead Rising,PS4,17/03/2020
-Deadpool,PS4,31/01/2017
-Death Squared,PS4,10/12/2017
-DEEEER Simulator: Your Average Everyday Deer Game,PS4,03/03/2022
-Destroy All Humans! (2005),PS4,07/04/2017
-Destroy All Humans! 2 (2006),PS4,07/04/2017
-Destroy All Humans! (2020),PS4,28/08/2020
-Detroit: Become Human,PS4,18/05/2021
-Devil May Cry 4,PS4,08/08/2019
-Devil May Cry 5,PS4,08/08/2019
-Devil May Cry Trilogy HD Collection,PS4,08/08/2019
-Dex,PS4,19/04/2017
-Disney Classic Games: Aladdin & The Lion King,PS4,25/12/2019
-Doki-Doki Universe,PS4,09/07/2017
-Donut County,PS4,26/01/2020
-Doom (1993),PS4,27/05/2022
-Doom 64,PS4,27/05/2022
-Doom II,PS4,27/05/2022
-Downwell,PS4,31/01/2017
-DreamBall,PS4,25/12/2019
-Dreams,PS4,17/03/2020
-Duke Nukem 3D,PS4,25/12/2015
-Empire of Sin: Deluxe Edition,PS4,10/02/2023
-Enter The Gungeon,PS4,19/01/2017
-Entwined,PS4,09/07/2017
-Escape Plan,PS4,13/07/2017
-Everybody's Golf (2017),PS4,24/01/2018
-Exit the Gungeon,PS4,18/08/2021
-Fahrenheit (Indigo Prophecy),PS4,27/05/2022
-Fallout 4,PS4,22/07/2019
-Far Cry 3,PS4,23/02/2019
-Far Cry 4,PS4,23/02/2019
-Far Cry 5,PS4,29/09/2018
-Far Cry: New Dawn,PS4,24/03/2019
-Far Cry: Primal,PS4,23/02/2019
-Fat Princess Adventures,PS4,07/10/2016
-Fez,PS4,23/07/2017
-FIFA 18,PS4,29/09/2017
-FIFA 19,PS4,26/11/2018
-FIFA 20,PS4,01/04/2020
-Final Fantasy X/X-2 HD Remaster,PS4,04/10/2018
-Final Fantasy XV: Royal Edition,PS4,18/05/2021
-Five Dates,PS4,20/03/2022
-Flashback,PS4,27/05/2022
-Flockers,PS4,17/03/2017
-flOw,PS4,09/07/2017
-Flower,PS4,09/07/2017
-forma.8,PS4,21/04/2020
-Formula Retro Racing,PS4,27/05/2022
-Futuridium,PS4,16/04/2020
-Game Of Thrones TTG,PS4,09/04/2017
-Geometry Wars 3: Dimensions Evolved,PS4,01/06/2017
-Ghost Blade HD,PS4,04/08/2017
-Ghost of Tsushima,PS4,22/11/2020
-Ghostbusters,PS4,24/06/2018
-Goat Simulator,PS4,07/10/2016
-God of War (2018),PS4,18/05/2021
-God of War III Remastered,PS4,06/10/2017
-Good Dog Bad Dog,PS4,28/12/2022
-Granblue Fantasy: Versus,PS4,07/09/2022
-Grand Ages: Medieval,PS4,01/04/2020
-Grand Theft Auto III (2001),PS4,06/09/2016
-Grand Theft Auto: San Andreas (2004),PS4,06/09/2016
-Grand Theft Auto: Vice City (2002),PS4,06/09/2016
-Grim Fandango Remastered,PS4,12/02/2017
-Harvest Moon: A Wonderful Life,PS4,24/06/2018
-Hatoful Boyfriend,PS4,20/05/2017
-Heart&Slash,PS4,09/07/2017
-Heavy Rain,PS4,11/10/2020
-Helldivers,PS4,08/10/2017
-Hitman 2,PS4,22/09/2021
-Hohokum,PS4,09/07/2017
-Hollow Knight: Voidheart Edition,PS4,03/11/2020
-Home,PS4,23/10/2016
-HoPiKo,PS4,04/05/2017
-Horizon Zero Dawn,PS4,07/06/2019
-Hotline Miami,PS4,18/08/2015
-Hotline Miami 2: Wrong Number,PS4,15/01/2017
-Hue,PS4,17/03/2017
-I am Bread,PS4,20/03/2022
-inFamous First Light,PS4,26/11/2016
-inFamous Second Son,PS4,26/11/2016
-Injustice: Gods Among Us,PS4,01/10/2020
-Injustice 2,PS4,05/10/2022
-Jak 3,PS4,27/11/2012
-Jak and Daxter: The Precursor Legacy,PS4,27/11/2012
-Jak II,PS4,27/11/2012
-Jak X: Combat Racing,PS4,09/12/2017
-Jazzpunk: Director's Cut,PS4,04/08/2017
-Jetpack Joyride,PS4,31/01/2017
-Journey,PS4,09/07/2017
-Just Die Already,PS4,27/04/2022
-Kandagawa Jet Girls,PS4,03/03/2022
-Katamari Damacy: Reroll,PS4,30/09/2018
-Keep Talking and Nobody Explodes,PS4,03/03/2022
-Kingdom Hearts HD 1.5 & 2.5 Remix,PS4,17/11/2019
-Kingdom Hearts HD 2.8 Final Chapter Prologue,PS4,17/11/2019
-Kingdom Hearts III,PS4,17/11/2019
-Kingdoms of Amalur: Re-Reckoning,PS4,02/11/2021
-Knack,PS4,20/01/2022
-Knack 2,PS4,20/01/2022
-LA Cops,PS4,17/03/2017
-LEGO City Undercover,PS4,23/02/2019
-LEGO DC Super-Villains,PS4,09/12/2021
-LEGO Harry Potter Collection,PS4,07/04/2017
-LEGO Marvel Super-Heroes,PS4,07/01/2021
-Leisure Suit Larry: Wet Dreams Don't Dry,PS4,20/03/2022
-Leisure Suit Larry: Wet Dreams Dry Twice,PS4,20/03/2022
-Lichtspeer,PS4,03/08/2017
-Life Is Strange,PS4,26/11/2016
-Little Nightmares,PS4,03/08/2022
-LittleBigPlanet 3,PS4,06/10/2017
-LocoRoco,PS4,29/07/2017
-Lovers In A Dangerous Spacetime,PS4,20/05/2017
-LUMO,PS4,19/01/2017
-Mafia: Definitive Edition (2020),PS4,11/12/2020
-Mafia III,PS4,16/04/2020
-Manhunt,PS4,03/08/2017
-Manual Samuel,PS4,04/08/2017
-Marvel's Guardians Of The Galaxy TTG,PS4,22/08/2017
-Marvel's Spider-Man,PS4,07/09/2018
-Mass Effect: Legendary Edition,PS4,21/11/2021
-Max Payne,PS4,03/08/2017
-MediEvil (2019),PS4,25/10/2019
-Mega Man Legacy Collection,PS4,06/09/2016
-Mega Man Legacy Collection 2,PS4,22/12/2017
-Mega Man X Legacy Collection,PS4,22/07/2019
-Mega Man X Legacy Collection 2,PS4,22/07/2019
-Metal Gear Solid V: The Phantom Pain,PS4,25/12/2020
-Metro Redux,PS4,23/08/2021
-Micro Machines World Series,PS4,22/06/2017
-Minecraft Dungeons,PS4,07/03/2023
-Minutes,PS4,07/04/2017
-Monopoly Family Fun Pack,PS4,22/09/2016
-Monster Hunter World: Iceborne,PS4,18/05/2021
-Mortal Kombat X,PS4,18/05/2021
-Mortal Shell,PS4,09/12/2021
-Mother Russia Bleeds,PS4,04/08/2017
-Need for Speed Heat,PS4,07/09/2022
-Neon Chrome,PS4,17/03/2017
-Neon Drive,PS4,27/05/2022
-Night Book,PS4,20/03/2022
-Ninja Senki DX,PS4,07/04/2017
-Nitroplus Blasterz: Heroines Infinite Duel,PS4,19/01/2017
-Octodad: Dadliest Catch,PS4,06/09/2015
-Oddworld: New n Tasty,PS4,29/04/2015
-Okami HD,PS4,24/06/2018
-OlliOlli 2,PS4,25/02/2017
-OlliOlli: Epic Combo Edition,PS4,25/02/2017
-One Piece Unlimited World Red,PS4,31/12/2017
-Onee Chanbara Origin,PS4,28/12/2022
-Outbreak: Epidemic,PS4,19/05/2021
-Outlast,PS4,28/08/2020
-Oxenfree,PS4,07/08/2017
-Pac-Man 256,PS4,07/10/2016
-PaRappa The Rapper 2,PS4,06/09/2016
-PaRappa The Rapper Remastered,PS4,11/07/2017
-Party Hard,PS4,04/08/2017
-Party Hard 2,PS4,08/02/2023
-Persona 5,PS4,22/12/2017
-Persona 5 Strikers,PS4,04/01/2022
-PGA Tour 2K21,PS4,05/10/2021
-Pic-A-Pix Color,PS4,10/11/2018
-PixelJunk Shooter Ultimate,PS4,17/03/2017
-Plants vs Zombies: Battle for Neighborville,PS4,13/05/2020
-Please Don't Touch Anything,PS4,23/08/2021
-Poltergeist: A Pixelated Horror,PS4,01/06/2017
-Polybius,PS4,24/02/2018
-PONG Quest,PS4,17/02/2022
-Postal Redux,PS4,27/05/2022
-Psychonauts,PS4,10/09/2016
-Psychonauts 2,PS4,21/11/2021
-Pumped BMX+,PS4,23/07/2017
-Putty Squad,PS4,29/11/2018
-Quake,PS4,27/05/2022
-Quest Of Dungeons,PS4,04/05/2017
-Rally Copters,PS4,14/07/2018
-Ratchet & Clank (2016),PS4,22/12/2017
-Rayman Legends,PS4,06/09/2015
-Red Dead Redemption 2,PS4,11/10/2019
-Red Dead Revolver,PS4,03/08/2017
-Resident Evil (2002),PS4,19/09/2019
-Resident Evil 0,PS4,19/09/2019,870
-Resident Evil 4 (2005),PS4,19/09/2019
-Resident Evil 5,PS4,10/11/2021
-Resident Evil 6,PS4,10/11/2021
-Resident Evil Revelations,PS4,22/06/2019
-Resident Evil Revelations 2,PS4,22/06/2019
-Resident Evil: Re:Verse,PS4,20/10/2021
-Resident Evil: Resistance,PS4,30/09/2021
-RESOGUN,PS4,09/07/2017
-Retro City Rampage DX,PS4,10/09/2016
-Riptide GP: Renegade,PS4,04/08/2017
-Rise Of The Tomb Raider,PS4,24/06/2018
-Risk Of Rain,PS4,03/08/2017
-Road Redemption,PS4,21/07/2021
-Rock Boshers DX: Director's Cut,PS4,07/04/2017
-Rocket League,PS4,19/01/2017
-Rocketbirds 2: Evolution,PS4,06/09/2016
-Rogue Legacy,PS4,15/01/2017
-Rollercoaster Dreams,PS4,20/12/2016
-Saban's Mighty Morphin Power Rangers: Mega Battle,PS4,23/02/2019
-Saints Row IV: Gat out of Hell,PS4,17/09/2020
-Saints Row IV: Re-Elected,PS4,17/09/2020
-Sam and Max Season 1: Save The World TTG,PS4,02/10/2022
-Sam and Max Season 2: Beyond Time and Space TTG,PS4,02/10/2022
-Scott Pilgrim vs The World: The Game,PS4,23/08/2021
-Scribblenauts Mega Pack,PS4,22/03/2020
-Sekiro: Shadows Die Twice,PS4,25/12/2019
-Shovel Knight: Pocket Dungeon,PS4,20/12/2022
-Shovel Knight: Treasure Trove,PS4,29/08/2018
-ShredIt,PS4,04/08/2017
-Slain: Back from Hell,PS4,01/06/2017
-Slay the Spire,PS4,05/04/2022
-Sleeping Dogs,PS4,06/07/2019
-Slender: The Arrival,PS4,04/11/2020
-Sniper Elite V2 Remastered,PS4,27/05/2022
-Sonic Mania,PS4,14/08/2017
-SoulCalibur VI,PS4,19/10/2018
-Sound Shapes,PS4,09/07/2017
-South Park: The Fractured But Whole,PS4,12/12/2017
-South Park: The Stick of Truth,PS4,12/12/2017
-Spelunky,PS4,25/12/2020
-SpongeBob Squarepants: Battle for Bikini Bottom - Rehydrated,PS4,23/08/2021
-Spy Chameleon,PS4,07/04/2017
-Spyro Reignited Trilogy (2018),PS4,13/11/2018
-Star Wars Episode I: Racer,PS4,28/08/2020
-Stardew Valley,PS4,03/08/2017
-Stealth Inc 2: A Game Of Clones,PS4,17/03/2017
-Stealth Inc: A Clone In The Dark,PS4,17/03/2017
-SteamWorld Dig,PS4,15/01/2017
-SteamWorld Dig 2,PS4,06/01/2022
-SteamWorld Heist,PS4,19/01/2017
-Stikbold! A Dodgeball Adventure,PS4,13/05/2020
-Stranded Deep,PS4,19/05/2021
-Street Fighter 30th Anniversary Collection,PS4,29/05/2018
-Super Kickers League Ultimate,PS4,07/07/2021
-Super Meat Boy!,PS4,25/02/2017
-Super Monkey Ball: Banana Blitz HD,PS4,30/06/2021
-Super Stardust Ultra,PS4,19/01/2017
-Superbeat: Xonic EX,PS4,20/05/2017
-Supermarket Shriek,PS4,23/08/2021
-Surgeon Simulator,PS4,05/12/2019
-Switch Galaxy Ultra,PS4,25/12/2015
-Syrup and the Ultimate Sweet,PS4,04/03/2020
-Table Top Racing: World Tour,PS4,11/10/2019
-Tales From The Borderlands TTG,PS4,01/04/2015
-Team Sonic Racing,PS4,01/03/2022
-Tearaway Unfolded,PS4,07/08/2017
-Tekken 7,PS4,06/11/2018
-Tembo The Badass Elephant,PS4,17/03/2017
-Tennis in the Face,PS4,07/04/2017
-Tennis World Tour 2,PS4,03/08/2021
-Terraria,PS4,22/11/2015
-Tethered,PS4,06/12/2016
-Tetris Ultimate,PS4,22/09/2016
-That's You!,PS4,04/07/2017
-The Binding of Isaac: Rebirth,PS4,25/12/2020
-The Bug Butcher,PS4,04/05/2017
-The Complex,PS4,20/03/2022
-The Crew,PS4,25/02/2017
-The Disney Afternoon Collection,PS4,07/01/2021
-The Escapists,PS4,19/01/2017
-The Evil Within,PS4,04/12/2017
-The Flame in the Flood,PS4,13/05/2020
-The Last Guardian,PS4,12/07/2021
-The Last of Us Part II,PS4,09/09/2020
-The Last Of Us Remastered,PS4,26/12/2017
-The Last Of Us: Left Behind Remastered,PS4,11/09/2016
-The Outer Worlds,PS4,03/02/2023
-The Sims 4,PS4,08/12/2017
-The Swapper,PS4,20/05/2017
-The Unfinished Swan,PS4,09/07/2017
-The Walking Dead Final Season TTG,PS4,25/12/2019
-The Walking Dead Season 1 TTG,PS4,25/12/2015
-The Walking Dead Season 2 TTG,PS4,21/10/2016
-The Walking Dead Season 3 TTG,PS4,04/10/2018
-The Warriors,PS4,03/08/2017
-The Witness,PS4,04/08/2017
-The Wolf Among Us TTG,PS4,16/03/2017
-Think of the Children,PS4,23/08/2021
-This Is The Police,PS4,24/06/2018
-Thomas Was Alone,PS4,03/04/2017
-Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure,PS4,01/02/2022
-Titan Attacks!,PS4,17/03/2017
-ToeJam & Earl: Back In The Groove (2019),PS4,01/03/2019
-Touhou Double Focus,PS4,22/07/2019
-Trials Fusion: The Awesome MAX Edition,PS4,22/03/2020
-Tribes of Midgard,PS4,03/05/2022
-Tricky Towers,PS4,19/01/2017
-Trine 2: Complete Story,PS4,04/08/2017
-Trine 3: The Artifacts Of Power,PS4,04/08/2017
-Trine Enchanted Edition,PS4,04/08/2017
-Tropico 5,PS4,22/08/2017
-Trover Saves The Universe,PS4,07/09/2021
-Twisted Metal: Black,PS4,05/12/2015
-Two Point Hospital,PS4,24/06/2020
-Typoman,PS4,04/05/2017
-UFC 4,PS4,01/02/2022
-Ultratron,PS4,17/03/2017
-Unbox: Newbie's Adventure,PS4,27/05/2022
-Uncanny Valley,PS4,23/08/2021
-Uncharted 2: Among Thieves,PS4,03/08/2017
-Uncharted 3: Drake's Deception,PS4,03/08/2017
-Uncharted 4: A Thief's End,PS4,22/12/2017
-Uncharted: Drake's Fortune,PS4,03/08/2017
-Uncharted: The Lost Legacy,PS4,04/10/2018
-Undertale,PS4,22/12/2017
-UNO,PS4,09/12/2021
-Unravel,PS4,19/01/2017
-Until Dawn,PS4,04/10/2018
-Untitled Goose Game,PS4,17/12/2019
-Velocity 2X,PS4,18/11/2015
-Viking Squad,PS4,05/10/2016
-Virtua Fighter 5: Ultimate Showdown,PS4,01/07/2021
-Volume,PS4,03/08/2017
-Watch Dogs,PS4,06/02/2020
-Watch Dogs 2,PS4,22/07/2019
-while true: learn( ),PS4,23/08/2021
-Wipeout Omega Collection,PS4,29/12/2018
-Worms Battlegrounds,PS4,22/08/2017
-Worms WMD,PS4,22/08/2017
-WRC 6,PS4,24/06/2018
-WWE 2K Battlegrounds,PS4,06/07/2021
-XCOM 2,PS4,20/08/2020
-Xenoraid,PS4,03/08/2017
-Yakuza 0,PS4,05/10/2021
-Yakuza 3 Remastered,PS4,13/10/2021
-Yakuza 4 Remastered,PS4,13/10/2021
-Yakuza 5 Remastered,PS4,13/10/2021
-Yakuza 6: The Song of Life,PS4,05/10/2021
-Yakuza Kiwami,PS4,05/10/2021
-Yakuza Kiwami 2,PS4,05/10/2021
-Yomawari: Midnight Shadows,PS4,10/06/2020
-Yooka-Laylee,PS4,23/02/2019
-Yooka-Laylee and the Impossible Lair,PS4,25/12/2019
-Yu-Gi-Oh! Legacy of the Duelist,PS4,10/09/2015
+[Prototype],€24.99,€7.99,€17.00
+[Prototype 2],€24.99,€7.99,€17.00
+101 Ways To Die,€9.99,€4.99,€5.00
+60 Seconds! Reatomized,€9.99,€0.00,€9.99
+A Boy And His Blob,€9.99,€3.99,€6.00
+Absolute Drift: Zen Edition,€11.99,€7.99,€4.00
+Abzu,€19.99,€0.00,€19.99
+Active Soccer 2 DX,€9.99,€6.99,€3.00
+Amnesia: Collection,€28.49,€3.13,€25.36
+Amplitude,€19.99,€9.99,€10.00
+Another World,€7.99,€2.99,€5.00
+Ape Escape 2,€9.99,€3.99,€6.00
+Ark: Survival Evolved,€29.99,€0.00,€29.99
+Armello,€19.99,€7.99,€12.00
+Armikrog,€9.99,€1.99,€8.00
+Art Of Balance,€8.99,€2.99,€6.00
+Assault Android Cactus,€14.49,€3.99,€10.50
+Aven Colony,€29.99,€14.99,€15.00
+Back To The Future TTG,€12.98,€12.98,€0.00
+Badland,€11.99,€4.99,€7.00
+Batman Season 1 TTG,€19.99,€19.99,€0.00
+Batman Season 2 TTG,€14.99,€14.99,€0.00
+Batman: Arkham Asylum,€19.99,€7.99,€12.00
+Batman: Arkham City,€19.99,€7.99,€12.00
+Batman: Arkham Knight,€19.99,€7.99,€12.00
+Battlefield 1: Revolution,€19.99,€0.00,€19.99
+Bear With Me,€14.99,€7.49,€7.50
+Beat Cop,€14.99,€1.49,€13.50
+Beyond Eyes,€12.99,€3.99,€9.00
+Beyond Two Souls,€19.99,€5.99,€14.00
+BioShock 1 & 2: The Collection,€24.99,€9.99,€15.00
+BioShock Infinite: The Collection,€24.99,€9.99,€15.00
+BLACKSAD: Under the Skin,€39.99,€7.99,€32.00
+Blood Bowl 2,€19.99,€7.49,€12.50
+Bloodborne,€34.99,€18.24,€16.75
+Borderlands: Game of the Year Edition,€29.99,€29.99,€0.00
+Borderlands: The Handsome Collection,€109.98,€62.98,€47.00
+Bridge Constructor,€9.99,€3.99,€6.00
+Broforce,€14.99,€4.99,€10.00
+Broken Age,€14.99,€6.99,€8.00
+Brothers: A Tale of Two Sons,€19.99,€4.99,€15.00
+Canis Canem Edit) (Bully),€23.98,€15.98,€8.00
+Burnout Paradise: Remastered,€39.98,€9.99,€29.99
+Call of Duty: Black Ops III,€69.99,€0.00,€69.99
+Captain Tsubasa: Rise of New Champions,€59.99,€19.79,€40.20
+Castle Crashers: Remastered,€30.98,€30.98,€0.00
+Castlevania Requiem: Symphony of the Night and Rondo of Blood,€29.98,€8.99,€20.99
+Catherine: Full Body,€79.98,€79.98,€0.00
+Cel Damage HD,€13.98,€7.98,€6.00
+Celeste,€19.99,€11.99,€8.00
+Child Of Light,€14.99,€4.99,€10.00
+Chime Sharp,€9.99,€2.99,€7.00
+Cities: Skylines,€139.98,€84.98,€55.00
+Claire,€16.99,€4.99,€12.00
+ClusterTruck,€14.99,€4.49,€10.50
+Code Vein,€69.99,€0.00,€69.99
+Color Slayer,€1.99,€1.99,€0.00
+Concrete Genie,€29.99,€23.99,€6.00
+Cosmophony,€4.99,€1.99,€3.00
+CounterSpy,€12.99,€3.99,€9.00
+Crash Bandicoot N Sane Trilogy (2017),€39.99,€39.99,€0.00
+Crash Team Racing: Nitro Fueled (2019),€59.99,€59.99,€0.00
+Croixleur Sigma,€13.99,€4.99,€9.00
+Curse of the Dead Gods,€19.99,€0.00,€19.99
+Danger Zone,€10.99,€2.99,€8.00
+Dangerous Driving,€29.99,€7.49,€22.50
+Dangerous Golf,€7.99,€2.99,€5.00
+Dark Chronicle,€14.99,€14.99,€0.00
+Dark Cloud,€14.99,€8.99,€6.00
+Dark Souls II: Scholar of the First Sin,€19.99,€9.99,€10.00
+Dark Souls III,€49.99,€11.99,€38.00
+Dark Souls Remastered,€39.99,€14.79,€25.20
+Day Of The Tentacle Remastered,€14.99,€4.74,€10.25
+Days Gone,€69.99,€0.00,€69.99
+Dead End Job,€14.99,€2.99,€12.00
+Dead Island: Retro Revenge,€4.99,€2.99,€2.00
+Dead or Alive 5: Last Round,€59.98,€33.98,€26.00
+Dead Rising,€19.99,€4.99,€15.00
+Deadpool,€39.99,€19.99,€20.00
+Death Squared,€13.99,€6.99,€7.00
+DEEEER Simulator: Your Average Everyday Deer Game,€16.99,€13.59,€3.40
+Destroy All Humans! (2005),€19.99,€7.99,€12.00
+Destroy All Humans! 2 (2006),€19.99,€7.99,€12.00
+Destroy All Humans! (2020),€39.99,€31.99,€8.00
+Detroit: Become Human,€29.99,€0.00,€29.99
+Devil May Cry 4,€22.99,€10.99,€12.00
+Devil May Cry 5,€49.99,€44.99,€5.00
+Devil May Cry Trilogy HD Collection,€21.99,€10.99,€11.00
+Dex,€19.99,€9.99,€10.00
+Disney Classic Games: Aladdin & The Lion King,€34.99,€34.99,€0.00
+Doki-Doki Universe,€7.49,€1.99,€5.50
+Donut County,€12.99,€6.49,€6.50
+Doom (1993),€4.99,€2.49,€2.50
+Doom 64,€4.99,€2.49,€2.50
+Doom II,€4.99,€2.49,€2.50
+Downwell,€4.99,€1.99,€3.00
+DreamBall,€5.99,€5.99,€0.00
+Dreams,€39.99,€29.99,€10.00
+Duke Nukem 3D,€22.98,€8.98,€14.00
+Empire of Sin: Deluxe Edition,€49.99,€12.49,€37.50
+Enter The Gungeon,€14.99,€7.49,€7.50
+Entwined,€7.99,€1.99,€6.00
+Escape Plan,€19.99,€19.99,€0.00
+Everybody's Golf (2017),€75.93,€55.93,€20.00
+Exit the Gungeon,€9.99,€6.99,€3.00
+Fahrenheit (Indigo Prophecy),€13.49,€5.39,€8.10
+Fallout 4,€19.99,€12.99,€7.00
+Far Cry 3,€29.99,€17.99,€12.00
+Far Cry 4,€24.99,€7.99,€17.00
+Far Cry 5,€99.98,€49.98,€50.00
+Far Cry: New Dawn,€54.99,€27.49,€27.50
+Far Cry: Primal,€24.99,€7.99,€17.00
+Fat Princess Adventures,€19.99,€9.99,€10.00
+Fez,€9.99,€1.99,€8.00
+FIFA 18,€69.99,€69.99,€0.00
+FIFA 19,€69.99,€39.89,€30.10
+FIFA 20,€69.99,€27.99,€42.00
+Final Fantasy X/X-2 HD Remaster,€29.99,€14.99,€15.00
+Final Fantasy XV: Royal Edition,€34.99,€0.00,€34.99
+Five Dates,€11.66,€5.83,€5.83
+Flashback,€19.99,€0.99,€19.00
+Flockers,€24.99,€4.99,€20.00
+flOw,€4.99,€1.99,€3.00
+Flower,€7.99,€1.99,€6.00
+forma.8,€9.99,€2.99,€7.00
+Formula Retro Racing,€5.99,€3.59,€2.40
+Futuridium,€9.99,€2.99,€7.00
+Game Of Thrones TTG,€14.99,€14.99,€0.00
+Geometry Wars 3: Dimensions Evolved,€14.99,€3.99,€11.00
+Ghost Blade HD,€8.99,€3.99,€5.00
+Ghost of Tsushima,€69.99,€49.69,€20.30
+Ghostbusters,€29.99,€7.99,€22.00
+Goat Simulator,€31.95,€18.55,€13.40
+God of War (2018),€19.99,€0.00,€19.99
+God of War III Remastered,€19.99,€9.99,€10.00
+Good Dog Bad Dog,€16.99,€0.00,€16.99
+Granblue Fantasy: Versus,€19.99,€0.00,€19.99
+Grand Ages: Medieval,€39.99,€3.99,€36.00
+Grand Theft Auto III (2001),€10.99,€5.99,€5.00
+Grand Theft Auto: San Andreas (2004),€12.00,€7.00,€5.00
+Grand Theft Auto: Vice City (2002),€12.00,€7.00,€5.00
+Grim Fandango Remastered,€14.99,€3.99,€11.00
+Harvest Moon: A Wonderful Life,€14.99,€4.99,€10.00
+Hatoful Boyfriend,€9.99,€2.99,€7.00
+Heart&Slash,€19.99,€3.99,€16.00
+Heavy Rain,€22.99,€8.99,€14.00
+Helldivers,€29.99,€29.99,€0.00
+Hitman 2,€69.99,€0.00,€69.99
+Hohokum,€12.99,€3.99,€9.00
+Hollow Knight: Voidheart Edition,€14.49,€0.00,€14.49
+Home,€4.99,€1.99,€3.00
+HoPiKo,€6.99,€1.99,€5.00
+Horizon Zero Dawn,€34.98,€27.98,€7.00
+Hotline Miami,9.99,9.99,0.00
+Hotline Miami 2: Wrong Number,€14.99,€3.59,€11.40
+Hue,€14.99,€4.99,€10.00
+I am Bread,€12.99,€2.59,€10.40
+inFamous First Light,€14.99,€7.99,€7.00
+inFamous Second Son,€14.99,€6.99,€8.00
+Injustice: Gods Among Us,€59.99,€9.59,€50.40
+Injustice 2,€19.99,€0.00,€19.99
+Jak 3,€26.98,€26.98,€0.00
+Jak and Daxter: The Precursor Legacy,€26.98,€26.98,€0.00
+Jak II,€24.97,€24.97,€0.00
+Jak X: Combat Racing,€9.99,€9.99,€0.00
+Jazzpunk: Director's Cut,€17.99,€4.99,€13.00
+Jetpack Joyride,€5.58,€3.98,€1.60
+Journey,€14.99,€14.99,€0.00
+Just Die Already,€13.99,€6.29,€7.70
+Kandagawa Jet Girls,€39.99,€14.79,€25.20
+Katamari Damacy: Reroll,€49.98,€40.98,€9.00
+Keep Talking and Nobody Explodes,€14.99,€7.49,€7.50
+Kingdom Hearts HD 1.5 & 2.5,€36.99,€12.10,€24.89
+Kingdom Hearts HD 2.8 Final Chapter Prologue,€36.99,€12.10,€24.89
+Kingdom Hearts III,€35.99,€12.09,€23.90
+Kingdoms of Amalur: Re-Reckoning,€39.99,€0.00,€39.99
+Knack,€19.99,€7.99,€12.00
+Knack 2,€39.99,€13.99,€26.00
+LA Cops,€13.99,€2.99,€11.00
+LEGO City Undercover,€59.99,€16.99,€43.00
+LEGO DC Super-Villains,€59.99,€0.00,€59.99
+LEGO Harry Potter Collection,€39.99,€19.99,€20.00
+LEGO Marvel Super-Heroes,€39.99,€9.99,€30.00
+Leisure Suit Larry: Wet Dreams Don't Dry,€39.99,€7.99,€32.00
+Leisure Suit Larry: Wet Dreams Dry Twice,€39.99,€11.99,€28.00
+Lichtspeer,€9.99,€5.99,€4.00
+Life Is Strange,€16.99,€5.99,€11.00
+Little Nightmares,€19.99,€0.00,€19.99
+LittleBigPlanet 3,€19.99,€9.99,€10.00
+LocoRoco,€14.99,€14.99,€0.00
+Lovers In A Dangerous Spacetime,€14.99,€4.99,€10.00
+LUMO,€17.99,€9.99,€8.00
+Mafia: Definitive Edition (2020),€39.99,€29.99,€10.00
+Mafia III,€39.99,€9.99,€30.00
+Manhunt,€13.99,€5.99,€8.00
+Manual Samuel,€9.99,€4.99,€5.00
+Marvel's Guardians Of The Galaxy TTG,€14.99,€14.99,€0.00
+Marvel's Spider-Man,€79.99,€0.00,€79.99
+Mass Effect: Legendary Edition,€69.99,€44.79,€25.20
+Max Payne,€13.99,€5.99,€8.00
+MediEvil (2019),€29.99,€29.99,€0.00
+Mega Man Legacy Collection,€14.99,€7.99,€7.00
+Mega Man Legacy Collection 2,€14.99,€7.99,€7.00
+Mega Man X Legacy Collection,€19.99,€11.99,€8.00
+Mega Man X Legacy Collection 2,€19.99,€11.99,€8.00
+Metal Gear Solid V: The Phantom Pain,€29.99,€7.49,€22.50
+Metro Redux,€29.99,€4.49,€25.50
+Micro Machines World Series,€39.99,€26.99,€13.00
+Minecraft Dungeons,€19.99,€0.00,€19.99
+Minutes,€4.49,€3.49,€1.00
+Monopoly Family Fun Pack,€29.99,€19.99,€10.00
+Monster Hunter World: Iceborne,€19.99,€0.00,€19.99
+Mortal Kombat X,€19.99,€0.00,€19.99
+Mortal Shell,€29.99,€0.00,€29.99
+Mother Russia Bleeds,€12.99,€4.49,€8.50
+Need for Speed Heat,€69.99,€0.00,€69.99
+Neon Chrome,€14.99,€4.49,€10.50
+Neon Drive,€9.99,€4.99,€5.00
+Night Book,€11.67,€5.83,€5.84
+Ninja Senki DX,€5.99,€1.99,€4.00
+Nitroplus Blasterz: Heroines Infinite Duel,€19.99,€14.99,€5.00
+Octodad: Dadliest Catch,€13.99,€7.00,€6.99
+Oddworld: New n Tasty,€23.58,€20.98,€2.60
+Okami HD,€19.99,€13.99,€6.00
+OlliOlli 2,€12.99,€6.49,€6.50
+OlliOlli: Epic Combo Edition,€24.99,€9.99,€15.00
+One Piece Unlimited World Red,€79.98,€18.98,€61.00
+Onee Chanbara Origin,€49.99,€22.49,€27.50
+Outbreak: Epidemic,€14.99,€8.24,€6.75
+Outlast,€18.99,€3.79,€15.20
+Oxenfree,€9.99,€4.99,€5.00
+Pac-Man 256,€4.99,€4.99,€0.00
+PaRappa The Rapper 2,€9.99,€5.99,€4.00
+PaRappa The Rapper Remastered,€14.99,€14.99,€0.00
+Party Hard,€12.99,€4.99,€8.00
+Party Hard 2,€19.99,€4.99,€15.00
+Persona 5,€69.99,€34.99,€35.00
+Persona 5 Strikers,€59.99,€0.00,€59.99
+PGA Tour 2K21,€59.99,€0.00,€59.99
+Pic-A-Pix Color,€7.99,€3.99,€4.00
+PixelJunk Shooter Ultimate,€11.99,€2.99,€9.00
+Plants vs Zombies: Battle for Neighborville,€39.99,€24.99,€15.00
+Please Don't Touch Anything,€9.99,€4.99,€5.00
+Poltergeist: A Pixelated Horror,€7.99,€2.99,€5.00
+Polybius,€16.99,€4.99,€12.00
+PONG Quest,€17.99,€8.99,€9.00
+Postal Redux,€9.99,€3.49,€6.50
+Psychonauts,€10.99,€7.99,€3.00
+Psychonauts 2,€59.99,€41.99,€18.00
+Pumped BMX+,€9.99,€2.99,€7.00
+Putty Squad,€24.99,€6.99,€18.00
+Quake,€9.99,€4.99,€5.00
+Quest Of Dungeons,€8.99,€3.99,€5.00
+Rally Copters,€10.99,€10.99,€0.00
+Ratchet & Clank (2016),€39.99,€16.49,€23.50
+Rayman Legends,€39.98,€26.99,€12.99
+Red Dead Redemption 2,€69.99,€34.99,€35.00
+Red Dead Revolver,€13.99,€5.99,€8.00
+Resident Evil 0,€19.99,€4.99,€15.00
+Resident Evil (2002),€19.99,€4.99,€15.00
+Resident Evil 4 (2005),€19.99,€7.99,€12.00
+Resident Evil 5,€19.99,€7.99,€12.00
+Resident Evil 6,€19.99,€7.99,€12.00
+Resident Evil: Resistance,€0.00,€0.00,€0.00
+Resident Evil Revelations,€19.99,€7.49,€12.50
+Resident Evil Revelations 2,€19.99,€7.49,€12.50
+Resident Evil: Re:Verse,€0.00,€0.00,€0.00
+RESOGUN,€12.99,€3.99,€9.00
+Retro City Rampage DX,€9.99,€4.99,€5.00
+Riptide GP: Renegade,€9.99,€3.99,€6.00
+Rise Of The Tomb Raider,€29.99,€14.99,€15.00
+Risk Of Rain,€8.99,€3.99,€5.00
+Road Redemption,€19.99,€7.99,€12.00
+Rock Boshers DX: Director's Cut,€5.49,€5.49,€0.00
+Rocket League,€34.58,€26.58,€8.00
+Rocketbirds 2: Evolution,€12.99,€12.99,€0.00
+Rogue Legacy,€12.99,€4.99,€8.00
+Rollercoaster Dreams,€20.99,€9.99,€11.00
+Saban's Mighty Morphin Power Rangers: Mega Battle,€19.99,€3.99,€16.00
+Saints Row IV: Gat out of Hell,€19.99,€7.99,€12.00
+Saints Row IV: Re-Elected,€34.98,€7.49,€27.49
+Sam and Max Season 1: Save The World TTG,€19.99,€14.99,€5.00
+Sam and Max Season 2: Beyond Time and Space TTG,€19.99,€14.99,€5.00
+Scott Pilgrim vs The World: The Game,€14.99,€8.99,€6.00
+Scribblenauts Mega Pack,€29.99,€9.99,€20.00
+Sekiro: Shadows Die Twice,€69.99,€45.49,€24.50
+Shovel Knight: Pocket Dungeon,€19.99,€14.99,€5.00
+Shovel Knight: Treasure Trove,€24.99,€24.99,€0.00
+ShredIt,€8.99,€5.49,€3.50
+Slain: Back from Hell,€14.99,€4.99,€10.00
+Slay the Spire,€24.99,€0.00,€24.99
+Sleeping Dogs,€29.99,€4.49,€25.50
+Slender: The Arrival,€9.99,€1.49,€8.50
+Sniper Elite V2 Remastered,€34.99,€3.49,€31.50
+Sonic Mania,€24.98,€24.98,€0.00
+SoulCalibur VI,€99.99,€99.99,€0.00
+Sound Shapes,€14.99,€3.99,€11.00
+South Park: The Fractured But Whole,€96.94,€57.94,€39.00
+South Park: The Stick of Truth,€0.00,€0.00,€0.00
+Spelunky,€14.99,€0.00,€14.99
+SpongeBob Squarepants: Battle for Bikini Bottom - Rehydrated,€29.99,€17.99,€12.00
+Spy Chameleon,€4.99,€1.99,€3.00
+Spyro Reignited Trilogy (2018),€39.99,€39.99,€0.00
+Star Wars Episode I: Racer,€14.99,€9.74,€5.25
+Stardew Valley,€14.99,€7.99,€7.00
+Stealth Inc: A Clone In The Dark,€8.49,€2.49,€6.00
+Stealth Inc 2: A Game Of Clones,€8.49,€2.49,€6.00
+SteamWorld Dig,€8.99,€1.99,€7.00
+SteamWorld Dig 2,€19.99,€4.99,€15.00
+SteamWorld Heist,€14.99,€9.99,€5.00
+Stikbold! A Dodgeball Adventure,€9.99,€4.49,€5.50
+Stranded Deep,€19.99,€0.00,€19.99
+Street Fighter 30th Anniversary Collection,€39.99,€14.79,€25.20
+Super Kickers League Ultimate,€19.99,€5.99,€14.00
+Super Meat Boy!,€15.99,€5.59,€10.40
+Super Monkey Ball: Banana Blitz HD,€39.99,€19.99,€20.00
+Super Stardust Ultra,€32.98,€17.98,€15.00
+Superbeat: Xonic EX,€49.98,€12.98,€37.00
+Supermarket Shriek,€19.99,€11.99,€8.00
+Surgeon Simulator,€30.98,€24.98,€6.00
+Switch Galaxy Ultra,€10.99,€3.99,€7.00
+Syrup and the Ultimate Sweet,€4.99,€4.99,€0.00
+Table Top Racing: World Tour,€12.98,€12.98,€0.00
+Tales From The Borderlands TTG,€29.98,€29.98,€0.00
+Team Sonic Racing,€39.99,€0.00,€39.99
+Tearaway Unfolded,€19.99,€11.99,€8.00
+Tekken 7,€74.98,€29.98,€45.00
+Tembo The Badass Elephant,€12.99,€3.49,€9.50
+Tennis in the Face,€9.98,€9.98,€0.00
+Tennis World Tour 2,€49.99,€0.00,€49.99
+Terraria,€33.98,€15.49,€18.49
+Tethered,€28.49,€28.49,€0.00
+Tetris Ultimate,€39.99,€5.99,€34.00
+That's You!,€0.00,€0.00,€0.00
+The Binding of Isaac: Rebirth,€14.99,€0.00,€14.99
+The Bug Butcher,€9.99,€4.99,€5.00
+The Complex,€11.66,€5.83,€5.83
+The Crew,€24.99,€11.99,€13.00
+The Disney Afternoon Collection,€19.99,€4.99,€15.00
+The Escapists,€17.99,€6.99,€11.00
+The Evil Within,€19.99,€5.99,€14.00
+The Flame in the Flood,€14.99,€4.49,€10.50
+The Last Guardian,€34.99,€0.00,€34.99
+The Last Of Us: Left Behind Remastered,€9.99,€4.99,€5.00
+The Last of Us Part II,€69.99,€0.00,€69.99
+The Last Of Us Remastered,€39.99,€39.99,€0.00
+The Outer Worlds,€59.99,€19.79,€40.20
+The Sims 4,€869.61,€682.41,€187.20
+The Swapper,€14.99,€3.99,€11.00
+The Unfinished Swan,€12.99,€2.99,€10.00
+The Walking Dead Season 1 TTG,€14.99,€5.99,€9.00
+The Walking Dead Season 2 TTG,€14.99,€14.99,€0.00
+The Walking Dead Season 3 TTG,€29.99,€29.99,€0.00
+The Walking Dead Final Season TTG,€23.99,€23.99,€0.00
+The Warriors,€13.99,€5.99,€8.00
+The Witness,€36.99,€8.44,€28.55
+The Wolf Among Us TTG,€14.99,€14.99,€0.00
+Think of the Children,€12.99,€2.59,€10.40
+This Is The Police,€19.99,€2.99,€17.00
+Thomas Was Alone,€7.99,€0.00,€7.99
+Tiny Tina's Assault on Dragon Keep: A Wonderlands One-Shot Adventure,€9.99,€0.00,€9.99
+Titan Attacks!,€9.99,€9.99,€0.00
+ToeJam & Earl: Back In The Groove (2019),€18.89,€18.89,€0.00
+Touhou Double Focus,€19.99,€4.99,€15.00
+Trials Fusion: The Awesome MAX Edition,€39.99,€9.99,€30.00
+Tribes of Midgard,€19.99,€0.00,€19.99
+Tricky Towers,€14.99,€5.99,€9.00
+Trine 2: Complete Story,€9.99,€2.99,€7.00
+Trine 3: The Artifacts Of Power,€9.99,€1.99,€8.00
+Trine Enchanted Edition,€9.99,€2.99,€7.00
+Tropico 5,€24.99,€9.99,€15.00
+Trover Saves The Universe,€29.99,€0.00,€29.99
+Twisted Metal: Black,€9.99,€4.99,€5.00
+Two Point Hospital,€56.98,€37.58,€19.40
+Typoman,€9.99,€6.99,€3.00
+UFC 4,€69.99,€0.00,€69.99
+Ultratron,€9.99,€9.99,€0.00
+Unbox: Newbie's Adventure,€24.99,€4.99,€20.00
+Uncanny Valley,€14.49,€3.62,€10.87
+Uncharted: Drake's Fortune,€22.15,€15.15,€7.00
+Uncharted: The Lost Legacy,€19.99,€17.99,€2.00
+Uncharted 2: Among Thieves,€22.15,€15.15,€7.00
+Uncharted 3: Drake's Deception,€22.16,€15.16,€7.00
+Uncharted 4: A Thief's End,€69.99,€22.99,€47.00
+Undertale,€14.99,€8.99,€6.00
+UNO,€19.99,€7.99,€12.00
+Unravel,€19.99,€7.99,€12.00
+Until Dawn,€34.99,€34.99,€0.00
+Untitled Goose Game,€19.99,€14.99,€5.00
+Velocity 2X,€15.99,€6.40,€9.59
+Viking Squad,€14.99,€5.99,€9.00
+Virtua Fighter 5: Ultimate Showdown,€29.99,€0.00,€29.99
+Volume,€17.99,€4.99,€13.00
+Watch Dogs,€19.99,€7.99,€12.00
+Watch Dogs 2,€69.99,€14.99,€55.00
+while true: learn( ),€14.99,€9.74,€5.25
+Wipeout Omega Collection,€44.98,€9.99,€34.99
+Worms Battlegrounds,€17.49,€8.99,€8.50
+Worms WMD,€17.49,€8.99,€8.50
+WRC 6,€19.99,€12.99,€7.00
+WWE 2K Battlegrounds,€39.99,€0.00,€39.99
+XCOM 2,€49.99,€12.49,€37.50
+Xenoraid,€9.99,€3.99,€6.00
+Yakuza 0,€19.99,€8.99,€11.00
+Yakuza 3 Remastered,€13.33,€8.00,€5.33
+Yakuza 4 Remastered,€13.33,€8.00,€5.33
+Yakuza 5 Remastered,€13.33,€7.99,€5.34
+Yakuza 6: The Song of Life,€19.99,€8.99,€11.00
+Yakuza Kiwami,€19.99,€7.99,€12.00
+Yakuza Kiwami 2,€19.99,€6.99,€13.00
+Yomawari: Midnight Shadows,€29.99,€14.99,€15.00
+Yooka-Laylee,€39.99,€11.99,€28.00
+Yooka-Laylee and the Impossible Lair,€29.99,€0.00,€29.99
+Yu-Gi-Oh! Legacy of the Duelist,€35.94,€35.94,€0.00
