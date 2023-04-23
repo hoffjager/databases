@@ -3,15 +3,15 @@ CREATE TABLE [dbo].[Dates]
     [Id] INT NOT NULL PRIMARY KEY, 
     [Game] VARCHAR(MAX) NULL, 
     [Console] VARCHAR(MAX) NULL, 
-    [Purchase Date] DATE NULL
+    [PurchaseDate] DATE NULL
 );
 
 CREATE TABLE [dbo].[Finances]
 (
     [Id] INT NOT NULL PRIMARY KEY, 
     [Game] VARCHAR(MAX) NULL, 
-    [Full Price] FLOAT NULL, 
-    [Sale Price] FLOAT NULL, 
+    [FullPrice] FLOAT NULL, 
+    [SalePrice] FLOAT NULL, 
     [Savings] FLOAT NULL
 );
 
@@ -24,250 +24,160 @@ CREATE TABLE [dbo].[Origins]
     [Country] VARCHAR(MAX) NULL
 );
 
-NOT NULL is being used because we do not want this field to be NULL.
-So, if a user will try to create a record with a NULL value, then MySQL will raise an error.
+Section 1. Querying Data
+    SELECT FROM – show you how to use simple SELECT FROM statements to
+                  query the data from a single table:
+        select * from Dates;
+        select Game from Finances;
+        select Game, Console, PurchaseDate from Dates;
 
-PRIMARY KEY is used to define a column as a primary key.
-You can use multiple columns separated by a comma to define a primary key.
+    SELECT – how to use the SELECT statement without referencing a table:
+        select now();
+        select concat('Jonny', ' ', 'Cool');
+        select concat('Jonny', ' ', 'Cool') as Name;
 
-The FOREIGN KEY constraint is used to prevent actions that would destroy
-links between tables.
-A FOREIGN KEY is a field (or collection of fields) in one table, that
-refers to the PRIMARY KEY in another table.
-The table with the foreign key is called the child table, and the table
-with the primary key is called the referenced or parent table.
-Look at the following two tables:
-Dates & Finances
-Notice that the "Id" column in the "Finances" table points to
-the "Id" column in the "Dates" table.
-The "Id" column in the "Dates" table is the PRIMARY KEY in the
-"Dates" table.
-The "Id" column in the "Finances" table is a FOREIGN KEY in the
-"Finances" table.
-The FOREIGN KEY constraint prevents invalid data from being inserted
-into the foreign key column, because it has to be one of the values
-contained in the parent table.
-The following SQL creates a FOREIGN KEY on the "Id" column when the
-"Finances" table is created:
-SQL Server / Oracle / MS Access:
-CREATE TABLE Finances (
-    OrderID int NOT NULL PRIMARY KEY,
-    OrderNumber int NOT NULL,
-    PersonID int FOREIGN KEY REFERENCES Persons(PersonID)
-);
-To allow naming of a FOREIGN KEY constraint, and for defining a FOREIGN
-KEY constraint on multiple columns, use the following SQL syntax:
-MySQL / SQL Server / Oracle / MS Access:
-CREATE TABLE Orders (
-    OrderID int NOT NULL,
-    OrderNumber int NOT NULL,
-    PersonID int,
-    PRIMARY KEY (OrderID),
-    CONSTRAINT FK_PersonOrder FOREIGN KEY (PersonID)
-    REFERENCES Persons(PersonID)
-);
+Section 2. Sorting Data
+    ORDER BY – show you how to sort the result set using ORDER BY clause.
+               The custom sort order with the FIELD function will be
+               also covered.
+        select Developer, Country from Origins order by Developer;
+        select Developer, Country from Origins order by Developer DESC;
+        select Developer, Country from Origins order by Developer DESC, Country ASC;
+        select FullPrice, SalePrice, FullPrice - SalePrice AS MoneySaved from Finances order by MoneySaved DESC;
 
-CREATE TABLE Orders (
-    OrderID int NOT NULL PRIMARY KEY,
-    OrderNumber int NOT NULL,
-    PersonID int FOREIGN KEY REFERENCES Persons(PersonID)
-);
+Section 3. Filtering Data
+    WHERE – learn how to use the WHERE clause to filter rows based on
+            specified conditions:
+        select * from Dates where Game = 'Yakuza';
+        select * from Finances where Game = 'Yakuza' AND Savings > 10;
+        select Developer, Country from Origins where Developer = 'Naughty Dog' OR Game = 'Naughty Bear' order by Game, Developer;
+        select * from Finances where Savings between 5 AND 20 order by Savings;
+        select Game, Console from Origins where Game LIKE '%evil' order by Console;
+        select * from Dates where Game != 'Crash Bandicoot';
+        select * from Finances where SalePrice >= 30;
 
-ALTER TABLE Orders
-ADD FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+    SELECT DISTINCT – show you how to use the DISTINCT operator in the
+                      SELECT statement to eliminate duplicate rows in a
+                      result set:
+        select DISTINCT Country from Origins order by Country;
 
-DROP TABLE Origins;
-DROP TABLE Finances;
-DROP TABLE Dates;
+    AND – introduce you to the AND operator to combine Boolean
+          expressions to form a complex condition for filtering data:
+        select Game, FullPrice, SalePrice, Savings from Finances where SalePrice <= 19.99 AND Savings = 9.99;
+        select Game, FullPrice, SalePrice, Savings from Finances where SalePrice <= 19.99 AND Savings = 9.99 AND FullPrice BETWEEN (29.99 AND 59.99);
 
-INSERT INTO table_name (field1, field2, fieldN)
-   VALUES
-   (
-   value1, value2, valueN
-   );
+    OR – introduce you to the OR operator and show you how to combine
+         the OR operator with the AND operator to filter data:
+        select Game, Country from Origins where Country = 'England' OR Country = 'Sweden';
+        select Game, Developer, Country from Origins where (Country = 'England' OR Country = 'Sweden') AND Developer = 'TT Games';
 
-INSERT INTO Origins (Id, Game, Console, Developer, Country) 
-   VALUES
-   (
-   1,A Bugs Life,PS1,TT Games,England
-   );
+    IN – show you how to use the IN operator in the WHERE clause to
+         determine if a value matches any value in a set:
+        select Game, Country from Origins where Country IN ('Japan', 'China');
+        select Game, Country from Origins where Country = 'Japan' OR Country = 'China');
 
-INSERT INTO Finances (Id, Game, FullPrice, SalePrice, Savings)
-   VALUES
-   (
-   1,A Bugs Life,€1.49,€1.49,€0.00
-   );
+    NOT IN – negate the IN operator using the NOT operator to check if a
+             value doesn’t match any value in a set:
+        select * from Origins where Country NOT IN ('USA', 'Australia') order by Developer;
 
-INSERT INTO Dates (Id, Game, Console, PurchaseDate)
-   VALUES
-   (
-   1,A Bugs Life,PS1,22/05/2017
-   );
+    BETWEEN & NOT BETWEEN – show you how to query data based on a range
+                            using BETWEEN operator:
+        select Game, FullPrice, SalePrice, Savings from Finances where FullPrice BETWEEN 49.99 AND 79.99;
+        select Game, FullPrice, SalePrice, Savings from Finances where FullPrice >= 49.99 AND FullPrice <= 79.99;
+        select Game, FullPrice, SalePrice, Savings from Finances where FullPrice NOT BETWEEN 19.99 AND 39.99;
+        select Game, Console, PurchaseDate from Dates where PurchaseDate BETWEEN CAST('2020-01-01' AS DATE) AND CAST('2020-12-31');
 
-SELECT field1, field2, fieldN 
-FROM table_name1, table_name2
-[WHERE Clause]
+    LIKE & NOT LIKE – provide you with technique to query data based on
+                      a pattern:
+        select * from Dates where Game LIKE 'a%';
+        select * from Dates where Game LIKE '%ed';
+        select * from Dates where Game LIKE '%bug%';
+        select * from Dates where Game LIKE 'R_t';
+        select * from Dates where Game NOT LIKE 's%';
 
-SELECT field1, field2, fieldN
-FROM table_name1, table_name2
-[WHERE condition1 [AND [OR]] condition2
+    LIMIT – use LIMIT to constrain the number of rows returned by SELECT
+            statement:
+        select * from Finances order by Savings DESC LIMIT 10;
+        select * from Finances order by Savings, SalePrice LIMIT 5;
+        select COUNT(*) from Dates;
 
-SELECT *
-FROM Origins
-WHERE Country = "Japan"
+    IS NULL – test whether a value is NULL or not by using IS NULL
+              operator.
+        select * from Origins where Developer IS NULL order by Country;
 
-UPDATE table_name SET field1 = new-value1, field2 = new-value2
-[WHERE Clause]
+Section 4. Joining Tables
+    Table & Column Aliases – introduce you to table and column aliases:
+        select CONCAT_WS(', ', Developer, Country) AS 'Background' from Origins order by 'Background';
+        select Game 'Video Game', SUM(FullPrice - SalePrice) total from Finances group by 'Video Game' HAVING total > 50;
+        select * from Dates d;
+        select d.Game, d.PurchaseDate from Dates d ORDER BY d.Game;
+        select Game, COUNT(f.Savings) total from Dates d INNER JOIN Finances f ON d.Game = f.Game GROUP BY Game ORDER BY total DESC;
 
-DELETE FROM Origins WHERE id = 3;
+    Joins – give you an overview of joins supported in MySQL including
+            inner join, left join, and right join:
+        select d.Game, d.Console AS PlayStation, o.Developer, o.Country AS Origin from Dates d INNER JOIN Origins o ON o.Console = d.Console;
+        select d.Game, d.Console AS PlayStation, o.Developer, o.Country AS Origin from Dates d INNER JOIN Origins o USING(Console);
 
-SELECT field1, field2 fieldN table_name1, table_name2
-WHERE field1 LIKE condition1 [AND [OR]] filed2 = 'somevalue'
+    INNER JOIN – query rows from a table that has matching rows in
+                 another table:
+        select Game, Console from Dates d INNER JOIN Savings f ON d.Game = f.Game;
+        select d.Game, d.Console from Dates d INNER JOIN Country o ON d.Game = o.Game GROUP BY Console;
+        select orderNumber, orderDate, orderLineNumber, productName, quantityOrdered, priceEach FROM orders INNER JOIN orderdetails USING (orderNumber) INNER JOIN products USING (productCode) ORDER BY orderNumber, orderLineNumber;
 
-SELECT field1, field2, fieldN table_name1, table_name2
-ORDER BY field1, [field2...] [ASC [DESC]]
+    LEFT JOIN – return all rows from the left table and matching rows
+                from the right table or null if no matching rows found
+                in the right table.
+        select f.Game, f.SalePrice AS Bargain?, d.Console, d.PurchaseDate AS When? from Finances f LEFT JOIN Dates d USING(Game);
 
-SELECT a.tutorial_id, a.tutorial_author, b.tutorial_count
-FROM tutorials_tbl a, tcount_tbl b
-WHERE a.tutorial_author = b.tutorial_author;
+    RIGHT JOIN – return all rows from the right table and matching rows
+                 from the left table or null if no matching rows found
+                 in the left table:
+        select f.Game, f.SalePrice AS Bargain?, d.Console, d.PurchaseDate AS When? from Finances f RIGHT JOIN Dates d on d.Game = f.Game;
+        select f.Game, f.SalePrice AS Bargain?, d.Console, d.PurchaseDate AS When? from Finances f RIGHT JOIN Dates d USING(Game);
 
-SELECT a.tutorial_id, a.tutorial_author, b.tutorial_count
-FROM tutorials_tbl a LEFT JOIN tcount_tbl b
-ON a.tutorial_author = b.tutorial_author;
+    CROSS JOIN – make a Cartesian product of rows from multiple tables:
+        SELECT store_name, product_name, SUM(quantity * price) AS revenue FROM sales INNER JOIN products ON products.id = sales.product_id INNER JOIN stores ON stores.id = sales.store_id GROUP BY store_name, product_name;
+        select store_name, product_name from stores AS a CROSS JOIN products AS b;
 
-REGEXP's
-Consider we have a table called person_tbl and it has a field called name:
+Section 5: Grouping Data
+        GROUP BY – show you how to group rows into groups based on
+                   columns or expressions:
+            select Console from Dates group by Console;
+            select distinct Country from Origins;
+            select Game, SUM(FullPrice - SalePrice) AS Bargain from Finances INNER JOIN PurchaseDate USING(Game) GROUP BY Game;
+            select YEAR(PurchaseDate) AS year FROM Dates INNER JOIN Savings USING(Game) GROUP BY YEAR(PurchaseDate);
 
-Query to find all the names starting with 'st':
-    SELECT name FROM person_tbl WHERE name REGEXP '^st';
+        HAVING – filter the groups by a specific condition:
+            select Game 'Video Game', SUM(FullPrice - SalePrice) total from Finances group by 'Video Game' HAVING total > 50;
 
-Query to find all the names ending with 'ok':
-    SELECT name FROM person_tbl WHERE name REGEXP 'ok$';
+Section 6: Subqueries
+        SUBQUERY - show you how to nest a query (inner query) within
+                   another query (outer query) and use the result of the
+                   inner query for the outer query:
+            SELECT Game, Console from Origins where Developer IN (SELECT Country from Origins WHERE Country = 'Denmark');
+            SELECT * from Finances WHERE Savings = (SELECT MAX(Savings) from Finances);
+            SELECT * FROM Finances WHERE Savings > (SELECT AVG(Savings) from Finances);
 
-Query to find all the names, which contain 'mar':
-    SELECT name FROM person_tbl WHERE name REGEXP 'mar';
+        EXISTS - test for the existence of rows:
+            select * FROM Dates WHERE EXISTS(SELECT * FROM Dates WHERE Game = 'Yakuza');
 
-Query to find all the names starting with a vowel and ending with 'ok':
-    SELECT FirstName FROM intque.person_tbl WHERE FirstName REGEXP '^[aeiou].*ok$';
+Section 7: Modifying Data in MySQL
+        INSERT - use various forms of the INSERT statement to insert
+                 data into a table:
+            INSERT INTO Dates(Id, Game, Console, PurchaseDate) VALUES(862,'Benji Benventures','PS5','2023-04-01');
+            INSERT INTO Dates(Id, Game, Console, PurchaseDate) VALUES(862,'Benji Benventures','PS5',CURRENT_DATE());
+            INSERT INTO Dates(Id, Game, Console, PurchaseDate) VALUES(862,'Benji Benventures','PS5',CURRENT_DATE()),(863,'Benji Benventures 2: Benjlectric Benjiloo','PS5',CURRENT_DATE());
 
-CREATE TABLE testalter_tbl
-(
-   i INT,
-   c CHAR(1)
-);
+        INSERT INTO SELECT - insert data into a table from the result
+                             set of a query:
+            INSERT INTO Finances(*) SELECT PurchaseDate FROM Dates WHERE YEAR = '2022';
 
-ALTER TABLE testalter_tbl DROP i;
+        UPDATE – learn how to use UPDATE statement and its options to update
+                 data in database tables:
+            UPDATE Origins SET Developer = 'Team Asobi' WHERE Id = 7;
+            SELECT * FROM Origins WHERE Id = 7;
+            UPDATE Origins SET Developer = REPLACE(Developer,'Japan Studio','Team Asobi') WHERE Country = 'Japan';
 
-ALTER TABLE testalter_tbl ADD i INT;
-
-ALTER TABLE testalter_tbl MODIFY c CHAR(10);
-
-ALTER TABLE testalter_tbl CHANGE i j BIGINT;
-
-ALTER TABLE testalter_tbl RENAME TO alter_tbl;
-
-Be careful when updating records. If you omit the WHERE clause, ALL records will be updated!
-
-UPDATE Customers
-SET ContactName = 'Alfred Schmidt', City = 'Frankfurt'
-WHERE CustomerID = 1;
-
-UPDATE Customers
-SET ContactName = 'Juan'
-WHERE Country = 'Mexico';
-
-SELECT COUNT(ProductID)
-FROM Products;
-
-SELECT AVG(Price)
-FROM Products;
-
-SELECT SUM(Quantity)
-FROM OrderDetails;
-
-SELECT MIN(column_name)
-FROM table_name
-WHERE condition;
-
-SELECT MIN(Price) AS SmallestPrice
-FROM Products;
-
-SELECT MAX(column_name)
-FROM table_name
-WHERE condition;
-
-SELECT MAX(Price) AS LargestPrice
-FROM Products;
-
-LIKE Operator 	                Description
-WHERE CustomerName LIKE 'a%' 	Finds any values that start with "a"
-WHERE CustomerName LIKE '%a' 	Finds any values that end with "a"
-WHERE CustomerName LIKE '%or%' 	Finds any values that have "or" in any position
-WHERE CustomerName LIKE '_r%' 	Finds any values that have "r" in the second position
-WHERE CustomerName LIKE 'a_%' 	Finds any values that start with "a" and are at least 2 characters in length
-WHERE CustomerName LIKE 'a__%' 	Finds any values that start with "a" and are at least 3 characters in length
-WHERE ContactName LIKE 'a%o' 	Finds any values that start with "a" and ends with "o"
-https://www.w3schools.com/sql/sql_like.asp
-
-SELECT * FROM Customers
-WHERE Country IN ('Germany', 'France', 'UK');
-
-SELECT * FROM Products
-WHERE Price BETWEEN 10 AND 20;
-
-SELECT * FROM Products
-WHERE Price BETWEEN 10 AND 20
-AND CategoryID NOT IN (1,2,3);
-
-SELECT * FROM Orders
-WHERE OrderDate BETWEEN #07/01/1996# AND #07/31/1996#;
-
-SELECT * FROM Orders
-WHERE OrderDate BETWEEN '1996-07-01' AND '1996-07-31';
-
-https://www.w3schools.com/sql/sql_join.asp
-
-A JOIN clause is used to combine rows from two or more tables, based on a related column between them:
-
-Notice that the "CustomerID" column in the "Orders" table refers to the "CustomerID" in the "Customers" table.
-The relationship between the two tables above is the "CustomerID" column.
-Then, we can create the following SQL statement (that contains an INNER JOIN), that selects records that have matching values in both tables:
-
-SELECT Orders.OrderID, Customers.CustomerName, Orders.OrderDate
-FROM Orders
-INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID;
-
-    (INNER) JOIN: Returns records that have matching values in both tables
-    LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
-    RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
-    FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
-
-The following SQL statement returns the cities (only distinct values) from both the "Customers" and the "Suppliers" table:
-SELECT City FROM Customers
-UNION
-SELECT City FROM Suppliers
-ORDER BY City;
-
-SELECT COUNT(CustomerID), Country
-FROM Customers
-GROUP BY Country;
-
-SELECT COUNT(CustomerID), Country
-FROM Customers
-GROUP BY Country
-ORDER BY COUNT(CustomerID) DESC;
-
-SELECT Shippers.ShipperName, COUNT(Orders.OrderID) AS NumberOfOrders
-FROM Orders
-LEFT JOIN Shippers ON Orders.ShipperID = Shippers.ShipperID
-GROUP BY ShipperName;
-
-SELECT COUNT(CustomerID), Country
-FROM Customers
-GROUP BY Country
-HAVING COUNT(CustomerID) > 5;
-
-The following SQL statement returns TRUE and lists the suppliers with a product price less than 20:
-SELECT SupplierName
-FROM Suppliers
-WHERE EXISTS (SELECT ProductName FROM Products WHERE Products.SupplierID = Suppliers.supplierID AND Price < 20);
+        UPDATE JOIN - show you how to perform cross-table update using UPDATE
+                      JOIN statement with INNER JOIN and LEFT JOIN:
+            UPDATE 
