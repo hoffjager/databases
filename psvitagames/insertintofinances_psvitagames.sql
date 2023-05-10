@@ -10,7 +10,7 @@ VALUES
 (243,'Jet Set Radio',7.99,7.99,0.00),
 (244,'LEGO Batman 2: DC Super Heroes',19.99,0.00,19.99),
 (245,'ModNation Racers: Road Trip',14.99,14.99,0.00),
-(246,'No Heroes Allowed: No Puzzles Either!',0.00,0.00,0.00),
+(246,'No Heroes Allowed: No Puzzles Either!',5.99,5.99,0.00),
 (247,'Paint Park',0.00,0.00,0.00),
 (248,'Paint Park Plus',0.00,0.00,0.00),
 (249,'PlayStation Vita Pets',24.99,9.99,15.00),

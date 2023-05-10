@@ -7,3 +7,7 @@
 -- select f.Game, f.FullPrice, f.SalePrice, f.Savings, d.Console, d.PurchaseDate from Finances f LEFT JOIN Dates d on d.Game = f.Game order by Savings DESC;
 -- select * from finances where Game = 'Genshin Impact';
 -- UPDATE Finances SET Savings = REPLACE(Savings,69.99,0) WHERE Id = 791;
+-- UPDATE Finances SET FullPrice = REPLACE(FullPrice,0,5.99) WHERE Id = 246;
+-- UPDATE Finances SET SalePrice = REPLACE(SalePrice,0,5.99) WHERE Id = 246;
+-- select * from finances where Id = 246;
+-- select * from origins;
