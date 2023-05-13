@@ -1,0 +1,66 @@
+Game,Console,Developer,Country
+A Bug's Life,PS1,TT Games,England
+Bishi Bashi Special,PS1,Konami,Japan
+Buzz Lightyear of Star Command,PS1,TT Games,England
+Cho Aniki,PS1,Masaya,Japan
+Colin McRae Rally,PS1,Codemasters,England
+Crash Bandicoot (1996),PS1,Naughty Dog,USA
+Crash Bandicoot 2 (1997),PS1,Naughty Dog,USA
+Crash Bandicoot 3 (1998),PS1,Naughty Dog,USA
+Crash Bash,PS1,Eurocom Entertainment Software,England
+Crash Team Racing (1999),PS1,Naughty Dog,USA
+Destruction Derby,PS1,Reflections Interactive,England
+Driver,PS1,Reflections Interactive,England
+Fear Effect,PS1,Kronos Digital Entertainment,USA
+Fear Effect 2: Retro Helix,PS1,Kronos Digital Entertainment,USA
+Final Fantasy IX,PS1,Square Enix,Japan
+Final Fantasy V,PS1,Square Enix,Japan
+Final Fantasy VI,PS1,Square Enix,Japan
+Final Fantasy VII (1997),PS1,Square Enix,Japan
+Final Fantasy VIII,PS1,Square Enix,Japan
+Gex,PS1,Crystal Dynamics,USA
+Gex 3D: Enter the Gecko,PS1,Crystal Dynamics,USA
+Gex: Deep Cover Gecko,PS1,Crystal Dynamics,USA
+Hercules,PS1,Eurocom Entertainment Software,England
+Hogs of War,PS1,Infogrames Sheffield,England
+Jumping Flash,PS1,Team Asobi,Japan
+Klonoa: Door to Phantomile (1997),PS1,Bandai Namco Studios,Japan
+Kula World,PS1,Game Design Sweden AB,Sweden
+Medievil (1998),PS1,Guerrilla Cambridge,England
+Metal Gear Solid,PS1,Kojima Productions,Japan
+Monsters Inc Scare Island,PS1,Artificial Mind and Movement,Canada
+Motor Toon Grand Prix 2,PS1,Polyphony Digital,Japan
+Oddworld: Abe's Exoddus (1998),PS1,Oddworld Inhabitants,USA
+Oddworld: Abe's Oddysee (1997),PS1,Oddworld Inhabitants,USA
+PONG,PS1,Supersonic Software,England
+Rally Cross,PS1,989 Studios,USA
+Rayman,PS1,Ubisoft Montpellier,France
+Rayman 2,PS1,Ubisoft Shanghai,China
+Resident Evil: Director's Cut (1997),PS1,Capcom,Japan
+Resident Evil 2 (1998),PS1,Capcom,Japan
+Resident Evil 3: Nemesis (1999),PS1,Capcom,Japan
+Sheep Dog n Wolf,PS1,Infogrames Lyon House,France
+Silent Hill,PS1,Konami,Japan
+Spyro the Dragon (1998),PS1,Insomniac Games,USA
+Spyro 2: Gateway to Glimmer (1999),PS1,Insomniac Games,USA
+Spyro 3: Year of the Dragon (2000),PS1,Insomniac Games,USA
+Suikoden,PS1,Konami,Japan
+Suikoden II,PS1,Konami,Japan
+Syphon Filter,PS1,Bend Studio,USA
+Tekken,PS1,Bandai Namco Studios,Japan
+Tekken 2,PS1,Bandai Namco Studios,Japan
+Theme Hospital,PS1,Krisalis Software,England
+Tomb Raider (1996),PS1,Core Design,England
+Tomb Raider II,PS1,Core Design,England
+Tomb Raider III,PS1,Core Design,England
+Tomb Raider: Chronicles,PS1,Core Design,England
+Tomb Raider: The Last Revelation,PS1,Core Design,England
+Tomba!,PS1,Whoopee Camp,Japan
+Tomba 2!: The Evil Swine Return,PS1,Whoopee Camp,Japan
+Toy Story 2,PS1,TT Games,England
+Toy Story Racer,PS1,TT Games,England
+Twisted Metal (1995),PS1,SingleTrac,USA
+UmJammer Lammy,PS1,NanaOn-Sha,Japan
+Vib-Ribbon,PS1,NanaOn-Sha,Japan
+Wipeout (1995),PS1,Psygnosis,England
+WWF! Smackdown 2: Know Your Role,PS1,Yuke's,Japan

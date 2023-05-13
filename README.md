@@ -1,12 +1,12 @@
 # gamescollection
 
-I decided to create this repository to display my relational database consisting of my PlayStation
-video game collection.  
+I decided to create this repository to display my relational database consisting of my PlayStation & Nintendo
+video game collections.  
 
-I plan to create the database with MySQL and MongoDB, using data I gathered and compiled from Google Sheets.  
+I plan to create the databases with MySQL and MongoDB, using data I gathered and compiled from Google Sheets.  
 
-I have set up a local database in Microsoft Visual Studio, then allocated the data into various tables
-in SQL, planning on setting up the database for remote access ASAP:
+I have set up local databases in Microsoft Visual Studio, then allocated the data into various tables
+in SQL & MongoDB, planning on setting up the databases for remote access soon:
 
 # 1: Dates & Times:  
 *	How many video games were purchased in a selected year/month/date/day?  

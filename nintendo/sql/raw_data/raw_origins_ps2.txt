@@ -1,0 +1,6 @@
+Game,Console,Developer,Country
+Deus Ex (2002),PS2,Ion Storm,USA
+Sonic Heroes,PS2,Sega,Japan
+Stuntman: Ignition,PS2,Paradigm Entertainment,USA
+The Sims,PS2,Maxis,USA
+The Sims 2,PS2,Maxis,USA
