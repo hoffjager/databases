@@ -17,4 +17,6 @@ VALUES
 /* (876,'Wolfenstein: The New Order',19.99,3.50,16.49), */
 /* (877,'Wolfenstein: The Old Blood',19.99,3.50,16.49), */
 /* (878,'Wolfenstein II: The New Colossus',39.99,3.50,36.49), */
-/* (879,'Wolfenstein: Youngblood',19.99,3.49,16.50); */
+/* (879,'Wolfenstein: Youngblood',19.99,3.49,16.50), */
+/* (880,'FIFA 23',79.99,31.99,48.00), */
+/* (881,'Breaking Enigma',10.99,0.54,10.45); */
