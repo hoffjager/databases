@@ -20,3 +20,7 @@ VALUES
 /* (879,'Wolfenstein: Youngblood','PS4','MachineGames','Sweden'), */
 /* (880,'FIFA 23','PS5','EA Vancouver','Canada'), */
 /* (881,'Breaking Enigma','PS4','Alphanu Game Studios','England'); */
+/* (882,'Tchia','PS5','Awaceb','France'), */
+/* (883,'NBA 2K23','PS5','Visual Concepts','USA'), */
+/* (884,'Jurassic World Evolution 2','PS5','Frontier Developments','England'), */
+/* (885,'Trek to Yomi','PS5','Flying Wild Hog','Poland'); */

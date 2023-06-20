@@ -8,5 +8,4 @@
 -- select * from Collection where ReleaseDate = '2010-12-25';
 -- select * from Collection where Id = 246;
 
-
 -- update Collection SET Console = REPLACE(Console,'GBC','GB') WHERE Id = 12;
