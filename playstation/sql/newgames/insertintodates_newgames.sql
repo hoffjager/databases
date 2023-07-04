@@ -24,3 +24,6 @@ VALUES
 /* (883,'NBA 2K23','PS5','2023-06-06'), */
 /* (884,'Jurassic World Evolution 2','PS5','2023-06-06'), */
 /* (885,'Trek to Yomi','PS5','2023-06-06'); */
+/* (886,'Alan Wake Remastered','PS5','2023-07-04'), */
+/* (887,'Call of Duty: Black Ops Cold War','PS5','2023-07-04'), */
+/* (888,'Endling: Extinction is Forever','PS5','2023-07-04'); */

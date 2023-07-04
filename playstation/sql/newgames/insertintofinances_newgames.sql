@@ -24,3 +24,6 @@ VALUES
 /* (883,'NBA 2K23',39.99,0.00,39.99), */
 /* (884,'Jurassic World Evolution 2',59.99,0.00,59.99), */
 /* (885,'Trek to Yomi',19.99,0.00,19.99); */
+/* (886,'Alan Wake Remastered',29.99,0.00,29.99), */
+/* (887,'Call of Duty: Black Ops Cold War',74.99,0.00,74.99), */
+/* (888,'Endling: Extinction is Forever',29.99,0.00,29.99); */

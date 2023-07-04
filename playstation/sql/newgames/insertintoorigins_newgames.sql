@@ -24,3 +24,6 @@ VALUES
 /* (883,'NBA 2K23','PS5','Visual Concepts','USA'), */
 /* (884,'Jurassic World Evolution 2','PS5','Frontier Developments','England'), */
 /* (885,'Trek to Yomi','PS5','Flying Wild Hog','Poland'); */
+/* (886,'Alan Wake Remastered','PS5','Remedy Entertainment','Finland'), */
+/* (887,'Call of Duty: Black Ops Cold War','PS5','Treyarch','USA'), */
+/* (888,'Endling: Extinction is Forever','PS5','Herobeat Studios','Spain'); */
