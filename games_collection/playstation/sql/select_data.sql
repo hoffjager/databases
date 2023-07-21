@@ -20,13 +20,13 @@
 -- update finances set Savings = replace(Savings,69.99,0) where Id = 791;
 
 -- Origins
--- select * from origins;
+select * from origins order by Developer;
 -- select * from origins where Id = 71;
 -- select * from origins where Game = 'Cities: Skylines';
 -- select * from origins where Game like '%Saints Row%';
 -- select * from origins where Console in ('PS4', 'PS5') order by Game;
 -- select * from origins where Developer like '%Traveller`s Tales%';
--- select distinct Developer from origins order by Developer; (483)
+-- select Developer from origins order by Game;
 -- select distinct Country from origins order by Country; (44)
 -- select f.Game, f.FullPrice, f.SalePrice, f.Savings, d.Console, d.PurchaseDate from Finances f LEFT JOIN Dates d on d.Game = f.Game order by PurchaseDate ASC;
 -- update origins set Developer = replace(Developer,'TT Games','Traveller`s Tales') where Developer = 'TT Games';
