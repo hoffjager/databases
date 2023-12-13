@@ -938,3 +938,20 @@ INSERT INTO Origins VALUES
 ('Wreckfest','PS5','Bugbear Entertainment','Finland'),
 ('Like a Dragon 7 (Yakuza 7)','PS5','Ryu Ga Gotoku','Japan'),
 ('Like a Dragon: Ishin','PS5','Ryu Ga Gotoku','Japan');
+
+-- INSERT INTO (Games Purchased from 15th Oct to 5th Dec; Performed on 8th Dec 2023)
+INSERT INTO Origins VALUES
+('A Plague Tale: Requiem','PS5','Asobo Studio','France'),
+('Resident Evil: Code Veronica X','PS4','Capcom','Japan'),
+('Aliens: Fireteam Elite','PS5','Cold Iron Studios','USA'),
+('Bud Spencer & Terence Hill - Slaps and Beans','PS4','Trinity Team','Italy'),
+('Coffee Talk','PS5','Toge Productions','Indonesia'),
+('Coffee Talk Episode 2: Hibiscus and Butterfly','PS5','Toge Productions','Indonesia'),
+('de Blob','PS4','Blue Tongue Entertainment','Australia'),
+('Holy Potatoes! A Weapon Shop?!','PS4','Daylight Studios','Singapore'),
+('Holy Potatoes! We`re in Space?!','PS4','Daylight Studios','Singapore'),
+('Holy Potatoes! What the Hell?!','PS4','Daylight Studios','Singapore'),
+('Lost Judgment: Ultimate Edition','PS5','Ryu Ga Gotoku','Japan'),
+('LEGO 2K Drive','PS5','Visual Concepts','USA'),
+('PowerWash Simulator','PS5','FuturLab','England'),
+('Sable','PS5','Shedworks','England');

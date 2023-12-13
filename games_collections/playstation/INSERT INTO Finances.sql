@@ -938,3 +938,20 @@ INSERT INTO Finances VALUES
 ('Wreckfest','PS5',29.99,0.00,29.99),
 ('Like a Dragon 7 (Yakuza 7)','PS5',89.99,53.99,36.00),
 ('Like a Dragon: Ishin','PS5',59.99,0.00,59.99);
+
+-- INSERT INTO (Games Purchased from 15th Oct to 5th Dec; Performed on 8th Dec 2023)
+INSERT INTO Finances VALUES
+('A Plague Tale: Requiem','PS5',59.99,29.99,30.00),
+('Resident Evil: Code Veronica X','PS4',14.99,0.99,14.00),
+('Aliens: Fireteam Elite','PS5',29.99,0.00,29.99),
+('Bud Spencer & Terence Hill - Slaps and Beans','PS4',19.99,3.99,16.00),
+('Coffee Talk','PS5',13.99,13.99,0.00),
+('Coffee Talk Episode 2: Hibiscus and Butterfly','PS5',14.99,10.49,4.50),
+('de Blob','PS4',19.99,3.99,16.00),
+('Holy Potatoes! A Weapon Shop?!','PS4',14.99,1.49,13.50),
+('Holy Potatoes! We`re in Space?!','PS4',14.99,1.49,13.50),
+('Holy Potatoes! What the Hell?!','PS4',14.99,1.49,13.50),
+('Lost Judgment: Ultimate Edition','PS5',89.99,22.49,67.50),
+('LEGO 2K Drive','PS5',69.99,0.00,69.99),
+('PowerWash Simulator','PS5',24.99,0.00,24.99),
+('Sable','PS5',24.99,0.00,24.99);

@@ -938,3 +938,20 @@ INSERT INTO Dates VALUES
 ('Wreckfest','PS5','2021-05-18'),
 ('Like a Dragon 7 (Yakuza 7)','PS5','2021-06-09'),
 ('Like a Dragon: Ishin','PS5','2023-09-07');
+
+-- INSERT INTO (Games Purchased from 15th Oct to 5th Dec; Performed on 8th Dec 2023)
+INSERT INTO Dates VALUES
+('A Plague Tale: Requiem','PS5','2023-10-15'),
+('Resident Evil: Code Veronica X','PS4','2023-10-25'),
+('Aliens: Fireteam Elite','PS5','2023-11-07'),
+('Bud Spencer & Terence Hill - Slaps and Beans','PS4','2023-11-26'),
+('Coffee Talk','PS5','2023-11-26'),
+('Coffee Talk Episode 2: Hibiscus and Butterfly','PS5','2023-11-26'),
+('de Blob','PS4','2023-11-26'),
+('Holy Potatoes! A Weapon Shop?!','PS4','2023-11-26'),
+('Holy Potatoes! We`re in Space?!','PS4','2023-11-26'),
+('Holy Potatoes! What the Hell?!','PS4','2023-11-26'),
+('Lost Judgment: Ultimate Edition','PS5','2023-12-02'),
+('LEGO 2K Drive','PS5','2023-12-05'),
+('PowerWash Simulator','PS5','2023-12-05'),
+('Sable','PS5','2023-12-05');
