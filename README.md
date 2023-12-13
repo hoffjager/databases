@@ -47,12 +47,15 @@ for remote access soon:
 
 # 2: Finances & Savings:  
 *	How much did all of the video games cost since starting my collection back in 2009?  
-
+    * From finances_on_dates.rpt (on 13th Dec 2023):
+	* Total cost of video games from 2009 to Present Time:
+	* 
   
 *	How much money was saved on video games via sales and gifts?  
 
 	
 *	How does the cost of PlayStation's online subscription service compare to the FullPrice of games redeemed, how much was saved using the service?  
+    * From 
 		
 
 # 3: Origins, Developers & Countries:  

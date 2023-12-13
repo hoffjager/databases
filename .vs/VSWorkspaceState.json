@@ -3,7 +3,9 @@
     "",
     "\\games_collections",
     "\\games_collections\\playstation",
-    "\\its_databases"
+    "\\games_collections\\playstation\\csv_output",
+    "\\games_collections\\playstation\\csv_output\\Finances"
   ],
+  "SelectedNode": "\\games_collections\\playstation\\csv_output\\Finances\\finances_on_dates.rpt",
   "PreviewInSolutionExplorer": false
 }
