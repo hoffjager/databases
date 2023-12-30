@@ -3,9 +3,11 @@
     "",
     "\\games_collections",
     "\\games_collections\\playstation",
-    "\\games_collections\\playstation\\csv_output",
-    "\\games_collections\\playstation\\csv_output\\Finances"
+    "\\games_collections\\playstation\\rpt_output",
+    "\\games_collections\\playstation\\rpt_output\\Dates",
+    "\\games_collections\\playstation\\rpt_output\\Finances",
+    "\\games_collections\\playstation\\SQL Statements"
   ],
-  "SelectedNode": "\\games_collections\\playstation\\csv_output\\Finances\\finances_on_dates.rpt",
+  "SelectedNode": "\\games_collections\\playstation\\rpt_output\\Finances\\finances_dates_2023.xlsx",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,933 @@
+﻿ID     Game                                                                   Console Purchase_Date
+------ ---------------------------------------------------------------------- ------- -------------
+1      A Bugs Life                                                            PS1     2017-05-22
+2      Beyblade: Let It Rip!                                                  PS1     2020-02-21
+3      Bishi Bashi Special                                                    PS1     2018-09-30
+4      Buzz Lightyear of Star Command                                         PS1     2017-05-22
+5      Cho Aniki                                                              PS1     2018-09-30
+6      Colin McRae Rally                                                      PS1     2010-12-26
+7      Crash Bandicoot (1996)                                                 PS1     2011-01-14
+8      Crash Bandicoot 2 (1997)                                               PS1     2011-02-05
+9      Crash Bandicoot 3 (1998)                                               PS1     2011-02-09
+10     Crash Team Racing (1999)                                               PS1     2011-02-09
+11     Crash Bash                                                             PS1     2010-12-26
+12     Destruction Derby                                                      PS1     2017-10-06
+13     Driver                                                                 PS1     2015-08-02
+14     Fear Effect                                                            PS1     2021-04-14
+15     Fear Effect 2: Retro Helix                                             PS1     2021-04-14
+16     Final Fantasy V                                                        PS1     2017-02-18
+17     Final Fantasy VI                                                       PS1     2017-02-18
+18     Final Fantasy VII (1997)                                               PS1     2013-10-25
+19     Final Fantasy VIII                                                     PS1     2017-02-18
+20     Final Fantasy IX                                                       PS1     2017-02-18
+21     Gex                                                                    PS1     2015-10-02
+22     Gex 3D: Enter the Gecko                                                PS1     2015-10-02
+23     Gex: Deep Cover Gecko                                                  PS1     2015-10-02
+24     Hercules                                                               PS1     2016-10-12
+25     Hogs of War                                                            PS1     2010-12-26
+26     Jumping Flash                                                          PS1     2018-09-30
+27     Klonoa: Door to Phantomile (1997)                                      PS1     2015-10-02
+28     Kula World                                                             PS1     2011-09-08
+29     Medievil (1998)                                                        PS1     2013-10-04
+30     Metal Gear Solid                                                       PS1     2012-12-18
+31     Monsters Inc Scare Island                                              PS1     2017-05-22
+32     Motor Toon Grand Prix 2                                                PS1     2017-10-06
+33     Oddworld: Abes Oddysee (1997)                                          PS1     2010-12-26
+34     Oddworld: Abes Exoddus (1998)                                          PS1     2011-06-02
+35     PONG                                                                   PS1     2013-10-21
+36     Rally Cross                                                            PS1     2017-10-06
+37     Rayman                                                                 PS1     2014-05-04
+38     Rayman 2                                                               PS1     2014-05-04
+39     Resident Evil: Directors Cut (1997)                                    PS1     2016-10-22
+40     Resident Evil 2 (1998)                                                 PS1     2017-05-20
+41     Resident Evil 3: Nemesis (1999)                                        PS1     2016-10-22
+42     Sheep Dog n Wolf                                                       PS1     2010-12-26
+43     Silent Hill                                                            PS1     2017-03-18
+44     Spyro the Dragon (1998)                                                PS1     2014-02-14
+45     Spyro 2: Gateway to Glimmer (1999)                                     PS1     2014-02-14
+46     Spyro 3: Year of the Dragon (2000)                                     PS1     2014-02-14
+47     Suikoden                                                               PS1     2021-04-14
+48     Suikoden II                                                            PS1     2021-04-14
+49     Syphon Filter                                                          PS1     2017-10-06
+50     Tekken                                                                 PS1     2012-12-19
+51     Tekken 2                                                               PS1     2012-12-18
+52     Theme Hospital                                                         PS1     2011-06-02
+53     Tomb Raider (1996)                                                     PS1     2017-03-12
+54     Tomb Raider II                                                         PS1     2017-03-12
+55     Tomb Raider III                                                        PS1     2017-03-12
+56     Tomb Raider: Chronicles                                                PS1     2017-03-12
+57     Tomb Raider: The Last Revelation                                       PS1     2017-03-12
+58     Tombi!                                                                 PS1     2013-10-21
+59     Tombi 2!: The Evil Swine Return                                        PS1     2018-09-30
+60     Toy Story 2                                                            PS1     2016-10-10
+61     Toy Story Racer                                                        PS1     2017-05-22
+62     Twisted Metal (1995)                                                   PS1     2017-10-06
+63     UmJammer Lammy                                                         PS1     2017-10-06
+64     Vib-Ribbon                                                             PS1     2017-10-06
+65     Wipeout (1995)                                                         PS1     2017-10-06
+66     WWF! Smackdown 2: Know Your Role                                       PS1     2010-12-26
+67     Deus Ex (2002)                                                         PS2     2021-04-14
+68     Sonic Heroes                                                           PS2     2013-10-31
+69     Stuntman: Ignition                                                     PS2     2021-04-14
+70     The Sims                                                               PS2     2013-10-31
+71     The Sims 2                                                             PS2     2013-10-31
+72     Ape Escape                                                             PSP     2017-02-12
+73     Burnout Legends                                                        PSP     2018-09-30
+74     Crazy Taxi: Fare Wars                                                  PSP     2018-09-30
+75     Daxter                                                                 PSP     2017-10-06
+76     Dead or Alive Paradise                                                 PSP     2015-11-13
+77     Everybody`s Golf 2                                                     PSP     2017-10-06
+78     Final Fantasy                                                          PSP     2017-02-18
+79     Final Fantasy II                                                       PSP     2017-02-18
+80     Final Fantasy III                                                      PSP     2017-02-18
+81     Final Fantasy IV                                                       PSP     2017-02-18
+82     Grand Theft Auto: Liberty City Stories                                 PSP     2016-11-26
+83     Grand Theft Auto: Vice City Stories                                    PSP     2016-11-26
+84     Grand Theft Auto: Chinatown Wars                                       PSP     2016-11-26
+85     Gravity Crash                                                          PSP     2015-08-20
+86     Jak and Daxter: The Lost Frontier                                      PSP     2017-10-06
+87     LEGO Indiana Jones                                                     PSP     2015-08-20
+88     LEGO Batman                                                            PSP     2015-08-20
+89     LEGO Star Wars III: The Clone Wars                                     PSP     2015-08-20
+90     LEGO Pirates of the Caribbean                                          PSP     2015-08-20
+91     Prinny                                                                 PSP     2018-09-30
+92     Ratchet & Clank: Size Matters                                          PSP     2015-10-02
+93     Resistance: Retribution                                                PSP     2015-10-02
+94     Super Monkey Ball Adventure                                            PSP     2018-09-30
+95     Tomb Raider: Legend                                                    PSP     2017-03-12
+96     Tomb Raider: Anniversary                                               PSP     2017-03-12
+97     Wipeout Pulse                                                          PSP     2017-10-06
+98     Alice: Madness Returns                                                 PS3     2021-02-10
+99     Angry Birds Trilogy                                                    PS3     2014-12-26
+100    Army of Two                                                            PS3     2020-09-17
+101    Bang Bang Racing                                                       PS3     2021-03-30
+102    Battlefield 3                                                          PS3     2021-08-14
+103    Bayonetta                                                              PS3     2020-09-17
+104    Beat Hazard Ultra                                                      PS3     2012-02-05
+105    Bentley`s Hackpack                                                     PS3     2021-03-30
+106    Beyond Good and Evil HD                                                PS3     2021-02-10
+107    Blur                                                                   PS3     2020-10-11
+108    Brink                                                                  PS3     2020-10-11
+109    Buzz! Quiz World                                                       PS3     2020-10-11
+110    Call of Duty: Modern Warfare 2 (2009)                                  PS3     2020-09-17
+111    Crazy Machines Elements                                                PS3     2011-11-20
+112    Daytona USA                                                            PS3     2021-02-10
+113    Dead Rising 2                                                          PS3     2020-09-17
+114    Dead Space (2008)                                                      PS3     2020-09-17
+115    DeathSpank: The Baconing                                               PS3     2021-04-06
+116    Deus Ex: Human Revolution                                              PS3     2020-09-17
+117    Dishonored                                                             PS3     2020-09-17
+118    DJ Hero                                                                PS3     2020-10-11
+119    DJ Hero 2                                                              PS3     2020-10-11
+120    Duke Nukem Forever                                                     PS3     2020-09-17
+121    Earthworm Jim HD                                                       PS3     2010-12-26
+122    F.E.A.R                                                                PS3     2020-09-17
+123    F1 Race Stars                                                          PS3     2013-04-10
+124    Family Guy: Back to the Multiverse                                     PS3     2020-09-17
+125    Far Cry Classic                                                        PS3     2021-04-06
+126    Far Cry 2                                                              PS3     2020-09-17
+127    Fat Princess                                                           PS3     2013-05-10
+128    FIFA Street (2012)                                                     PS3     2020-10-11
+129    Fight Night Champion                                                   PS3     2011-07-08
+130    Final Exam                                                             PS3     2021-04-06
+131    Final Fantasy XIII                                                     PS3     2013-06-02
+132    Girl Fight                                                             PS3     2021-04-13
+133    God of War (2005)                                                      PS3     2017-10-06
+134    God of War II (2007)                                                   PS3     2017-10-06
+135    Gran Turismo 5                                                         PS3     2010-12-25
+136    Grand Theft Auto IV: The Complete Collection                           PS3     2020-09-17
+137    Hitman: Absolution                                                     PS3     2020-10-11
+138    ICO Classics HD                                                        PS3     2021-08-14
+139    inFamous                                                               PS3     2011-06-12
+140    inFamous 2                                                             PS3     2013-04-09
+141    inFamous: Festival of Blood                                            PS3     2014-12-26
+142    Jet Car Stunts                                                         PS3     2018-07-14
+143    Joe Danger 2: The Movie                                                PS3     2013-04-09
+144    Kane and Lynch: Dead Men                                               PS3     2020-09-17
+145    Kane and Lynch 2: Dog Days                                             PS3     2020-09-17
+146    Killer is Dead                                                         PS3     2015-06-05
+147    Killzone                                                               PS3     2021-04-06
+148    LA Noire                                                               PS3     2013-10-12
+149    Lemmings (2007)                                                        PS3     2018-09-30
+150    LittleBigPlanet                                                        PS3     2009-12-31
+151    LittleBigPlanet 2                                                      PS3     2011-12-18
+152    LittleBigPlanet Karting                                                PS3     2013-07-03
+153    Lollipop Chainsaw                                                      PS3     2013-12-20
+154    Lone Survivor: The Director`s Cut                                      PS3     2018-09-30
+155    Mafia II                                                               PS3     2013-08-09
+156    Malicious                                                              PS3     2021-08-14
+157    Mensa Academy                                                          PS3     2021-08-14
+158    Metal Gear Solid 2: Sons of Liberty                                    PS3     2015-09-12
+159    Metal Gear Solid 3: Snake Eater                                        PS3     2015-09-12
+160    Metal Gear Solid 4: Guns of the Patriots                               PS3     2021-03-30
+161    Metal Gear Solid: Peace Walker                                         PS3     2021-04-06
+162    Modnation Racers                                                       PS3     2010-06-06
+163    Mortal Kombat Arcade Kollection                                        PS3     2021-08-14
+164    Mortal Kombat (2011)                                                   PS3     2013-04-25
+165    Motorstorm: Pacific Rift                                               PS3     2010-05-04
+166    Motorstorm Apocalypse                                                  PS3     2013-04-28
+167    Motorstorm RC                                                          PS3     2017-10-06
+168    Naughty Bear                                                           PS3     2020-10-11
+169    Need for Speed: Shift                                                  PS3     2009-11-23
+170    Need for Speed: The Run                                                PS3     2011-12-08
+171    Need for Speed: Most Wanted (2012)                                     PS3     2013-08-07
+172    Oddworld: Munch`s Oddysee                                              PS3     2013-01-31
+173    Oddworld: Stranger`s Wrath                                             PS3     2012-01-21
+174    PAYDAY: The Heist                                                      PS3     2013-07-06
+175    PlayStation All-Stars Battle Royale                                    PS3     2013-07-25
+176    PlayStation Move Heroes                                                PS3     2020-09-17
+177    Prince of Persia: The Sands of Time                                    PS3     2021-03-30
+178    Prince of Persia: The Two Thrones                                      PS3     2021-03-30
+179    Prince of Persia: Warrior Within                                       PS3     2021-03-30
+180    Pro Evolution Soccer 2010                                              PS3     2010-01-14
+181    Quantum Conundrum                                                      PS3     2021-08-14
+182    Ratchet & Clank (2002)                                                 PS3     2014-12-06
+183    Ratchet & Clank 2                                                      PS3     2014-12-06
+184    Ratchet & Clank 3                                                      PS3     2014-12-06
+185    Ratchet: Gladiator                                                     PS3     2015-01-07
+186    Ratchet & Clank Future: Tools of Destruction                           PS3     2020-09-17
+187    Ratchet & Clank Future: Quest for Booty                                PS3     2020-09-17
+188    Ratchet & Clank Future: A Crack in Time                                PS3     2010-06-09
+189    Ratchet & Clank: QForce                                                PS3     2018-01-15
+190    Ratchet & Clank: Nexus                                                 PS3     2021-02-10
+191    Rayman 3: Hoodlum Havoc HD                                             PS3     2021-02-10
+192    Rayman Origins                                                         PS3     2015-10-22
+193    Red Dead Redemption                                                    PS3     2020-09-17
+194    Resistance: Fall of Man                                                PS3     2020-09-17
+195    Saints Row 2                                                           PS3     2023-02-14
+196    Sam and Max Season 3: The Devil`s Playhouse TTG                        PS3     2022-09-28
+197    Shadow of the Colossus Classics HD                                     PS3     2021-08-14
+198    Silent Hill HD Collection                                              PS3     2020-10-11
+199    Siren Blood Curse                                                      PS3     2021-03-30
+200    Skate 2                                                                PS3     2010-06-09
+201    Sly Cooper and the Thievius Raccoonus                                  PS3     2016-11-26
+202    Sly 2: Band of Thieves                                                 PS3     2016-11-26
+203    Sly 3: Honour Among Thieves                                            PS3     2016-11-26
+204    Sonic Generations                                                      PS3     2021-03-30
+205    Spec Ops: The Line                                                     PS3     2021-08-14
+206    Streets of Rage 2                                                      PS3     2011-06-25
+207    Super Rub a Dub                                                        PS3     2021-04-13
+208    Superfrog HD                                                           PS3     2013-10-11
+209    Syndicate                                                              PS3     2014-02-23
+210    Tales of Graces f                                                      PS3     2015-01-17
+211    Tales of Xillia                                                        PS3     2015-01-17
+212    Tekken 5: Dark Resurrection                                            PS3     2021-08-14
+213    Tekken Revolution                                                      PS3     2013-08-05
+214    The Amazing Spider-Man                                                 PS3     2020-10-11
+215    The Cave                                                               PS3     2021-08-14
+216    The Cube                                                               PS3     2021-04-13
+217    The Darkness                                                           PS3     2020-09-17
+218    The Darkness 2                                                         PS3     2020-09-17
+219    The House of the Dead: Overkill                                        PS3     2020-10-11
+220    The Secret of Monkey Island: Special Edition                           PS3     2021-02-10
+221    The Simpsons Arcade Game                                               PS3     2013-11-29
+222    The Simpsons Game                                                      PS3     2020-10-11
+223    The Sims 3                                                             PS3     2010-11-07
+224    The Sims 3: Pets                                                       PS3     2010-11-07
+225    Tiger Woods PGA Tour 11                                                PS3     2010-08-15
+226    ToeJam and Earl (1991)                                                 PS3     2021-02-10
+227    ToeJam and Earl: Panic on Funkotron                                    PS3     2021-02-10
+228    Tokyo Jungle                                                           PS3     2013-11-21
+229    Tomb Raider (2013)                                                     PS3     2023-04-20
+230    Tony Hawk`s Pro Skater HD                                              PS3     2014-02-24
+231    Twisted Metal (2012)                                                   PS3     2020-10-11
+232    UFC 2009 Undisputed                                                    PS3     2020-10-11
+233    Velocity Ultra                                                         PS3     2015-08-08
+234    When Vikings Attack                                                    PS3     2021-08-14
+235    XCOM Enemy Unknown                                                     PS3     2013-06-24
+236    Yakuza: Dead Souls                                                     PS3     2023-02-14
+237    Zombie Tycoon II: Brainhov`s Revenge                                   PS3     2018-09-02
+238    Crazy Market                                                           PSVITA  2015-07-02
+239    Deathmatch Village                                                     PSVITA  2015-07-02
+240    Fat Princess: Piece of Cake                                            PSVITA  2015-02-01
+241    Flame Over                                                             PSVITA  2018-09-30
+242    Football Manager Classic 2014                                          PSVITA  2014-06-01
+243    Get Off My Lawn!                                                       PSVITA  2015-02-10
+244    Gunslugs                                                               PSVITA  2017-04-07
+245    Jet Set Radio                                                          PSVITA  2018-09-30
+246    LEGO Batman 2: DC Super Heroes                                         PSVITA  2015-08-20
+247    ModNation Racers: Road Trip                                            PSVITA  2015-11-18
+248    No Heroes Allowed: No Puzzles Either!                                  PSVITA  2015-07-02
+249    Paint Park Plus                                                        PSVITA  2015-07-02
+250    PlayStation VITA Pets                                                  PSVITA  2015-08-02
+251    Quell Memento                                                          PSVITA  2017-04-15
+252    Rocketbirds: Hardboiled Chicken                                        PSVITA  2015-11-28
+253    Silent Hill: Book of Memories                                          PSVITA  2016-10-22
+254    Skeleton Rider                                                         PSVITA  2017-04-07
+255    Sly Cooper: Thieves in Time                                            PSVITA  2017-10-06
+256    Spy Hunter (2012)                                                      PSVITA  2018-09-30
+257    Street Fighter X Tekken                                                PSVITA  2017-01-31
+258    SunFlowers                                                             PSVITA  2018-09-30
+259    Surge Deluxe                                                           PSVITA  2018-09-30
+260    Table Football                                                         PSVITA  2015-07-02
+261    Table Top Racing                                                       PSVITA  2019-10-11
+262    TxK                                                                    PSVITA  2015-12-25
+263    Uncharted: Golden Abyss                                                PSVITA  2015-08-02
+264    Uncharted: Fight for Fortune                                           PSVITA  2015-08-30
+265    Wanderjahr                                                             PSVITA  2018-09-30
+266    Worms Revolution Extreme                                               PSVITA  2015-07-16
+267    Yomawari: Night Alone                                                  PSVITA  2017-04-15
+268    Zero Escape: Virtue`s Last Reward                                      PSVITA  2015-07-02
+269    [Prototype]                                                            PS4     2017-08-22
+270    [Prototype 2]                                                          PS4     2017-08-22
+271    101 Ways To Die                                                        PS4     2017-07-16
+272    60 Seconds! Reatomized                                                 PS4     2022-12-20
+273    A Boy And His Blob                                                     PS4     2017-08-03
+274    Absolute Drift: Zen Edition                                            PS4     2017-01-31
+275    Abzu                                                                   PS4     2021-08-24
+276    Action Henk                                                            PS4     2023-05-02
+277    Active Soccer 2 DX                                                     PS4     2017-01-31
+278    Amnesia: Collection                                                    PS4     2020-11-04
+279    Amplitude                                                              PS4     2017-01-19
+280    Another World                                                          PS4     2019-09-19
+281    Ape Escape 2                                                           PS4     2018-01-15
+282    ARK: Survival Evolved                                                  PS4     2022-03-01
+283    Armello                                                                PS4     2017-08-04
+284    Armikrog                                                               PS4     2020-12-15
+285    Art Of Balance                                                         PS4     2017-08-07
+286    Assault Android Cactus                                                 PS4     2018-06-17
+287    Aven Colony                                                            PS4     2020-03-13
+288    Back To The Future TTG                                                 PS4     2017-06-01
+289    Badland                                                                PS4     2019-02-23
+290    Batman Season 1 TTG                                                    PS4     2016-11-26
+291    Batman Season 2 TTG                                                    PS4     2018-11-17
+292    Batman: Arkham Asylum                                                  PS4     2020-04-01
+293    Batman: Arkham City                                                    PS4     2020-04-01
+294    Batman: Arkham Knight                                                  PS4     2020-04-01
+295    Battlefield 1: Revolution                                              PS4     2021-05-18
+296    Bear With Me                                                           PS4     2020-02-06
+297    Beat Cop                                                               PS4     2021-08-23
+298    Beyond Eyes                                                            PS4     2017-07-23
+299    Beyond Two Souls                                                       PS4     2021-08-04
+300    BioShock 1 & 2: The Collection                                         PS4     2017-08-22
+301    BioShock Infinite: The Collection                                      PS4     2017-08-22
+302    BLACKSAD: Under the Skin                                               PS4     2022-05-27
+303    Blood Bowl 2                                                           PS4     2019-12-25
+304    Bloodborne                                                             PS4     2019-06-07
+305    Borderlands: Game of the Year Edition                                  PS4     2019-04-03
+306    Borderlands: The Handsome Collection                                   PS4     2017-08-22
+307    Breaking Enigma                                                        PS4     2023-05-24
+308    Bridge Constructor                                                     PS4     2019-03-24
+309    Broforce                                                               PS4     2017-01-15
+310    Broken Age                                                             PS4     2017-08-03
+311    Brothers: A Tale of Two Sons                                           PS4     2021-04-28
+312    Bud Spencer & Terence Hill - Slaps and Beans                           PS4     2023-11-26
+313    Burnout Paradise: Remastered                                           PS4     2019-05-06
+314    Call of Duty: Black Ops III                                            PS4     2022-01-29
+315    Canis Canem Edit (Bully)                                               PS4     2017-08-03
+316    Captain Tsubasa: Rise of New Champions                                 PS4     2021-12-09
+317    Castle Crashers: Remastered                                            PS4     2019-09-19
+318    Castlevania Requiem: Symphony of the Night and Rondo of Blood          PS4     2015-10-02
+319    Catherine: Full Body                                                   PS4     2019-09-09
+320    Cel Damage HD                                                          PS4     2017-05-20
+321    Celeste                                                                PS4     2018-08-23
+322    Child Of Light                                                         PS4     2016-09-22
+323    Chime Sharp                                                            PS4     2017-07-23
+324    Cities: Skylines                                                       PS4     2019-08-22
+325    Claire                                                                 PS4     2017-04-07
+326    ClusterTruck                                                           PS4     2020-08-24
+327    Code Vein                                                              PS4     2023-03-07
+328    Color Slayer                                                           PS4     2020-03-22
+329    Concrete Genie                                                         PS4     2020-03-13
+330    Cosmophony                                                             PS4     2017-08-03
+331    CounterSpy                                                             PS4     2017-07-09
+332    Crash Bandicoot: N Sane Trilogy (2017)                                 PS4     2017-06-29
+333    Crash Team Racing: Nitro Fueled (2019)                                 PS4     2019-06-21
+334    Croixleur Sigma                                                        PS4     2017-11-30
+335    Curse of the Dead Gods                                                 PS4     2022-05-03
+336    Dangerous Golf                                                         PS4     2019-02-23
+337    Danger Zone                                                            PS4     2019-02-23
+338    Dangerous Driving                                                      PS4     2021-08-23
+339    Dark Cloud                                                             PS4     2016-09-06
+340    Dark Chronicle (Dark Cloud 2)                                          PS4     2016-10-07
+341    Dark Souls Remastered                                                  PS4     2019-12-25
+342    Dark Souls II: Scholar of the First Sin                                PS4     2019-10-17
+343    Dark Souls III                                                         PS4     2019-06-17
+344    Day Of The Tentacle Remastered                                         PS4     2017-03-17
+345    Days Gone                                                              PS4     2021-05-18
+346    de Blob                                                                PS4     2023-11-26
+347    Dead End Job                                                           PS4     2021-08-23
+348    Dead Island: Retro Revenge                                             PS4     2017-01-15
+349    Dead or Alive 5: Last Round                                            PS4     2017-05-04
+350    Dead Rising                                                            PS4     2020-03-17
+351    Deadpool                                                               PS4     2017-01-31
+352    Death Squared                                                          PS4     2017-12-10
+353    DEEEER Simulator: Your Average Everyday Deer Game                      PS4     2022-03-03
+354    Descenders                                                             PS4     2023-05-02
+355    Destroy All Humans! (2005)                                             PS4     2017-04-07
+356    Destroy All Humans! (2020)                                             PS4     2020-08-28
+357    Destroy All Humans! 2 (2006)                                           PS4     2017-04-07
+358    Detroit: Become Human                                                  PS4     2021-05-18
+359    Devil May Cry Trilogy HD Collection                                    PS4     2019-08-08
+360    Devil May Cry 4                                                        PS4     2019-08-08
+361    Devil May Cry 5                                                        PS4     2019-08-08
+362    Dex                                                                    PS4     2017-04-19
+363    Disney Classic Games: Aladdin & The Lion King                          PS4     2019-12-25
+364    Doki-Doki Universe                                                     PS4     2017-07-09
+365    Don`t Starve                                                           PS4     2023-05-02
+366    Donut County                                                           PS4     2020-01-26
+367    DOOM (1993)                                                            PS4     2022-05-27
+368    DOOM II                                                                PS4     2022-05-27
+369    DOOM 64                                                                PS4     2022-05-27
+370    Downwell                                                               PS4     2017-01-31
+371    DreamBall                                                              PS4     2019-12-25
+372    Dreams                                                                 PS4     2020-03-17
+373    Duke Nukem 3D                                                          PS4     2015-12-25
+374    Empire of Sin: Deluxe Edition                                          PS4     2023-02-10
+375    Enter The Gungeon                                                      PS4     2017-01-19
+376    Entwined                                                               PS4     2017-07-09
+377    Escape Plan                                                            PS4     2017-07-13
+378    Everybody`s Golf (2017)                                                PS4     2018-01-24
+379    Exit the Gungeon                                                       PS4     2021-08-18
+380    Fahrenheit (Indigo Prophecy)                                           PS4     2022-05-27
+381    Fallout 4                                                              PS4     2019-07-22
+382    Far Cry 3                                                              PS4     2019-02-23
+383    Far Cry 4                                                              PS4     2019-02-23
+384    Far Cry: Primal                                                        PS4     2019-02-23
+385    Far Cry 5                                                              PS4     2018-09-29
+386    Far Cry: New Dawn                                                      PS4     2019-03-24
+387    Fat Princess Adventures                                                PS4     2016-10-07
+388    Fez                                                                    PS4     2017-07-23
+389    FIFA 18                                                                PS4     2017-09-29
+390    FIFA 19                                                                PS4     2018-11-26
+391    FIFA 20                                                                PS4     2020-04-01
+392    Final Fantasy X/X-2 HD Remaster                                        PS4     2018-10-04
+393    Final Fantasy XV: Royal Edition                                        PS4     2021-05-18
+394    Five Dates                                                             PS4     2022-03-20
+395    Flashback                                                              PS4     2022-05-27
+396    Flockers                                                               PS4     2017-03-17
+397    flOw                                                                   PS4     2017-07-09
+398    Flower                                                                 PS4     2017-07-09
+399    forma.8                                                                PS4     2020-04-21
+400    Formula Retro Racing                                                   PS4     2022-05-27
+401    Futuridium                                                             PS4     2020-04-16
+402    Game Of Thrones TTG                                                    PS4     2017-04-09
+403    Generation Zero                                                        PS4     2023-09-05
+404    Geometry Wars 3: Dimensions Evolved                                    PS4     2017-06-01
+405    Ghost Blade HD                                                         PS4     2017-08-04
+406    Ghost of Tsushima                                                      PS4     2020-11-22
+407    Ghostbusters                                                           PS4     2018-06-24
+408    Goat Simulator                                                         PS4     2016-10-07
+409    God of War III Remastered                                              PS4     2017-10-06
+410    God of War (2018)                                                      PS4     2021-05-18
+411    Godlike Burger                                                         PS4     2023-05-02
+412    Going Under                                                            PS4     2023-09-08
+413    Good Dog Bad Dog                                                       PS4     2022-12-28
+414    Granblue Fantasy: Versus                                               PS4     2022-09-07
+415    Grand Ages: Medieval                                                   PS4     2020-04-01
+416    Grand Theft Auto III (2001)                                            PS4     2016-09-06
+417    Grand Theft Auto: Vice City (2002)                                     PS4     2016-09-06
+418    Grand Theft Auto: San Andreas (2004)                                   PS4     2016-09-06
+419    Grim Fandango Remastered                                               PS4     2017-02-12
+420    Harvest Moon: A Wonderful Life                                         PS4     2018-06-24
+421    Hatoful Boyfriend                                                      PS4     2017-05-20
+422    Heart&Slash                                                            PS4     2017-07-09
+423    Heavy Rain                                                             PS4     2020-10-11
+424    Helldivers                                                             PS4     2017-10-08
+425    Hitman 2                                                               PS4     2021-09-22
+426    Hohokum                                                                PS4     2017-07-09
+427    Hollow Knight: Voidheart Edition                                       PS4     2020-11-03
+428    Holy Potatoes! A Weapon Shop?!                                         PS4     2023-11-26
+429    Holy Potatoes! We`re in Space?!                                        PS4     2023-11-26
+430    Holy Potatoes! What the Hell?!                                         PS4     2023-11-26
+431    Home                                                                   PS4     2016-10-23
+432    HoPiKo                                                                 PS4     2017-05-04
+433    Horizon Zero Dawn                                                      PS4     2019-06-07
+434    Hotline Miami                                                          PS4     2015-08-18
+435    Hotline Miami 2: Wrong Number                                          PS4     2017-01-15
+436    Hue                                                                    PS4     2017-03-17
+437    I am Bread                                                             PS4     2022-03-20
+438    inFamous Second Son                                                    PS4     2016-11-26
+439    inFamous First Light                                                   PS4     2016-11-26
+440    Injustice: Gods Among Us                                               PS4     2020-10-01
+441    Injustice 2                                                            PS4     2022-10-05
+442    Iris and the Giant                                                     PS4     2023-09-08
+443    Jak and Daxter: The Precursor Legacy                                   PS4     2012-11-27
+444    Jak II: Renegade                                                       PS4     2012-11-27
+445    Jak 3                                                                  PS4     2012-11-27
+446    Jak X: Combat Racing                                                   PS4     2017-12-09
+447    Jazzpunk: Director`s Cut                                               PS4     2017-08-04
+448    Jetpack Joyride                                                        PS4     2017-01-31
+449    Journey                                                                PS4     2017-07-09
+450    Just Die Already                                                       PS4     2022-04-27
+451    Kandagawa Jet Girls                                                    PS4     2022-03-03
+452    Katamari Damacy: Reroll                                                PS4     2018-09-30
+453    Keep Talking and Nobody Explodes                                       PS4     2022-03-03
+454    Kingdom Hearts HD 1.5 & 2.5 Remix                                      PS4     2019-11-17
+455    Kingdom Hearts HD 2.8 Final Chapter Prologue                           PS4     2019-11-17
+456    Kingdom Hearts III                                                     PS4     2019-11-17
+457    Kingdoms of Amalur: Re-Reckoning                                       PS4     2021-11-02
+458    Knack                                                                  PS4     2022-01-20
+459    Knack 2                                                                PS4     2022-01-20
+460    LA Cops                                                                PS4     2017-03-17
+461    LEGO City Undercover                                                   PS4     2019-02-23
+462    LEGO Marvel Super-Heroes                                               PS4     2021-01-07
+463    LEGO Harry Potter Collection                                           PS4     2017-04-07
+464    LEGO DC Super-Villains                                                 PS4     2021-12-09
+465    Leisure Suit Larry: Wet Dreams Don`t Dry                               PS4     2022-03-20
+466    Leisure Suit Larry: Wet Dreams Dry Twice                               PS4     2022-03-20
+467    Lichtspeer                                                             PS4     2017-08-03
+468    Life Is Strange                                                        PS4     2016-11-26
+469    Like a Dragon (Yakuza 0)                                               PS4     2021-10-05
+470    Like a Dragon Kiwami (Yakuza Kiwami)                                   PS4     2021-10-05
+471    Like a Dragon Kiwami 2 (Yakuza Kiwami 2)                               PS4     2021-10-05
+472    Like a Dragon 3 (Yakuza 3 Remastered)                                  PS4     2021-10-13
+473    Like a Dragon 4 (Yakuza 4 Remastered)                                  PS4     2021-10-13
+474    Like a Dragon 5 (Yakuza 5 Remastered)                                  PS4     2021-10-13
+475    Like a Dragon 6 (Yakuza 6: The Song of Life)                           PS4     2021-10-05
+476    Little Nightmares                                                      PS4     2022-08-03
+477    LittleBigPlanet 3                                                      PS4     2017-10-06
+478    LocoRoco                                                               PS4     2017-07-29
+479    Lovers In A Dangerous Spacetime                                        PS4     2017-05-20
+480    LUMO                                                                   PS4     2017-01-19
+481    Mafia: Definitive Edition (2020)                                       PS4     2020-12-11
+482    Mafia III                                                              PS4     2020-04-16
+483    Manhunt                                                                PS4     2017-08-03
+484    Manual Samuel                                                          PS4     2017-08-04
+485    Marvel`s Guardians Of The Galaxy TTG                                   PS4     2017-08-22
+486    Marvel`s Spider-Man                                                    PS4     2018-09-07
+487    Mass Effect: Legendary Edition                                         PS4     2021-11-21
+488    Max Payne                                                              PS4     2017-08-03
+489    MediEvil (2019)                                                        PS4     2019-10-25
+490    Mega Man Legacy Collection                                             PS4     2016-09-06
+491    Mega Man Legacy Collection 2                                           PS4     2017-12-22
+492    Mega Man X Legacy Collection                                           PS4     2019-07-22
+493    Mega Man X Legacy Collection 2                                         PS4     2019-07-22
+494    Metal Gear Solid V: The Phantom Pain                                   PS4     2020-12-25
+495    Metro Redux                                                            PS4     2021-08-23
+496    Micro Machines World Series                                            PS4     2017-06-22
+497    Minecraft Dungeons                                                     PS4     2023-03-07
+498    Minutes                                                                PS4     2017-04-07
+499    Monopoly Family Fun Pack                                               PS4     2016-09-22
+500    Monster Hunter World: Iceborne                                         PS4     2021-05-18
+501    Monster Prom: XXL                                                      PS4     2023-09-07
+502    Mortal Kombat X                                                        PS4     2021-05-18
+503    Mortal Shell                                                           PS4     2021-12-09
+504    Mother Russia Bleeds                                                   PS4     2017-08-04
+505    Need for Speed Heat                                                    PS4     2022-09-07
+506    Neon Chrome                                                            PS4     2017-03-17
+507    Neon Drive                                                             PS4     2022-05-27
+508    Ni No Kuni: Wrath of the White Witch                                   PS4     2023-09-13
+509    Ni No Kuni II: Revenant Kingdom                                        PS4     2023-09-08
+510    Night Book                                                             PS4     2022-03-20
+511    Ninja Senki DX                                                         PS4     2017-04-07
+512    Nitroplus Blasterz: Heroines Infinite Duel                             PS4     2017-01-19
+513    Octodad: Dadliest Catch                                                PS4     2015-09-06
+514    Oddworld: New n Tasty                                                  PS4     2015-04-29
+515    Okami HD                                                               PS4     2018-06-24
+516    OlliOlli: Epic Combo Edition                                           PS4     2017-02-25
+517    OlliOlli 2                                                             PS4     2017-02-25
+518    One Piece Unlimited World Red                                          PS4     2017-12-31
+519    Onee Chanbara Origin                                                   PS4     2022-12-28
+520    Outbreak: Epidemic                                                     PS4     2021-05-19
+521    Outlast                                                                PS4     2020-08-28
+522    Oxenfree                                                               PS4     2017-08-07
+523    PAC-MAN 256                                                            PS4     2016-10-07
+524    PaRappa The Rapper Remastered                                          PS4     2017-07-11
+525    PaRappa The Rapper 2                                                   PS4     2016-09-06
+526    Party Hard                                                             PS4     2017-08-04
+527    Party Hard 2                                                           PS4     2023-02-08
+528    Persona 5                                                              PS4     2017-12-22
+529    Persona 5 Strikers                                                     PS4     2022-01-04
+530    PGA Tour 2K21                                                          PS4     2021-10-05
+531    Pic-A-Pix Color                                                        PS4     2018-11-10
+532    PixelJunk Shooter Ultimate                                             PS4     2017-03-17
+533    Plants vs Zombies: Battle for Neighborville                            PS4     2020-05-13
+534    Please Don`t Touch Anything                                            PS4     2021-08-23
+535    Poltergeist: A Pixelated Horror                                        PS4     2017-06-01
+536    Polybius                                                               PS4     2018-02-24
+537    PONG Quest                                                             PS4     2022-02-17
+538    Postal Redux                                                           PS4     2022-05-27
+539    Primal                                                                 PS4     2023-09-08
+540    Psychonauts                                                            PS4     2016-09-10
+541    Psychonauts 2                                                          PS4     2021-11-21
+542    Pumped BMX+                                                            PS4     2017-07-23
+543    Putty Squad                                                            PS4     2018-11-29
+544    Quake                                                                  PS4     2022-05-27
+545    Quest Of Dungeons                                                      PS4     2017-05-04
+546    Rally Copters                                                          PS4     2018-07-14
+547    Ratchet & Clank (2016)                                                 PS4     2017-12-22
+548    Rayman Legends                                                         PS4     2015-09-06
+549    Red Dead Revolver                                                      PS4     2017-08-03
+550    Red Dead Redemption 2                                                  PS4     2019-10-11
+551    Resident Evil: Code Veronica X                                         PS4     2023-10-25
+552    Resident Evil 0                                                        PS4     2019-09-19
+553    Resident Evil (2002)                                                   PS4     2019-09-19
+554    Resident Evil 4 (2005)                                                 PS4     2019-09-19
+555    Resident Evil 5                                                        PS4     2021-11-10
+556    Resident Evil Revelations                                              PS4     2019-06-22
+557    Resident Evil 6                                                        PS4     2021-11-10
+558    Resident Evil Revelations 2                                            PS4     2019-06-22
+559    Resident Evil: Resistance                                              PS4     2021-09-30
+560    Resident Evil: Re:Verse                                                PS4     2021-10-20
+561    RESOGUN                                                                PS4     2017-07-09
+562    Retro City Rampage DX                                                  PS4     2016-09-10
+563    Riptide GP: Renegade                                                   PS4     2017-08-04
+564    Rise Of The Tomb Raider                                                PS4     2018-06-24
+565    Risk Of Rain                                                           PS4     2017-08-03
+566    Road Redemption                                                        PS4     2021-07-21
+567    Rock Boshers DX: Director`s Cut                                        PS4     2017-04-07
+568    Rocket League                                                          PS4     2017-01-19
+569    Rocketbirds 2: Evolution                                               PS4     2016-09-06
+570    Rogue Legacy                                                           PS4     2017-01-15
+571    Rollercoaster Dreams                                                   PS4     2016-12-20
+572    Run Sausage Run!                                                       PS4     2023-09-07
+573    Saban`s Mighty Morphin Power Rangers: Mega Battle                      PS4     2019-02-23
+574    Saints Row IV: Re-Elected                                              PS4     2020-09-17
+575    Saints Row IV: Gat out of Hell                                         PS4     2020-09-17
+576    Sam and Max Season 1: Save The World TTG                               PS4     2022-10-02
+577    Sam and Max Season 2: Beyond Time and Space TTG                        PS4     2022-10-02
+578    Scott Pilgrim vs The World: The Game                                   PS4     2021-08-23
+579    Scribblenauts Mega Pack                                                PS4     2020-03-22
+580    Sekiro: Shadows Die Twice                                              PS4     2019-12-25
+581    Shadow of the Tomb Raider                                              PS4     2023-03-29
+582    Shovel Knight: Treasure Trove                                          PS4     2018-08-29
+583    Shovel Knight: Pocket Dungeon                                          PS4     2022-12-20
+584    ShredIt                                                                PS4     2017-08-04
+585    Slain: Back from Hell                                                  PS4     2017-06-01
+586    Slay the Spire                                                         PS4     2022-04-05
+587    Sleeping Dogs: Definitive Edition                                      PS4     2019-07-06
+588    Slender: The Arrival                                                   PS4     2020-11-04
+589    Sniper Elite V2 Remastered                                             PS4     2022-05-27
+590    Sonic Mania                                                            PS4     2017-08-14
+591    SoulCalibur VI                                                         PS4     2018-10-19
+592    Sound Shapes                                                           PS4     2017-07-09
+593    South Park: The Stick of Truth                                         PS4     2017-12-12
+594    South Park: The Fractured But Whole                                    PS4     2017-12-12
+595    Spelunky                                                               PS4     2020-12-25
+596    SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated           PS4     2021-08-23
+597    Spy Chameleon                                                          PS4     2017-04-07
+598    Spyro Reignited Trilogy (2018)                                         PS4     2018-11-13
+599    Star Wars Episode I: Pod Racer                                         PS4     2020-08-28
+600    Stardew Valley                                                         PS4     2017-08-03
+601    Stealth Inc: A Clone In The Dark                                       PS4     2017-03-17
+602    Stealth Inc 2: A Game Of Clones                                        PS4     2017-03-17
+603    SteamWorld Dig                                                         PS4     2017-01-15
+604    SteamWorld Heist                                                       PS4     2017-01-19
+605    SteamWorld Dig 2                                                       PS4     2022-01-06
+606    Stikbold! A Dodgeball Adventure                                        PS4     2020-05-13
+607    Stranded Deep                                                          PS4     2021-05-19
+608    Street Fighter 30th Anniversary Collection                             PS4     2018-05-29
+609    Super Kickers League Ultimate                                          PS4     2021-07-07
+610    Super Meat Boy!                                                        PS4     2017-02-25
+611    Super Monkey Ball: Banana Blitz HD                                     PS4     2021-06-30
+612    Super Stardust Ultra                                                   PS4     2017-01-19
+613    Superbeat: Xonic EX                                                    PS4     2017-05-20
+614    Supermarket Shriek                                                     PS4     2021-08-23
+615    Surgeon Simulator                                                      PS4     2019-12-05
+616    Switch Galaxy Ultra                                                    PS4     2015-12-25
+617    Syrup and the Ultimate Sweet                                           PS4     2020-03-04
+618    Table Top Racing: World Tour                                           PS4     2019-10-11
+619    Tales From The Borderlands                                             PS4     2015-04-01
+620    Team Sonic Racing                                                      PS4     2022-03-01
+621    Tearaway Unfolded                                                      PS4     2017-08-07
+622    Tekken 7                                                               PS4     2018-11-06
+623    Tembo The Badass Elephant                                              PS4     2017-03-17
+624    Tennis in the Face                                                     PS4     2017-04-07
+625    Tennis World Tour 2                                                    PS4     2021-08-03
+626    Terraria                                                               PS4     2015-11-22
+627    Tethered                                                               PS4     2016-12-06
+628    Tetris Ultimate                                                        PS4     2016-09-22
+629    That`s You!                                                            PS4     2017-07-04
+630    The Amazing American Circus                                            PS4     2023-09-07
+631    The Binding of Isaac: Rebirth                                          PS4     2020-12-25
+632    The Bug Butcher                                                        PS4     2017-05-04
+633    The Complex                                                            PS4     2022-03-20
+634    The Crew                                                               PS4     2017-02-25
+635    The Disney Afternoon Collection                                        PS4     2021-01-07
+636    The Escapists                                                          PS4     2017-01-19
+637    The Evil Within                                                        PS4     2017-12-04
+638    The Flame in the Flood                                                 PS4     2020-05-13
+639    The Last Guardian                                                      PS4     2021-07-12
+640    The Last Of Us Remastered                                              PS4     2017-12-26
+641    The Last Of Us: Left Behind Remastered                                 PS4     2016-09-11
+642    The Last of Us Part II                                                 PS4     2020-09-09
+643    The Outer Worlds                                                       PS4     2023-02-03
+644    The Sims 4                                                             PS4     2017-12-08
+645    The Swapper                                                            PS4     2017-05-20
+646    The Unfinished Swan                                                    PS4     2017-07-09
+647    The Walking Dead Season 1 TTG                                          PS4     2015-12-25
+648    The Walking Dead Season 2 TTG                                          PS4     2016-10-21
+649    The Walking Dead Season 3 TTG                                          PS4     2018-10-04
+650    The Walking Dead: The Final Season TTG                                 PS4     2019-12-25
+651    The Warriors                                                           PS4     2017-08-03
+652    The Witness                                                            PS4     2017-08-04
+653    The Wolf Among Us Season 1 TTG                                         PS4     2017-03-16
+654    Think of the Children                                                  PS4     2021-08-23
+655    This Is The Police                                                     PS4     2018-06-24
+656    Thomas Was Alone                                                       PS4     2017-04-03
+657    Tiny Tina`s Assault on Dragon Keep: A Wonderlands One-Shot Adventure   PS4     2022-02-01
+658    Titan Attacks!                                                         PS4     2017-03-17
+659    ToeJam & Earl: Back In The Groove (2019)                               PS4     2019-03-01
+660    Total Arcade Racing                                                    PS4     2023-09-07
+661    Touhou Double Focus                                                    PS4     2019-07-22
+662    Trials Fusion: The Awesome MAX Edition                                 PS4     2020-03-22
+663    Tribes of Midgard                                                      PS4     2022-05-03
+664    Tricky Towers                                                          PS4     2017-01-19
+665    Trine: Enchanted Edition                                               PS4     2017-08-04
+666    Trine 2: Complete Story                                                PS4     2017-08-04
+667    Trine 3: The Artifacts Of Power                                        PS4     2017-08-04
+668    Tropico 5                                                              PS4     2017-08-22
+669    Trover Saves The Universe                                              PS4     2021-09-07
+670    Turnip Boy Commits Tax Evasion                                         PS4     2023-05-12
+671    Twisted Metal: Black                                                   PS4     2015-12-05
+672    Two Point Hospital                                                     PS4     2020-06-24
+673    Typoman                                                                PS4     2017-05-04
+674    UFC 4                                                                  PS4     2022-02-01
+675    Ultratron                                                              PS4     2017-03-17
+676    Unbox: Newbie`s Adventure                                              PS4     2022-05-27
+677    Uncanny Valley                                                         PS4     2021-08-23
+678    Uncharted: Drake`s Fortune                                             PS4     2017-08-03
+679    Uncharted 2: Among Thieves                                             PS4     2017-08-03
+680    Uncharted 3: Drake`s Deception                                         PS4     2017-08-03
+681    Uncharted 4: A Thief`s End                                             PS4     2017-12-22
+682    Uncharted: The Lost Legacy                                             PS4     2018-10-04
+683    Undertale                                                              PS4     2017-12-22
+684    UNO                                                                    PS4     2021-12-09
+685    Unravel                                                                PS4     2017-01-19
+686    Until Dawn                                                             PS4     2018-10-04
+687    Untitled Goose Game                                                    PS4     2019-12-17
+688    Velocity 2X                                                            PS4     2015-11-18
+689    Viking Squad                                                           PS4     2016-10-05
+690    Virtua Fighter 5: Ultimate Showdown                                    PS4     2021-07-01
+691    Volume                                                                 PS4     2017-08-03
+692    Watch_Dogs                                                             PS4     2020-02-06
+693    Watch_Dogs 2                                                           PS4     2019-07-22
+694    while true: learn( )                                                   PS4     2021-08-23
+695    Wipeout Omega Collection                                               PS4     2018-12-29
+696    Wolfenstein: The New Order                                             PS4     2023-05-12
+697    Wolfenstein: The Old Blood                                             PS4     2023-05-12
+698    Wolfenstein II: The New Colossus                                       PS4     2023-05-12
+699    Wolfenstein: Youngblood                                                PS4     2023-05-12
+700    Worms Battlegrounds                                                    PS4     2017-08-22
+701    Worms WMD                                                              PS4     2017-08-22
+702    WRC 6                                                                  PS4     2018-06-24
+703    WWE 2K Battlegrounds                                                   PS4     2021-07-06
+704    XCOM 2                                                                 PS4     2020-08-20
+705    Xenoraid                                                               PS4     2017-08-03
+706    Yomawari: Midnight Shadows                                             PS4     2020-06-10
+707    Yooka-Laylee                                                           PS4     2019-02-23
+708    Yooka-Laylee and the Impossible Lair                                   PS4     2019-12-25
+709    Yu-Gi-Oh! Legacy of the Duelist                                        PS4     2015-09-10
+710    Accounting Plus                                                        PSVR    2021-08-25
+711    Animal Force                                                           PSVR    2020-03-22
+712    Apex Construct                                                         PSVR    2019-01-07
+713    Apocalypse Rider                                                       PSVR    2020-03-13
+714    Arizona Sunshine                                                       PSVR    2021-11-16
+715    ASTRO BOT Rescue Mission                                               PSVR    2019-01-12
+716    Batman: Arkham VR                                                      PSVR    2019-01-07
+717    Beat Saber                                                             PSVR    2019-01-10
+718    BoxVR                                                                  PSVR    2019-12-25
+719    Budget Cuts                                                            PSVR    2023-09-07
+720    Carnival Games VR                                                      PSVR    2019-01-03
+721    Catch & Release                                                        PSVR    2019-01-10
+722    CoolpaintrVR                                                           PSVR    2019-01-07
+723    Creed: Rise To Glory                                                   PSVR    2019-03-24
+724    Discovery                                                              PSVR    2019-01-07
+725    DOOM VFR                                                               PSVR    2019-01-03
+726    Dream Match Tennis VR                                                  PSVR    2019-01-10
+727    DriveClub VR                                                           PSVR    2019-01-10
+728    Drunkn Bar Fight                                                       PSVR    2019-04-09
+729    Eagle Flight                                                           PSVR    2019-01-01
+730    EVE: Valkyrie                                                          PSVR    2019-01-07
+731    Everest VR                                                             PSVR    2019-01-01
+732    Everybody`s Golf VR                                                    PSVR    2020-03-22
+733    Floor Plan                                                             PSVR    2021-09-07
+734    Fruit Ninja VR                                                         PSVR    2019-01-10
+735    Groundhog Day: Like Father Like Son                                    PSVR    2019-12-05
+736    Gun Club VR                                                            PSVR    2019-09-09
+737    Headmaster                                                             PSVR    2019-01-01
+738    Homestar VR                                                            PSVR    2019-01-03
+739    Horror Bar VR                                                          PSVR    2023-05-02
+740    Hotel R n R                                                            PSVR    2021-02-25
+741    Hustle Kings VR                                                        PSVR    2019-01-03
+742    I Expect You To Die                                                    PSVR    2019-01-03
+743    I Expect You to Die 2                                                  PSVR    2021-12-25
+744    Job Simulator VR                                                       PSVR    2019-01-10
+745    Kingdom Hearts: VR Experience                                          PSVR    2021-11-02
+746    Knockout League                                                        PSVR    2019-01-03
+747    Kona VR                                                                PSVR    2019-12-05
+748    Lethal VR                                                              PSVR    2019-12-05
+749    Marvel`s Iron Man VR                                                   PSVR    2020-09-17
+750    Mervils: A VR Adventure                                                PSVR    2019-01-01
+751    Moss                                                                   PSVR    2019-01-03
+752    Penn & Teller VR                                                       PSVR    2019-08-22
+753    Perfect VR                                                             PSVR    2020-08-28
+754    PlayStation VR Worlds                                                  PSVR    2018-12-29
+755    Psychonauts in the Rhombus Of Ruin VR                                  PSVR    2019-01-07
+756    Rez Infinite VR                                                        PSVR    2019-03-19
+757    Rick & Morty: Virtual Rick-ality                                       PSVR    2019-01-10
+758    RIGS: Mechanized Combat League VR                                      PSVR    2019-01-01
+759    Sam & Max: This Time It`s Virtual!                                     PSVR    2022-05-27
+760    Shooty Fruity                                                          PSVR    2019-01-03
+761    Skyrim VR                                                              PSVR    2019-01-04
+762    Sniper Elite VR                                                        PSVR    2022-05-27
+763    Space Pirate Trainer VR                                                PSVR    2019-01-03
+764    Sprint Vector                                                          PSVR    2019-01-03
+765    Star Trek: Bridge Crew VR                                              PSVR    2019-01-07
+766    Superhot VR                                                            PSVR    2019-01-07
+767    Tetris Effect: Connected                                               PSVR    2019-01-10
+768    The American Dream                                                     PSVR    2019-04-09
+769    The Guy VR                                                             PSVR    2021-12-25
+770    The Playroom VR                                                        PSVR    2019-01-04
+771    The Walking Dead: Saints and Sinners                                   PSVR    2021-11-02
+772    Tiny Trax                                                              PSVR    2019-01-10
+773    Track Lab                                                              PSVR    2019-12-05
+774    Trackmania Turbo                                                       PSVR    2019-06-09
+775    Traffic Jams                                                           PSVR    2021-11-17
+776    Tumble VR                                                              PSVR    2019-01-01
+777    Ultrawings                                                             PSVR    2020-03-22
+778    Until Dawn: Rush Of Blood                                              PSVR    2019-01-03
+779    Until You Fall                                                         PSVR    2021-11-02
+780    VR Karts                                                               PSVR    2019-05-30
+781    VR Ping Pong                                                           PSVR    2019-01-01
+782    VR The Diner Duo                                                       PSVR    2019-01-01
+783    Wanderer                                                               PSVR    2022-04-27
+784    You Are Being Followed                                                 PSVR    2021-07-06
+785    A Plague Tale: Innocence                                               PS5     2021-01-17
+786    A Plague Tale: Requiem                                                 PS5     2023-10-15
+787    Alan Wake Remastered                                                   PS5     2023-07-04
+788    Aliens: Fireteam Elite                                                 PS5     2023-11-07
+789    Apex Legends                                                           PS5     2022-12-19
+790    Art of Rally                                                           PS5     2022-03-03
+791    Assassin`s Creed Valhalla: Ultimate Edition                            PS5     2021-11-21
+792    Astro`s Playroom                                                       PS5     2021-05-16
+793    AWAY: The Survival Series                                              PS5     2021-09-28
+794    Axiom Verge 2                                                          PS5     2023-01-03
+795    Battlefield 2042                                                       PS5     2023-03-07
+796    Biomutant                                                              PS5     2022-09-09
+797    BloodRayne: ReVamped                                                   PS5     2022-03-20
+798    BloodRayne 2: ReVamped                                                 PS5     2022-03-20
+799    Borderlands 3                                                          PS5     2019-09-13
+800    Bugsnax                                                                PS5     2021-05-27
+801    Call of Duty: Black Ops Cold War                                       PS5     2023-07-04
+802    Can`t Drive This                                                       PS5     2022-06-08
+803    Chicken Police: Paint It Red                                           PS5     2022-04-15
+804    Chicory: A Colorful Tale                                               PS5     2022-07-03
+805    Cloudpunk                                                              PS5     2022-08-23
+806    Coffee Talk                                                            PS5     2023-11-26
+807    Coffee Talk Episode 2: Hibiscus and Butterfly                          PS5     2023-11-26
+808    Concept Destruction                                                    PS5     2021-06-04
+809    Crash Bandicoot 4: It`s About Time                                     PS5     2020-10-01
+810    Cult of the Lamb                                                       PS5     2022-10-30
+811    Cyberpunk 2077                                                         PS5     2022-02-15
+812    Death`s Door                                                           PS5     2023-08-02
+813    Deep Rock Galactic                                                     PS5     2022-01-04
+814    Destiny 2                                                              PS5     2023-02-07
+815    Destroy All Humans 2: Reprobed (2022)                                  PS5     2022-09-07
+816    DIRT 5                                                                 PS5     2022-01-04
+817    Disney Dreamlight Valley                                               PS5     2022-11-18
+818    Dungeon Munchies                                                       PS5     2023-09-07
+819    Endling: Extinction is Forever                                         PS5     2023-07-04
+820    Evil Inside                                                            PS5     2021-06-04
+821    F1 2021                                                                PS5     2021-09-07
+822    F1 Manager                                                             PS5     2022-12-27
+823    Fall Guys: Ultimate Knockout                                           PS5     2022-12-19
+824    Far Cry 6: Gold Edition                                                PS5     2022-02-02
+825    Farming Simulator 22                                                   PS5     2023-10-03
+826    FIFA 21                                                                PS5     2021-05-18
+827    FIFA 22                                                                PS5     2022-05-03
+828    FIFA 23                                                                PS5     2023-05-24
+829    Final Fantasy VII (2021)                                               PS5     2022-08-03
+830    First Class Trouble                                                    PS5     2021-11-02
+831    Fortnite                                                               PS5     2022-01-13
+832    Genshin Impact                                                         PS5     2021-05-18
+833    Ghostrunner                                                            PS5     2022-03-01
+834    Ghostwire: Tokyo                                                       PS5     2022-05-27
+835    Godfall                                                                PS5     2021-12-09
+836    Grand Theft Auto V                                                     PS5     2022-03-20
+837    GRID Legends                                                           PS5     2023-05-02
+838    Grindstone                                                             PS5     2023-09-08
+839    Heavenly Bodies                                                        PS5     2022-11-02
+840    Hell Let Loose                                                         PS5     2021-10-05
+841    Hogwarts Legacy                                                        PS5     2023-02-07
+842    Horizon Forbidden West                                                 PS5     2022-12-28
+843    Hot Wheels Unleashed                                                   PS5     2022-10-05
+844    Human Fall Flat                                                        PS5     2021-07-06
+845    In Rays of the Light                                                   PS5     2021-06-04
+846    Infliction: Extended Cut                                               PS5     2021-06-04
+847    It Takes Two                                                           PS5     2022-01-06
+848    Judgment                                                               PS5     2023-02-26
+849    Jurassic World Evolution 2                                             PS5     2023-06-06
+850    Kena: Bridge of Spirits                                                PS5     2021-12-25
+851    Kerbal Space Program: Enhanced Edition                                 PS5     2021-12-25
+852    Klonoa Phantasy Reverie Series (2022)                                  PS5     2022-11-18
+853    Knockout City                                                          PS5     2021-11-02
+854    LEGO 2K Drive                                                          PS5     2023-12-05
+855    Like a Dragon 7 (Yakuza 7)                                             PS5     2021-06-09
+856    Like a Dragon: Ishin                                                   PS5     2023-09-07
+857    Like a Dragon Gaiden: The Man Who Erased His Name                      PS5     2023-12-25
+858    Lost Judgment: Ultimate Edition                                        PS5     2023-12-02
+859    Maneater                                                               PS5     2021-05-27
+860    Maquette                                                               PS5     2021-06-04
+861    Marvel`s Spider-Man: Miles Morales                                     PS5     2022-11-18
+862    Marvel`s Spider-Man 2: Digital Deluxe Edition                          PS5     2023-10-20
+863    Meet Your Maker                                                        PS5     2023-04-04
+864    Metro Exodus                                                           PS5     2021-07-28
+865    Music Racer: Ultimate                                                  PS5     2023-09-07
+866    NBA 2K23                                                               PS5     2023-06-06
+867    New Tales from the Borderlands                                         PS5     2023-05-12
+868    Nickelodeon All Stars Brawl                                            PS5     2022-06-08
+869    Nioh 2                                                                 PS5     2022-11-02
+870    No Man`s Sky                                                           PS5     2021-06-02
+871    Nour: Play with your Food                                              PS5     2023-09-12
+872    Oddworld: Soulstorm (2021)                                             PS5     2021-04-06
+873    OlliOlli World                                                         PS5     2022-12-28
+874    One Escape                                                             PS5     2021-05-19
+875    Overcooked: All You Can Eat Edition                                    PS5     2022-11-04
+876    Ovivo                                                                  PS5     2021-06-04
+877    Planet Coaster                                                         PS5     2022-02-01
+878    Postal 4: No Regerts                                                   PS5     2023-03-29
+879    Potion Permit                                                          PS5     2022-12-26
+880    PowerWash Simulator                                                    PS5     2023-12-05
+881    Ratchet & Clank: Rift Apart                                            PS5     2021-12-25
+882    Resident Evil 2 (2019)                                                 PS5     2022-09-27
+883    Resident Evil 3 (2020)                                                 PS5     2022-09-27
+884    Resident Evil 4 (2023)                                                 PS5     2023-09-26
+885    Resident Evil VII: Biohazard                                           PS5     2022-09-27
+886    Resident Evil Village                                                  PS5     2021-10-20
+887    Returnal                                                               PS5     2022-11-18
+888    Rogue Company                                                          PS5     2021-05-19
+889    Rustler                                                                PS5     2022-05-27
+890    Sable                                                                  PS5     2023-12-05
+891    Sackboy: A Big Adventure                                               PS5     2022-11-18
+892    Saints Row The Third: Remastered                                       PS5     2021-07-06
+893    Saints Row (2022)                                                      PS5     2023-09-05
+894    Shantae and The Pirate`s Curse                                         PS5     2022-10-30
+895    Shing!                                                                 PS5     2021-07-21
+896    Sir Lovelot                                                            PS5     2021-06-04
+897    Sonic Origins                                                          PS5     2022-09-13
+898    Spacebase Startopia                                                    PS5     2021-07-21
+899    Spirit of the North: Enhanced Edition                                  PS5     2021-05-27
+900    Star Wars Jedi: Fallen Order                                           PS5     2022-02-02
+901    Stray                                                                  PS5     2022-11-24
+902    Subnautica                                                             PS5     2021-05-18
+903    Subnautica: Below Zero                                                 PS5     2021-09-30
+904    Sumatra: Fate of Yandi                                                 PS5     2021-05-19
+905    Tails of Iron                                                          PS5     2023-04-04
+906    Tchia                                                                  PS5     2023-06-03
+907    Terminator: Resistance Enhanced                                        PS5     2021-09-16
+908    The Callisto Protocol                                                  PS5     2023-10-03
+909    The Darkside Detective                                                 PS5     2021-07-21
+910    The Darkside Detective: A Fumble in the Dark                           PS5     2022-10-20
+911    The Pedestrian                                                         PS5     2021-06-02
+912    The Persistence                                                        PS5     2022-01-29
+913    The Sinking City                                                       PS5     2021-07-21
+914    The Stanley Parable: Ultra Deluxe                                      PS5     2022-08-03
+915    The Witcher 3: Wild Hunt                                               PS5     2022-12-14
+916    Tiny Tina`s Wonderlands: Chaotic Great Edition                         PS5     2023-02-03
+917    TOEM                                                                   PS5     2022-09-07
+918    Tony Hawk`s Pro Skater 1 + 2 (2021)                                    PS5     2021-05-18
+919    Trek to Yomi                                                           PS5     2023-06-06
+920    Tunic                                                                  PS5     2023-05-04
+921    Twin Robots: Ultimate Edition                                          PS5     2021-05-19
+922    Two Point Campus                                                       PS5     2023-08-05
+923    Warframe: The New War                                                  PS5     2021-05-18
+924    Watch_Dogs: Legion                                                     PS5     2021-06-02
+925    Wonder Boy: The Dragon`s Trap                                          PS5     2023-09-08
+926    Weird West: Definitive Edition                                         PS5     2023-10-03
+927    Worms Rumble                                                           PS5     2021-05-19
+928    Wreckfest                                                              PS5     2021-05-18
+
+(928 row(s) affected)
+
