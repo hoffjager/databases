@@ -5,14 +5,14 @@ I plan to create the databases with T-SQL and MongoDB, using data I gathered and
 I have set up local databases in Microsoft Visual Studio, then allocated the data into various tables in T-SQL & MongoDB, planning on setting up the databases
 for remote access soon.    
 
-# 1: PURCHASE DATES, SPENDING & SAVINGS:    
-*	How much did all of the video games cost since starting my collection back in 2009?  
-*	How many video games were purchased in a selected year/month/date?  
-*   How many video games were purchased via gift cards and the PlayStation Plus subscription service?  
+# 1: PURCHASE DATES, SPENDING & SAVINGS  
 
-GAMES PURCHASED IN YEARS 2009 TO 2023:  
-* From dates_years.rpt (on 29th Dec 2023):  
-* From finances_dates_YEAR.csv (on 29th Dec 2023):  
+*	How much did all of the video games cost since starting my collection back in 2009?    
+
+YEARS 2009 TO 2023  
+
+    * From dates_years.rpt (on 31st Dec 2023) &  
+    * From finances_dates_YEAR.csv (on 31st Dec 2023):  
 	* YEAR: GAMES PURCHASED, FULL PRICE, SALE PRICE, SAVINGS  
 	* 2009: 2, €14.50, €14.50, €0.00  
 	* 2010: 16, €145.42, €140.43, €4.99  
@@ -31,10 +31,13 @@ GAMES PURCHASED IN YEARS 2009 TO 2023:
 	* 2023: 80, €2,756.21, €376.69, €2,379.52  
 	* Total: 928, €22,155.33, €10,077.51, €12,077.82  
 
-GAMES PURCHASED IN MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023:  
-	* From dates_months.rpt (on 29th Dec 2023):
-	* From finances_dates_MONTH.csv (on 29th Dec 2023):
-	* MONTH: GAMES PURCHASED, FULL PRICE, SALE PRICE, SAVINGS
+*	How many video games were purchased in a selected year/month/date?  
+
+MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023  
+
+	* From dates_months.rpt (on 31st Dec 2023) &  
+	* From finances_dates_MONTH.csv (on 31st Dec 2023):  
+	* MONTH: GAMES PURCHASED, FULL PRICE, SALE PRICE, SAVINGS  
 	* January: 85, €1,944.28, €877.26, €1,067.02  
 	* February: 63, €1,352.93, €532.79, €820.14  
 	* March: 66, €1,422.27, €530.23, €892.04  
@@ -49,42 +52,50 @@ GAMES PURCHASED IN MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023:
 	* December: 87, €3,278.72, €1,642.34, €1,636.38  
 	* Total: 928, €22,155.33, €10,077.51, €12,077.82  
 
-GIFTS & PLAYSTATION PLUS SUBSCRIPTION SERVICE:  
-    * From finances_dates_holidays.rpt (on 30th Dec 2023): TBC  
-	* From finances_dates_holidays.csv (on 30th Dec 2023): TBC 	
-    * From finances_savings_gifts_subs.rpt (on 30th Dec 2023):  
-	* 154 video games in my collection were purchased either via birthday or Christmas gifts, as well as via PlayStation Plus.  
-	* The total full price of all 154 video games came to €4,648.17, with equal savings.
-	* Data for holidays in Sep & Dec TBC  
+*   How many video games were purchased via gift cards and the PlayStation Plus subscription service?  
+
+GIFTS & PLAYSTATION PLUS SUBSCRIPTION SERVICE  
+  
+    * From finances_savings_gifts_subs.rpt (on 31st Dec 2023):  
+	  * 154 video games were purchased either via birthday or Christmas gifts, as well as via PlayStation Plus.  
+	  * The total full price came to €4,648.17, with equal savings.  
+	  * These savings account for approximately one third of the total savings.  
+	* From finances_dates_holidays.rpt (on 31st Dec 2023):  
+	  * Data for holidays in Sep & Dec TBC   
   
 FURTHER DATA ANALYSIS TBC:  
-	* GAMES PURCHASED IN MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023:
-    * Check each month in each year, like results above, ie. Jan 2009, Feb 2009, etc.    
+	* GAMES PURCHASED IN MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023.  
 
-# 2: GAME DEVELOPERS & COUNTRIES:  
+# 2: COUNTRIES & DEVELOPERS:  
 *	How many distinct game developers are in the collection, and who is my favourite?  
-	* 508 distinct game developers have contributed to my video game collection of 928 games.  
-	* 
+	 * 508 distinct game developers, from 47 distinct countries, have contributed to my video game collection of 928 games.  
 
-*	Which developer & country have contributed the largest amount of video games in the collection?  
-*	What are the Top 10 countries worldwide for developing video games?  
-	* 47 distinct countries have contributed to my video game collection:  
+*	Which countries & developer have contributed the largest amount of video games in the collection?  
+     * TBC - Count the sum of games per country & per developer.  
 
 FURTHER DATA ANALYSIS TBC:  
-    * Count sum of games per country & per developer.  
-	* How many games were developed by AAA, SME, Indie developers?  
+  *  How many games were developed by AAA, SME or Indie developers?  
+
+     * TBC - Research developers and their available resources.  
 
 # 3: VALUE FOR MONEY  
 * Implement hours played per game, compare to the sale price per game.  
 
+     * TBC - Hours Table to join Finances Table.  
+
 # 4: TROPHIES  
 * Implement trophy collection from 2009 to 2023.  
 
+     * TBC - Trophies Table to track Platinum, Gold, Silver & Bronze trophies earned from 2009 to 2023.  
+	 * TBC - Data to be moved from Google Sheets, and updated monthly from 2024.  
+
 # 5: ANNUAL GAME LOG & BACKLOG  
-* Construct and organise a gaming log, to include:  
-* Games played per year, from 2009 to 2023 and onwards.  
-* Games that have not been played previously, and waiting to be started, along with tracking all games.  
-* The gaming log can be used to replace my Google Sheets model, making regular use of the UPDATE queries.  
+* Construct and organise a gaming log.  
+
+     * TBC - Gamelog Table to track the following:  
+       * TBC - Games played per year, from 2009 to 2023 and onwards.  
+       * TBC - Games that have not been played previously, and waiting to be started, along with tracking all games.  
+       * TBC - The gaming log can be used to replace my Google Sheets model, making regular use of the UPDATE queries.  
 
 Credit to PSNProfiles, an independent group who compile the gaming play history & progress of PlayStation gamers.  
 Upon signing up for free, I contributed a one-off lifetime payment to PSNProfiles to show my gratitude, and to unlock the Premium features of their
