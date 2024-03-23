@@ -1,6 +1,24 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
--- PURCHASE_DATE FROM 23rd November 2009 to 25th December 2023
 
+-- PURCHASE_DATE FROM 11th March 2024 to PRESENT
+INSERT INTO Dates VALUES
+('Goat Simulator 3','PS5','2024-03-11');
+
+-- PURCHASE_DATE FROM 5th March 2024
+INSERT INTO Dates VALUES
+('F1 23','PS5','2024-03-05'),
+('Sifu','PS5','2024-03-05');
+
+-- PURCHASE_DATE FROM 13th January 2024 to 15th February 2024
+INSERT INTO Dates VALUES
+('Nobody Saves The World','PS5','2024-01-13'),
+('Like a Dragon: Infinite Wealth (Yakuza 8)','PS5','2024-01-26'),
+('Rollerdrome','PS5','2024-02-06'),
+('Steelrising','PS5','2024-02-06'),
+('SpongeBob SquarePants: The Cosmic Shake','PS5','2024-02-09'),
+('Robocop: Rogue City','PS5','2024-02-15');
+
+-- PURCHASE_DATE FROM 23rd November 2009 to 25th December 2023
 INSERT INTO Dates VALUES
 ('A Bugs Life','PS1','2017-05-22'),
 ('Beyblade: Let It Rip!','PS1','2020-02-21'),

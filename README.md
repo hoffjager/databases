@@ -1,19 +1,24 @@
 # gamescollection
 
 I decided to create this repository to display my relational database consisting of my PlayStation & Nintendo video game collections.  
-I plan to create the databases with T-SQL and MongoDB, using data I gathered and compiled from Google Sheets.  
-I have set up local databases in Microsoft Visual Studio, then allocated the data into various tables in T-SQL & MongoDB, planning on setting up the databases
-for remote access soon.    
+I have earned the Higher Diploma in Data Analytics from ATU Galway, along with the IT Specialist Certificate in Databases from Pearson Vue.  
+I thought about my video game collections as a perfect example of implementing my learnings from the course.  
+Aspects such as data analysis and compilation can be carried out, in order to discover insights such as pricing & games purchased per year.  
+I plan to create both databases with Transact-SQL and MongoDB, using all data that I have gathered and compiled from Google Sheets.  
+I have set up local databases in Microsoft SQL Server 2014, and I am planning on setting up the databases for remote access soon.  
 
-# 1: PURCHASE DATES, SPENDING & SAVINGS  
+# 1: Purchase Dates, Spending & Savings  
 
-*	How much did all of the video games cost since starting my collection back in 2009?    
+*	How much have all video games cost since starting my collection back in 2009?  
 
-YEARS 2009 TO 2023  
+2024  
+The RPT & CSV files will be created later in 2024 when more data is compiled:  
+* Year: Games Purchased, Full Price, Sale Price, Savings  
+	* 2024: 6, €284.94, €85.21, €199.73  
 
-    * From dates_years.rpt (on 31st Dec 2023) &  
-    * From finances_dates_YEAR.csv (on 31st Dec 2023):  
-	* YEAR: GAMES PURCHASED, FULL PRICE, SALE PRICE, SAVINGS  
+2009 - 2023  
+The RPT & CSV files were created on 31st December 2023:  
+	* Year: Games Purchased, Full Price, Sale Price, Savings  
 	* 2009: 2, €14.50, €14.50, €0.00  
 	* 2010: 16, €145.42, €140.43, €4.99  
 	* 2011: 13, €123.36, €91.89, €31.47  
@@ -33,11 +38,9 @@ YEARS 2009 TO 2023
 
 *	How many video games were purchased in a selected year/month/date?  
 
-MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023  
-
-	* From dates_months.rpt (on 31st Dec 2023) &  
-	* From finances_dates_MONTH.csv (on 31st Dec 2023):  
-	* MONTH: GAMES PURCHASED, FULL PRICE, SALE PRICE, SAVINGS  
+Months (January to December) throughout 2009 - 2023  
+Report & CSV files created on 31st December 2023  
+	* Month: Games Purchased, Full Price, Sale Price, Savings  
 	* January: 85, €1,944.28, €877.26, €1,067.02  
 	* February: 63, €1,352.93, €532.79, €820.14  
 	* March: 66, €1,422.27, €530.23, €892.04  
@@ -52,15 +55,21 @@ MONTHS (JAN TO DEC) THROUGHOUT 2009 TO 2023
 	* December: 87, €3,278.72, €1,642.34, €1,636.38  
 	* Total: 928, €22,155.33, €10,077.51, €12,077.82  
 
-*   How many video games were purchased via gift cards and the PlayStation Plus subscription service?  
+The years 2017, 2019, 2021 & 2022 each saw purchases of at least 100 games.  
 
-GIFTS & PLAYSTATION PLUS SUBSCRIPTION SERVICE  
-  
-    * From finances_savings_gifts_subs.rpt (on 31st Dec 2023):  
-	  * 154 video games were purchased either via birthday or Christmas gifts, as well as via PlayStation Plus.  
-	  * The total full price came to €4,648.17, with equal savings.  
+From each month from each year combined, it appears that September saw the most game purchases, coincidentally that being my birthday month.  
+August was also a busy month, I imagine I would have availed of pre-orders prior to my birthday.  
+June & July were quiet in comparison, where combined purchases were less than September alone.  
+
+*   How many video games were purchased via gift cards & the PlayStation Plus subscription service?  
+
+Gifts & PlayStation Plus Subscription Service  
+Report file created on 31st December 2023  
+	  * 154 video games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
+	  * The total savings compared to the full price came to €4,648.17.  
 	  * These savings account for approximately one third of the total savings.  
-	* From finances_dates_holidays.rpt (on 31st Dec 2023):  
+	  
+	  * From finances_dates_holidays.rpt (on 31st Dec 2023):  
 	  * Data for holidays in Sep & Dec TBC   
   
 FURTHER DATA ANALYSIS TBC:  

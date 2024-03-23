@@ -1,6 +1,24 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
--- SAVINGS FROM 23rd November 2009 to 25th December 2023
 
+-- SAVINGS FROM 11th March 2024 to PRESENT
+INSERT INTO Finances VALUES
+('Goat Simulator 3','PS5',29.99,14.99,15.00);
+
+-- SAVINGS FROM 5th March 2024
+INSERT INTO Finances VALUES
+('F1 23','PS5',79.99,0.00,79.99),
+('Sifu','PS5',39.99,0.00,39.99);
+
+-- SAVINGS FROM 13th January 2024 to 15th February 2024
+INSERT INTO Finances VALUES
+('Nobody Saves The World','PS5',24.99,0.00,24.99),
+('Like a Dragon: Infinite Wealth (Yakuza 8)','PS5',69.99,46.23,23.76),
+('Rollerdrome','PS5',29.99,0.00,29.99),
+('Steelrising','PS5',59.99,0.00,59.99),
+('SpongeBob SquarePants: The Cosmic Shake','PS5',39.99,22.99,17.00),
+('Robocop: Rogue City','PS5',59.99,15.99,44.00);
+
+-- SAVINGS FROM 23rd November 2009 to 25th December 2023
 INSERT INTO Finances VALUES
 ('A Bugs Life','PS1',1.49,1.49,0.00),
 ('Beyblade: Let It Rip!','PS1',4.99,0.00,4.99),

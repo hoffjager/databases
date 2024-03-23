@@ -5,12 +5,9 @@
     "\\games_collections\\playstation",
     "\\games_collections\\playstation\\output",
     "\\games_collections\\playstation\\output\\All Combined",
-    "\\games_collections\\playstation\\output\\Finances",
-    "\\games_collections\\playstation\\output\\Origins",
     "\\games_collections\\playstation\\output\\Origins\\All Combined",
-    "\\games_collections\\playstation\\output\\Origins\\Distinct Countries & Developers",
-    "\\games_collections\\playstation\\statements"
+    "\\games_collections\\playstation\\output\\Origins\\Distinct Countries & Developers"
   ],
-  "SelectedNode": "\\games_collections\\playstation\\output\\Origins\\Distinct Countries & Developers\\origins_distinct_developers.rpt",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

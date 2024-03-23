@@ -1,6 +1,24 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
--- DEVELOPERS AND COUNTRIES FROM 23rd November 2009 to 25th December 2023
 
+-- DEVELOPERS AND COUNTRIES FROM 11th March 2024 to PRESENT
+INSERT INTO Origins VALUES
+('Goat Simulator 3','PS5','Coffee Stain Studios','Sweden');
+
+-- DEVELOPERS AND COUNTRIES FROM March 2024
+INSERT INTO Origins VALUES
+('F1 23','PS5','Codemasters','England'),
+('Sifu','PS5','Sloclap','France');
+
+-- DEVELOPERS AND COUNTRIES FROM 13th January 2024 to 15th February 2024
+INSERT INTO Origins VALUES
+('Nobody Saves The World','PS5','Drinkbox Studios','Canada'),
+('Like a Dragon: Infinite Wealth (Yakuza 8)','PS5','Ryu Ga Gotoku','Japan'),
+('Rollerdrome','PS5','Roll7','England'),
+('Steelrising','PS5','Spiders','France'),
+('SpongeBob SquarePants: The Cosmic Shake','PS5','Purple Lamp Studios','Austria'),
+('Robocop: Rogue City','PS5','Teyon','Poland');
+
+-- DEVELOPERS AND COUNTRIES FROM 23rd November 2009 to 25th December 2023
 INSERT INTO Origins VALUES
 ('A Bugs Life','PS1','TT Games','England'),
 ('Beyblade: Let It Rip!','PS1','Crave','Japan'),
