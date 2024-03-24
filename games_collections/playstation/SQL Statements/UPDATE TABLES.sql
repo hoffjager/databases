@@ -5,7 +5,7 @@ UPDATE Dates SET Console = REPLACE(Console,'PS4','PS5') WHERE ID = 429
 
 -- Finances
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
-UPDATE Finances SET Savings = REPLACE(Savings, 69.99, 0.00) WHERE ID = 832
+UPDATE Finances SET Savings = REPLACE(Savings, 7.20, 35.20) WHERE ID = 715
 
 -- Origins
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
