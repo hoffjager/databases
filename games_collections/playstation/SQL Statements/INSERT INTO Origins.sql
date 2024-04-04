@@ -1,6 +1,13 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
 
--- DEVELOPERS AND COUNTRIES FROM 11th March 2024 to PRESENT
+-- DEVELOPERS AND COUNTRIES FROM 26th March 2024 to 3rd April 2024
+INSERT INTO Origins VALUES
+('EA Sports FC 24','PS5','EA Vancouver','Canada'),
+('The Survivalists: Deluxe Edition','PS4','Mouldy Toof Studios','England'),
+('Minecraft Legends','PS5','Mojang Studios','Sweden'),
+('Skul: The Hero Slayer','PS4','SouthPAW Games','Korea Republic');
+
+-- DEVELOPERS AND COUNTRIES FROM 11th March 2024
 INSERT INTO Origins VALUES
 ('Goat Simulator 3','PS5','Coffee Stain Studios','Sweden');
 

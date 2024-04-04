@@ -1,6 +1,13 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
 
--- PURCHASE_DATE FROM 11th March 2024 to PRESENT
+-- PURCHASE_DATE FROM 26th March 2024 to 3rd April 2024
+INSERT INTO Dates VALUES
+('EA Sports FC 24','PS5','2024-03-26'),
+('The Survivalists: Deluxe Edition','PS4','2024-03-31'),
+('Minecraft Legends','PS5','2024-04-03'),
+('Skul: The Hero Slayer','PS4','2024-04-03');
+
+-- PURCHASE_DATE FROM 11th March 2024
 INSERT INTO Dates VALUES
 ('Goat Simulator 3','PS5','2024-03-11');
 

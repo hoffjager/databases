@@ -3,13 +3,11 @@
     "",
     "\\games_collections",
     "\\games_collections\\playstation",
-    "\\games_collections\\playstation\\output",
-    "\\games_collections\\playstation\\output\\All Combined",
-    "\\games_collections\\playstation\\output\\Dates and Finances",
-    "\\games_collections\\playstation\\output\\Origins",
-    "\\games_collections\\playstation\\output\\Origins\\All Combined",
-    "\\games_collections\\playstation\\output\\Origins\\Distinct Countries & Developers"
+    "\\games_collections\\playstation\\SQL Output",
+    "\\games_collections\\playstation\\SQL Output\\Complete Database",
+    "\\games_collections\\playstation\\SQL Output\\Dates and Finances",
+    "\\games_collections\\playstation\\SQL Output\\Misc"
   ],
-  "SelectedNode": "\\games_collections\\playstation\\output\\Dates and Finances",
+  "SelectedNode": "\\games_collections\\playstation\\SQL Output\\Complete Database",
   "PreviewInSolutionExplorer": false
 }

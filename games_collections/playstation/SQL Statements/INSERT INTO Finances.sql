@@ -1,6 +1,13 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
 
--- SAVINGS FROM 11th March 2024 to PRESENT
+-- SAVINGS FROM 26th March 2024 to 3rd April 2024
+INSERT INTO Finances VALUES
+('EA Sports FC 24','PS5',79.99,15.99,64.00),
+('The Survivalists: Deluxe Edition','PS4',26.48,0.00,26.48),
+('Minecraft Legends','PS5',39.99,0.00,39.99),
+('Skul: The Hero Slayer','PS4',16.99,0.00,16.99);
+
+-- SAVINGS FROM 11th March 2024
 INSERT INTO Finances VALUES
 ('Goat Simulator 3','PS5',29.99,14.99,15.00);
 
