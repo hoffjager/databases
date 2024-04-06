@@ -3,11 +3,8 @@
     "",
     "\\games_collections",
     "\\games_collections\\playstation",
-    "\\games_collections\\playstation\\SQL Output",
-    "\\games_collections\\playstation\\SQL Output\\Complete Database",
-    "\\games_collections\\playstation\\SQL Output\\Dates and Finances",
-    "\\games_collections\\playstation\\SQL Output\\Misc"
+    "\\games_collections\\playstation\\SQL Output"
   ],
-  "SelectedNode": "\\games_collections\\playstation\\SQL Output\\Complete Database",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

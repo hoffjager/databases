@@ -28,7 +28,7 @@ JOIN Dates d ON d.ID = f.ID
 WHERE MONTH(d.Purchase_Date) = '09' 
 ORDER BY d.Purchase_Date ASC
 
--- 4. SELECT * FROM Dates and Finances WHERE Sale_Price = 0 (showing Presents and Subscriptions)
+-- 4. SELECT * FROM Dates and Finances WHERE Sale_Price = 0 (showing Gifts and Subscriptions)
 SELECT d.ID, d.Game, d.Console, d.Purchase_Date,
 f.Full_Price, f.Sale_Price, f.Savings
 FROM Finances f 
@@ -44,14 +44,7 @@ SELECT * FROM Origins ORDER BY Developer
 SELECT DISTINCT Country FROM Origins ORDER BY Country
 SELECT DISTINCT Developer FROM Origins ORDER BY Developer
 
--- 3. SELECT Developers & Countries ORDER BY YEAR
-SELECT d.ID, d.Game, d.Purchase_Date,
-o.Developer, o.Country
-FROM Origins o
-JOIN Dates d ON d.ID = o.ID
-WHERE YEAR(d.Purchase_Date) = '2009'
-ORDER BY d.Purchase_Date ASC
-
+-- Complete Database
 -- Combining Dates, Finances and Origins
 SELECT d.ID, d.Game, d.Console, d.Purchase_Date,
 f.Full_Price, f.Sale_Price, f.Savings,

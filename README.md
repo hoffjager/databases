@@ -1,23 +1,52 @@
 # gamescollection
 
-I decided to create this repository to display my relational database consisting of my PlayStation & Nintendo video game collections.  
+I decided to create this repository to display my relational databases, consisting of my PlayStation & Nintendo video game collections.  
 I have earned the Higher Diploma in Data Analytics from ATU Galway, along with the IT Specialist Certificate in Databases from Pearson Vue.  
-I thought about my video game collections as a perfect example of implementing my learnings from the course.  
+I thought about my video game collections as a perfect example of implementing my learnings from these courses.  
 Aspects such as data analysis and compilation can be carried out, in order to discover insights such as pricing & games purchased per year.  
-I plan to create both databases with Transact-SQL and MongoDB, using all data that I have gathered and compiled from Google Sheets.  
-I have set up local databases in Microsoft SQL Server 2014, and I am planning on setting up the databases for remote access soon.  
+I plan to create both databases with Transact-SQL and MongoDB, using all data that I have gathered and compiled from various sources, such as game receipts delivered to my Gmail account and Google Sheets.  
+I have set up local databases via Microsoft SQL Server 2014, and I am planning on implementing the databases on a website for remote access soon.    
+
+The following repository:  
+playstation/statements,  
+contains the following SQL files with various queries on database management (updated on 6th April 2024):  
+    * CREATE DATABASE & TABLES.sql  
+	* INSERT INTO Dates.sql  
+	* INSERT INTO Finances.sql  
+	* INSERT INTO Origins.sql  
+	* SELECT FROM.sql  
+	* UPDATE TABLES.sql  
+The CREATE DATABASE and TABLES file contains queries in order to set up individual tables named Dates, Finances and Origins.  
+The INSERT INTO files contain all information for data entry into each table, updated regularly as games are added.  
+The SELECT FROM file contains queries in order to select specific data from each table, the results are then saved as CSV and converted to XLSX.  
+The UPDATE TABLES file contains queries in order to update any fields within the tables, such as correcting any typo & math errors during analysis, such as spelling of developers or prices.  
+
+The following repository:  
+playstation/output,  
+contains the following XLSX & CSV files that house various output from the SQL files above (updated on 6th April 2024):  
+	* dates_&_finances_2009_to_2024.xlsx  
+	* dates_&_finances_january_to_december.xlsx  
+	* dates_&_finances_gifts_&_subscriptions.xlsx  
+	* origins_2009_to_2024.xlsx  
+	* origins_distinct_countries.xlsx  
+	* origins_distinct_developers.xlsx  
+    * complete_database.xlsx  
+	* analytics.xlsx  
+The Dates & Finances files contain the results from the SQL queries within SELECT FROM.sql, outlining:  
+    * Video games purchased per year and per month, updated regularly as games are added, and,  
+	* Total savings from video games redeemed as gifts and via the PlayStation Plus subscription service, updated regularly as games are added.  
+The Origins files contain the results outlining:  
+    * Distinct countries and developers of all video games in the Playstation collection.  
+The Complete Database file contains the results, containing a combination of all fields from all tables.  
+The Analytics file displays charts constructed with data sources from XLSX files above (other miscellaneous sheets within are for future integration into the database).  
+
+Regarding the PlayStation database, the following questions were noted in order to gain further insight into the data:  
 
 # 1: Purchase Dates, Spending & Savings  
 
 *	How much have all video games cost since starting my collection back in 2009?  
-
-2024  
-The RPT & CSV files will be created later in 2024 when more data is compiled:  
-* Year: Games Purchased, Full Price, Sale Price, Savings  
-	* 2024: 6, €284.94, €85.21, €199.73  
-
-2009 - 2023  
-The RPT & CSV files were created on 31st December 2023:  
+From   
+2009 - 2024  
 	* Year: Games Purchased, Full Price, Sale Price, Savings  
 	* 2009: 2, €14.50, €14.50, €0.00  
 	* 2010: 16, €145.42, €140.43, €4.99  
