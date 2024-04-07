@@ -39,6 +39,7 @@ ORDER BY d.Purchase_Date ASC
 -- Origins
 -- 1. SELECT *
 SELECT * FROM Origins ORDER BY Developer
+SELECT * FROM Origins WHERE ID = 542
 
 -- 2. SELECT DISTINCT Country and Developer ORDER BY Country and Developer
 SELECT DISTINCT Country FROM Origins ORDER BY Country

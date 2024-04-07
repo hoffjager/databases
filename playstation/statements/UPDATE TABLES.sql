@@ -9,4 +9,4 @@ UPDATE Finances SET Savings = REPLACE(Savings, 7.20, 35.20) WHERE ID = 715
 
 -- Origins
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
-UPDATE Origins SET Developer = REPLACE(Developer,'Volition','Deep Silver Volition') WHERE ID = 195
+UPDATE Origins SET Developer = REPLACE(Developer,'Yeah, Us!','Yeah Us!') WHERE ID = 542

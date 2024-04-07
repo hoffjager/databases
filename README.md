@@ -1,15 +1,20 @@
 # gamescollection
 
-I decided to create this repository to display my relational databases, consisting of my PlayStation & Nintendo video game collections.  
-I have earned the Higher Diploma in Data Analytics from ATU Galway, along with the IT Specialist Certificate in Databases from Pearson Vue.  
-I thought about my video game collections as a perfect example of implementing my learnings from these courses.  
-Aspects such as data analysis and compilation can be carried out, in order to discover insights such as pricing & games purchased per year.  
-I plan to create both databases with Transact-SQL and MongoDB, using all data that I have gathered and compiled from various sources, such as game receipts delivered to my Gmail account and Google Sheets.  
+I decided to create this repository to display my relational databases, consisting of both my PlayStation & Nintendo video game collections.  
+I have earned a Higher Diploma in Data Analytics from ATU Galway, along with the IT Specialist Certificate in Databases from Pearson Vue.  
+I thought of my video game collections as the perfect example of implementing my learnings from the above courses.  
+
+Data compilation and further analyses were carried out in order to discover insights in relation to matters such as various pricing & purchases per year & per month.  
+Both databases will each be constructed via Transact-SQL (T-SQL) and MongoDB, using all data gathered and compiled from various sources, such as:  
+* Game receipts issued to my Gmail account  
+* Raw data compiled temporarily in Google Sheets files, to be added to the database via Microsoft SQL Server 2014  
+* PSPrices, a game deals tracker which display prices of games as they fluctuate over the years, whether games go on sale or the value of games depreciate over time.  
+
 I have set up local databases via Microsoft SQL Server 2014, and I am planning on implementing the databases on a website for remote access soon.    
 
 The following repository:  
 playstation/statements,  
-contains the following SQL files with various queries on database management (updated on 6th April 2024):  
+contains the following SQL files with various queries on database management (updated on 7th April 2024):  
     * CREATE DATABASE & TABLES.sql  
 	* INSERT INTO Dates.sql  
 	* INSERT INTO Finances.sql  
@@ -23,7 +28,8 @@ The UPDATE TABLES file contains queries in order to update any fields within the
 
 The following repository:  
 playstation/output,  
-contains the following XLSX & CSV files that house various output from the SQL files above (updated on 6th April 2024):  
+contains the following XLSX files that house various output from the SQL files above.  
+SQL queries made in Microsoft SQL Server 2014 are saved in CSV format, reviewed via Google Sheets, and then downloaded in XLSX format (updated on 7th April 2024):  
 	* dates_&_finances_2009_to_2024.xlsx  
 	* dates_&_finances_january_to_december.xlsx  
 	* dates_&_finances_gifts_&_subscriptions.xlsx  
@@ -41,6 +47,11 @@ The Complete Database file contains the results, containing a combination of all
 The Analytics file displays charts constructed with data sources from XLSX files above (other miscellaneous sheets within are for future integration into the database).  
 
 Regarding the PlayStation database, the following questions were noted in order to gain further insight into the data:  
+    * Purchase Dates, Spending & Savings  
+	* Countries & Developers  
+	* Value for Money  
+	* Trophies  
+	* Annual Game Log & Backlog  
 
 # 1: Purchase Dates, Spending & Savings  
 
@@ -128,21 +139,18 @@ FURTHER DATA ANALYSIS TBC:
 	 * TBC - Data to be moved from Google Sheets, and updated monthly from 2024.  
 
 # 5: ANNUAL GAME LOG & BACKLOG  
-* Construct and organise a gaming log.  
+* Construct and organise a gaming log & backlog.  
 
      * TBC - Gamelog Table to track the following:  
        * TBC - Games played per year, from 2009 to 2023 and onwards.  
        * TBC - Games that have not been played previously, and waiting to be started, along with tracking all games.  
        * TBC - The gaming log can be used to replace my Google Sheets model, making regular use of the UPDATE queries.  
 
-Credit to PSNProfiles, an independent group who compile the gaming play history & progress of PlayStation gamers.  
-Upon signing up for free, I contributed a one-off lifetime payment to PSNProfiles to show my gratitude, and to unlock the Premium features of their
-website, including:  
-* Frequent trophy server synchronization.  
-* Digital trophy cabinet displaying my Top 10 rare trophies achieved.  
+I want to give credit to PSNProfiles, an independent group who compile the play history & progress of PlayStation gamers.  
+Upon signing up for free, I decided to contribute a one-off lifetime payment to the developers of PSNProfiles, in order to show my gratitude as well as unlocking the Premium features of their website, including:  
+    * Frequent trophy server synchronization.  
+    * Digital trophy cabinet displaying my Top 10 rare trophies achieved.  
 
 # References:  
-* Game Collection, Google Sheets -  
-https://docs.google.com/spreadsheets/d/1QCX_JSgj70aab4JJAV64fYTdN9jnGrv5KcsVLvfoVq4/edit#gid=0  
 * PSNProfiles, hoff_jager PSN Gamer Profile -  
 https://psnprofiles.com/hoff_jager  

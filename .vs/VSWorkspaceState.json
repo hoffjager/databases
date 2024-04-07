@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\games_collections",
-    "\\games_collections\\playstation",
-    "\\games_collections\\playstation\\SQL Output"
+    "\\playstation",
+    "\\playstation\\output",
+    "\\playstation\\statements"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\playstation\\output\\complete_database.xlsx",
   "PreviewInSolutionExplorer": false
 }
