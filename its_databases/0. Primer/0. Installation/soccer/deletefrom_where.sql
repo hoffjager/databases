@@ -1,1 +1,0 @@
-delete from dates where Game = 'Booty Bong 2: Electric Boogaloo';

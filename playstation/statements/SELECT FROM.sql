@@ -45,6 +45,18 @@ SELECT * FROM Origins WHERE ID = 542
 SELECT DISTINCT Country FROM Origins ORDER BY Country
 SELECT DISTINCT Developer FROM Origins ORDER BY Developer
 
+-- 3. SELECT Country, COUNT(*) GROUP BY Country ORDER BY Highest Count descending
+SELECT Country, COUNT(*) AS 'Games per Country'
+FROM Origins
+GROUP BY Country
+ORDER BY COUNT(*) DESC
+
+-- 4. SELECT Developer, COUNT(*) GROUP BY Developer ORDER BY Highest Count descending
+SELECT Developer, COUNT(*) AS 'Games per Developer'
+FROM Origins
+GROUP BY Developer
+ORDER BY COUNT(*) DESC
+
 -- Complete Database
 -- Combining Dates, Finances and Origins
 SELECT d.ID, d.Game, d.Console, d.Purchase_Date,
