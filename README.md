@@ -5,20 +5,21 @@ I decided to create this repository to display my relational databases, consisti
 I have earned a Higher Diploma in Data Analytics from ATU Galway, along with the IT Specialist Certificate in Databases from Pearson Vue.  
 I thought of my video game collections as the perfect example of implementing my learnings from the above courses.  
 I have set up local T-SQL databases via Microsoft SQL Server 2014, and I am planning on implementing the databases on a website for remote access soon.  
-Data compilation and analysis were carried out to discover insights in relation to various matters, such as pricing & purchases per year or month:  
+Data compilation and analysis were carried out to discover insights in relation to various matters, such as pricing & purchases of games per year or per month:  
 * Video game receipts issued to my Gmail account at times of purchase,  
 * Raw data temporarily entered & compiled in Google Sheets files over a number of years, to be added to the database via Microsoft SQL Server 2014,  
 * PSPrices, a video game deals tracker based in London, who gather offers from PlayStation, Xbox and Nintendo, to help gamers find the best video game bargains from anywhere in the world.  
+* PSNProfiles, a video game tracker that logs how recently you have played your video games, along with in-game trophy achievements earned towards video game completion.  
 
 Initial Setup  
 SQL Statements  
-The sub-repository: playstation/statements, contains the following SQL files with queries in relation to database design & management:  
-* CREATE DATABASE & TABLES.sql (creates tables named Dates, Finances & Origins, which all contain various fields/columns of data).  
+The sub-repository: playstation/statements, contains the following SQL files with queries created in relation to database design & management:  
+* CREATE DATABASE & TABLES.sql (creates tables named Dates, Finances & Origins, which all contain various fields/columns of data, more tables TBC).  
 * INSERT INTO Dates.sql  
 * INSERT INTO Finances.sql  
 * INSERT INTO Origins.sql (these SQL files contain all info for data entry into each table).  
-* SELECT FROM.sql (selects specified data from the tables, results are saved as CSV & converted to XLSX).  
-* UPDATE TABLES.sql (update any fields within the tables, such as correcting any typo & math errors during analysis, such as spelling of developers or prices).  
+* SELECT FROM.sql (selects specified data from the tables, results are output and saved in CSV format.  
+* UPDATE TABLES.sql (update any fields within the tables, such as correcting any typos & mathematical errors during analysis, such as spelling of developers or prices).  
 
 SQL Output  
 The sub-repository: playstation/output, contains the following XLSX files that house various output from the SQL files above.  
@@ -26,9 +27,13 @@ The results of SQL queries made in Microsoft SQL Server 2014 are saved in CSV fo
 * dates_&_finances_2009_to_2024.xlsx  
 * dates_&_finances_january_to_december.xlsx  
 * dates_&_finances_gifts_&_subscriptions.xlsx  
+* finances_average_pricing.xlsx  
+* finances_sum_pricing.xlsx  
 * origins_2009_to_2024.xlsx  
 * origins_distinct_countries.xlsx  
 * origins_distinct_developers.xlsx  
+* origins_countries_numberofgames.xlsx  
+* origins_developers_numberofgames.xlsx  
 * complete_database.xlsx  
 * analytics.xlsx  
 
@@ -41,8 +46,10 @@ The Origins files contain the results outlining:
 * The complete set of results ordered by video game developer A-Z  
 * Distinct countries who have developed video games  
 * Distinct video game developers  
+* The number of games developed per distinct country
+* The number of games developed per distinct developer  
 
-The Complete Database file contains a combination of all fields from all tables:  
+The Complete Database file contains a combination of all fields from all tables, as follows:  
 * ID, Game, Console, Purchase_Date, Full_Price, Sale_Price, Savings, Developer, Country  
 
 The Analytics file displays charts constructed with data sources from XLSX files above (other miscellaneous sheets within are for future integration into the database, listed further below in the README).  
@@ -57,7 +64,7 @@ Regarding the PlayStation database, I noted the following topics in order to gai
 
 # 1: Purchase Dates, Spending & Savings  
 *	How much have all video games cost since beginning my collection in 2009?  
-From dates_&_finances_2009_to_2024.xlsx:  
+From data compiled into dates_&_finances_2009_to_2024.xlsx:  
 
 	* Year: Games Purchased, Full Price, Sale Price, Savings  
 	* 2009: 2, €14.50, €14.50, €0.00  
@@ -79,12 +86,16 @@ From dates_&_finances_2009_to_2024.xlsx:
 	* Total: 941, €22,793.67, €10,196.69, €12,596.98  
 
 There are 941 distinct video games across 8 distinct consoles in the PlayStation collection, since beginning 16 years ago with the PS3 & PSVITA.  
+The 8 distinct PlayStation consoles, in order of release, are: PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR, PS5.  
 
-The full prices of all video games on their purchase dates came to a total of €22,793.67.  
+The full prices of all video games on their recorded purchase dates, came to a grand total of €22,793.67.  
+However, the total sale prices (as well as including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service's game redemptions) came to a total of €10,196.69.  
+This resulted in total savings of €12,596.98 (55.26% of the total full price).  
 
-However, the sale prices (as well as including gifts & subscription service redemptions) came to a total of €10,196.69.  
+From the €12,596.98 total savings, the previous 8 years (2017-2024) accounted for €11,988.64 (95%) of the total
+savings, in comparison to the first 8 years (2009-2016) only accounting for €571.35 (5%) of the total savings.  
 
-This resulted in savings of €12,596.98 (55.26% of the total full price).  
+The years 2017, 2019, 2021 & 2022 each saw purchases of at least 100 games, accounting for approximately one half of the entire game collection.  
 
 *	How much have all video games cost on average per year?  
 Derived from dates_&_finances_2009_to_2024.xlsx:  
@@ -127,15 +138,19 @@ From dates_&_finances_january_to_december.xlsx:
 	* October: 99, €2,003.60, €1,028.88, €974.72  
 	* November: 68, €2,014.78, €993.22, €1,021.56  
 	* December: 87, €3,278.72, €1,642.34, €1,636.38  
-	* Total: 941, €22,793.67, €10,196.69, €12,596.98  
+	* Total: 941, €22,793.67, €10,196.69, €12,596.98    
 
-The years 2017, 2019, 2021 & 2022 each saw purchases of at least 100 games.  
+From each month from each year combined, it appears that September saw the most game purchases,
+coincidentally that is my birthday month.  
 
-From each month from each year combined, it appears that September saw the most game purchases, coincidentally that is my birthday month.  
+August was also a busy month, I imagine that I would have availed of pre-orders prior to my birthday.  
 
-August was also a busy month, I imagine I would have availed of pre-orders prior to my birthday.  
+June & July were quiet in comparison, where overall combined purchases were less than September alone.  
 
-June & July were quiet in comparison, where combined purchases were less than September alone.  
+December & January were also busy months, likely as a result of the Christmas season with gifts received, coupled
+with the January sales for the best deals with the gifts.  
+
+In terms of maximum savings, over €1,600 were saved in the months of September & December.  
 
 *   How many video games were purchased via gift cards & the PlayStation Plus subscription service?  
 
@@ -167,7 +182,7 @@ The top 3 developers from the collection are:
 3. Square Enix = 17  
 
 FURTHER DATA ANALYSIS TBC:  
-	* The games each country and developer are responsible for (group by country and developer similar to above)  
+	* Which games each country and developer are responsible for (group by country and developer similar to above, while listing each entry)  
 	* How many games were developed by AAA, SME or Indie developers?  
      * TBC - Research developers and their available resources.  
 
@@ -177,16 +192,16 @@ FURTHER DATA ANALYSIS TBC:
      * TBC - Hours Table to join Finances Table.  
 
 # 4: TROPHIES  
-* Implement trophy collection from 2009 to 2023.  
+* Implement trophy collection from 2009 to 2024.  
 
-     * TBC - Trophies Table to track Platinum, Gold, Silver & Bronze trophies earned from 2009 to 2023.  
+     * TBC - Trophies Table to track Platinum, Gold, Silver & Bronze trophies earned from 2009 to 2024.  
 	 * TBC - Data to be moved from Google Sheets, and updated monthly from 2024.  
 
 # 5: ANNUAL GAME LOG & BACKLOG  
 * Construct and organise a gaming log & backlog.  
 
      * TBC - Gamelog Table to track the following:  
-       * TBC - Games played per year, from 2009 to 2023 and onwards.  
+       * TBC - Games played per year, from 2009 to 2024 and onwards.  
        * TBC - Games that have not been played previously, and waiting to be started, along with tracking all games.  
        * TBC - The gaming log can be used to replace my Google Sheets model, making regular use of the UPDATE queries.  
 
