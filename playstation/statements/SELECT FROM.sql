@@ -2,6 +2,7 @@
 
 -- 1. Selecting all purchase dates, ordered by most recent purchases descending
 SELECT * FROM Dates ORDER BY Purchase_Date DESC
+SELECT * FROM Dates WHERE Game = 'Fallout 4'
 
 -- 2. Selecting games with the highest savings descending
 SELECT * FROM Finances ORDER BY Savings DESC
@@ -46,7 +47,7 @@ FROM Finances
 
 -- Origins
 -- 1. Selecting all games, ordered by developer, or where an ID is specified
-SELECT * FROM Origins ORDER BY Developer
+SELECT * FROM Origins WHERE Developer LIKE '%Bethesda%'
 SELECT * FROM Origins WHERE ID = 542
 
 -- 2. Selecting all distinct countries & developers, ordered A-Z

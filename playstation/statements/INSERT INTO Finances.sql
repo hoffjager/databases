@@ -1,5 +1,10 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
 
+-- SAVINGS FROM 11th May 2024 to 15th May 2024
+INSERT INTO Finances VALUES
+('Fallout Shelter','PS4',6.96,0.00,6.96),
+('Minecraft','PS4',18.99,8.46,10.53);
+
 -- SAVINGS FROM 26th March 2024 to 3rd April 2024
 INSERT INTO Finances VALUES
 ('EA Sports FC 24','PS5',79.99,15.99,64.00),

@@ -1,5 +1,10 @@
 -- PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR and PS5 GAMES
 
+-- PURCHASE_DATE FROM 11th May 2024 to 15th May 2024
+INSERT INTO Dates VALUES
+('Fallout Shelter','PS4','2024-05-11'),
+('Minecraft','PS4','2024-05-15');
+
 -- PURCHASE_DATE FROM 26th March 2024 to 3rd April 2024
 INSERT INTO Dates VALUES
 ('EA Sports FC 24','PS5','2024-03-26'),

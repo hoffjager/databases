@@ -2,6 +2,11 @@
 
 -- DEVELOPERS AND COUNTRIES FROM 26th March 2024 to 3rd April 2024
 INSERT INTO Origins VALUES
+('Fallout Shelter','PS4','Bethesda Game Studios','USA'),
+('Minecraft','PS4','Mojang Studios','Sweden');
+
+-- DEVELOPERS AND COUNTRIES FROM 26th March 2024 to 3rd April 2024
+INSERT INTO Origins VALUES
 ('EA Sports FC 24','PS5','EA Vancouver','Canada'),
 ('The Survivalists: Deluxe Edition','PS4','Mouldy Toof Studios','England'),
 ('Minecraft Legends','PS5','Mojang Studios','Sweden'),
