@@ -5,7 +5,7 @@ SELECT * FROM Dates ORDER BY Purchase_Date DESC
 SELECT * FROM Dates WHERE Game = 'Fallout 4'
 
 -- 2. Selecting games with the highest savings descending
-SELECT * FROM Finances ORDER BY Savings DESC
+SELECT * FROM Finances
 
 -- 3. Selecting data from Dates and Finances tables by year of purchase = 'Value between 2009 and 2024'
 SELECT d.ID, d.Game, d.Console, d.Purchase_Date,
@@ -20,7 +20,7 @@ SELECT d.ID, d.Game, d.Console, d.Purchase_Date,
 f.Full_Price, f.Sale_Price, f.Savings
 FROM Finances f 
 JOIN Dates d ON d.ID = f.ID
-WHERE MONTH(d.Purchase_Date) = '09' 
+WHERE MONTH(d.Purchase_Date) = '01' 
 ORDER BY d.Purchase_Date ASC
 
 -- 5. Selecting data from Dates and Finances tables (showing gifts and subscriptions)
@@ -47,7 +47,7 @@ FROM Finances
 
 -- Origins
 -- 1. Selecting all games, ordered by developer, or where an ID is specified
-SELECT * FROM Origins WHERE Developer LIKE '%Bethesda%'
+SELECT * FROM Origins ORDER BY Developer
 SELECT * FROM Origins WHERE ID = 542
 
 -- 2. Selecting all distinct countries & developers, ordered A-Z

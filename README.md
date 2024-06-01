@@ -77,23 +77,23 @@ From data compiled into dates_&_finances_2009_to_2024.xlsx:
 	* 2016: 37, €526.14, €297.75, €228.39  
 	* 2017: 187, €3,925.90, €2,234.01, €1,691.89  
 	* 2018: 49, €1,260.10, €773.33, €486.77  
-	* 2019: 106, €3,023.26, €1,690.07, €1,333.19  
+	* 2019: 105, €3,003.27, €1,677.08, €1,326.19  
 	* 2020: 86, €1,879.77, €796.13, €1,083.64  
 	* 2021: 154, €3,687.59, €1,448.67, €2,238.92  
 	* 2022: 100, €3,522.96, €1,230.42, €2,292.54  
 	* 2023: 80, €2,756.21, €376.69, €2,379.52  
-	* 2024: 13, €598.36, €116.19, €482.17  
-	* Total: 941, €22,793.67, €10,196.69, €12,596.98  
+	* 2024: 16, €644.30, €137.64, €506.66  
+	* Total: 943, €22,819.62, €10,205.15, €12,614.47  
 
-There are 941 distinct video games across 8 distinct consoles in the PlayStation collection, since beginning 16 years ago with the PS3 & PSVITA.  
+There are 943 distinct video games across 8 distinct consoles in the PlayStation collection, since beginning 16 years ago with the PS3 & PSVITA.  
 The 8 distinct PlayStation consoles, in order of release, are: PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR, PS5.  
 
-The full prices of all video games on their recorded purchase dates, came to a grand total of €22,793.67.  
-However, the total sale prices (as well as including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service's game redemptions) came to a total of €10,196.69.  
-This resulted in total savings of €12,596.98 (55.26% of the total full price).  
+The full prices of all video games on their recorded purchase dates, came to a grand total of €22,819.62.  
+However, the total sale prices (as well as including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service's game redemptions) came to a total of €10,205.15.  
+This resulted in total savings of €12,614.47 (55.3% of the total full price).  
 
-From the €12,596.98 total savings, the previous 8 years (2017-2024) accounted for €11,988.64 (95%) of the total
-savings, in comparison to the first 8 years (2009-2016) only accounting for €571.35 (5%) of the total savings.  
+From the €12,614.47 total savings, the previous 8 years (2017-2024) accounted for €12,006.13 (95%) of the total
+savings.  
 
 The years 2017, 2019, 2021 & 2022 each saw purchases of at least 100 games, accounting for approximately one half of the entire game collection.  
 
@@ -114,13 +114,13 @@ With the number of games purchased per year, we can calculate the average prices
 	* 2016 (37): 1, €14.22, €8.05, €6.17  
 	* 2017 (187): 1, €20.99, €11.95, €9.05  
 	* 2018 (49): 1, €25.72, €15.78, €9.93  
-	* 2019 (106): 1, €28.52, €15.94, €12.58  
+	* 2019 (105): 1, €28.60, €15.97, €12.63  
 	* 2020 (86): 1, €21.86, €9.26, €12.60  
 	* 2021 (154): 1, €23.95, €9.41, €14.54  
-	* 2022 (100): 1, €35.23, €12.30, €22.92  
+	* 2022 (100): 1, €35.23, €12.30, €22.93  
 	* 2023 (80): 1, €34.45, €4.71, €29.74  
-	* 2024 (13): 1, €46.03, €8.94, €37.09  
-	* Total (941): 1, €24.22, €10.84, €13.39  
+	* 2024 (16): 1, €40.27, €8.60, €31.67  
+	* Total (943): 1, €24.20, €10.82, €13.38  
 
 *	How many video games were purchased in selected months?  
 From dates_&_finances_january_to_december.xlsx:  
@@ -130,15 +130,15 @@ From dates_&_finances_january_to_december.xlsx:
 	* February: 67, €1,542.89, €571.77, €971.12  
 	* March: 71, €1,678.71, €561.21, €1,117.50  
 	* April: 59, €1,005.11, €564.87, €440.24  
-	* May: 83, €1,878.68, €561.48, €1,317.20  
+	* May: 83, €1,924.62, €582.93, €1,341.69  
 	* June: 51, €1,347.48, €720.19, €627.29  
-	* July: 56, €1,087.99, €454.32, €633.67  
+	* July: 55, €1,068.00, €441.33, €626.67  
 	* August: 103, €2,030.45, €993.20, €1,037.25  
 	* September: 110, €2,846.02, €1,178.73, €1,667.29  
 	* October: 99, €2,003.60, €1,028.88, €974.72  
 	* November: 68, €2,014.78, €993.22, €1,021.56  
 	* December: 87, €3,278.72, €1,642.34, €1,636.38  
-	* Total: 941, €22,793.67, €10,196.69, €12,596.98    
+	* Total: €22,819.62, €10,205.15, €12,614.47  
 
 From each month from each year combined, it appears that September saw the most game purchases,
 coincidentally that is my birthday month.  
@@ -155,9 +155,9 @@ In terms of maximum savings, over €1,600 were saved in the months of September &
 *   How many video games were purchased via gift cards & the PlayStation Plus subscription service?  
 
 From dates_&_finances_gifts_&_subscriptions.xlsx:    
-161 video games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
+163 video games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
 
-The total savings compared to the full price came to €4,940.10.  
+The total savings compared to the full price came to €4,973.54.  
 
 These savings account for approximately one third of the total savings.    
 
