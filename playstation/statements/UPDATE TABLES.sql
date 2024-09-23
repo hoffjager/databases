@@ -1,12 +1,126 @@
 -- Dates
--- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE Field = Value
-UPDATE Dates SET Console = REPLACE(Console,'PS4','PS5') WHERE ID = 381
-UPDATE Dates SET Purchase_Date = REPLACE(Purchase_Date,'2024-05-15','2024-05-11') WHERE ID = 381
+-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+-- Replacing Purchase_Date with Start_Date so both are equal
+-- Referring to: SELECT * FROM dates WHERE purchase_date > start_date
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-10-11','2010-06-07') WHERE ID = 92
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2018-06-24','2013-04-15') WHERE ID = 117
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2016-11-26','2011-10-16') WHERE ID = 135
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-06-01','2013-04-02') WHERE ID = 182
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-10-11','2010-05-29') WHERE ID = 195
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2019-04-03','2014-05-03') WHERE ID = 196
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-08-22','2015-03-09') WHERE ID = 197
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-08-22','2014-10-01') WHERE ID = 198
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-10-11','2013-12-24') WHERE ID = 199
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2019-05-06','2011-06-11') WHERE ID = 201
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-10-11','2010-05-19') WHERE ID = 202
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-09-17','2010-01-19') WHERE ID = 203
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2019-09-09','2013-05-05') WHERE ID = 205
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-05-04','2013-04-10') WHERE ID = 213
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-09-17','2014-08-05') WHERE ID = 214
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-09-17','2013-06-23') WHERE ID = 230
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-10-11','2015-05-14') WHERE ID = 239
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-09-17','2010-06-13') WHERE ID = 250
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-10-11','2014-08-29') WHERE ID = 253
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2021-11-21','2013-04-10') WHERE ID = 291
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-08-22','2013-10-06') WHERE ID = 320
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2018-01-15','2013-02-13') WHERE ID = 328
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2015-09-06','2014-01-03') WHERE ID = 331
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2021-07-06','2012-01-25') WHERE ID = 344
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-09-17','2015-09-16') WHERE ID = 345
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-03-17','2013-09-05') WHERE ID = 363
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2017-12-04','2016-01-17') WHERE ID = 382
+	-- UPDATE dates SET purchase_date = REPLACE(purchase_date,'2021-05-18','2021-04-10') WHERE ID = 848
+	-- UPDATE dates SET game = REPLACE(game,'Shadow of the Colossus','Shadow of the Colossus (2006)') WHERE ID = 132
+	-- UPDATE dates SET game = REPLACE(game,'Sonic CD (1993)','Sonic CD (1993): Sonic Origins (2022)') WHERE ID = 357
 
 -- Finances
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
-UPDATE Finances SET Savings = REPLACE(Savings, 7.20, 35.20) WHERE ID = 715
+	-- UPDATE finances SET savings = REPLACE(savings, 24.00, 24.99) WHERE ID = 249
+	-- UPDATE finances SET full_price = REPLACE(full_price, 39.98, 59.98) WHERE ID = 201
+	-- UPDATE finances SET savings = REPLACE(savings, 29.99, 49.99) WHERE ID = 201
+	-- UPDATE finances SET full_price = REPLACE(full_price, 12.99, 16.99) WHERE ID = 314
+	-- UPDATE finances SET savings = REPLACE(savings, 0.00, 4.00) WHERE ID = 314
+	-- UPDATE finances SET full_price = REPLACE(full_price, 14.99, 19.99) WHERE ID = 317
+	-- UPDATE finances SET savings = REPLACE(savings, 0.00, 5.00) WHERE ID = 317
+	-- UPDATE finances SET full_price = REPLACE(full_price, 7.99, 27.98) WHERE ID = 68
+	-- UPDATE finances SET savings = REPLACE(savings, 3.00, 22.99) WHERE ID = 68
+	-- UPDATE finances SET full_price = REPLACE(full_price, 34.99, 59.99) WHERE ID = 917
+	-- UPDATE finances SET savings = REPLACE(savings, 0.00, 25.00) WHERE ID = 917
+	-- UPDATE finances SET full_price = REPLACE(full_price, 14.99, 25.00) WHERE ID = 660
+	-- UPDATE finances SET savings = REPLACE(savings, 8.00, 18.01) WHERE ID = 660
+	-- UPDATE finances SET full_price = REPLACE(full_price, 14.99, 24.99) WHERE ID = 661
+	-- UPDATE finances SET savings = REPLACE(savings, 7.00, 17.00) WHERE ID = 661
+	-- UPDATE finances SET savings = REPLACE(savings, 16.80, 16.79) WHERE ID = 764
+	-- UPDATE finances SET savings = REPLACE(savings, 16.79, 16.80) WHERE ID = 765
+	-- UPDATE finances SET savings = REPLACE(savings, 2.50, 2.33) WHERE ID = 539
+	-- UPDATE finances SET savings = REPLACE(savings, 2.50, 2.83) WHERE ID = 540
+	-- UPDATE finances SET savings = REPLACE(savings, 2.50, 2.34) WHERE ID = 589
+	-- UPDATE finances SET savings = REPLACE(savings, 2.50, 2.83) WHERE ID = 590
+	-- UPDATE finances SET savings = REPLACE(savings, 2.50, 2.34) WHERE ID = 562
+	-- UPDATE finances SET savings = REPLACE(savings, 2.50, 2.33) WHERE ID = 857
+	-- UPDATE finances SET game = REPLACE(game,'Shadow of the Colossus','Shadow of the Colossus (2006)') WHERE ID = 132
+	-- UPDATE finances SET game = REPLACE(game,'Sonic CD (1993)','Sonic CD (1993): Sonic Origins (2022)') WHERE ID = 357
+
 
 -- Origins
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
-UPDATE Origins SET Developer = REPLACE(Developer,'Yeah, Us!','Yeah Us!') WHERE ID = 542
+	-- UPDATE origins SET Developer = REPLACE(Developer,'Yeah, Us!','Yeah Us!') WHERE ID = 542
+	-- UPDATE origins SET game = REPLACE(game,'Shadow of the Colossus','Shadow of the Colossus (2006)') WHERE ID = 132
+	-- UPDATE origins SET game = REPLACE(game,'Sonic CD (1993)','Sonic CD (1993): Sonic Origins (2022)') WHERE ID = 357
+	-- UPDATE origins SET developer = REPLACE(developer,'Bandai Namco Studios (Eighting)','Bandai Namco Studios') WHERE id = 173
+	-- UPDATE origins SET developer = REPLACE(developer,'Bend Studio','Bend Studio (Eidetic)') WHERE id = 172
+	-- UPDATE origins SET developer = REPLACE(developer,'Bend Studio','Bend Studio (Eidetic)') WHERE id = 478
+	-- UPDATE origins SET developer = REPLACE(developer,'Bend Studio','Bend Studio (Eidetic)') WHERE id = 479
+	-- UPDATE origins SET developer = REPLACE(developer,'Bend Studio','Bend Studio (Eidetic)') WHERE id = 563
+	-- UPDATE origins SET developer = REPLACE(developer,'Crystal Dynamics (Buzz Monkey Software)','Crystal Dynamics') WHERE id = 146
+	-- UPDATE origins SET developer = REPLACE(developer,'Delphine Software International (DSI Interplay)','Delphine Software International') WHERE id = 180
+	-- UPDATE origins SET developer = REPLACE(developer,'EA DICE','EA DICE (Digital Illusions CE)') WHERE id = 515
+	-- UPDATE origins SET developer = REPLACE(developer,'EA DICE','EA DICE (Digital Illusions CE)') WHERE id = 516
+	-- UPDATE origins SET developer = REPLACE(developer,'EA Redwood Shores','Visceral Games (EA Redwood Shores)') WHERE id = 141
+	-- UPDATE origins SET developer = REPLACE(developer,'Guerrilla Cambridge','Guerrilla Cambridge (SCE Studio Cambridge)') WHERE id = 988
+	-- UPDATE origins SET developer = REPLACE(developer,'Konami (Team Silent)','Konami') WHERE id = 49
+	-- UPDATE origins SET developer = REPLACE(developer,'Konami (Team Silent)','Konami') WHERE id = 133
+	-- UPDATE origins SET developer = REPLACE(developer,'Konami (Team Silent)','Konami') WHERE id = 134
+	-- UPDATE origins SET developer = REPLACE(developer,'Brownies (Marvelous Interactive)','Brownies') WHERE id = 586
+	-- UPDATE origins SET developer = REPLACE(developer,'Midway Games','Midway') WHERE id = 585
+	-- UPDATE origins SET developer = REPLACE(developer,'Polyphony Digital (Polys Entertainment)','Polyphony Digital') WHERE id = 37
+	-- UPDATE origins SET developer = REPLACE(developer,'Rebellion Developments','Rebellion Developments (Core Design)') WHERE id = 356
+	-- UPDATE origins SET developer = REPLACE(developer,'Rockstar North (DMA Design)','Rockstar North') WHERE id = 98
+	-- UPDATE origins SET developer = REPLACE(developer,'SEGA (Hitmaker)','SEGA') WHERE id = 83
+	-- UPDATE origins SET developer = REPLACE(developer,'SEGA (Hitmaker)','SEGA') WHERE id = 151
+	-- UPDATE origins SET developer = REPLACE(developer,'SEGA (Sonic Team)','SEGA') WHERE id = 138
+	-- UPDATE origins SET developer = REPLACE(developer,'SEGA (Sonic Team)','SEGA') WHERE id = 357
+	-- UPDATE origins SET developer = REPLACE(developer,'SEGA (Sonic Team)','SEGA') WHERE id = 358
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 20
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 21
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 22
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 23
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 24
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 94
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix (Squaresoft)','Square Enix (SquareSoft)') WHERE id = 108
+	-- UPDATE origins SET developer = REPLACE(developer,'Studio Liverpool','Studio Liverpool (Psygnosis)') WHERE id = 414
+	-- UPDATE origins SET developer = REPLACE(developer,'Studio Liverpool','Studio Liverpool (Psygnosis)') WHERE id = 485
+	-- UPDATE origins SET developer = REPLACE(developer,'Team Asobi (Japan Studio Team Ico)','Team Asobi (Japan Studio)') WHERE id = 102
+	-- UPDATE origins SET developer = REPLACE(developer,'Team Asobi (Japan Studio Team Ico)','Team Asobi (Japan Studio)') WHERE id = 132
+	-- UPDATE origins SET developer = REPLACE(developer,'TT Games','TT Games (Travellers Tales)') WHERE id = 272
+	-- UPDATE origins SET developer = REPLACE(developer,'TT Games','TT Games (Travellers Tales)') WHERE id = 273
+	-- UPDATE origins SET developer = REPLACE(developer,'TT Games','TT Games (Travellers Tales)') WHERE id = 274
+	-- UPDATE origins SET developer = REPLACE(developer,'TT Games','TT Games (Travellers Tales)') WHERE id = 275
+	-- UPDATE origins SET developer = REPLACE(developer,'TT Games','TT Games (Travellers Tales)') WHERE id = 276
+	-- UPDATE origins SET developer = REPLACE(developer,'TT Games','TT Games (Travellers Tales)') WHERE id = 460
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 95
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 109
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 155
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 156
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 157
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 158
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 164
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 242
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 269
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 619
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 620
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 674
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 675
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 676
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 976
+	-- UPDATE origins SET developer = REPLACE(developer,'Square Enix','Square Enix (SquareSoft)') WHERE id = 1019

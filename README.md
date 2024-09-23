@@ -5,6 +5,7 @@ I decided to create this repository to display my relational databases, consisti
 I have earned a Higher Diploma in Data Analytics from ATU Galway, along with the IT Specialist Certificate in Databases from Pearson Vue.  
 I thought of my video game collections as the perfect example of implementing my learnings from the above courses.  
 I have set up local T-SQL databases via Microsoft SQL Server 2014, and I am planning on implementing the databases on a website for remote access soon.  
+
 Data compilation and analysis were carried out to discover insights in relation to various matters, such as pricing & purchases of games per year or per month:  
 * Video game receipts issued to my Gmail account at times of purchase,  
 * Raw data temporarily entered & compiled in Google Sheets files over a number of years, to be added to the database via Microsoft SQL Server 2014,  
@@ -17,7 +18,7 @@ The sub-repository: playstation/statements, contains the following SQL files wit
 * CREATE DATABASE & TABLES.sql (creates tables named Dates, Finances & Origins, which all contain various fields/columns of data, more tables TBC).  
 * INSERT INTO Dates.sql  
 * INSERT INTO Finances.sql  
-* INSERT INTO Origins.sql (these SQL files contain all info for data entry into each table).  
+* INSERT INTO Origins.sql (these three INSERT INTO SQL files contain all info for data entry into each table).  
 * SELECT FROM.sql (selects specified data from the tables, results are output and saved in CSV format.  
 * UPDATE TABLES.sql (update any fields within the tables, such as correcting any typos & mathematical errors during analysis, such as spelling of developers or prices).  
 
@@ -35,7 +36,6 @@ The results of SQL queries made in Microsoft SQL Server 2014 are saved in CSV fo
 * origins_countries_numberofgames.xlsx  
 * origins_developers_numberofgames.xlsx  
 * complete_database.xlsx  
-* analytics.xlsx  
 
 The Dates & Finances files contain the following results:  
 * Video games purchased per year  
@@ -64,146 +64,132 @@ Regarding the PlayStation database, I noted the following topics in order to gai
 
 # 1: Purchase Dates, Spending & Savings  
 *	How much have all video games cost since beginning my collection in 2009?  
+
+There are 1,035 distinct video games across 8 distinct consoles in the PlayStation collection, since beginning 16 years ago with the PS3 & PSVITA.  
+The 8 distinct PlayStation consoles, in order of release, are: PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR, PS5.  
 From data compiled into dates_&_finances_2009_to_2024.xlsx:  
 
 	* Year: Games Purchased, Full Price, Sale Price, Savings  
-	* 2009: 2, €14.50, €14.50, €0.00  
-	* 2010: 16, €145.42, €140.43, €4.99  
-	* 2011: 13, €123.36, €91.89, €31.47  
-	* 2012: 8, €118.88, €113.88, €5.00  
-	* 2013: 27, €359.76, €302.78, €56.98  
-	* 2014: 13, €133.93, €118.93, €15.00  
-	* 2015: 50, €677.55, €448.03, €229.52  
-	* 2016: 37, €526.14, €297.75, €228.39  
-	* 2017: 187, €3,925.90, €2,234.01, €1,691.89  
-	* 2018: 49, €1,260.10, €773.33, €486.77  
-	* 2019: 105, €3,003.27, €1,677.08, €1,326.19  
-	* 2020: 86, €1,879.77, €796.13, €1,083.64  
-	* 2021: 154, €3,687.59, €1,448.67, €2,238.92  
-	* 2022: 100, €3,522.96, €1,230.42, €2,292.54  
-	* 2023: 80, €2,756.21, €376.69, €2,379.52  
-	* 2024: 16, €644.30, €137.64, €506.66  
-	* Total: 943, €22,819.62, €10,205.15, €12,614.47  
+	* 2009: 3, €57.13, €29.65, €27.48 (1, €19.04, €9.88, €9.16)  
+	* 2010: 20, €362.32, €236.91, €125.41 (1, €18.12, €11.85, €6.27)
+	* 2011: 17, €250.49, €137.03, €113.46 (1, €14.73, €8.06, €6.67)  
+	* 2012: 9, €168.86, €153.86, €15.00 (1, €18.76, €17.10, €1.67)  
+	* 2013: 41, €919.20, €571.73, €347.47 (1, €22.42, €13.94, €8.47)  
+	* 2014: 23, €367.82, €244.87, €122.95 (1, €15.99, €10.65, €5.35)  
+	* 2015: 55, €871.57, €543.06, €328.51 (1, €15.85, €9.87, €5.97)  
+	* 2016: 45, €687.12, €389.72, €297.40 (1, €15.27, €8.66, €6.61)  
+	* 2017: 186, €3,669.24, €2,092.55, €1,576.69 (1, €19.73, €11.25, €8.48)  
+	* 2018: 66, €1,274.34, €780.77, €493.57 (1, €19.31, €11.83, €7.48)  
+	* 2019: 117, €3,036.29, €1,662.09, €1,374.20 (1, €25.95, €14.21, €11.75)  
+	* 2020: 79, €1,972.76, €707.65, €1,265.11 (1, €24.97, €8.96, €16.01)  
+	* 2021: 161, €3,627.62, €1,376.56, €2,251.06 (1, €22.53, €8.55, €13.98)  
+	* 2022: 94, €2,964.64, €931.37, €2,033.27 (1, €31.54, €9.91, €21.63)  
+	* 2023: 83, €2,916.17, €389.81, €2,526.36 (1, €35.13, €4.70, €30.44)  
+	* 2024: 36, €1,618.09, €357.45, €1,260.64 (1, €44.95, €9.93, €35.02)  
+	* Total: 1,035, €24,791.65, €10,602.07, €14,189.58 (1, €23.95, €10.24, €13.71)  
 
-There are 943 distinct video games across 8 distinct consoles in the PlayStation collection, since beginning 16 years ago with the PS3 & PSVITA.  
-The 8 distinct PlayStation consoles, in order of release, are: PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR, PS5.  
+As of 19th Sep 2024:  
+The full prices of all video games on their recorded purchase dates, came to a grand total of €24,791.65.  
 
-The full prices of all video games on their recorded purchase dates, came to a grand total of €22,819.62.  
-However, the total sale prices (as well as including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service's game redemptions) came to a total of €10,205.15.  
-This resulted in total savings of €12,614.47 (55.3% of the total full price).  
+However, the total sale prices (as well as including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service's game redemptions) came to a total of €10,602.07.  
 
-From the €12,614.47 total savings, the previous 8 years (2017-2024) accounted for €12,006.13 (95%) of the total
+This resulted in total savings of €14,189.58 (57% of the total full price).  
+
+From the €14,189.58 total savings, the previous 8 years (2017-2024) accounted for €12,780.90 (90%) of the total
 savings.  
-
-The years 2017, 2019, 2021 & 2022 each saw purchases of at least 100 games, accounting for approximately one half of the entire game collection.  
-
-*	How much have all video games cost on average per year?  
-Derived from dates_&_finances_2009_to_2024.xlsx:  
-
-The above results displayed the number of video games purchased per year.  
-With the number of games purchased per year, we can calculate the average prices per year below:  
-
-   Year: Games Purchased, Full Price, Sale Price, Savings  
-	* 2009 (2): 1, €7.25, €7.25, €0.00  
-	* 2010 (16): 1, €9.09, €8.78, €0.31  
-	* 2011 (13): 1, €9.49, €7.07, €2.42  
-	* 2012 (8): 1, €14.86, €14.24, €0.63  
-	* 2013 (27): 1, €13.32, €11.21, €2.11  
-	* 2014 (13): 1, €10.30, €9.15, €1.15  
-	* 2015 (50): 1, €13.55, €8.96, €4.59  
-	* 2016 (37): 1, €14.22, €8.05, €6.17  
-	* 2017 (187): 1, €20.99, €11.95, €9.05  
-	* 2018 (49): 1, €25.72, €15.78, €9.93  
-	* 2019 (105): 1, €28.60, €15.97, €12.63  
-	* 2020 (86): 1, €21.86, €9.26, €12.60  
-	* 2021 (154): 1, €23.95, €9.41, €14.54  
-	* 2022 (100): 1, €35.23, €12.30, €22.93  
-	* 2023 (80): 1, €34.45, €4.71, €29.74  
-	* 2024 (16): 1, €40.27, €8.60, €31.67  
-	* Total (943): 1, €24.20, €10.82, €13.38  
 
 *	How many video games were purchased in selected months?  
 From dates_&_finances_january_to_december.xlsx:  
   
 	* Month: Games Purchased, Full Price, Sale Price, Savings  
-	* January: 87, €2,039.26, €923.49, €1,115.77  
-	* February: 67, €1,542.89, €571.77, €971.12  
-	* March: 71, €1,678.71, €561.21, €1,117.50  
-	* April: 59, €1,005.11, €564.87, €440.24  
-	* May: 83, €1,924.62, €582.93, €1,341.69  
-	* June: 51, €1,347.48, €720.19, €627.29  
-	* July: 55, €1,068.00, €441.33, €626.67  
-	* August: 103, €2,030.45, €993.20, €1,037.25  
-	* September: 110, €2,846.02, €1,178.73, €1,667.29  
-	* October: 99, €2,003.60, €1,028.88, €974.72  
-	* November: 68, €2,014.78, €993.22, €1,021.56  
-	* December: 87, €3,278.72, €1,642.34, €1,636.38  
-	* Total: €22,819.62, €10,205.15, €12,614.47  
+	* January: 95, €2,291.68, €1,087.94, €1,203.74 (1, €24.12, €11.45, €12.67)  
+	* February: 68, €1,616.87, €589.76, €1,027.11 (1, €23.78, €8.67, €15.10)  
+	* March: 74, €1,700.19, €588.20, €1,111.99 (1, €22.98, €7.95, €15.03)  
+	* April: 64, €1,210.03, €640.73, €569.30 (1, €18.91, €10.01, €8.90)  
+	* May: 101, €2,026.81, €734.84, €1,291.97 (1, €20.07, €7.28, €12.79)  
+	* June: 57, €1,570.92, €828.18, €742.74 (1, €27.56, €14.53, €13.03)  
+	* July: 70, €1,480.92, €538.08, €942.84 (1, €21.16, €7.69, €13.47)  
+	* August: 109, €2,168.19, €938.19, €1,230.00 (1, €19.89, €8.61, €11.28)  
+	* September: 125, €3,246.52, €1,056.79, €2,189.73 (1, €25.97, €8.45, €17.52)  
+	* October: 99, €2,287.51, €1,053.35, €1,234.16 (1, €23.11, €10.64, €12.47)  
+	* November: 79, €2,003.64, €956.24, €1,047.40 (1, €25.36, €12.10, €13.26)  
+	* December: 94, €3,160.38, €1,592.78, €1,567.60 (1, €33.62, €16.94, €16.68)  
+	* Total: 1,035, €24,791.65, €10,602.07, €14,189.58 (1, €23.95, €10.24, €13.71)  
 
 From each month from each year combined, it appears that September saw the most game purchases,
 coincidentally that is my birthday month.  
 
 August was also a busy month, I imagine that I would have availed of pre-orders prior to my birthday.  
 
-June & July were quiet in comparison, where overall combined purchases were less than September alone.  
-
 December & January were also busy months, likely as a result of the Christmas season with gifts received, coupled
 with the January sales for the best deals with the gifts.  
 
-In terms of maximum savings, over €1,600 were saved in the months of September & December.  
+In terms of maximum savings, €3,757.33 were saved in the months of September & December.  
 
 *   How many video games were purchased via gift cards & the PlayStation Plus subscription service?  
 
 From dates_&_finances_gifts_&_subscriptions.xlsx:    
-163 video games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
+177 video games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
 
-The total savings compared to the full price came to €4,973.54.  
+The total savings compared to the full price came to €5,541.43 (an average of €31.31 per game).  
 
-These savings account for approximately one third of the total savings.    
+These savings account for approximately one third of the total savings.  
 
 # 2: Countries & Developers:  
 *	How many distinct game developers are in the collection, and who is my favourite?  
 
 From origins_distinct_countries.xlsx and origins_distinct_developers.xlsx:  
-512 distinct game developers, from 47 distinct countries, have contributed to my video game collection of 941 games.  
+521 distinct game developers, from 47 distinct countries, have contributed to my video game collection of 1,035 games.  
 
 *	Which countries & developer have contributed the largest amount of video games in the collection?  
 
 From origins_countries_numberofgames.xlsx:  
-The top 3 countries from the collection are:  
-1. USA = 279  
-2. Japan = 168  
-3. England = 163  
+The top 10 countries from the collection are:  
+1. USA = 290  
+2. Japan = 228  
+3. England = 168  
+4. Canada = 87  
+5. Sweden = 39  
+6. France = 38  
+7. Australia = 21  
+8. Finland = 18  
+9. Germany = 17  
+10. Poland = 16  
 
 From origins_developers_numberofgames.xlsx:  
-The top 3 developers from the collection are:  
-1. Capcom = 27  
-2. Insomniac Games = 18  
-3. Square Enix = 17  
+The top 10 developers from the collection are:  
+1. Capcom = 62  
+2. Square Enix (SquareSoft) = 23  
+3. TT Games (Travellers Tales) = 18  
+_. Insomniac Games = 18  
+5. SEGA = 17  
+6. Team Asobi (Japan Studio) = 16  
+_. Konami = 16  
+8. Naughty Dog = 15  
+_. Ubisoft Montreal = 15  
+10. Telltale Games = 14  
 
-FURTHER DATA ANALYSIS TBC:  
+FURTHER DATA ANALYSIS OF DEVELOPERS TBC:  
 	* Which games each country and developer are responsible for (group by country and developer similar to above, while listing each entry)  
 	* How many games were developed by AAA, SME or Indie developers?  
      * TBC - Research developers and their available resources.  
 
 # 3: VALUE FOR MONEY  
-* Implement hours played per game, compare to the sale price per game.  
+     * Hours and Value columns added to the finances table.  
+	 * Formulae to be incorporated in the columns, based on dividing the paid_price values by the hours values, to yield the value for money.  
 
-     * TBC - Hours Table to join Finances Table.  
+# 4: ANNUAL GAME LOG & BACKLOG  
+     * Various columns have been added to the dates table to track the following aspects:  
+     * release_date - when the game was released, to show the various games released over the years  
+     * purchase_date - when I purchased the game since the release_date  
+     * start_date - when I started playing the game since the purchase_date  
+	 * finish_date - when I have finished playing the game
 
-# 4: TROPHIES  
+# 5: TROPHIES  
 * Implement trophy collection from 2009 to 2024.  
 
      * TBC - Trophies Table to track Platinum, Gold, Silver & Bronze trophies earned from 2009 to 2024.  
 	 * TBC - Data to be moved from Google Sheets, and updated monthly from 2024.  
-
-# 5: ANNUAL GAME LOG & BACKLOG  
-* Construct and organise a gaming log & backlog.  
-
-     * TBC - Gamelog Table to track the following:  
-       * TBC - Games played per year, from 2009 to 2024 and onwards.  
-       * TBC - Games that have not been played previously, and waiting to be started, along with tracking all games.  
-       * TBC - The gaming log can be used to replace my Google Sheets model, making regular use of the UPDATE queries.  
 
 I want to give credit to PSNProfiles, an independent group who compile the play history & progress of PlayStation gamers.  
 Upon signing up for free, I decided to contribute a one-off lifetime payment to the developers of PSNProfiles, in order to show my gratitude as well as unlocking the Premium features of their website, including:  
