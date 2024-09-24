@@ -25,42 +25,46 @@ The sub-repository: playstation/statements, contains the following SQL files wit
 SQL Output  
 The sub-repository: playstation/output, contains the following XLSX files that house various output from the SQL files above.  
 The results of SQL queries made in Microsoft SQL Server 2014 are saved in CSV format, reviewed via Google Sheets, and then downloaded in XLSX format:  
-* dates_&_finances_2009_to_2024.xlsx  
-* dates_&_finances_january_to_december.xlsx  
+* analytics.xlsx  
+* complete_tables.xlsx  
 * dates_&_finances_gifts_&_subscriptions.xlsx  
-* finances_average_pricing.xlsx  
-* finances_sum_pricing.xlsx  
-* origins_2009_to_2024.xlsx  
-* origins_distinct_countries.xlsx  
-* origins_distinct_developers.xlsx  
+* dates_&_finances_january_to_december.xlsx  
+* dates_&_finances_2009_to_2024.xlsx  
+* finances_total & average.xlsx  
+* finances_sum_totals.xlsx  
 * origins_countries_numberofgames.xlsx  
 * origins_developers_numberofgames.xlsx  
-* complete_database.xlsx  
+* origins_distinct_countries.xlsx  
+* origins_distinct_developers.xlsx  
+* origins_distinct_developers_countries.xlsx  
 
-The Dates & Finances files contain the following results:  
+The analytics file displays charts constructed with data sources from XLSX files above, such as the savings chart.
+
+The complete tables file contains a combination of all fields from all tables, as well as raw data from all tables:  
+* ID, Game, Console,  
+* Release_Date, Purchase_Date, Start_Date, Finish_Date,  
+* Full_Price, Paid_Price, Savings, Hours, Value,  
+* Developer, Country  
+
+The dates & finances files contain the following results:  
 * Video games purchased per year  
 * Video games purchased per month  
 * Total savings from video games redeemed as gifts & via the PlayStation Plus subscription service.  
 
-The Origins files contain the results outlining:  
-* The complete set of results ordered by video game developer A-Z  
-* Distinct countries who have developed video games  
-* Distinct video game developers  
-* The number of games developed per distinct country
+The origins files contain the results outlining:  
+* The number of games developed per distinct country  
 * The number of games developed per distinct developer  
-
-The Complete Database file contains a combination of all fields from all tables, as follows:  
-* ID, Game, Console, Purchase_Date, Full_Price, Sale_Price, Savings, Developer, Country  
-
-The Analytics file displays charts constructed with data sources from XLSX files above (other miscellaneous sheets within are for future integration into the database, listed further below in the README).  
+* Distinct number of countries who have developed video games  
+* Distinct number of video game developers  
+* The complete set of results ordered by video game developer A-Z    
 
 Questions  
 Regarding the PlayStation database, I noted the following topics in order to gain further insight into the collected data:  
     * Purchase Dates, Spending & Savings  
 	* Countries & Developers  
 	* Value for Money  
-	* Trophies  
 	* Annual Game Log & Backlog  
+	* Trophies  
 
 # 1: Purchase Dates, Spending & Savings  
 *	How much have all video games cost since beginning my collection in 2009?  
@@ -100,7 +104,7 @@ savings.
 
 *	How many video games were purchased in selected months?  
 From dates_&_finances_january_to_december.xlsx:  
-  
+
 	* Month: Games Purchased, Full Price, Sale Price, Savings  
 	* January: 95, €2,291.68, €1,087.94, €1,203.74 (1, €24.12, €11.45, €12.67)  
 	* February: 68, €1,616.87, €589.76, €1,027.11 (1, €23.78, €8.67, €15.10)  
