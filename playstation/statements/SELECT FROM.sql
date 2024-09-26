@@ -50,6 +50,7 @@ FROM finances
 -- 1. Selecting all games, ordered by developer, or where an ID is specified
 SELECT * FROM origins ORDER BY developer
 SELECT * FROM origins WHERE developer LIKE 'Square%'
+SELECT * FROM origins WHERE console = 'PS5'
 
 -- 2. Selecting all distinct countries & developers, ordered A-Z
 SELECT DISTINCT country FROM origins ORDER BY country

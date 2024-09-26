@@ -24,18 +24,15 @@ The sub-repository: playstation/statements, contains the following SQL files wit
 
 SQL Output  
 The sub-repository: playstation/output, contains the following XLSX files that house various output from the SQL files above.  
-The results of SQL queries made in Microsoft SQL Server 2014 are saved in CSV format, reviewed via Google Sheets, and then downloaded in XLSX format:  
+The results of SQL queries made in Microsoft SQL Server 2014 are saved in XLSX format & reviewed via Google Sheets:  
 * analytics.xlsx  
 * complete_tables.xlsx  
 * dates_&_finances_gifts_&_subscriptions.xlsx  
 * dates_&_finances_january_to_december.xlsx  
 * dates_&_finances_2009_to_2024.xlsx  
 * finances_total & average.xlsx  
-* finances_sum_totals.xlsx  
 * origins_countries_numberofgames.xlsx  
 * origins_developers_numberofgames.xlsx  
-* origins_distinct_countries.xlsx  
-* origins_distinct_developers.xlsx  
 * origins_distinct_developers_countries.xlsx  
 
 The analytics file displays charts constructed with data sources from XLSX files above, such as the savings chart.
@@ -47,16 +44,16 @@ The complete tables file contains a combination of all fields from all tables, a
 * Developer, Country  
 
 The dates & finances files contain the following results:  
-* Video games purchased per year  
+* Total & average values of pricing  
+* Total savings from video games redeemed as gifts & via the PlayStation Plus subscription service  
 * Video games purchased per month  
-* Total savings from video games redeemed as gifts & via the PlayStation Plus subscription service.  
+* Video games purchased per year    
 
 The origins files contain the results outlining:  
 * The number of games developed per distinct country  
 * The number of games developed per distinct developer  
-* Distinct number of countries who have developed video games  
-* Distinct number of video game developers  
-* The complete set of results ordered by video game developer A-Z    
+* The combination of distinct developers & countries  
+* The complete set of results ordered by video game developer A-Z  
 
 Questions  
 Regarding the PlayStation database, I noted the following topics in order to gain further insight into the collected data:  
@@ -71,6 +68,19 @@ Regarding the PlayStation database, I noted the following topics in order to gai
 
 There are 1,035 distinct video games across 8 distinct consoles in the PlayStation collection, since beginning 16 years ago with the PS3 & PSVITA.  
 The 8 distinct PlayStation consoles, in order of release, are: PS1, PS2, PSP, PS3, PSVITA, PS4, PSVR, PS5.  
+
+From data compiled into origins_consoles.xlsx:  
+
+	* Console: Games per Console  
+	* PS1: 76  
+	* PS2: 71  
+	* PSP: 27  
+	* PS3: 246  
+	* VITA: 70  
+	* PS4: 453  
+	* VR: 70  
+	* PS5: 22  
+
 From data compiled into dates_&_finances_2009_to_2024.xlsx:  
 
 	* Year: Games Purchased, Full Price, Sale Price, Savings  
@@ -93,14 +103,13 @@ From data compiled into dates_&_finances_2009_to_2024.xlsx:
 	* Total: 1,035, €24,791.65, €10,602.07, €14,189.58 (1, €23.95, €10.24, €13.71)  
 
 As of 19th Sep 2024:  
-The full prices of all video games on their recorded purchase dates, came to a grand total of €24,791.65.  
+The full prices of all video games on their recorded purchase dates (along with their average values), came to a grand total of €24,791.65.  
 
 However, the total sale prices (as well as including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service's game redemptions) came to a total of €10,602.07.  
 
 This resulted in total savings of €14,189.58 (57% of the total full price).  
 
-From the €14,189.58 total savings, the previous 8 years (2017-2024) accounted for €12,780.90 (90%) of the total
-savings.  
+From the €14,189.58 total savings, the previous 8 years (2017-2024) accounted for €12,780.90 (90%) of the total savings.  
 
 *	How many video games were purchased in selected months?  
 From dates_&_finances_january_to_december.xlsx:  
@@ -120,15 +129,11 @@ From dates_&_finances_january_to_december.xlsx:
 	* December: 94, €3,160.38, €1,592.78, €1,567.60 (1, €33.62, €16.94, €16.68)  
 	* Total: 1,035, €24,791.65, €10,602.07, €14,189.58 (1, €23.95, €10.24, €13.71)  
 
-From each month from each year combined, it appears that September saw the most game purchases,
-coincidentally that is my birthday month.  
+From each month from each year combined (along with their average values), it appears that September saw the most game purchases, coincidentally that is my birthday month.  
 
 August was also a busy month, I imagine that I would have availed of pre-orders prior to my birthday.  
 
-December & January were also busy months, likely as a result of the Christmas season with gifts received, coupled
-with the January sales for the best deals with the gifts.  
-
-In terms of maximum savings, €3,757.33 were saved in the months of September & December.  
+December & January were also busy months, likely as a result of the Christmas season with gifts received, coupled with the January sales for the best deals with the gifts.  
 
 *   How many video games were purchased via gift cards & the PlayStation Plus subscription service?  
 
@@ -174,13 +179,14 @@ _. Ubisoft Montreal = 15
 10. Telltale Games = 14  
 
 FURTHER DATA ANALYSIS OF DEVELOPERS TBC:  
-	* Which games each country and developer are responsible for (group by country and developer similar to above, while listing each entry)  
+	* Which games each developer & country are responsible for (group by country and developer similar to above, while listing each entry in an XLSX file)  
 	* How many games were developed by AAA, SME or Indie developers?  
-     * TBC - Research developers and their available resources.  
+     * TBC - Research developers and their available resources to determine if AAA, SME or Indie.  
 
 # 3: VALUE FOR MONEY  
      * Hours and Value columns added to the finances table.  
 	 * Formulae to be incorporated in the columns, based on dividing the paid_price values by the hours values, to yield the value for money.  
+	 * TBC - formulae to be implemented in the XLSX file & updated in MS SQL Server.  
 
 # 4: ANNUAL GAME LOG & BACKLOG  
      * Various columns have been added to the dates table to track the following aspects:  
