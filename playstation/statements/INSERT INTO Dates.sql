@@ -1167,7 +1167,15 @@ VALUES
 	('TOEM: A Photo Adventure','PS5','2021-09-17','2022-09-07','2022-09-24','2022-09-25')
 
 -- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
+
+-- 10TH SEPT 2024
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)
 VALUES
 	('Gravity Rush','VITA','2012-06-15','2024-09-10','','')
+
+-- 2ND OCT 2024
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('WWE 2K24','PS4','2024-03-08','2024-10-02','','')

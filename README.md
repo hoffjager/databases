@@ -27,9 +27,9 @@ The sub-repository: playstation/output, contains the following XLSX files that h
 The results of SQL queries made in Microsoft SQL Server 2014 are saved in XLSX format & reviewed via Google Sheets:  
 * analytics.xlsx  
 * complete_tables.xlsx  
-* dates_&_finances_gifts_&_subscriptions.xlsx  
-* dates_&_finances_january_to_december.xlsx  
 * dates_&_finances_2009_to_2024.xlsx  
+* dates_&_finances_january_to_december.xlsx  
+* dates_&_finances_gifts_&_subscriptions.xlsx  
 * finances_total & average.xlsx  
 * origins_countries_numberofgames.xlsx  
 * origins_developers_numberofgames.xlsx  
@@ -83,7 +83,7 @@ From data compiled into origins_consoles.xlsx:
 
 From data compiled into dates_&_finances_2009_to_2024.xlsx:  
 
-	* Year: Games Purchased, Full Price, Sale Price, Savings  
+	* Year: Games Purchased, Full Price, Paid Price, Savings  
 	* 2009: 3, €57.13, €29.65, €27.48 (1, €19.04, €9.88, €9.16)  
 	* 2010: 20, €362.32, €236.91, €125.41 (1, €18.12, €11.85, €6.27)
 	* 2011: 17, €250.49, €137.03, €113.46 (1, €14.73, €8.06, €6.67)  

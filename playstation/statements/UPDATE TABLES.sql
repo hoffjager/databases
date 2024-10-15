@@ -35,6 +35,8 @@
 
 -- Finances
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+	-- Replacing values for Full_Price & Savings with adjusted values
+	-- Referring to: SELECT * FROM finances
 	-- UPDATE finances SET savings = REPLACE(savings, 24.00, 24.99) WHERE ID = 249
 	-- UPDATE finances SET full_price = REPLACE(full_price, 39.98, 59.98) WHERE ID = 201
 	-- UPDATE finances SET savings = REPLACE(savings, 29.99, 49.99) WHERE ID = 201
@@ -61,6 +63,678 @@
 	-- UPDATE finances SET game = REPLACE(game,'Shadow of the Colossus','Shadow of the Colossus (2006)') WHERE ID = 132
 	-- UPDATE finances SET game = REPLACE(game,'Sonic CD (1993)','Sonic CD (1993): Sonic Origins (2022)') WHERE ID = 357
 
+	-- Replacing values of 0 & 0.00 for Hours & Value
+	-- Referring to: SELECT * FROM finances & complete_tables.xlsx
+-- PS1
+-- UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 2
+
+-- UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 3
+-- UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 3
+
+-- UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 15
+-- UPDATE finances SET value = REPLACE(value, 0.00, 2.49) WHERE ID = 15
+
+-- UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 18
+-- UPDATE finances SET value = REPLACE(value, 0.00, 6.99) WHERE ID = 18
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 19
+UPDATE finances SET value = REPLACE(value, 0.00, 6.99) WHERE ID = 19
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 20
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 20
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 21
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 21
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 23
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 23
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 24
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 24
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 36
+UPDATE finances SET value = REPLACE(value, 0.00, 3.33) WHERE ID = 36
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 46
+UPDATE finances SET value = REPLACE(value, 0.00, 3.99) WHERE ID = 46
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 47
+UPDATE finances SET value = REPLACE(value, 0.00, 3.99) WHERE ID = 47
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 49
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 49
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 53
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 53
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 54
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 54
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 55
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 55
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 56
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 56
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 57
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 57
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 58
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 58
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 59
+UPDATE finances SET value = REPLACE(value, 0.00, 2.49) WHERE ID = 59
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 62
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 62
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 64
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 64
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 65
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 65
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 66
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 66
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 67
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 67
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 72
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 72
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 75
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 75
+
+-- PS2
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 88
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 88
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 93
+UPDATE finances SET value = REPLACE(value, 0.00, 5.39) WHERE ID = 93
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 102
+UPDATE finances SET value = REPLACE(value, 0.00, 10.00) WHERE ID = 102
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 119
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 121
+UPDATE finances SET value = REPLACE(value, 0.00, 5.00) WHERE ID = 121
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 122
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 122
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 132
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 132
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 133
+UPDATE finances SET value = REPLACE(value, 0.00, 11.00) WHERE ID = 133
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 134
+UPDATE finances SET value = REPLACE(value, 0.00, 11.00) WHERE ID = 134
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 139
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 139
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 140
+UPDATE finances SET value = REPLACE(value, 0.00, 4.49) WHERE ID = 140
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 147
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 147
+
+-- PSP
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 149
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 149
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 150
+UPDATE finances SET value = REPLACE(value, 0.00, 4.49) WHERE ID = 150
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 151
+UPDATE finances SET value = REPLACE(value, 0.00, 2.24) WHERE ID = 151
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 154
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 154
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 155
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 155
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 156
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 156
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 157
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 157
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 158
+UPDATE finances SET value = REPLACE(value, 0.00, 7.49) WHERE ID = 158
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 159
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 159
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 160
+UPDATE finances SET value = REPLACE(value, 0.00, 5.00) WHERE ID = 160
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 161
+UPDATE finances SET value = REPLACE(value, 0.00, 5.00) WHERE ID = 161
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 165
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 166
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 167
+UPDATE finances SET value = REPLACE(value, 0.00, 12.98) WHERE ID = 167
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 169
+UPDATE finances SET value = REPLACE(value, 0.00, 8.00) WHERE ID = 169
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 172
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 172
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 173
+UPDATE finances SET value = REPLACE(value, 0.00, 19.99) WHERE ID = 173
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 174
+UPDATE finances SET value = REPLACE(value, 0.00, 7.99) WHERE ID = 174
+
+-- PS3
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 175
+UPDATE finances SET value = REPLACE(value, 0.00, 1.49) WHERE ID = 175
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 187
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 191
+UPDATE finances SET value = REPLACE(value, 0.00, 5.99) WHERE ID = 191
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 194
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 194
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 220
+UPDATE finances SET value = REPLACE(value, 0.00, 10.99) WHERE ID = 220
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 244
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 244
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 248
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 248
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 266
+UPDATE finances SET value = REPLACE(value, 0.00, 2.00) WHERE ID = 266
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 267
+UPDATE finances SET value = REPLACE(value, 0.00, 2.00) WHERE ID = 267
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 270
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 276
+UPDATE finances SET value = REPLACE(value, 0.00, 4.79) WHERE ID = 276
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 283
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 283
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 286
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 286
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 290
+UPDATE finances SET value = REPLACE(value, 0.00, 14.93) WHERE ID = 290
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 292
+UPDATE finances SET value = REPLACE(value, 0.00, 14.99) WHERE ID = 292
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 294
+UPDATE finances SET value = REPLACE(value, 0.00, 2.25) WHERE ID = 294
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 300
+UPDATE finances SET value = REPLACE(value, 0.00, 3.33) WHERE ID = 300
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 301
+UPDATE finances SET value = REPLACE(value, 0.00, 19.99) WHERE ID = 301
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 321
+UPDATE finances SET value = REPLACE(value, 0.00, 7.99) WHERE ID = 321
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 339
+UPDATE finances SET value = REPLACE(value, 0.00, 2.00) WHERE ID = 339
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 347
+UPDATE finances SET value = REPLACE(value, 0.00, 14.99) WHERE ID = 347
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 348
+UPDATE finances SET value = REPLACE(value, 0.00, 24.99) WHERE ID = 348
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 351
+UPDATE finances SET value = REPLACE(value, 0.00, 12.99) WHERE ID = 351
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 354
+UPDATE finances SET value = REPLACE(value, 0.00, 1.49) WHERE ID = 354
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 356
+UPDATE finances SET value = REPLACE(value, 0.00, 3.49) WHERE ID = 356
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 373
+UPDATE finances SET value = REPLACE(value, 0.00, 14.99) WHERE ID = 373
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 380
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 380
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 385
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 385
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 410
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 410
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 411
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 411
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 415
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 415
+
+-- VITA
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 432
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 432
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 434
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 434
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 445
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 445
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 446
+UPDATE finances SET value = REPLACE(value, 0.00, 6.49) WHERE ID = 446
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 470
+
+-- PS4
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 496
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 498
+UPDATE finances SET value = REPLACE(value, 0.00, 1.57) WHERE ID = 498
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 499
+UPDATE finances SET value = REPLACE(value, 0.00, 1.56) WHERE ID = 499
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 501
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 502
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 514
+UPDATE finances SET value = REPLACE(value, 0.00, 7.99) WHERE ID = 514
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 515
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 516
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 522
+UPDATE finances SET value = REPLACE(value, 0.00, 7.99) WHERE ID = 522
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 523
+UPDATE finances SET value = REPLACE(value, 0.00, 3.74) WHERE ID = 523
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 527
+UPDATE finances SET value = REPLACE(value, 0.00, 0.54) WHERE ID = 527
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 531
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 532
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 533
+UPDATE finances SET value = REPLACE(value, 0.00, 16.24) WHERE ID = 533
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 534
+UPDATE finances SET value = REPLACE(value, 0.00, 19.79) WHERE ID = 534
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 544
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 558
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 558
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 561
+UPDATE finances SET value = REPLACE(value, 0.00, 11.99) WHERE ID = 561
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 564
+UPDATE finances SET value = REPLACE(value, 0.00, 3.99) WHERE ID = 564
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 573
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 579
+UPDATE finances SET value = REPLACE(value, 0.00, 9.59) WHERE ID = 579
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 583
+UPDATE finances SET value = REPLACE(value, 0.00, 3.49) WHERE ID = 583
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 585
+UPDATE finances SET value = REPLACE(value, 0.00, 2.49) WHERE ID = 585
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 586
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 586
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 593
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 594
+UPDATE finances SET value = REPLACE(value, 0.00, 41.99) WHERE ID = 594
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 595
+UPDATE finances SET value = REPLACE(value, 0.00, 12.49) WHERE ID = 595
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 599
+UPDATE finances SET value = REPLACE(value, 0.00, 1.99) WHERE ID = 599
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 608
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 613
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 620
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 621
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 622
+UPDATE finances SET value = REPLACE(value, 0.00, 5.83) WHERE ID = 622
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 623
+UPDATE finances SET value = REPLACE(value, 0.00, 0.99) WHERE ID = 623
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 625
+UPDATE finances SET value = REPLACE(value, 0.00, 3.59) WHERE ID = 625
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 629
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 633
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 635
+UPDATE finances SET value = REPLACE(value, 0.00, 7.99) WHERE ID = 635
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 638
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 641
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 642
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 643
+UPDATE finances SET value = REPLACE(value, 0.00, 8.99) WHERE ID = 643
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 645
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 647
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 650
+UPDATE finances SET value = REPLACE(value, 0.00, 1.49) WHERE ID = 650
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 651
+UPDATE finances SET value = REPLACE(value, 0.00, 1.49) WHERE ID = 651
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 663
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 664
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 668
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 680
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 682
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 684
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 685
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 697
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 698
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 703
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 703
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 722
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 722
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 723
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 723
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 724
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 724
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 725
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 725
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 726
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 726
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 727
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 727
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 728
+UPDATE finances SET value = REPLACE(value, 0.00, 3.00) WHERE ID = 728
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 729
+UPDATE finances SET value = REPLACE(value, 0.00, 2.99) WHERE ID = 729
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 730
+UPDATE finances SET value = REPLACE(value, 0.00, 2.24) WHERE ID = 730
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 731
+UPDATE finances SET value = REPLACE(value, 0.00, 9.99) WHERE ID = 731
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 734
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 735
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 739
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 740
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 741
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 743
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 744
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 747
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 747
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 750
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 753
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 763
+UPDATE finances SET value = REPLACE(value, 0.00, 3.79) WHERE ID = 763
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 768
+UPDATE finances SET value = REPLACE(value, 0.00, 4.59) WHERE ID = 768
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 771
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 771
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 772
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 773
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 774
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 784
+UPDATE finances SET value = REPLACE(value, 0.00, 4.99) WHERE ID = 784
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 792
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 793
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 800
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 817
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 835
+UPDATE finances SET value = REPLACE(value, 0.00, 17.49) WHERE ID = 835
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 840
+UPDATE finances SET value = REPLACE(value, 0.00, 1.24) WHERE ID = 840
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 841
+UPDATE finances SET value = REPLACE(value, 0.00, 1.24) WHERE ID = 841
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 842
+UPDATE finances SET value = REPLACE(value, 0.00, 1.24) WHERE ID = 842
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 843
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 843
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 844
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 844
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 845
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 845
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 846
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 846
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 847
+UPDATE finances SET value = REPLACE(value, 0.00, 1.23) WHERE ID = 847
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 858
+UPDATE finances SET value = REPLACE(value, 0.00, 17.49) WHERE ID = 858
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 860
+UPDATE finances SET value = REPLACE(value, 0.00, 11.99) WHERE ID = 860
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 863
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 864
+UPDATE finances SET value = REPLACE(value, 0.00, 26.99) WHERE ID = 864
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 868
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 869
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 871
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 872
+UPDATE finances SET value = REPLACE(value, 0.00, 5.83) WHERE ID = 872
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 878
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 881
+UPDATE finances SET value = REPLACE(value, 0.00, 19.79) WHERE ID = 881
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 883
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 899
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 900
+UPDATE finances SET value = REPLACE(value, 0.00, 11.99) WHERE ID = 900
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 901
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 903
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 927
+UPDATE finances SET value = REPLACE(value, 0.00, 3.50) WHERE ID = 927
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 928
+UPDATE finances SET value = REPLACE(value, 0.00, 3.50) WHERE ID = 928
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 929
+UPDATE finances SET value = REPLACE(value, 0.00, 3.49) WHERE ID = 929
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 930
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 934
+UPDATE finances SET value = REPLACE(value, 0.00, 12.99) WHERE ID = 934
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 937
+UPDATE finances SET value = REPLACE(value, 0.00, 12.49) WHERE ID = 937
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 941
+UPDATE finances SET value = REPLACE(value, 0.00, 11.25) WHERE ID = 941
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 942
+UPDATE finances SET value = REPLACE(value, 0.00, 11.24) WHERE ID = 942
+
+-- VR
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 952
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 962
+UPDATE finances SET value = REPLACE(value, 0.00, 10.99) WHERE ID = 962
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 967
+UPDATE finances SET value = REPLACE(value, 0.00, 12.49) WHERE ID = 967
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 969
+UPDATE finances SET value = REPLACE(value, 0.00, 12.99) WHERE ID = 969
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 973
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 975
+UPDATE finances SET value = REPLACE(value, 0.00, 7.49) WHERE ID = 975
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 976
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 989
+UPDATE finances SET value = REPLACE(value, 0.00, 13.99) WHERE ID = 989
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 991
+UPDATE finances SET value = REPLACE(value, 0.00, 13.49) WHERE ID = 991
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 997
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1000
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1001
+UPDATE finances SET value = REPLACE(value, 0.00, 15.99) WHERE ID = 1001
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1002
+UPDATE finances SET value = REPLACE(value, 0.00, 8.99) WHERE ID = 1002
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1007
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1010
+UPDATE finances SET value = REPLACE(value, 0.00, 5.99) WHERE ID = 1010
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1011
+UPDATE finances SET value = REPLACE(value, 0.00, 19.99) WHERE ID = 1011
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1012
+
+-- PS5
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1014
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1015
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1017
+UPDATE finances SET value = REPLACE(value, 0.00, 27.99) WHERE ID = 1017
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1019
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1022
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1031
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1032
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1033
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1035
+UPDATE finances SET value = REPLACE(value, 0.00, 14.99) WHERE ID = 1035
+
+UPDATE finances SET hours = REPLACE(hours, 0, 1) WHERE ID = 1036
+
+-- Updating Hours & Value (as of 14th October 2024)
+UPDATE finances SET hours = REPLACE(hours, 4, 15) WHERE ID = 171
+UPDATE finances SET value = REPLACE(value, 1.00, 0.27) WHERE ID = 171
+
+UPDATE finances SET hours = REPLACE(hours, 31, 50) WHERE ID = 654
+UPDATE finances SET value = REPLACE(value, 1.60, 0.99) WHERE ID = 654
+
+UPDATE finances SET hours = REPLACE(hours, 88, 174) WHERE ID = 689
+UPDATE finances SET value = REPLACE(value, 0.10, 0.05) WHERE ID = 689
+
+UPDATE finances SET hours = REPLACE(hours, 234, 241) WHERE ID = 799
+
+UPDATE finances SET hours = REPLACE(hours, 1, 9) WHERE ID = 934
+UPDATE finances SET value = REPLACE(value, 12.99, 1.44) WHERE ID = 934
+
+UPDATE finances SET hours = REPLACE(hours, 1, 14) WHERE ID = 1015
+
+UPDATE finances SET hours = REPLACE(hours, 1, 5) WHERE ID = 1017
+UPDATE finances SET value = REPLACE(value, 27.99, 5.60) WHERE ID = 1017
+
+UPDATE finances SET hours = REPLACE(hours, 1, 89) WHERE ID = 1019
+
+UPDATE finances SET hours = REPLACE(hours, 1, 10) WHERE ID = 1033
 
 -- Origins
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number

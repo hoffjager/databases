@@ -1167,7 +1167,15 @@ VALUES
 	('TOEM: A Photo Adventure','PS5','Something We Made','Sweden')
 
 -- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
+
+-- 10TH SEPT 2024
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Gravity Rush','VITA','Team Asobi (Japan Studio)','Japan')
+
+-- 2ND OCT 2024
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('WWE 2K24','PS4','Visual Concepts','USA')

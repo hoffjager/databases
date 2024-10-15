@@ -1167,7 +1167,15 @@ VALUES
 	('TOEM: A Photo Adventure','PS5',19.99,0.00,19.99,10,0.00)
 
 -- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
+
+-- 10TH SEPT 2024
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Gravity Rush','VITA',29.99,14.99,15.00,0,0.00)
+
+-- 2ND OCT 2024
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('WWE 2K24','PS4',74.99,0.00,74.99,0,0.00)
