@@ -7,6 +7,8 @@ SELECT * FROM dates WHERE game = 'Fallout 4'
 
 -- 2. Selecting games with the highest savings descending
 SELECT * FROM finances
+SELECT * FROM finances WHERE paid_price = 0
+SELECT * FROM finances WHERE savings = 5
 
 -- 3. Selecting games with the most hours played descending
 SELECT TOP 10 * FROM finances ORDER BY hours DESC
@@ -15,7 +17,8 @@ SELECT TOP 10 * FROM finances ORDER BY hours DESC
 SELECT TOP 10 * FROM finances WHERE value > 0.00 ORDER BY value ASC
 
 -- 5. Selecting my favourite game series for further analysis
-SELECT * FROM finances WHERE game LIKE '%Yakuza%' ORDER BY hours DESC
+SELECT * FROM finances WHERE game LIKE 'Yakuza%' ORDER BY hours DESC
+SELECT * FROM finances WHERE game LIKE '%Dragon%' ORDER BY hours DESC
 
 -- 6: Selecting games with various price ranges
 SELECT * FROM finances WHERE full_price < 0.01 ORDER BY full_price ASC
@@ -56,7 +59,7 @@ SELECT d.id, d.game, d.console, d.purchase_date,
 f.full_price, f.paid_price, f.savings
 FROM finances f
 JOIN dates d ON d.id = f.id
-WHERE YEAR(d.purchase_date) = '2024'
+WHERE YEAR(d.purchase_date) = '2011'
 ORDER BY d.purchase_date ASC
 
 -- 6. Selecting data from Dates and Finances tables by month of purchase = 'Value between 01 Jan and 12 Dec'
@@ -73,6 +76,13 @@ f.full_price, f.paid_price, f.savings
 FROM finances f 
 JOIN dates d ON d.id = f.id
 WHERE f.paid_price = 0 
+ORDER BY d.purchase_date ASC
+
+SELECT d.id, d.game, d.console, d.purchase_date,
+f.full_price, f.paid_price, f.savings
+FROM finances f 
+JOIN dates d ON d.id = f.id
+WHERE YEAR(d.purchase_date) = '2023'
 ORDER BY d.purchase_date ASC
 
 -- 8. Selecting the count of games, along with the sum of various pricing

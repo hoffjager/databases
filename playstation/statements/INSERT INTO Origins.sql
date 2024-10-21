@@ -1179,3 +1179,13 @@ INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('WWE 2K24','PS4','Visual Concepts','USA')
+
+-- 21ST OCT 2024
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Palworld','PS5','Pocket Pair','Japan'),
+	('SteamWorld Build','PS4','Image & Form','Sweden'),
+	('Timesplitters','PS2','Free Radical Design','England'),
+	('Timesplitters 2','PS2','Free Radical Design','England'),
+	('Timesplitters: Future Perfect','PS2','Free Radical Design','England')

@@ -1179,3 +1179,13 @@ INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)
 VALUES
 	('WWE 2K24','PS4','2024-03-08','2024-10-02','','')
+
+-- 21ST OCT 2024
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Palworld','PS5','2024-09-25','2024-10-21','',''),
+	('SteamWorld Build','PS4','2023-12-01','2024-10-21','',''),
+	('TimeSplitters','PS2','2000-11-24','2024-10-21','',''),
+	('TimeSplitters 2','PS2','2002-10-18','2024-10-21','',''),
+	('TimeSplitters: Future Perfect','PS2','2005-03-24','2024-10-21','','')

@@ -33,3 +33,22 @@ CREATE TABLE origins
 	developer VARCHAR(60) NOT NULL,
 	country VARCHAR(20) NOT NULL
 )
+
+CREATE TABLE platinums
+(
+	id SMALLINT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
+	game VARCHAR(90) NOT NULL,
+	console VARCHAR(4) NOT NULL,
+	completion_date DATE NOT NULL,
+	rarity DECIMAL(3,1)
+)
+
+CREATE TABLE trophies
+(
+	id SMALLINT IDENTITY (1, 1) NOT NULL PRIMARY KEY,
+	year INT NOT NULL,
+	platinum INT NOT NULL,
+	gold INT NOT NULL,
+	silver INT NOT NULL,
+	bronze INT NOT NULL
+)

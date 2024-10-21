@@ -736,6 +736,9 @@ UPDATE finances SET hours = REPLACE(hours, 1, 89) WHERE ID = 1019
 
 UPDATE finances SET hours = REPLACE(hours, 1, 10) WHERE ID = 1033
 
+-- Updating Hours (as of 18th October 2024)
+UPDATE finances SET hours = REPLACE(hours, 174, 198) WHERE ID = 689
+
 -- Origins
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 	-- UPDATE origins SET Developer = REPLACE(Developer,'Yeah, Us!','Yeah Us!') WHERE ID = 542

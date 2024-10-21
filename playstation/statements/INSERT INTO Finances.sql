@@ -1179,3 +1179,13 @@ INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('WWE 2K24','PS4',74.99,0.00,74.99,0,0.00)
+
+-- 21ST OCT 2024
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Palworld','PS5',28.99,28.99,0.00,1,28.99),
+	('SteamWorld Build','PS4',29.99,15.74,14.25,1,15.74),
+	('Timesplitters','PS2',9.99,6.99,3.00,1,6.99),
+	('Timesplitters 2','PS2',9.99,6.99,3.00,1,6.99),
+	('Timesplitters: Future Perfect','PS2',9.99,6.99,3.00,1,6.99)
