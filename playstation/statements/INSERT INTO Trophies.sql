@@ -20,3 +20,11 @@ VALUES
 (2022,39,270,554,1815),
 (2023,32,167,420,1519),
 (2024,24,116,271,893)
+
+-- First data update on table (7th November 2024)
+UPDATE trophies SET platinum = REPLACE(platinum, 24, 25) WHERE id = 16
+UPDATE trophies SET gold = REPLACE(gold, 116, 118) WHERE id = 16
+UPDATE trophies SET silver = REPLACE(silver, 271, 276) WHERE id = 16
+UPDATE trophies SET bronze = REPLACE(bronze, 893, 925) WHERE id = 16
+
+SELECT * FROM trophies

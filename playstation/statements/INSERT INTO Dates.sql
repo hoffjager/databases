@@ -1189,3 +1189,16 @@ VALUES
 	('TimeSplitters','PS2','2000-11-24','2024-10-21','',''),
 	('TimeSplitters 2','PS2','2002-10-18','2024-10-21','',''),
 	('TimeSplitters: Future Perfect','PS2','2005-03-24','2024-10-21','','')
+
+-- 7TH NOV 2024
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Doki Doki Literature Club Plus!','PS4','2021-06-30','2024-10-30','',''),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4','2023-10-19','2024-11-06','',''),
+	('Parcel Corps','PS5','2024-10-03','2024-11-06','',''),
+	('South Park: Snow Day!','PS5','2024-03-26','2024-11-06','',''),
+	('Squirrel with a Gun','PS5','2024-10-15','2024-11-06','',''),
+	('Tekken 8','PS5','2024-01-25','2024-11-06','','')
+
+SELECT * FROM dates

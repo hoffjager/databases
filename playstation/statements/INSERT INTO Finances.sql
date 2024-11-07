@@ -1189,3 +1189,16 @@ VALUES
 	('Timesplitters','PS2',9.99,6.99,3.00,1,6.99),
 	('Timesplitters 2','PS2',9.99,6.99,3.00,1,6.99),
 	('Timesplitters: Future Perfect','PS2',9.99,6.99,3.00,1,6.99)
+
+-- 7TH NOV 2024
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Doki Doki Literature Club Plus!','PS4',12.49,0.00,12.49,1,0.00),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4',49.99,0.00,49.99,1,0.00),
+	('Parcel Corps','PS5',34.99,23.44,11.55,1,23.44),
+	('South Park: Snow Day!','PS5',29.99,19.49,10.50,1,19.49),
+	('Squirrel with a Gun','PS5',19.99,13.99,6.00,1,13.99),
+	('Tekken 8','PS5',79.99,39.99,40.00,1,39.99)
+
+SELECT * FROM finances

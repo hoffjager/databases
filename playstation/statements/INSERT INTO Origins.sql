@@ -1189,3 +1189,16 @@ VALUES
 	('Timesplitters','PS2','Free Radical Design','England'),
 	('Timesplitters 2','PS2','Free Radical Design','England'),
 	('Timesplitters: Future Perfect','PS2','Free Radical Design','England')
+
+-- 7TH NOV 2024
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Doki Doki Literature Club Plus!','PS4','Team Salvato','USA'),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4','Milestone','Italy'),
+	('Parcel Corps','PS5','Billy Goat Entertainment Ltd','Northern Ireland'),
+	('South Park: Snow Day!','PS5','Question Games','USA'),
+	('Squirrel with a Gun','PS5','Dee Dee Creations','USA'),
+	('Tekken 8','PS5','Bandai Namco Studios','Japan')
+
+SELECT * FROM origins
