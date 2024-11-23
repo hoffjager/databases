@@ -514,7 +514,7 @@ VALUES
 	('Yomawari: Night Alone','VITA','Nippon Ichi Software','Japan'),
 	('Zero Escape: Virtues Last Reward','VITA','Spike Chunsoft','Japan')
 
--- PS4
+-- PS4 (A-Z)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -1166,7 +1166,7 @@ VALUES
 	('The Plucky Squire','PS5','All Possible Futures','England'),
 	('TOEM: A Photo Adventure','PS5','Something We Made','Sweden')
 
--- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
+-- GAMES PURCHASED SINCE 7TH SEPT 2024  
 
 -- 10TH SEPT 2024
 INSERT INTO origins

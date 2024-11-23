@@ -1,5 +1,5 @@
 -- Platinums
-
+SELECT * FROM platinums
 SELECT * FROM platinums ORDER BY rarity ASC
 
 INSERT INTO platinums
@@ -176,10 +176,15 @@ VALUES
 ('Astro Bot','PS5','2024-09-09',3.3),
 ('Yakuza 0','PS4','2024-10-17',0.8)
 
--- Addition to Platinum List
+-- Addition to Platinum List (171: 5th November 2024)
 INSERT INTO platinums
 (game, console, completion_date, rarity)
 VALUES
 ('Yakuza Kiwami','PS4','2024-11-05',0.5)
 
-SELECT * FROM platinums
+-- Additions to Platinum List (172 and 173: 23rd November 2024)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Squirrel with a Gun','PS5','2024-11-08',5.4),
+('Yakuza Kiwami 2','PS4','2024-11-20',2.6)

@@ -67,7 +67,7 @@ Data to be updated monthly.
 # 1: Purchase Dates, Spending & Savings  
 *	How much have all video games cost since beginning my collection in 2009?  
 
-From complete_tables.xlsx & origins/consoles.xlsx (as of 7th November 2024):  
+From complete_tables.xlsx & origins/consoles.xlsx (as of 23rd November 2024):  
   
 There are 1,047 distinct video games across 8 distinct consoles in the collection:  
 PS1, PS2, PSP, PS3, VITA, PS4, PSVR, PS5.  
@@ -82,7 +82,7 @@ PS1, PS2, PSP, PS3, VITA, PS4, PSVR, PS5.
 	* VR: 70  
 	* PS5: 27  
 
-From dates_&_finances_all-time.xlsx (as of 7th November 2024):  
+From dates_&_finances_all-time.xlsx (as of 23rd November 2024):  
 
 	* Year: Full Price, Paid Price, Savings  
 	* 2009: €57.13, €29.65, €27.48  
@@ -111,7 +111,7 @@ This resulted in total savings of €14,418.35 (57% of the full price):
 The years 2017-2024 accounted for €13,040.67 (90%) of total savings.  
 
 *	How many video games were purchased in selected months?  
-From dates_&_finances_monthly.xlsx (as of 7th November 2024):  
+From dates_&_finances_monthly.xlsx (as of 23rd November 2024):  
 
 	* Month: Full Price, Sale Price, Savings  
 	* January: €2,291.68, €1,087.94, €1,203.74  
@@ -136,7 +136,7 @@ December & January were also busy months as a result of the Christmas season wit
 
 *   How many video games were purchased via gift cards & the PlayStation Plus subscription service?  
 
-From dates_&_finances_all-time.xlsx (as of 7th November 2024):  
+From dates_&_finances_all-time.xlsx (as of 23rd November 2024):  
   
 180 games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
   
@@ -147,12 +147,12 @@ These savings account for approximately 33% of the total savings.
 # 2: Countries & Developers:  
 *	How many distinct countries & developers make up the game collection?  
 
-From origins.xlsx (as of 7th November 2024):  
+From origins.xlsx (as of 23rd November 2024):  
 526 distinct game developers, from 47 distinct countries.  
 
 *	Which countries & developer have contributed the most video games in the collection?  
 
-From origins.xlsx (as of 7th November 2024):  
+From origins.xlsx (as of 23rd November 2024):  
 The top 10 countries from the collection are:  
 1. USA = 294  
 2. Japan = 230  
@@ -165,7 +165,7 @@ The top 10 countries from the collection are:
 9. Germany = 17  
 10. Poland = 16  
 
-From origins.xlsx (as of 7th November 2024):  
+From origins.xlsx (as of 23rd November 2024):  
 The top 10 developers from the collection are:  
 1. Capcom = 62  
 2. Square Enix (SquareSoft) = 23  
@@ -190,7 +190,7 @@ Discuss my personal favourite games based on all the above charts.
 # 3: VALUE FOR MONEY  
 Which games have accumulated the most amount of hours played?  
 
-From dates_&_finances_all-time.xlsx (as of 7th November 2024):  
+From dates_&_finances_all-time.xlsx (as of 23rd November 2024):  
 1. Rocket League = 234  
 2. Like a Dragon 0 (Yakuza 0) = 198  
 3. Disney Dreamlight Valley = 182  
@@ -204,7 +204,7 @@ From dates_&_finances_all-time.xlsx (as of 7th November 2024):
 
 Which games have the best value for money (paid price per hour played)?  
 
-From dates_&_finances_all-time.xlsx (as of 7th November 2024):
+From dates_&_finances_all-time.xlsx (as of 23rd November 2024):
 1. F1 2021 = 103  
 2. Hogwarts Legacy = 93  
 3. F1 23 = 82  
@@ -216,7 +216,7 @@ From dates_&_finances_all-time.xlsx (as of 7th November 2024):
 9. Days Gone = 57  
 10. Yakuza: Dead Souls = 50  
 
-From dates_&_finances_all-time.xlsx (as of 7th November 2024):
+From dates_&_finances_all-time.xlsx (as of 23rd November 2024):
 1. Like a Dragon 0 (Yakuza 0) = 198  
 2. Like a Dragon: Infinite Wealth = 154  
 3. Like a Dragon 7 (Yakuza 7) = 130  
@@ -241,45 +241,45 @@ Various columns have been added to the dates table to track the following aspect
 	 * finish_date - when I have finished playing the game
 
 # 5: PLATINUMS & TROPHIES  
-From platinums & trophies.xlsx (as of 7th November 2024):  
+From platinums & trophies.xlsx (as of 23rd November 2024):  
 
-id	game	console	completion_date	rarity
-1	Jak and Daxter: The Precursor Legacy	PS2	2012-12-16	17.5
-2	Jak and Daxter: The Precursor Legacy	PS3	2015-11-14	8.5
-3	The Walking Dead: Season 1 TTG	VITA	2015-12-29	39.6
-4	The Walking Dead: Season 1 TTG	PS4	2016-10-21	45.8
-5	Batman: Season 1 TTG	PS4	2017-03-28	20.9
-6	Game of Thrones TTG	PS4	2017-10-13	19.1
-7	Jak and Daxter: The Precursor Legacy	PS4	2018-01-23	16.4
-8	Tales from the Borderlands TTG	PS4	2018-08-04	23.7
-9	Bully: Canis Canem Edit	PS2	2018-08-24	3.3
-10	Rocket League	PS4	2018-09-05	2.7
-11	Spyro the Dragon	PS4	2018-11-14	7.9
-12	Spyro 3: Year of the Dragon	PS4	2018-11-19	5.7
-13	Spyro 2: Gateway to Glimmer	PS4	2018-11-19	5.6
-14	Marvels Spider-Man	PS4	2019-01-14	8.5
-15	Apocalypse Rider	VR	2020-07-08	3.3
-16	Shooty Fruity	VR	2020-07-15	0.4
-17	Syrup and the Ultimate Sweet	PS4	2020-07-17	94.6
-18	Batman: Season 2 TTG	PS4	2020-07-21	18.3
-19	Saints Row: The Third	PS3	2020-08-05	4.7
-20	Destroy All Humans! (Original)	PS2	2020-09-02	1.6
-21	Destroy All Humans! (Remake)	PS4	2020-09-07	2.9
-22	Destroy All Humans! 2	PS2	2020-09-09	2.8
-23	Lovers in a Dangerous Spacetime	PS4	2020-09-11	0.4
-24	inFamous	PS3	2020-09-29	1.9
-25	inFamous 2	PS3	2020-10-09	3.1
-26	Crash Bandicoot 3: Warped	PS4	2020-10-12	0.8
-27	South Park: The Fractured But Whole	PS4	2020-10-14	4.7
-28	Crash Bandicoot 2: Cortex Strikes Back	PS4	2020-10-19	0.6
-29	Ratchet & Clank: A Crack in Time	PS3	2020-10-21	3.8
-30	Crash Bandicoot	PS4	2020-10-23	0.7
-31	Family Guy: Back to the Multiverse	PS3	2020-10-23	2.3
-32	Crash Team Racing: Nitro Fueled	PS4	2020-10-25	0.6
-33	MediEvil	PS4	2020-10-28	7.6
-34	Ratchet & Clank (2016)	PS4	2020-10-31	2.4
-35	Oddworld: New n Tasty	PS3	2020-11-05	0.9
-36	Borderlands 3	PS4	2020-11-15	2.1
+id	game	console	completion_date	rarity  
+1	Jak and Daxter: The Precursor Legacy	PS2	2012-12-16	17.5  
+2	Jak and Daxter: The Precursor Legacy	PS3	2015-11-14	8.5  
+3	The Walking Dead: Season 1 TTG	VITA	2015-12-29	39.6  
+4	The Walking Dead: Season 1 TTG	PS4	2016-10-21	45.8  
+5	Batman: Season 1 TTG	PS4	2017-03-28	20.9  
+6	Game of Thrones TTG	PS4	2017-10-13	19.1  
+7	Jak and Daxter: The Precursor Legacy	PS4	2018-01-23	16.4  
+8	Tales from the Borderlands TTG	PS4	2018-08-04	23.7  
+9	Bully: Canis Canem Edit	PS2	2018-08-24	3.3  
+10	Rocket League	PS4	2018-09-05	2.7  
+11	Spyro the Dragon	PS4	2018-11-14	7.9  
+12	Spyro 3: Year of the Dragon	PS4	2018-11-19	5.7  
+13	Spyro 2: Gateway to Glimmer	PS4	2018-11-19	5.6  
+14	Marvels Spider-Man	PS4	2019-01-14	8.5  
+15	Apocalypse Rider	VR	2020-07-08	3.3  
+16	Shooty Fruity	VR	2020-07-15	0.4  
+17	Syrup and the Ultimate Sweet	PS4	2020-07-17	94.6  
+18	Batman: Season 2 TTG	PS4	2020-07-21	18.3  
+19	Saints Row: The Third	PS3	2020-08-05	4.7  
+20	Destroy All Humans! (Original)	PS2	2020-09-02	1.6  
+21	Destroy All Humans! (Remake)	PS4	2020-09-07	2.9  
+22	Destroy All Humans! 2	PS2	2020-09-09	2.8  
+23	Lovers in a Dangerous Spacetime	PS4	2020-09-11	0.4  
+24	inFamous	PS3	2020-09-29	1.9  
+25	inFamous 2	PS3	2020-10-09	3.1  
+26	Crash Bandicoot 3: Warped	PS4	2020-10-12	0.8  
+27	South Park: The Fractured But Whole	PS4	2020-10-14	4.7  
+28	Crash Bandicoot 2: Cortex Strikes Back	PS4	2020-10-19	0.6  
+29	Ratchet & Clank: A Crack in Time	PS3	2020-10-21	3.8  
+30	Crash Bandicoot	PS4	2020-10-23	0.7  
+31	Family Guy: Back to the Multiverse	PS3	2020-10-23	2.3  
+32	Crash Team Racing: Nitro Fueled	PS4	2020-10-25	0.6  
+33	MediEvil	PS4	2020-10-28	7.6  
+34	Ratchet & Clank (2016)	PS4	2020-10-31	2.4  
+35	Oddworld: New n Tasty	PS3	2020-11-05	0.9  
+36	Borderlands 3	PS4	2020-11-15	2.1  
 37	Ghost of Tsushima	PS4	2020-12-10	10.4
 38	Star Wars Episode I: Racer	PS4	2020-12-24	12.4
 39	ASTRO BOT: RESCUE MISSION	VR	2021-02-09	1.4
@@ -414,7 +414,9 @@ id	game	console	completion_date	rarity
 168	Ratchet & Clank: Size Matters	PSP	2024-08-18	5.6
 169	Astro Bot	PS5	2024-09-09	3.3
 170	Yakuza 0	PS4	2024-10-17	0.8
-171	Yakuza Kiwami	PS4	2024-11-05	0.5  
+171	Yakuza Kiwami	PS4	2024-11-05	0.5
+172 Squirrel with a Gun	PS5	2024-11-08	5.4
+173 Yakuza Kiwami 2	PS4	2024-11-20	2.6  
 
 	* Year: Platinum, Gold, Silver, Bronze  
 	* 2009: 0, 2, 5, 33  
@@ -432,7 +434,7 @@ id	game	console	completion_date	rarity
 	* 2021: 37, 240, 478, 1,353  
 	* 2022: 39, 270, 554, 1,815  
 	* 2023: 32, 167, 420, 1,519  
-	* 2024: 25, 118, 276, 925  
+	* 2024: 27, 127, 287, 938  
 
 References  
 
