@@ -1,7 +1,4 @@
--- Platinums
-SELECT * FROM platinums
-SELECT * FROM platinums ORDER BY rarity ASC
-
+-- First data entry into table (20th October 2024)
 INSERT INTO platinums
 (game, console, completion_date, rarity)
 VALUES
@@ -188,3 +185,12 @@ INSERT INTO platinums
 VALUES
 ('Squirrel with a Gun','PS5','2024-11-08',5.4),
 ('Yakuza Kiwami 2','PS4','2024-11-20',2.6)
+
+-- Additions to Platinum List (174 to 177: 4th December 2024)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Parcel Corps','PS5','2024-11-27',0.3),
+('LA Cops','PS4','2024-11-28',14.4),
+('Hot Wheels Unleashed 2 - Turbocharged','PS4','2024-11-30',0.4),
+('Horizon Forbidden West','PS4','2024-12-04',6.2)

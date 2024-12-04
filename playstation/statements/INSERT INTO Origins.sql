@@ -1,4 +1,5 @@
--- PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
+-- First data entry into table
+-- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
 
 -- PS1
 INSERT INTO origins
@@ -1166,7 +1167,7 @@ VALUES
 	('The Plucky Squire','PS5','All Possible Futures','England'),
 	('TOEM: A Photo Adventure','PS5','Something We Made','Sweden')
 
--- GAMES PURCHASED SINCE 7TH SEPT 2024  
+-- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
 
 -- 10TH SEPT 2024
 INSERT INTO origins

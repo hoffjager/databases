@@ -1,4 +1,5 @@
--- PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
+-- First data entry into table
+-- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
 
 -- PS1
 INSERT INTO dates
