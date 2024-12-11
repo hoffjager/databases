@@ -1,4 +1,39 @@
--- First data entry into table
+SELECT * FROM origins
+
+-- 7TH NOV 2024 (ID 1042 - 1047)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Doki Doki Literature Club Plus!','PS4','Team Salvato','USA'),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4','Milestone','Italy'),
+	('Parcel Corps','PS5','Billy Goat Entertainment Ltd','Northern Ireland'),
+	('South Park: Snow Day!','PS5','Question Games','USA'),
+	('Squirrel with a Gun','PS5','Dee Dee Creations','USA'),
+	('Tekken 8','PS5','Bandai Namco Studios','Japan')
+
+-- 21ST OCT 2024 (ID 1037 - 1041)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Palworld','PS5','Pocket Pair','Japan'),
+	('SteamWorld Build','PS4','Image & Form','Sweden'),
+	('Timesplitters','PS2','Free Radical Design','England'),
+	('Timesplitters 2','PS2','Free Radical Design','England'),
+	('Timesplitters: Future Perfect','PS2','Free Radical Design','England')
+
+-- 2ND OCT 2024 (ID 1036)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('WWE 2K24','PS4','Visual Concepts','USA')
+
+-- 10TH SEPT 2024 (ID 1035)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Gravity Rush','VITA','Team Asobi (Japan Studio)','Japan')
+
+-- INITIAL DATA ENTRY (ID 1 - 1034)
 -- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
 
 -- PS1
@@ -1166,40 +1201,3 @@ VALUES
 	('Steelrising','PS5','Spiders','France'),
 	('The Plucky Squire','PS5','All Possible Futures','England'),
 	('TOEM: A Photo Adventure','PS5','Something We Made','Sweden')
-
--- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
-
--- 10TH SEPT 2024
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Gravity Rush','VITA','Team Asobi (Japan Studio)','Japan')
-
--- 2ND OCT 2024
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('WWE 2K24','PS4','Visual Concepts','USA')
-
--- 21ST OCT 2024
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Palworld','PS5','Pocket Pair','Japan'),
-	('SteamWorld Build','PS4','Image & Form','Sweden'),
-	('Timesplitters','PS2','Free Radical Design','England'),
-	('Timesplitters 2','PS2','Free Radical Design','England'),
-	('Timesplitters: Future Perfect','PS2','Free Radical Design','England')
-
--- 7TH NOV 2024
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Doki Doki Literature Club Plus!','PS4','Team Salvato','USA'),
-	('Hot Wheels Unleashed 2 - Turbocharged','PS4','Milestone','Italy'),
-	('Parcel Corps','PS5','Billy Goat Entertainment Ltd','Northern Ireland'),
-	('South Park: Snow Day!','PS5','Question Games','USA'),
-	('Squirrel with a Gun','PS5','Dee Dee Creations','USA'),
-	('Tekken 8','PS5','Bandai Namco Studios','Japan')
-
-SELECT * FROM origins

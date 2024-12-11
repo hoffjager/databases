@@ -1,4 +1,4 @@
--- First data entry into table (20th October 2024)
+-- 20TH OCT 2024: INITIAL DATA ENTRY (2009 - 2024)
 INSERT INTO trophies
 (year, platinum, gold, silver, bronze)
 VALUES

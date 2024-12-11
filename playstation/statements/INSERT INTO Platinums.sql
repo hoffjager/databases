@@ -1,4 +1,35 @@
--- First data entry into table (20th October 2024)
+SELECT * FROM platinums
+
+-- 11TH DEC 2024 (ID 178 - 179)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Watch Dogs','PS3','2024-12-09',0.8),
+('Watch Dogs 2','PS4','2024-12-10',2.0)
+
+-- 4TH DEC 2024 (ID 174 - 177)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Parcel Corps','PS5','2024-11-27',0.3),
+('LA Cops','PS4','2024-11-28',14.4),
+('Hot Wheels Unleashed 2 - Turbocharged','PS4','2024-11-30',0.4),
+('Horizon Forbidden West','PS4','2024-12-04',6.2)
+
+-- 23RD NOV 2024 (ID 172 - 173)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Squirrel with a Gun','PS5','2024-11-08',5.4),
+('Yakuza Kiwami 2','PS4','2024-11-20',2.6)
+
+-- 5TH NOV 2024 (ID 171)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Yakuza Kiwami','PS4','2024-11-05',0.5)
+
+-- INITIAL DATA ENTRY (ID 1 - 170)
 INSERT INTO platinums
 (game, console, completion_date, rarity)
 VALUES
@@ -172,25 +203,3 @@ VALUES
 ('Ratchet & Clank: Size Matters','PSP','2024-08-18',5.6),
 ('Astro Bot','PS5','2024-09-09',3.3),
 ('Yakuza 0','PS4','2024-10-17',0.8)
-
--- Addition to Platinum List (171: 5th November 2024)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Yakuza Kiwami','PS4','2024-11-05',0.5)
-
--- Additions to Platinum List (172 and 173: 23rd November 2024)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Squirrel with a Gun','PS5','2024-11-08',5.4),
-('Yakuza Kiwami 2','PS4','2024-11-20',2.6)
-
--- Additions to Platinum List (174 to 177: 4th December 2024)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Parcel Corps','PS5','2024-11-27',0.3),
-('LA Cops','PS4','2024-11-28',14.4),
-('Hot Wheels Unleashed 2 - Turbocharged','PS4','2024-11-30',0.4),
-('Horizon Forbidden West','PS4','2024-12-04',6.2)

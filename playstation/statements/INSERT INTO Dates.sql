@@ -1,4 +1,39 @@
--- First data entry into table
+SELECT * FROM dates
+
+-- 7TH NOV 2024 (ID 1042 - 1047)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Doki Doki Literature Club Plus!','PS4','2021-06-30','2024-10-30','',''),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4','2023-10-19','2024-11-06','',''),
+	('Parcel Corps','PS5','2024-10-03','2024-11-06','',''),
+	('South Park: Snow Day!','PS5','2024-03-26','2024-11-06','',''),
+	('Squirrel with a Gun','PS5','2024-10-15','2024-11-06','',''),
+	('Tekken 8','PS5','2024-01-25','2024-11-06','','')
+
+-- 21ST OCT 2024 (ID 1037 - 1041)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Palworld','PS5','2024-09-25','2024-10-21','',''),
+	('SteamWorld Build','PS4','2023-12-01','2024-10-21','',''),
+	('TimeSplitters','PS2','2000-11-24','2024-10-21','',''),
+	('TimeSplitters 2','PS2','2002-10-18','2024-10-21','',''),
+	('TimeSplitters: Future Perfect','PS2','2005-03-24','2024-10-21','','')
+
+-- 2ND OCT 2024 (ID 1036)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('WWE 2K24','PS4','2024-03-08','2024-10-02','','')
+
+-- 10TH SEPT 2024 (ID 1035)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Gravity Rush','VITA','2012-06-15','2024-09-10','','')
+
+-- INITIAL DATA ENTRY (ID 1 - 1034)
 -- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
 
 -- PS1
@@ -1166,40 +1201,3 @@ VALUES
 	('Steelrising','PS5','2022-09-08','2024-02-06','',''),
 	('The Plucky Squire','PS5','2024-09-17','2024-09-19','',''),
 	('TOEM: A Photo Adventure','PS5','2021-09-17','2022-09-07','2022-09-24','2022-09-25')
-
--- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
-
--- 10TH SEPT 2024
-INSERT INTO dates
-(game, console, release_date, purchase_date, start_date, finish_date)
-VALUES
-	('Gravity Rush','VITA','2012-06-15','2024-09-10','','')
-
--- 2ND OCT 2024
-INSERT INTO dates
-(game, console, release_date, purchase_date, start_date, finish_date)
-VALUES
-	('WWE 2K24','PS4','2024-03-08','2024-10-02','','')
-
--- 21ST OCT 2024
-INSERT INTO dates
-(game, console, release_date, purchase_date, start_date, finish_date)
-VALUES
-	('Palworld','PS5','2024-09-25','2024-10-21','',''),
-	('SteamWorld Build','PS4','2023-12-01','2024-10-21','',''),
-	('TimeSplitters','PS2','2000-11-24','2024-10-21','',''),
-	('TimeSplitters 2','PS2','2002-10-18','2024-10-21','',''),
-	('TimeSplitters: Future Perfect','PS2','2005-03-24','2024-10-21','','')
-
--- 7TH NOV 2024
-INSERT INTO dates
-(game, console, release_date, purchase_date, start_date, finish_date)
-VALUES
-	('Doki Doki Literature Club Plus!','PS4','2021-06-30','2024-10-30','',''),
-	('Hot Wheels Unleashed 2 - Turbocharged','PS4','2023-10-19','2024-11-06','',''),
-	('Parcel Corps','PS5','2024-10-03','2024-11-06','',''),
-	('South Park: Snow Day!','PS5','2024-03-26','2024-11-06','',''),
-	('Squirrel with a Gun','PS5','2024-10-15','2024-11-06','',''),
-	('Tekken 8','PS5','2024-01-25','2024-11-06','','')
-
-SELECT * FROM dates

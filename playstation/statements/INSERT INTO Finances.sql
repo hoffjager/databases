@@ -1,4 +1,39 @@
--- First data entry into table
+SELECT * FROM finances
+
+-- 7TH NOV 2024 (ID 1042 - 1047)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Doki Doki Literature Club Plus!','PS4',12.49,0.00,12.49,1,0.00),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4',49.99,0.00,49.99,1,0.00),
+	('Parcel Corps','PS5',34.99,23.44,11.55,1,23.44),
+	('South Park: Snow Day!','PS5',29.99,19.49,10.50,1,19.49),
+	('Squirrel with a Gun','PS5',19.99,13.99,6.00,1,13.99),
+	('Tekken 8','PS5',79.99,39.99,40.00,1,39.99)
+
+-- 21ST OCT 2024 (ID 1037 - 1041)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Palworld','PS5',28.99,28.99,0.00,8,3.62),
+	('SteamWorld Build','PS4',29.99,15.74,14.25,1,15.74),
+	('Timesplitters','PS2',9.99,6.99,3.00,1,6.99),
+	('Timesplitters 2','PS2',9.99,6.99,3.00,1,6.99),
+	('Timesplitters: Future Perfect','PS2',9.99,6.99,3.00,1,6.99)
+
+-- 2ND OCT 2024 (ID 1036)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('WWE 2K24','PS4',74.99,0.00,74.99,1,0.00)
+
+-- 10TH SEPT 2024 (ID 1035)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Gravity Rush','VITA',29.99,14.99,15.00,1,14.99)
+
+-- INITIAL DATA ENTRY (ID 1 - 1034)
 -- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
 
 -- PS1
@@ -1166,40 +1201,3 @@ VALUES
 	('Steelrising','PS5',59.99,0.00,59.99,1,0.00),
 	('The Plucky Squire','PS5',29.99,0.00,29.99,10,0.00),
 	('TOEM: A Photo Adventure','PS5',19.99,0.00,19.99,10,0.00)
-
--- GAMES PURCHASED SINCE 7TH SEPT 2024 (ID 1035 - ETC)
-
--- 10TH SEPT 2024
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Gravity Rush','VITA',29.99,14.99,15.00,1,14.99)
-
--- 2ND OCT 2024
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('WWE 2K24','PS4',74.99,0.00,74.99,1,0.00)
-
--- 21ST OCT 2024
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Palworld','PS5',28.99,28.99,0.00,8,3.62),
-	('SteamWorld Build','PS4',29.99,15.74,14.25,1,15.74),
-	('Timesplitters','PS2',9.99,6.99,3.00,1,6.99),
-	('Timesplitters 2','PS2',9.99,6.99,3.00,1,6.99),
-	('Timesplitters: Future Perfect','PS2',9.99,6.99,3.00,1,6.99)
-
--- 7TH NOV 2024
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Doki Doki Literature Club Plus!','PS4',12.49,0.00,12.49,1,0.00),
-	('Hot Wheels Unleashed 2 - Turbocharged','PS4',49.99,0.00,49.99,1,0.00),
-	('Parcel Corps','PS5',34.99,23.44,11.55,1,23.44),
-	('South Park: Snow Day!','PS5',29.99,19.49,10.50,1,19.49),
-	('Squirrel with a Gun','PS5',19.99,13.99,6.00,1,13.99),
-	('Tekken 8','PS5',79.99,39.99,40.00,1,39.99)
-
-SELECT * FROM finances
