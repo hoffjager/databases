@@ -1,6 +1,6 @@
 # gamescollection  
 
-Updated as of 11th December 2024
+Updated as of 22nd December 2024
 
 Introduction  
 I decided to create this repository to display my relational databases, consisting of both my PlayStation & Nintendo video game collections.  
@@ -14,54 +14,7 @@ Raw data temporarily entered & compiled in Google Sheets files over a number of 
 PSPrices, a video game deals tracker to help gamers find the best video game bargains  
 PSNProfiles, a video game tracker that logs video gaming activities  
   
-Initial Setup  
-SQL Statements    
-CREATE DATABASE & TABLES.sql  
-INSERT INTO Dates.sql  
-INSERT INTO Finances.sql  
-INSERT INTO Origins.sql  
-INSERT INTO Platinums.sql  
-INSERT INTO Trophies.sql    
-UPDATE Dates.sql  
-UPDATE Finances.sql  
-UPDATE Origins.sql  
-UPDATE Platinums.sql  
-UPDATE Trophies.sql    
-SELECT FROM.sql  
-  
-SQL Output  
-complete_tables.xlsx  
-dates_&_finances_all-time.xlsx  
-dates_&_finances_monthly.xlsx  
-origins.xlsx  
-platinums & trophies.xlsx  
-wishlist.xlsx  
-  
-Questions
-I noted the following topics in order to gain further insight into the collected data:  
-
-Spending & Savings  
-	The total number of video games & consoles in the collection  
-	The total number of games purchased per console  
-	Video games purchased per year  
-	Video games purchased per month  
-	The total number of video games redeemed as gifts & via subscription  
-
-Countries & Developers  
-	The total number of distinct countries & developers in the collection  
-	The total number of games developed per distinct country  
-	The total number of games developed per distinct developer  
-
-Value for Money  
-	The total hours & value for money per game in the collection:  
-		Value for Money = paid_price / hours  
-
-Purchases & Backlog
-	TBC - Queries to SELECT from tables to see filtered information regarding various dates such as release dates & finish dates of specific games  
-
-Platinums & Trophies  
-	Platinum, Gold, Silver & Bronze trophies earned from 2009 to present.
-	Data to be updated monthly.  
+Questions  
 
 # 1: Purchase Dates, Spending & Savings  
 How much have all video games cost since beginning my collection in 2009?  
@@ -240,7 +193,7 @@ Various columns have been added to the dates table to track the following aspect
 
 # 5: PLATINUMS & TROPHIES  
 From platinums & trophies.xlsx:  
-179 platinum trophies achieved since 2009.  
+180 platinum trophies achieved since 2009.  
 
 	* Year: Platinum, Gold, Silver, Bronze  
 	* 2009: 0, 2, 5, 33  
@@ -258,23 +211,4 @@ From platinums & trophies.xlsx:
 	* 2021: 37, 240, 478, 1,353  
 	* 2022: 39, 270, 554, 1,815  
 	* 2023: 32, 167, 420, 1,519  
-	* 2024: 33, 148, 322, 1,029  
-
-References  
-
-PSPrices  
-No one likes missing a good sale!  
-PSPrices are a video game deals tracker based in London, who gather offers from the digital storefronts of PlayStation, Xbox and Nintendo, to help gamers find the best video game bargains from anywhere in the world.  
-Upon signing up for free, I decided to contribute a one-off lifetime payment to the developers of PSPrices in order to show my gratitude for their service.  
-While similar sites would show game deals, PSprices also allow you to track your entire game collection across different consoles.  
-Just pick your favourite games, click Subscribe, and PSPrices will send you an email when the prices of games drop in the sales, as well as upcoming games.  
-It's a neat way to keep track of what you own and even rediscover some old favourites.  
-Join the PSprices community today at hello@psprices.com  
-hoff_jager PSN Game Wishlist - https://psprices.com/wish-list/HQkF82kb  
-  
-PSNProfiles  
-PSNProfiles are a video game tracker that logs how recently you have played your video games, along with in-game trophy achievements earned towards video game completion.  
-Upon signing up for free, I decided to contribute a one-off lifetime payment to the developers of PSNProfiles, in order to show my gratitude in addition to unlocking the Premium features of their website, such as:  
-Frequent trophy server synchronization  
-Digital trophy cabinet displaying my Top 10 rare trophies achieved  
-hoff_jager PSN Gamer Profile - https://psnprofiles.com/hoff_jager  
+	* 2024: 34, 148, 337, 1,053  

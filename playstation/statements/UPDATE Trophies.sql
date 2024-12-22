@@ -2,7 +2,11 @@
 	-- SELECT * FROM trophies
 		-- UPDATE TABLE SET FIELD = REPLACE(FIELD, 'OLD VALUE', 'NEW VALUE') WHERE ID = 16 (2024)
 			-- Updating trophy count at various intervals
-				-- 11TH DEC 2024 (TBC)
+				-- 22ND DEC 2024
+					UPDATE trophies SET platinum = REPLACE(platinum, 33, 34) WHERE ID = 16
+					UPDATE trophies SET silver = REPLACE(silver, 322, 337) WHERE ID = 16
+					UPDATE trophies SET bronze = REPLACE(bronze, 1029, 1053) WHERE ID = 16
+				-- 11TH DEC 2024
 					UPDATE trophies SET platinum = REPLACE(platinum, 31, 33) WHERE ID = 16
 					UPDATE trophies SET gold = REPLACE(gold, 146, 148) WHERE ID = 16
 					UPDATE trophies SET silver = REPLACE(silver, 314, 322) WHERE ID = 16

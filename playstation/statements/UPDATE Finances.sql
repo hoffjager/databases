@@ -2,7 +2,16 @@
 	-- SELECT * FROM finances WHERE id = 278
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Hours & Value for completed games
-				-- 11TH DEC 2024 (TBC)
+				-- 22ND DEC 2024
+					UPDATE finances SET hours = REPLACE(hours, 36, 79) WHERE id = 923
+					UPDATE finances SET value = REPLACE(value, 0.97, 0.44) WHERE id = 923
+					UPDATE finances SET hours = REPLACE(hours, 1, 3) WHERE id = 785
+					UPDATE finances SET value = REPLACE(value, 3.99, 1.33) WHERE id = 785
+					UPDATE finances SET hours = REPLACE(hours, 14, 16) WHERE id = 1015
+					UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 1042
+					UPDATE finances SET hours = REPLACE(hours, 15, 22) WHERE id = 185
+					UPDATE finances SET value = REPLACE(value, 0.53, 0.36) WHERE id = 185
+				-- 11TH DEC 2024
 					UPDATE finances SET hours = REPLACE(hours, 33, 45) WHERE ID = 278
 					UPDATE finances SET value = REPLACE(value, 0.24, 0.18) WHERE ID = 278
 					UPDATE finances SET hours = REPLACE(hours, 1, 34) WHERE ID = 1044

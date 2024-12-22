@@ -1,5 +1,11 @@
 SELECT * FROM platinums
 
+-- 22ND DEC 2024 (ID 180)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Watch Dogs Legion','PS4','2024-12-15',1.0)
+
 -- 11TH DEC 2024 (ID 178 - 179)
 INSERT INTO platinums
 (game, console, completion_date, rarity)
