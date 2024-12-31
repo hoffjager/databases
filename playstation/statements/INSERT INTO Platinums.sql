@@ -1,5 +1,13 @@
 SELECT * FROM platinums
 
+-- 31ST DEC 2024 (ID 181 - 183)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Uncharted: The Lost Legacy','PS4','2024-12-24',1.9),
+('South Park: Snow Day','PS5','2024-12-27',2.1),
+('TY the Tasmanian Tiger','PS2','2024-12-28',15.2)
+
 -- 22ND DEC 2024 (ID 180)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

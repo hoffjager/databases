@@ -1,5 +1,14 @@
 SELECT * FROM dates
 
+-- 31ST DEC 2024 (ID 1048 - 1051)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('God of War: Ragnarok','PS4','2022-11-09','2024-12-25','',''),
+	('TY the Tasmanian Tiger','PS2','2002-11-22','2024-12-25','',''),
+	('The Holy Gosh Darn','PS4','2024-09-26','2024-12-25','',''),
+	('Like a Dragon: Pirate Yakuza in Hawaii','PS5','2025-02-28','2025-02-28','','')
+
 -- 7TH NOV 2024 (ID 1042 - 1047)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

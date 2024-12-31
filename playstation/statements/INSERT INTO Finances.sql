@@ -1,5 +1,14 @@
 SELECT * FROM finances
 
+-- 31ST DEC 2024 (ID 1048 - 1051)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('God of War: Ragnarok','PS4',79.99,0.00,79.99,1,0.00),
+	('TY the Tasmanian Tiger','PS2',26.99,0.00,26.99,1,0.00),
+	('The Holy Gosh Darn','PS4',19.99,0.00,19.99,1,0.00),
+	('Like a Dragon: Pirate Yakuza in Hawaii','PS5',59.99,0.00,59.99,1,0.00)
+
 -- 7TH NOV 2024 (ID 1042 - 1047)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

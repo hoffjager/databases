@@ -1,6 +1,6 @@
 # gamescollection  
 
-Updated as of 22nd December 2024
+Updated as of 31st December 2024
 
 Introduction  
 I decided to create this repository to display my relational databases, consisting of both my PlayStation & Nintendo video game collections.  
@@ -20,18 +20,18 @@ Questions
 How much have all video games cost since beginning my collection in 2009?  
 
 From complete_tables.xlsx & origins/consoles.xlsx:  
-	There are 1,047 distinct video games across 8 distinct consoles in the collection:  
+	There are 1,051 distinct video games across 8 distinct consoles in the collection:  
 		PS1, PS2, PSP, PS3, VITA, PS4, PSVR, PS5.  
 
 	* Console: Games per Console  
 	* PS1: 76  
-	* PS2: 74  
+	* PS2: 75  
 	* PSP: 27  
 	* PS3: 246  
 	* VITA: 70  
-	* PS4: 457  
+	* PS4: 459  
 	* VR: 70  
-	* PS5: 27  
+	* PS5: 28  
 
 From dates_&_finances_all-time.xlsx:  
 
@@ -51,13 +51,14 @@ From dates_&_finances_all-time.xlsx:
 	* 2021: €3,627.62, €1,376.56, €2,251.06  
 	* 2022: €2,964.64, €931.37, €2,033.27  
 	* 2023: €2,939.16, €401.79, €2,537.37  
-	* 2024: €2,009.47, €520.06, €1,489.41  
-	* Total: €25,183.03, €10,764.68, €14,418.35  
+	* 2024: €2,136.44, €520.06, €1,616.38
+	* 2025: €59.99, €0.00, €59.99
+	* Total: €25,369.99, €10,764.68, €14,605.31  
   
-The full prices of all games on recorded purchase dates came to a total of €25,183.03.  
-The paid prices (including birthday & Christmas gifts along with the PlayStation Plus Essential subscription service) came to a total of €10,764.68.  
-This resulted in total savings of €14,418.35 (57% of the full price):
-The years 2017-2024 accounted for €13,040.67 (90%) of total savings.  
+The full prices of all games on recorded purchase dates came to a total of €25,369.99.  
+Paid prices (birthday & Christmas gifts along with PlayStation Plus) came to €10,764.68.  
+This resulted in total savings of €14,605.31 (58% of the full price):
+The years 2017-2024 accounted for €13,227.63 (91%) of total savings.  
 
 How many video games were purchased in selected months?  
 
@@ -65,7 +66,7 @@ From dates_&_finances_monthly.xlsx:
 
 	* Month: Full Price, Sale Price, Savings  
 	* January: €2,291.68, €1,087.94, €1,203.74  
-	* February: €1,616.87, €589.76, €1,027.11  
+	* February: €1,676.86, €589.76, €1,087.10  
 	* March: €1,700.19, €588.20, €1,111.99  
 	* April: €1,210.03, €640.73, €569.30  
 	* May: €2,026.81, €734.84, €1,291.97  
@@ -75,8 +76,8 @@ From dates_&_finances_monthly.xlsx:
 	* September: €3,246.52, €1,056.79, €2,189.73  
 	* October: €2,438.95, €1,104.06, €1,334.89  
 	* November: €2,218.59, €1,053.15, €1,165.44  
-	* December: €3,198.36, €1,595.77, €1,602.59  
-	* Total: €25,183.03, €10,764.68, €14,418.35  
+	* December: €3,325.33, €1,595.77, €1,729.56  
+	* Total: €25,369.99, €10,764.68, €14,605.31  
 
 September saw the most game purchases & most savings, my birthday month.  
 August was also a busy month, as a result of redeeming pre-orders prior to my birthday.  
@@ -86,28 +87,28 @@ How many video games were purchased via gift cards & the PlayStation Plus subscr
 
 From dates_&_finances_all-time.xlsx:  
   
-180 games were purchased via birthday or Christmas gifts, along with the PlayStation Plus subscription service.  
-The total savings compared to the full price came to €5,678.90 (an average of €31.55 per game).    
-These savings account for approximately 33% of the total savings.  
+184 games were purchased via birthday or Christmas gifts, along with PlayStation Plus.  
+The total savings compared to the full price came to €5,865.86 (an average of €31.88 per game).    
+These savings account for approximately 40% of the total savings.  
 
 # 2: Countries & Developers:  
 How many distinct countries & developers make up the game collection?  
 
 From origins.xlsx:  
-	526 distinct game developers, from 47 distinct countries.  
+	527 distinct game developers, from 47 distinct countries.  
 
 Which countries & developers have contributed the most video games in the collection?  
 
 From origins.xlsx:  
 The top 10 countries from the collection are:  
 
-	1. USA = 294  
-	2. Japan = 230  
+	1. USA = 295  
+	2. Japan = 231  
 	3. England = 171  
 	4. Canada = 87  
 	5. Sweden = 40  
 	6. France = 38  
-	7. Australia = 21  
+	7. Australia = 22  
 	8. Finland = 18  
 	9. Germany = 17  
 	10. Poland = 16  
@@ -117,13 +118,13 @@ The top 10 developers from the collection are:
 
 	1. Capcom = 62  
 	2. Square Enix (SquareSoft) = 23  
-	3. TT Games (Travellers Tales) = 18  
-	_. Insomniac Games = 18  
+	3. Insomniac Games = 18  
+	4. TT Games (Travellers Tales) = 18  
 	5. SEGA = 17  
-	6. Team Asobi (Japan Studio) = 16  
-	_. Konami = 16  
+	6. Konami = 16  
+	7. Team Asobi (Japan Studio) = 16  
 	8. Naughty Dog = 15  
-	_. Ubisoft Montreal = 15  
+	9. Ubisoft Montreal = 15  
 	10. Telltale Games = 14  
 
 FURTHER DATA ANALYSIS OF COUNTRIES & DEVELOPERS TBC:  
@@ -193,7 +194,7 @@ Various columns have been added to the dates table to track the following aspect
 
 # 5: PLATINUMS & TROPHIES  
 From platinums & trophies.xlsx:  
-180 platinum trophies achieved since 2009.  
+183 platinum trophies achieved since 2009.  
 
 	* Year: Platinum, Gold, Silver, Bronze  
 	* 2009: 0, 2, 5, 33  
@@ -211,4 +212,5 @@ From platinums & trophies.xlsx:
 	* 2021: 37, 240, 478, 1,353  
 	* 2022: 39, 270, 554, 1,815  
 	* 2023: 32, 167, 420, 1,519  
-	* 2024: 34, 148, 337, 1,053  
+	* 2024: 37, 160, 357, 1,104
+	* 2025: 0, 0, 0, 0

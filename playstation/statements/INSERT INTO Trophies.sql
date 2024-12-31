@@ -1,3 +1,11 @@
+SELECT * FROM trophies
+
+-- 31ST DEC 2024: DATA ENTRY OF 2025
+INSERT INTO trophies
+(year, platinum, gold, silver, bronze)
+VALUES
+(2025,0,0,0,0)
+
 -- 20TH OCT 2024: INITIAL DATA ENTRY (2009 - 2024)
 INSERT INTO trophies
 (year, platinum, gold, silver, bronze)

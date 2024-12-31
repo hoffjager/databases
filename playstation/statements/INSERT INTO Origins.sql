@@ -1,5 +1,14 @@
 SELECT * FROM origins
 
+-- 31ST DEC 2024 (ID 1048 - 1051)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('God of War: Ragnarok','PS4','Santa Monica Studio','USA'),
+	('TY the Tasmanian Tiger','PS2','Krome Studios','Australia'),
+	('The Holy Gosh Darn','PS4','Perfectly Paranormal','Norway'),
+	('Like a Dragon: Pirate Yakuza in Hawaii','PS5','Ryu Ga Gotoku Studio','Japan')
+
 -- 7TH NOV 2024 (ID 1042 - 1047)
 INSERT INTO origins
 (game, console, developer, country)

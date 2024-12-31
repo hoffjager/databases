@@ -2,6 +2,17 @@
 	-- SELECT * FROM dates WHERE id = 278
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST DEC 2024
+					-- Start_Date
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2024-12-25') WHERE id = 1045
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2024-12-27') WHERE id = 1049
+					-- Finish_Date
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-08-17','2024-12-24') WHERE ID = 915
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2024-12-27') WHERE ID = 1045
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2020-07-07','2024-12-22') WHERE ID = 186
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2024-12-28') WHERE ID = 1049
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-12-16','2024-12-29') WHERE ID = 1015
+
 				-- 22ND DEC 2024
 					-- Start_Date
 						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2024-12-15') WHERE id = 785
