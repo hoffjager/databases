@@ -1,5 +1,13 @@
 SELECT * FROM dates
 
+-- 1ST FEB 2025 (ID 1052 - 1054)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('TY the Tasmanian Tiger 2: Bush Rescue','PS2','2004-11-05','2025-01-05','2025-01-06','2025-01-20'),
+	('Disney Epic Mickey: Rebrushed','PS4','2024-09-23','2025-01-05','2025-01-19','2025-01-19'),
+	('Need for Speed Hot Pursuit','PS3','2010-11-19','2025-01-07','','')
+
 -- 31ST DEC 2024 (ID 1048 - 1051)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

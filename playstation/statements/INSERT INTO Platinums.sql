@@ -1,5 +1,11 @@
 SELECT * FROM platinums
 
+-- 1ST FEB 2025 (ID 184)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Saints Row: The Third','PS5','2025-01-14',2.0)
+
 -- 31ST DEC 2024 (ID 181 - 183)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

@@ -1,5 +1,13 @@
 SELECT * FROM origins
 
+-- 1ST FEB 2025 (ID 1052 - 1054)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('TY the Tasmanian Tiger 2: Bush Rescue','PS2','Krome Studios','Australia'),
+	('Disney Epic Mickey: Rebrushed','PS4','Purple Lamp Studios','Austria'),
+	('Need for Speed Hot Pursuit','PS3','Criterion Games','England')
+
 -- 31ST DEC 2024 (ID 1048 - 1051)
 INSERT INTO origins
 (game, console, developer, country)

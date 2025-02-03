@@ -2,6 +2,26 @@
 	-- SELECT * FROM dates WHERE id = 278
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 1ST FEB 2025
+					-- Purchase_Date
+						UPDATE dates SET purchase_date = REPLACE(purchase_date,'2025-02-28','2024-12-25') WHERE id = 1051
+					-- Start_Date
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2025-01-14') WHERE id = 346
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2025-01-06') WHERE id = 1052
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2025-01-19') WHERE id = 1053
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2011-02-05') WHERE id = 9
+						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2025-01-28') WHERE id = 160
+					-- Finish_Date
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-12-29','2025-01-05') WHERE ID = 68
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2022-08-30','2025-01-18') WHERE ID = 201
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2015-01-31','2025-01-16') WHERE ID = 344
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2025-01-18') WHERE ID = 346
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2025-01-20') WHERE ID = 1052
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2025-01-19') WHERE ID = 1053
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2020-04-15','2025-01-23') WHERE ID = 99
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2025-01-28') WHERE ID = 9
+						UPDATE dates SET finish_date = REPLACE(finish_date,'1900-01-01','2025-01-31') WHERE ID = 160
+								
 				-- 31ST DEC 2024
 					-- Start_Date
 						UPDATE dates SET start_date = REPLACE(start_date,'1900-01-01','2024-12-25') WHERE id = 1045

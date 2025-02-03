@@ -186,3 +186,4 @@
 				UPDATE platinums SET rarity = REPLACE(rarity, 1.9, 1.9) WHERE ID = 181
 				UPDATE platinums SET rarity = REPLACE(rarity, 2.1, 2.1) WHERE ID = 182
 				UPDATE platinums SET rarity = REPLACE(rarity, 15.2, 15.1) WHERE ID = 183
+				UPDATE platinums SET rarity = REPLACE(rarity, 2.0, 2.0) WHERE ID = 184

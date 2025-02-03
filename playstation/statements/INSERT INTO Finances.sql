@@ -1,5 +1,13 @@
 SELECT * FROM finances
 
+-- 1ST FEB 2025 (ID 1052 - 1054)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('TY the Tasmanian Tiger 2: Bush Rescue','PS2',26.99,2.85,24.14,10,0.29),
+	('Disney Epic Mickey Rebrushed','PS4',59.99,29.99,30.00,1,29.99),
+	('Need for Speed Hot Pursuit','PS3',39.99,0.00,39.99,1,0.00)
+
 -- 31ST DEC 2024 (ID 1048 - 1051)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

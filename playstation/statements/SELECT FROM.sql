@@ -3,18 +3,21 @@
 		SELECT * FROM dates
 		SELECT * FROM dates ORDER BY purchase_date DESC
 		SELECT * FROM dates WHERE game = 'Fallout 4'
+
+	-- Games started & finished in a specified year
 		SELECT * FROM dates WHERE YEAR(start_date) = '2024'
 		SELECT * FROM dates WHERE YEAR(finish_date) = '2024'
 
 	-- Games with the highest savings
 		SELECT * FROM finances
 		SELECT * FROM finances WHERE paid_price = 0
+		SELECT * FROM finances WHERE console = 'PS5'
 
 	-- Top 10 games with the most hours played
 		SELECT TOP 10 * FROM finances ORDER BY hours DESC
 
 	-- Top 10 games with the best value for money in ascending order
-		SELECT TOP 10 * FROM finances WHERE value > 0.00 ORDER BY value ASC
+		SELECT TOP 10 * FROM finances WHERE value = 0.00 ORDER BY hours DESC
 
 	-- Yakuza/Like a Dragon, my favourite game series with the most hours played
 		SELECT * FROM finances WHERE game LIKE 'Yakuza%' ORDER BY hours DESC
@@ -54,12 +57,18 @@
 		SELECT * FROM finances WHERE savings BETWEEN 70.00 AND 79.99 ORDER BY savings ASC
 		SELECT * FROM finances WHERE savings > 79.99 ORDER BY savings ASC
 
+	-- Data from both Dates & Finances tables
+		SELECT d.id, d.game, d.console, d.purchase_date,
+		f.full_price, f.paid_price, f.savings
+		FROM finances f
+		JOIN dates d ON d.id = f.id
+
 	-- Data from both Dates & Finances tables, where year of purchase = 'Value between 2009 & 2024'
 		SELECT d.id, d.game, d.console, d.purchase_date,
 		f.full_price, f.paid_price, f.savings
 		FROM finances f
 		JOIN dates d ON d.id = f.id
-		WHERE YEAR(d.purchase_date) = '2011'
+		WHERE YEAR(d.purchase_date) = '2025'
 		ORDER BY d.purchase_date ASC
 
 	-- Data from both Dates & Finances tables, where month of purchase = 'Value between 01(Jan) & 12(Dec)'
@@ -67,7 +76,7 @@
 		f.full_price, f.paid_price, f.savings
 		FROM finances f 
 		JOIN dates d ON d.id = f.id
-		WHERE MONTH(d.purchase_date) = '01' 
+		WHERE MONTH(d.purchase_date) = '02'
 		ORDER BY d.purchase_date ASC
 
 	-- Data from both Dates & Finances tables, where the Paid_Price is 0 (showing all gifts & subscriptions received)
@@ -92,6 +101,9 @@
 		AVG(savings) AS 'Average Savings'
 		FROM finances
 
+	-- Total number of hours played
+		SELECT SUM(hours) AS 'Total Hours' FROM finances
+
 -- Origins
 	-- Games ordered by developer
 		SELECT * FROM origins ORDER BY developer
@@ -101,6 +113,12 @@
 		SELECT DISTINCT country FROM origins ORDER BY country
 		SELECT DISTINCT developer FROM origins ORDER BY developer
 		SELECT DISTINCT developer, country FROM origins ORDER BY developer
+
+	-- Total number of games per console, grouped by each console, then ordered by the highest game count in descending order
+		SELECT console, COUNT(*) AS 'Games'
+		FROM origins
+		GROUP BY console
+		ORDER BY COUNT(*) DESC
 
 	-- Total number of games developed per country, grouped by each country, then ordered by the highest game count in descending order
 		SELECT country, COUNT(*) AS 'Games per Country'
@@ -117,12 +135,11 @@
 -- Platinums
 	-- First platinum achieved
 		SELECT * FROM platinums
-		SELECT * FROM platinums WHERE id = '1'
 
 -- Trophies
-	-- Trophies achieved in 2024
+	-- Trophies achieved in 2025
 		SELECT * FROM trophies
-		SELECT * FROM trophies WHERE year = '2024'
+		SELECT * FROM trophies WHERE year = '2025'
 
 -- Complete Database
 	-- Combining all fields & associated data from the Dates, Finances & Origins tables

@@ -1,0 +1,36 @@
+complete_tables => complete tab:
+Full_Price, Paid_Price, Savings, Hours, Value
+€25,496.96, €10,797.52, €14,699.44, 15102, €0.71
+
+complete_tables => finances tab:
+Full_Price, Paid_Price, Savings, Hours, Value
+€25,496.96, €10,797.52, €14,699.44, 15102, €0.71
+
+dates_&_finances_all-time => totals tab:
+Total Number of Games, Sum of Full Price, Sum of Paid Price, Sum of Savings
+1054, €25,496.96, €10,797.52, €14,699.44
+Total Number of Games, Avg of Full Price, Avg of Paid Price, Avg of Savings
+1054, €24.19, €10.24, €13.95
+
+Microsoft SQL Server SQL Query => equal to Excel:
+Sum of Full Price, Sum of Paid Price, Sum of Savings
+€25,496.96, €10,797.52, €14,699.44
+Avg of Full Price, Avg of Paid Price, Avg of Savings
+€24.19, €10.24, €13.95
+
+dates_&_finances_all-time => savings tab:
+Sum of Full Price, Sum of Paid Price, Sum of Savings
+€25,496.96, €10,797.52, €14,699.44
+
+dates_&_finances_monthly => savings tab:
+Sum of Full Price, Sum of Paid Price, Sum of Savings
+€25,496.96, €10,797.52, €14,699.44
+
+Microsoft SQL Server SQL Query => equal to Excel:
+Sum of Full Price, Sum of Paid Price, Sum of Savings
+€25,496.96, €10,797.52, €14,699.44
+
+origins => c_chart tab:
+Total Number of Developers, Total Number of Countries, Sum of Full Price, Sum of Paid Price, Sum of Savings, Hours, Value
+527, 47, €25,496.96, €10,797.52, €14,699.44, 15102, €0.71
+
