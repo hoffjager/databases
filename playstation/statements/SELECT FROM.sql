@@ -22,6 +22,7 @@
 	-- Yakuza/Like a Dragon, my favourite game series with the most hours played
 		SELECT * FROM finances WHERE game LIKE 'Yakuza%' ORDER BY hours DESC
 		SELECT * FROM finances WHERE game LIKE '%Dragon%' ORDER BY hours DESC
+		SELECT * FROM finances WHERE game LIKE '%Judgment%' ORDER BY hours DESC
 
 	-- Games with various price ranges (full price)
 		SELECT * FROM finances WHERE full_price < 0.01 ORDER BY full_price ASC

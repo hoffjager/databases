@@ -177,12 +177,14 @@ From dates_&_finances_all-time.xlsx:
 	5. Like a Dragon Kiwami (Yakuza Kiwami) = 119  
 	6. Like a Dragon: Ishin = 72  
 	7. Like a Dragon 5 (Yakuza 5) = 68  
-	8. Yakuza: Dead Souls = 50  
-	9. Like a Dragon Gaiden: The Man Who Erased His Name = 47  
-	10. Like a Dragon 3 (Yakuza 3) = 45
-	11. Like a Dragon 6 (Yakuza 6) = 42  
-	12. Like a Dragon 4 (Yakuza 4) = 38  
-	13. Like a Dragon: Pirate Yakuza in Hawaii = 1  
+	8. Judgment = 63  
+	9. Lost Judgment = 52  
+	10. Yakuza: Dead Souls = 50  
+	11. Like a Dragon Gaiden: The Man Who Erased His Name = 47  
+	12. Like a Dragon 3 (Yakuza 3) = 45
+	13. Like a Dragon 6 (Yakuza 6) = 42  
+	14. Like a Dragon 4 (Yakuza 4) = 38  
+	15. Like a Dragon: Pirate Yakuza in Hawaii = 1  
 
 Information to be written on this page detailing a favourite game series of mine, Like a Dragon (Yakuza):  
 TBC  
