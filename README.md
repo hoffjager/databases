@@ -1,6 +1,6 @@
 # gamescollection  
 
-Updated as of 31st January 2025
+Updated as of 28th February 2025
 
 Introduction  
 I decided to create this repository to display my relational databases, consisting of both my PlayStation & Nintendo video game collections.  
@@ -20,64 +20,64 @@ Questions
 How much have all video games cost since beginning my collection in 2009?  
 
 From complete_tables.xlsx & origins/consoles.xlsx:  
-	There are 1,051 distinct video games across 8 distinct consoles in the collection:  
+	There are 1,061 distinct video games across 8 distinct consoles in the collection:  
 		PS1, PS2, PSP, PS3, VITA, PS4, PSVR, PS5.  
 
 	* Console: Games per Console  
 	* PS1: 76  
 	* PS2: 76  
 	* PSP: 27  
-	* PS3: 247  
+	* PS3: 248  
 	* VITA: 70  
-	* PS4: 460  
+	* PS4: 466  
 	* VR: 70  
 	* PS5: 28  
 
 From dates_&_finances_all-time.xlsx:  
 
 	* Year: Full Price, Paid Price, Savings  
-	* 2009: €57.13, €29.65, €27.48  
+	* 2009: €82.11, €49.64, €32.47  
 	* 2010: €362.32, €236.91, €125.41  
-	* 2011: €250.49, €137.03, €113.46  
+	* 2011: €266.49, €143.03, €123.46  
 	* 2012: €168.86, €153.86, €15.00  
-	* 2013: €919.20, €571.73, €347.47  
-	* 2014: €367.82, €244.87, €122.95  
+	* 2013: €932.19, €571.73, €360.46  
+	* 2014: €398.80, €275.85, €122.95  
 	* 2015: €871.57, €543.06, €328.51  
-	* 2016: €687.12, €389.72, €297.40  
-	* 2017: €3,699.23, €2,092.55, €1,606.68  
-	* 2018: €1,244.35, €765.78, €478.57  
-	* 2019: €3,036.29, €1,662.09, €1,374.20  
-	* 2020: €1,977.76, €707.65, €1,270.11  
-	* 2021: €3,627.62, €1,376.56, €2,251.06  
-	* 2022: €2,964.64, €931.37, €2,033.27  
-	* 2023: €2,939.16, €401.79, €2,537.37  
-	* 2024: €2,196.43, €520.06, €1,676.37
-	* 2025: €126.97, €32.84, €94.13
-	* Total: €25,496.96, €10,797.52, €14,699.44  
+	* 2016: €711.11, €403.71, €307.40  
+	* 2017: €3,659.24, €2,072.56, €1,586.68  
+	* 2018: €1,304.34, €825.77, €478.57  
+	* 2019: €3,015.31, €1,571.12, €1,444.19  
+	* 2020: €1,882.79, €687.66, €1,195.13  
+	* 2021: €3,614.63, €1,376.56, €2,238.07  
+	* 2022: €3,049.63, €931.37, €2,118.26  
+	* 2023: €2,924.16, €448.02, €2,476.14  
+	* 2024: €2,126.44, €473.83, €1,652.61
+	* 2025: €276.92, €43.81, €233.11
+	* Total: €25,646.91, €10,808.49, €14,838.42  
   
-The full prices of all games on recorded purchase dates came to a total of €25,496.96.  
-Paid prices (birthday & Christmas gifts along with PlayStation Plus) came to €10,797.52.  
-This resulted in total savings of €14,699.44 (58% of the full price):
-The years 2017-2024 accounted for €13,227.63 (91%) of total savings.  
+The full prices of all games on recorded purchase dates came to a total of €25,646.91.  
+Paid prices (birthday & Christmas gifts along with PlayStation Plus) came to €10,808.49.  
+This resulted in total savings of €14,838.42 (58% of the full price):
+The years 2017-2024 accounted for €13,422.76 (90%) of total savings.  
 
 How many video games were purchased in selected months?  
 
 From dates_&_finances_monthly.xlsx:  
 
 	* Month: Full Price, Sale Price, Savings  
-	* January: €2,418.65, €1,120.78, €1,297.87  
-	* February: €1,616.87, €589.76, €1,027.11  
-	* March: €1,700.19, €588.20, €1,111.99  
-	* April: €1,210.03, €640.73, €569.30  
-	* May: €2,026.81, €734.84, €1,291.97  
-	* June: €1,570.92, €828.18, €742.74  
-	* July: €1,495.92, €547.07, €948.85  
-	* August: €2,168.19, €938.19, €1,230.00  
-	* September: €3,246.52, €1,056.79, €2,189.73  
-	* October: €2,438.95, €1,104.06, €1,334.89  
-	* November: €2,218.59, €1,053.15, €1,165.44  
-	* December: €3,385.32, €1,595.77, €1,789.55  
-	* Total: €25,496.96, €10,797.52, €14,699.44  
+	* January: €2,361.65, €1,074.55, €1,287.10  
+	* February: €1,700.72, €619.62, €1,081.10  
+	* March: €1,761.28, €636.29, €1,124.99  
+	* April: €1,325.01, €755.71, €569.30  
+	* May: €2,057.79, €765.82, €1,291.97  
+	* June: €1,495.17, €748.63, €746.54  
+	* July: €1,600.89, €572.05, €1,028.84  
+	* August: €2,175.98, €905.78, €1,270.20  
+	* September: €3,200.56, €920.83, €2,279.73  
+	* October: €2,264.98, €1,080.07, €1,184.91  
+	* November: €2,177.59, €1,017.16, €1,160.43  
+	* December: €3,525.29, €1,711.98, €1,813.31  
+	* Total: €25,646.91, €10,808.49, €14,838.42  
 
 September saw the most game purchases & most savings, my birthday month.  
 August was also a busy month, as a result of redeeming pre-orders prior to my birthday.  
@@ -87,8 +87,8 @@ How many video games were purchased via gift cards & the PlayStation Plus subscr
 
 From dates_&_finances_all-time.xlsx:  
   
-185 games were purchased via birthday or Christmas gifts, along with PlayStation Plus.  
-The total savings compared to the full price came to €5,905.85 (an average of €31.92 per game).    
+187 games were purchased via birthday or Christmas gifts, along with PlayStation Plus.  
+The total savings compared to the full price came to €5,985.83 (an average of €32.01 per game).    
 These savings account for approximately 40% of the total savings.  
 
 # 2: Countries & Developers:  
@@ -100,10 +100,10 @@ From origins.xlsx:
 Which countries & developers have contributed the most video games in the collection?  
 
 From origins.xlsx:  
-The top 10 countries from the collection are:  
+	The top 10 countries from the collection are:  
 
-	1. USA = 295  
-	2. Japan = 231  
+	1. USA = 297  
+	2. Japan = 232  
 	3. England = 172  
 	4. Canada = 87  
 	5. Sweden = 40  
@@ -114,7 +114,7 @@ The top 10 countries from the collection are:
 	10. Poland = 16  
 
 From origins.xlsx:  
-The top 10 developers from the collection are:  
+	The top 10 developers from the collection are:  
 
 	1. Capcom = 62  
 	2. Square Enix (SquareSoft) = 23  
@@ -130,12 +130,12 @@ The top 10 developers from the collection are:
 FURTHER DATA ANALYSIS OF COUNTRIES & DEVELOPERS TBC:  
 
 Which games each developer & country are responsible for (group by country and developer similar to above, while listing each entry in an XLSX file)?  
-origins/finances.xlsx to be incorporated in README ASAP.  
-Ranking System based on hours played & value per money TBC.  
+	origins/finances.xlsx to be incorporated in README ASAP.  
+	Ranking System based on hours played & value per money TBC.  
 
 How many games were developed by AAA, SME or Indie developers?  
-Research developers & available resources to determine if AAA, SME or Indie.  
-Discuss my personal favourite games based on all the above charts.  
+	Research developers & available resources to determine if AAA, SME or Indie.  
+	Discuss my personal favourite games based on all the above charts.  
 
 # 3: VALUE FOR MONEY  
 Which games have accumulated the most amount of hours played?  
@@ -184,7 +184,7 @@ From dates_&_finances_all-time.xlsx:
 	12. Like a Dragon 3 (Yakuza 3) = 45
 	13. Like a Dragon 6 (Yakuza 6) = 42  
 	14. Like a Dragon 4 (Yakuza 4) = 38  
-	15. Like a Dragon: Pirate Yakuza in Hawaii = 1  
+	15. Like a Dragon: Pirate Yakuza in Hawaii = 38  
 
 Information to be written on this page detailing a favourite game series of mine, Like a Dragon (Yakuza):  
 TBC  
@@ -217,4 +217,4 @@ From platinums & trophies.xlsx:
 	* 2022: 39, 270, 554, 1,815  
 	* 2023: 32, 167, 420, 1,519  
 	* 2024: 37, 160, 357, 1,104
-	* 2025: 1, 11, 50, 130  
+	* 2025: 1, 22, 74, 211  

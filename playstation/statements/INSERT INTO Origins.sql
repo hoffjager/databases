@@ -1,5 +1,21 @@
 SELECT * FROM origins
 
+-- 12TH FEB 2025 (ID 1058 - 1060)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Serious Sam: The First Encounter','PS4','Croteam','Croatia'),
+	('Serious Sam: The Second Encounter','PS4','Croteam','Croatia'),
+	('Serious Sam 3: BFE','PS3','Croteam','Croatia')
+
+-- 5TH FEB 2025 (ID 1055 - 1057)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('High on Life','PS4','Squanch Games','USA'),
+	('Pac-Man World: Re-Pac','PS4','Now Production','Japan'),
+	('Dr Fetus Mean Meat Machine','PS4','Team Meat','USA')
+
 -- 1ST FEB 2025 (ID 1052 - 1054)
 INSERT INTO origins
 (game, console, developer, country)

@@ -1,6 +1,16 @@
 -- Finances
-	SELECT * FROM finances
+SELECT * FROM finances
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+				-- 28TH FEB 2025
+					-- Updating Hours and Value for February
+						UPDATE finances SET hours = REPLACE(hours, 1, 23) WHERE id = 1055
+						UPDATE finances SET hours = REPLACE(hours, 44, 48) WHERE id = 895
+						UPDATE finances SET value = REPLACE(value, 1.02, 0.94) WHERE id = 895
+						UPDATE finances SET hours = REPLACE(hours, 1, 10) WHERE id = 733
+						UPDATE finances SET hours = REPLACE(hours, 1, 38) WHERE id = 1051
+				
+				-- UPDATING HOURS FOR THE HOLY GOSH DARN
+					UPDATE finances SET hours = REPLACE(hours, 1, 13) WHERE id = 1050
 
 				-- CORRECTING PRICES FOR UNTIL DAWN
 					UPDATE finances SET full_price = REPLACE(full_price, 34.99, 59.99) WHERE id = 917

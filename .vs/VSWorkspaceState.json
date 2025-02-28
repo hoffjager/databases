@@ -1,9 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\nintendo\\rpt_output",
+    "\\nintendo\\rpt_output\\Cross_Compatibility",
+    "\\nintendo\\SQL Statements",
     "\\playstation",
     "\\playstation\\output"
   ],
-  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }

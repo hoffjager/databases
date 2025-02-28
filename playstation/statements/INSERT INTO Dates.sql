@@ -1,5 +1,21 @@
 SELECT * FROM dates
 
+-- 12TH FEB 2025 (ID 1058 - 1060)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Serious Sam: The First Encounter','PS4','2020-03-03','2025-02-12','2025-02-12','2025-02-12'),
+	('Serious Sam: The Second Encounter','PS4','2020-03-03','2025-02-12','2025-02-12','2025-02-12'),
+	('Serious Sam 3: BFE','PS3','2014-05-13','2025-02-12','2025-02-12','2025-02-12')
+
+-- 5TH FEB 2025 (ID 1055 - 1057)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('High on Life','PS4','2023-07-22','2025-02-04','',''),
+	('Pac-Man World: Re-Pac','PS4','2022-08-25','2025-02-04','',''),
+	('Dr Fetus Mean Meat Machine','PS4','2023-06-22','2025-02-05','','')
+
 -- 1ST FEB 2025 (ID 1052 - 1054)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

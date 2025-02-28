@@ -1,5 +1,21 @@
 SELECT * FROM finances
 
+-- 12TH FEB 2025 (ID 1058 - 1060)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Serious Sam: The First Encounter','PS4',10.00,1.50,8.50,1,1.50),
+	('Serious Sam: The Second Encounter','PS4',10.00,1.50,8.50,1,1.50),
+	('Serious Sam 3: BFE','PS3',9.99,1.49,8.50,1,1.49)
+
+-- 5TH FEB 2025 (ID 1055 - 1057)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('High on Life','PS4',39.99,0.00,39.99,1,0.00),
+	('Pac-Man World: Re-Pac','PS4',39.99,0.00,39.99,1,0.00),
+	('Dr Fetus Mean Meat Machine','PS4',9.99,1.99,8.00,1,1.99)
+
 -- 1ST FEB 2025 (ID 1052 - 1054)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
