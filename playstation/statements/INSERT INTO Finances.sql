@@ -1,5 +1,52 @@
 SELECT * FROM finances
 
+-- 18TH MAR 2025 (ID 1079 - 1082)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Dead Island','PS3',19.99,2.99,17.00,1,2.99),
+	('Football Manager 2024','PS5',59.99,23.99,36.00,1,23.99),
+	('Headliner: NoviNews','PS4',13.99,6.99,7.00,1,6.99),
+	('Killer Frequency','PS4',24.99,8.49,16.50,1,8.49)
+
+-- 14TH MAR 2025 (ID 1078)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Witchcrafty','VITA',9.99,3.99,6.00,1,3.99)
+
+-- 10TH MAR 2025 (ID 1077)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Little Goody Two Shoes','PS5',19.99,11.99,8.00,1,11.99)
+
+-- 3RD & 4TH MAR 2025 (ID 1062 - 1076)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Crime Boss: Rockay City','PS5',19.99,4.99,15.00,1,4.99),
+	('Sonic Colours: Ultimate','PS4',39.99,0.00,39.99,1,0.00),
+	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00)
+
+-- 19TH FEB 2025 (ID 1061)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('The Talos Principle','PS4',29.99,4.49,25.50,1,4.49)
+
 -- 12TH FEB 2025 (ID 1058 - 1060)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

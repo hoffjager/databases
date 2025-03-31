@@ -1,5 +1,13 @@
 SELECT * FROM platinums
 
+-- 28TH MAR 2025 (ID 185 - 187)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Like a Dragon: Pirate Yakuza in Hawaii','PS5','2025-03-02',11.3),
+('Tekken 8','PS5','2025-03-26',3.8),
+('Headliner: NoviNews','PS4','2025-03-26',10.6)
+
 -- 1ST FEB 2025 (ID 184)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

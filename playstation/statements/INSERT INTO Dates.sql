@@ -1,5 +1,52 @@
 SELECT * FROM dates
 
+-- 18TH MAR 2025 (ID 1079 - 1082)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Dead Island','PS3','2011-09-09','2025-03-18','2025-03-18','2025-03-18'),
+	('Football Manager 2024','PS5','2023-12-07','2025-03-18','2025-03-18','2025-03-18'),
+	('Headliner: NoviNews','PS4','2018-10-23','2025-03-18','2025-03-18','2025-03-18'),
+	('Killer Frequency','PS4','2023-06-01','2025-03-18','2025-03-18','2025-03-18')
+
+-- 14TH MAR 2025 (ID 1078)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Witchcrafty','VITA','2021-07-20','2025-03-14','2025-03-14','2025-03-14')
+
+-- 9TH MAR 2025 (ID 1077)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Little Goody Two Shoes','PS5','2023-10-31','2025-03-09','2025-03-09','2025-03-09')
+
+-- 3RD & 4TH MAR 2025 (ID 1062 - 1076)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Crime Boss: Rockay City','PS5','2023-06-15','2025-03-03','2025-03-03','2025-03-03'),
+	('Sonic Colours: Ultimate','PS4','2021-09-07','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4','2022-08-30','2025-03-04','2025-03-04','2025-03-04')
+
+-- 19TH FEB 2025 (ID 1061)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('The Talos Principle','PS4','2015-10-13','2025-02-19','2025-02-19','2025-02-19')
+
 -- 12TH FEB 2025 (ID 1058 - 1060)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

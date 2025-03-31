@@ -2,6 +2,9 @@
 	-- SELECT * FROM platinums
 	-- UPDATE TABLE SET FIELD = REPLACE(FIELD, 'OLD VALUE', 'NEW VALUE') WHERE ID = NUMBER
 		-- Updating the rarity percentage for platinum games at the end of each year (2024 onwards)
+			-- 31ST DEC 2025
+				-- UPDATE TBC
+			
 			-- 31ST DEC 2024
 				UPDATE platinums SET rarity = REPLACE(rarity, 17.5, 17.6) WHERE ID = 1
 				UPDATE platinums SET rarity = REPLACE(rarity, 8.5, 10.5) WHERE ID = 2

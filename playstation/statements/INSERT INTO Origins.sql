@@ -1,5 +1,52 @@
 SELECT * FROM origins
 
+-- 18TH MAR 2025 (ID 1079 - 1082)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Dead Island','PS3','Techland','Poland'),
+	('Football Manager 2024','PS5','Sports Interactive','England'),
+	('Headliner: NoviNews','PS4','Unbound Creations','USA'),
+	('Killer Frequency','PS4','Team17','England')
+
+-- 14TH MAR 2025 (ID 1078)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Witchcrafty','VITA','PigeonDev','Russia')
+
+-- 10TH MAR 2025 (ID 1077)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Little Goody Two Shoes','PS5','AstralShiftPro','Portugal')
+
+-- 3RD & 4TH MAR 2025 (ID 1062 - 1076)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Crime Boss: Rockay City','PS5','Ingame Studios','Czech Republic'),
+	('Sonic Colours: Ultimate','PS4','SEGA','Japan'),
+	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4','Konami','Japan')
+
+-- 19TH FEB 2025 (ID 1061)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('The Talos Principle','PS4','Croteam','Croatia')
+
 -- 12TH FEB 2025 (ID 1058 - 1060)
 INSERT INTO origins
 (game, console, developer, country)

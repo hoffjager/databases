@@ -1,6 +1,32 @@
 -- Dates
-SELECT * FROM dates
+SELECT * FROM dates WHERE id = 1081
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 28TH MAR 2025
+					-- Updating Dates at the end of the month
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-02-27','2025-03-02') WHERE id = 1051
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-02-10','2025-03-02') WHERE id = 595
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-02-10','2025-03-20') WHERE id = 595
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-02-12','2025-03-20') WHERE id = 1058
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-02-12','2025-03-21') WHERE id = 1058
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-05-02','2025-03-21') WHERE id = 573
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-05-02','2025-03-22') WHERE id = 573
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-03-18','2025-03-23') WHERE id = 1081
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-03-18','2025-03-26') WHERE id = 1081
+						UPDATE dates SET start_date = REPLACE(start_date,'2024-11-06','2025-03-24') WHERE id = 1047
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-11-06','2025-03-26') WHERE id = 1047
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-03-18','2025-03-26') WHERE id = 1079
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-03-18','2025-03-26') WHERE id = 1079
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-02-10','2025-03-02') WHERE id = 1082
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-02-10','2025-03-20') WHERE id = 1082
+
+			-- Updating Pre-Orders on SQL to ensure they match data on Excel
+				-- 5TH MAR 2025
+					-- Updating The Last of Us Part II (listed on Excel but not on SQL)
+						UPDATE dates SET purchase_date = REPLACE(purchase_date,'2020-09-09','2019-09-25') WHERE id = 879
+					-- Updating Resident Evil: Re-Verse (matching dates of Resident Evil VILLAGE)
+						UPDATE dates SET release_date = REPLACE(release_date,'2022-10-28','2021-10-20') WHERE id = 793
+			
 			-- Updating Start_Date & Finish_Dates as games are started & completed
 				-- 28TH FEB 2025
 					-- Updating Dates at the end of the month
