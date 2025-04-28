@@ -2,6 +2,25 @@
 SELECT * FROM dates WHERE id = 1081
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 30TH APR 2025
+					-- Updating Dates at the end of the month
+						UPDATE dates SET start_date = REPLACE(start_date,'2021-12-09','2025-04-02') WHERE id = 534
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2021-12-09','2025-04-02') WHERE id = 534
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-03-26','2025-04-04') WHERE id = 1079
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-03-22','2025-04-06') WHERE id = 573
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-06-30','2025-04-06') WHERE id = 591
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-04-04','2025-04-07') WHERE id = 856
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-04-04','2025-04-10') WHERE id = 856
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-12-16','2025-04-14') WHERE id = 1015
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-08-02','2025-04-14') WHERE id = 1021
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-09-07','2025-04-12') WHERE id = 899
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-09-07','2025-04-14') WHERE id = 899
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-04-24','2025-04-21') WHERE id = 667
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-06-02','2025-04-24') WHERE id = 699
+						UPDATE dates SET start_date = REPLACE(start_date,'2017-08-03','2025-04-22') WHERE id = 421
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2017-08-03','2025-04-25') WHERE id = 421
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-03-26','2025-04-06') WHERE id = 1047
+
 				-- 28TH MAR 2025
 					-- Updating Dates at the end of the month
 						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-02-27','2025-03-02') WHERE id = 1051

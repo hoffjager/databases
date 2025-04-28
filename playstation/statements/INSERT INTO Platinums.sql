@@ -1,5 +1,14 @@
 SELECT * FROM platinums
 
+-- 30TH APR 2025 (ID 188 - 191)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Dungeon Munchies','PS4','2025-04-06',6.9),
+('Tails of Iron','PS4','2025-04-09',10.8),
+('Total Arcade Racing','PS4','2025-04-14',7.6),
+('Judgment','PS4','2025-04-21',0.6)
+
 -- 28TH MAR 2025 (ID 185 - 187)
 INSERT INTO platinums
 (game, console, completion_date, rarity)
