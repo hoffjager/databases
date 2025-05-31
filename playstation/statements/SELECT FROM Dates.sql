@@ -101,7 +101,15 @@
 			WHERE f.hours = 1 
 			ORDER BY d.release_date, d.purchase_date ASC
 
-	-- backlog
+	-- started
+		-- Games started in specified years
+			SELECT * FROM dates ORDER BY start_date ASC
+
+	-- finished
+		-- Games started & finished in specified years
+			SELECT * FROM dates ORDER BY finish_date DESC
+
+-- backlog
 		-- Quantity of games started & finished in each year
 			-- Started
 				-- (2000's)
@@ -145,11 +153,3 @@
 					SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(finish_date) = '2023'
 					SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(finish_date) = '2024'
 					SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(finish_date) = '2025'
-
-	-- started
-		-- Games started in specified years
-			SELECT * FROM dates ORDER BY start_date ASC
-
-	-- finished
-		-- Games started & finished in specified years
-			SELECT * FROM dates ORDER BY finish_date DESC

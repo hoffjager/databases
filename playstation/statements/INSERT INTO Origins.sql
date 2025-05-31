@@ -1,5 +1,14 @@
 SELECT * FROM origins
 
+-- 23RD MAY 2025 (ID 1083 - 1086)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Just Crow Things','PS4','Unbound Creations','USA'),
+	('Techno Banter','PS5','Dexai Arts','Germany'),
+	('Undying','PS5','Vanimals','China'),
+	('Medievil 2','PS1','Guerrilla Cambridge (SCE Studio Cambridge)','England')
+
 -- 18TH MAR 2025 (ID 1079 - 1082)
 INSERT INTO origins
 (game, console, developer, country)

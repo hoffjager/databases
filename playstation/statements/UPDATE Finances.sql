@@ -2,6 +2,28 @@
 SELECT * FROM finances
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST MAY 2025
+					-- Updating Hours and Value for May
+						UPDATE finances SET full_price = REPLACE(full_price, 7.49, 8.98) WHERE id = 223
+						UPDATE finances SET paid_price = REPLACE(paid_price, 1.99, 3.48) WHERE id = 223
+						UPDATE finances SET value = REPLACE(value, 0.18, 0.32) WHERE id = 223
+						UPDATE finances SET hours = REPLACE(hours, 1, 54) WHERE id = 641
+						UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 69
+						UPDATE finances SET value = REPLACE(value, 7.99, 4.00) WHERE id = 69
+						UPDATE finances SET hours = REPLACE(hours, 2, 3) WHERE id = 500
+						UPDATE finances SET value = REPLACE(value, 5.00, 3.33) WHERE id = 500
+						UPDATE finances SET hours = REPLACE(hours, 158, 241) WHERE id = 526
+						UPDATE finances SET value = REPLACE(value, 0.73, 0.48) WHERE id = 526
+						UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 119
+						UPDATE finances SET hours = REPLACE(hours, 1, 28) WHERE id = 906
+						UPDATE finances SET value = REPLACE(value, 9.99, 0.36) WHERE id = 906
+						UPDATE finances SET hours = REPLACE(hours, 1, 9) WHERE id = 1083
+						UPDATE finances SET value = REPLACE(value, 17.59, 1.95) WHERE id = 1083
+						UPDATE finances SET hours = REPLACE(hours, 1, 11) WHERE id = 1086
+						UPDATE finances SET value = REPLACE(value, 4.99, 0.45) WHERE id = 1086
+						UPDATE finances SET hours = REPLACE(hours, 241, 252) WHERE id = 799
+						UPDATE finances SET hours = REPLACE(hours, 45, 47) WHERE id = 606
+
 				-- 30TH APR 2025
 					-- Updating Hours and Value for April
 						UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 534

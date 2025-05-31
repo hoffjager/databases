@@ -2,6 +2,25 @@
 SELECT * FROM dates WHERE id = 1081
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST MAY 2025
+					-- Updating Dates at the end of the month
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-09-08','2025-04-26') WHERE id = 641
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-09-08','2025-05-06') WHERE id = 641
+						UPDATE dates SET start_date = REPLACE(start_date,'2018-09-30','2025-05-16') WHERE id = 69
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2018-09-30','2025-05-16') WHERE id = 69
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2018-06-04','2025-05-17') WHERE id = 500
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2021-05-25','2025-05-20') WHERE id = 526
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-09-08','2025-05-20') WHERE id = 119
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-09-08','2025-05-21') WHERE id = 119
+						UPDATE dates SET start_date = REPLACE(start_date,'2017-08-22','2025-05-21') WHERE id = 906
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2017-08-22','2025-05-26') WHERE id = 906
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-05-23','2025-05-26') WHERE id = 1083
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-05-23','2025-05-28') WHERE id = 1083
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-05-23','2025-05-28') WHERE id = 1086
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-05-23','2025-05-30') WHERE id = 1086
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2018-09-05','2025-05-30') WHERE id = 799
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2021-06-02','2025-05-30') WHERE id = 606
+				
 				-- 30TH APR 2025
 					-- Updating Dates at the end of the month
 						UPDATE dates SET start_date = REPLACE(start_date,'2021-12-09','2025-04-02') WHERE id = 534

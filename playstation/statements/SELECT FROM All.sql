@@ -2,7 +2,8 @@
 
 	-- complete
 		-- Combining all fields & data from the Dates, Finances & Origins tables
-			SELECT d.id, d.game, d.console, d.release_date, d.purchase_date, d.start_date, d.finish_date,
+			SELECT d.id, d.game, d.console,
+			d.release_date, d.purchase_date, d.start_date, d.finish_date,
 			f.full_price, f.paid_price, f.savings, f.hours, f.value,
 			o.developer, o.country
 			FROM finances f

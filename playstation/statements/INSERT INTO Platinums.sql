@@ -1,5 +1,14 @@
 SELECT * FROM platinums
 
+-- 31ST MAY 2025 (ID 192 - 195)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Grindstone','PS4','2025-05-06',9.6),
+('Borderlands 3','PS5','2025-05-13',1.0),
+('Just Crow Things','PS4','2025-05-28',6.9),
+('Medievil 2','PS1','2025-05-30',4.5)
+
 -- 30TH APR 2025 (ID 188 - 191)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

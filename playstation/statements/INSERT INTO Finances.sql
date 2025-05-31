@@ -1,5 +1,14 @@
 SELECT * FROM finances
 
+-- 23RD MAY 2025 (ID 1083 - 1086)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Just Crow Things','PS4',21.99,17.59,4.40,1,17.59),
+	('Techno Banter','PS5',19.99,13.99,6.00,1,13.99),
+	('Undying','PS5',16.99,11.04,5.95,1,11.04),
+	('Medievil 2','PS1',9.99,4.99,5.00,1,4.99)
+
 -- 18TH MAR 2025 (ID 1079 - 1082)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

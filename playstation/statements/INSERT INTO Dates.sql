@@ -1,5 +1,14 @@
 SELECT * FROM dates
 
+-- 23RD MAY 2025 (ID 1083 - 1086)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Just Crow Things','PS4','2025-03-19','2025-05-23','2025-05-23','2025-05-23'),
+	('Techno Banter','PS5','2025-01-30','2025-05-23','2025-05-23','2025-05-23'),
+	('Undying','PS5','2025-02-11','2025-05-23','2025-05-23','2025-05-23'),
+	('Medievil 2','PS1','2000-04-21','2025-05-23','2025-05-23','2025-05-23')
+
 -- 18TH MAR 2025 (ID 1079 - 1082)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)
