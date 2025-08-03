@@ -1,5 +1,11 @@
 -- all_data [MASTER]
 
+	-- completely random
+		-- Random game generator
+			SELECT TOP 5 * FROM dates ORDER BY NEWID()
+			SELECT TOP 5 * FROM finances ORDER BY NEWID()
+			SELECT TOP 5 * FROM origins ORDER BY NEWID()
+
 	-- complete
 		-- Combining all fields & data from the Dates, Finances & Origins tables
 			SELECT d.id, d.game, d.console,

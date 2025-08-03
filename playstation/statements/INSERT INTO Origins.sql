@@ -1,5 +1,12 @@
 SELECT * FROM origins
 
+-- 4TH JUNE 2025 (ID 1087 - 1088)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('LISA: The Painful','PS4','Dingaling Productions','USA'),
+	('LISA: The Joyful','PS4','Dingaling Productions','USA')
+
 -- 23RD MAY 2025 (ID 1083 - 1086)
 INSERT INTO origins
 (game, console, developer, country)

@@ -1,5 +1,12 @@
 SELECT * FROM dates
 
+-- 4TH JUNE 2025 (ID 1087 - 1088)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('LISA: The Painful','PS4','2023-07-18','2025-06-04','2025-06-04','2025-06-04'),
+	('LISA: The Joyful','PS4','2023-07-18','2025-06-04','2025-06-04','2025-06-04')
+
 -- 23RD MAY 2025 (ID 1083 - 1086)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

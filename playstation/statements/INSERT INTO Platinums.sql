@@ -1,5 +1,19 @@
 SELECT * FROM platinums
 
+-- 31ST JULY 2025 (ID 199)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Yakuza 4','PS3','2025-07-21',2.8)
+
+-- 30TH JUNE 2025 (ID 196 - 198)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Techno Banter','PS5','2025-06-03',2.4),
+('Need for Speed Hot Pursuit','PS3','2025-06-22',0.5),
+('Yakuza 3','PS3','2025-07-08',1.7)
+
 -- 31ST MAY 2025 (ID 192 - 195)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

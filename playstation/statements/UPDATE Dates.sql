@@ -1,7 +1,29 @@
 -- Dates
-SELECT * FROM dates WHERE id = 1081
+SELECT * FROM dates WHERE id = 280
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST JULY 2025
+					-- Updating Dates at the end of the month
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-04-14','2025-07-14') WHERE id = 1015
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2022-03-02','2025-07-21') WHERE id = 279
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2022-04-05','2025-08-03') WHERE id = 280
+
+				-- 30TH JUNE 2025
+					-- Updating Dates at the end of the month
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-05-23','2025-06-01') WHERE id = 1084
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-05-23','2025-06-03') WHERE id = 1084
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-03-09','2025-06-04') WHERE id = 1077
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-03-09','2025-06-04') WHERE id = 1077
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-05-30','2025-06-01') WHERE id = 799
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-05-30','2025-06-01') WHERE id = 606
+						UPDATE dates SET start_date = REPLACE(start_date,'2023-08-02','2025-06-01') WHERE id = 570
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2023-08-02','2025-06-01') WHERE id = 570
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-11-02','2025-06-12') WHERE id = 1037
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-01-19','2025-06-15') WHERE id = 1053
+						UPDATE dates SET start_date = REPLACE(start_date,'2025-01-07','2025-06-14') WHERE id = 1054
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2025-01-07','2025-06-22') WHERE id = 1054
+						UPDATE dates SET finish_date = REPLACE(finish_date,'2024-11-22','2025-07-08') WHERE id = 278
+
 				-- 31ST MAY 2025
 					-- Updating Dates at the end of the month
 						UPDATE dates SET start_date = REPLACE(start_date,'2023-09-08','2025-04-26') WHERE id = 641

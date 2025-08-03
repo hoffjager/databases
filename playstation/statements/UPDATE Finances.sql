@@ -1,7 +1,33 @@
 -- Finances
-SELECT * FROM finances
+SELECT * FROM finances WHERE id = 1015
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST JULY 2025
+					-- Updating Hours and Values for July
+						UPDATE finances SET hours = REPLACE(hours, 20, 21) WHERE id = 1015
+						UPDATE finances SET hours = REPLACE(hours, 38, 126) WHERE id = 279
+						UPDATE finances SET value = REPLACE(value, 0.21, 0.06) WHERE id = 279
+						UPDATE finances SET hours = REPLACE(hours, 68, 136) WHERE id = 280
+						UPDATE finances SET value = REPLACE(value, 0.12, 0.06) WHERE id = 280
+
+				-- 30TH JUNE 2025
+					-- Updating Hours and Values for June
+						UPDATE finances SET hours = REPLACE(hours, 1, 12) WHERE id = 1084
+						UPDATE finances SET value = REPLACE(value, 13.99, 1.17) WHERE id = 1084
+						UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 1077
+						UPDATE finances SET value = REPLACE(value, 11.99, 6.00) WHERE id = 1077
+						UPDATE finances SET hours = REPLACE(hours, 252, 260) WHERE id = 799
+						UPDATE finances SET value = REPLACE(value, 0.11, 0.10) WHERE id = 799
+						UPDATE finances SET hours = REPLACE(hours, 47, 55) WHERE id = 606
+						UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 570
+						UPDATE finances SET hours = REPLACE(hours, 8, 22) WHERE id = 1037
+						UPDATE finances SET value = REPLACE(value, 3.62, 1.32) WHERE id = 1037
+						UPDATE finances SET hours = REPLACE(hours, 1, 4) WHERE id = 1053
+						UPDATE finances SET value = REPLACE(value, 29.99, 7.50) WHERE id = 1053
+						UPDATE finances SET hours = REPLACE(hours, 1, 30) WHERE id = 1054
+						UPDATE finances SET hours = REPLACE(hours, 45, 147) WHERE id = 278
+						UPDATE finances SET value = REPLACE(value, 0.18, 0.05) WHERE id = 278
+				
 				-- 31ST MAY 2025
 					-- Updating Hours and Value for May
 						UPDATE finances SET full_price = REPLACE(full_price, 7.49, 8.98) WHERE id = 223

@@ -44,7 +44,7 @@
 			SELECT * FROM finances WHERE value = 0.00 ORDER BY hours DESC, savings DESC
 
 	-- t10yakuza
-		-- Yakuza/Like a Dragon, my favourite game series with the most hours played per game
+		-- Yakuza/Like a Dragon/Judgment, my favourite game series with the most hours played per game
 			SELECT * FROM finances
 			WHERE game LIKE ('Yakuza%')
 			OR game LIKE ('Like a Dragon%')
@@ -130,7 +130,7 @@
 			SUM(savings) AS 'Savings'
 			FROM finances f 
 			JOIN dates d ON d.id = f.id
-			WHERE MONTH(purchase_date) = '05'
+			WHERE MONTH(purchase_date) = '06'
 
 	-- January to December savings
 		-- Quantity of games where month of purchase = 'Value between 01(Jan) & 12(Dec)'

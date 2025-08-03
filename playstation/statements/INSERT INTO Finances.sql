@@ -1,5 +1,12 @@
 SELECT * FROM finances
 
+-- 4TH JUNE 2025 (ID 1087 - 1088)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('LISA: The Painful','PS4',12.50,6.25,6.25,1,6.25),
+	('LISA: The Joyful','PS4',12.49,6.24,6.25,1,6.24)
+
 -- 23RD MAY 2025 (ID 1083 - 1086)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
