@@ -3,7 +3,7 @@
 	-- distinct
 		-- All distinct countries & developers
 			SELECT DISTINCT country FROM origins ORDER BY country
-			SELECT DISTINCT developer, country FROM origins WHERE country = 'USA' ORDER BY country
+			SELECT DISTINCT developer, country FROM origins WHERE country = 'Wales' ORDER BY country
 			SELECT DISTINCT developer FROM origins ORDER BY developer
 			SELECT DISTINCT developer, country FROM origins ORDER BY developer
 
@@ -26,7 +26,7 @@
 			SUM(value) AS 'Value'
 			FROM origins o 
 			JOIN finances f ON o.id = f.id
-			WHERE country = 'USA'
+			WHERE country = 'Wales'
 
 	-- countries
 		-- Total number of games developed per country, grouped by each country, then ordered by the highest game count in descending order
@@ -82,3 +82,5 @@
 			SELECT * FROM trophies ORDER BY id ASC
 		-- List of all trophies per specified year
 			SELECT * FROM trophies WHERE year = '2025'
+
+

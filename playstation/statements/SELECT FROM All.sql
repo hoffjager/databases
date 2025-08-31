@@ -27,3 +27,5 @@
 	-- origins
 		-- Listing all games with game developers & countries of origin
 			SELECT * FROM origins
+
+

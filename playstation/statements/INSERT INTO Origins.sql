@@ -1,143 +1,10 @@
 SELECT * FROM origins
 
--- 4TH JUNE 2025 (ID 1087 - 1088)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('LISA: The Painful','PS4','Dingaling Productions','USA'),
-	('LISA: The Joyful','PS4','Dingaling Productions','USA')
-
--- 23RD MAY 2025 (ID 1083 - 1086)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Just Crow Things','PS4','Unbound Creations','USA'),
-	('Techno Banter','PS5','Dexai Arts','Germany'),
-	('Undying','PS5','Vanimals','China'),
-	('Medievil 2','PS1','Guerrilla Cambridge (SCE Studio Cambridge)','England')
-
--- 18TH MAR 2025 (ID 1079 - 1082)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Dead Island','PS3','Techland','Poland'),
-	('Football Manager 2024','PS5','Sports Interactive','England'),
-	('Headliner: NoviNews','PS4','Unbound Creations','USA'),
-	('Killer Frequency','PS4','Team17','England')
-
--- 14TH MAR 2025 (ID 1078)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Witchcrafty','VITA','PigeonDev','Russia')
-
--- 10TH MAR 2025 (ID 1077)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Little Goody Two Shoes','PS5','AstralShiftPro','Portugal')
-
--- 3RD & 4TH MAR 2025 (ID 1062 - 1076)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Crime Boss: Rockay City','PS5','Ingame Studios','Czech Republic'),
-	('Sonic Colours: Ultimate','PS4','SEGA','Japan'),
-	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
-	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4','Konami','Japan')
-
--- 19TH FEB 2025 (ID 1061)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('The Talos Principle','PS4','Croteam','Croatia')
-
--- 12TH FEB 2025 (ID 1058 - 1060)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Serious Sam: The First Encounter','PS4','Croteam','Croatia'),
-	('Serious Sam: The Second Encounter','PS4','Croteam','Croatia'),
-	('Serious Sam 3: BFE','PS3','Croteam','Croatia')
-
--- 5TH FEB 2025 (ID 1055 - 1057)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('High on Life','PS4','Squanch Games','USA'),
-	('Pac-Man World: Re-Pac','PS4','Now Production','Japan'),
-	('Dr Fetus Mean Meat Machine','PS4','Team Meat','USA')
-
--- 1ST FEB 2025 (ID 1052 - 1054)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('TY the Tasmanian Tiger 2: Bush Rescue','PS2','Krome Studios','Australia'),
-	('Disney Epic Mickey: Rebrushed','PS4','Purple Lamp Studios','Austria'),
-	('Need for Speed Hot Pursuit','PS3','Criterion Games','England')
-
--- 31ST DEC 2024 (ID 1048 - 1051)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('God of War: Ragnarok','PS4','Santa Monica Studio','USA'),
-	('TY the Tasmanian Tiger','PS2','Krome Studios','Australia'),
-	('The Holy Gosh Darn','PS4','Perfectly Paranormal','Norway'),
-	('Like a Dragon: Pirate Yakuza in Hawaii','PS5','Ryu Ga Gotoku Studio','Japan')
-
--- 7TH NOV 2024 (ID 1042 - 1047)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Doki Doki Literature Club Plus!','PS4','Team Salvato','USA'),
-	('Hot Wheels Unleashed 2 - Turbocharged','PS4','Milestone','Italy'),
-	('Parcel Corps','PS5','Billy Goat Entertainment Ltd','Northern Ireland'),
-	('South Park: Snow Day!','PS5','Question Games','USA'),
-	('Squirrel with a Gun','PS5','Dee Dee Creations','USA'),
-	('Tekken 8','PS5','Bandai Namco Studios','Japan')
-
--- 21ST OCT 2024 (ID 1037 - 1041)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Palworld','PS5','Pocket Pair','Japan'),
-	('SteamWorld Build','PS4','Image & Form','Sweden'),
-	('Timesplitters','PS2','Free Radical Design','England'),
-	('Timesplitters 2','PS2','Free Radical Design','England'),
-	('Timesplitters: Future Perfect','PS2','Free Radical Design','England')
-
--- 2ND OCT 2024 (ID 1036)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('WWE 2K24','PS4','Visual Concepts','USA')
-
--- 10TH SEPT 2024 (ID 1035)
-INSERT INTO origins
-(game, console, developer, country)
-VALUES
-	('Gravity Rush','VITA','Team Asobi (Japan Studio)','Japan')
-
--- INITIAL DATA ENTRY (ID 1 - 1034)
--- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
-
 -- PS1
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('A Bugs Life','PS1','TT Games (Travellers Tales)','England'),
-	('Beyblade: Let It Rip!','PS1','Crave','Japan'),
 	('Bishi Bashi Special','PS1','Konami','Japan'),
 	('Buzz Lightyear of Star Command','PS1','TT Games (Travellers Tales)','England'),
 	('Castlevania: Symphony of the Night','PS1','Konami','Japan'),
@@ -155,11 +22,11 @@ VALUES
 	('Duke Nukem 3D','PS1','3D Realms','Denmark'),
 	('Fear Effect','PS1','Kronos Digital Entertainment','USA'),
 	('Fear Effect 2: Retro Helix','PS1','Kronos Digital Entertainment','USA'),
-	('Final Fantasy V','PS1','Square Enix (Squaresoft)','Japan'),
-	('Final Fantasy VI','PS1','Square Enix (Squaresoft)','Japan'),
-	('Final Fantasy VII (1997)','PS1','Square Enix (Squaresoft)','Japan'),
-	('Final Fantasy VIII','PS1','Square Enix (Squaresoft)','Japan'),
-	('Final Fantasy IX','PS1','Square Enix (Squaresoft)','Japan'),
+	('Final Fantasy V','PS1','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy VI','PS1','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy VII (1997)','PS1','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy VIII','PS1','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy IX','PS1','Square Enix (SquareSoft)','Japan'),
 	('Gex','PS1','Crystal Dynamics','USA'),
 	('Gex: Enter the Gecko','PS1','Crystal Dynamics','USA'),
 	('Gex 3: Deep Cover Gecko','PS1','Crystal Dynamics','USA'),
@@ -169,10 +36,11 @@ VALUES
 	('Klonoa: Door to Phantomile (1997)','PS1','Bandai Namco Studios','Japan'),
 	('Kula World','PS1','Game Design Sweden AB','Sweden'),
 	('Medievil (1998)','PS1','Guerrilla Cambridge (SCE Studio Cambridge)','England'),
+	('Medievil 2','PS1','Guerrilla Cambridge (SCE Studio Cambridge)','England'),
 	('Metal Gear Solid','PS1','Konami','Japan'),
 	('Monsters Inc Scare Island','PS1','Behaviour Interactive (Artificial Mind and Movement)','Canada'),
 	('Mortal Kombat 3','PS1','Midway','USA'),
-	('Motor Toon Grand Prix 2','PS1','Polyphony Digital (Polys Entertainment)','Japan'),
+	('Motor Toon Grand Prix 2','PS1','Polyphony Digital','Japan'),
 	('Oddworld: Abes Oddysee (1997)','PS1','Oddworld Inhabitants','USA'),
 	('Oddworld: Abes Exoddus (1998)','PS1','Oddworld Inhabitants','USA'),
 	('PaRappa the Rapper','PS1','NanaOn-Sha','Japan'),
@@ -184,7 +52,7 @@ VALUES
 	('Resident Evil 2 (1998)','PS1','Capcom','Japan'),
 	('Resident Evil 3: Nemesis (1999)','PS1','Capcom','Japan'),
 	('Sheep Dog n Wolf','PS1','Atari SA (Infogrames Lyon House)','France'),
-	('Silent Hill','PS1','Konami (Team Silent)','Japan'),
+	('Silent Hill','PS1','Konami','Japan'),
 	('Spyro the Dragon (1998)','PS1','Insomniac Games','USA'),
 	('Spyro 2: Gateway to Glimmer (1999)','PS1','Insomniac Games','USA'),
 	('Spyro 3: Year of the Dragon (2000)','PS1','Insomniac Games','USA'),
@@ -223,7 +91,7 @@ VALUES
 	('Bloodrayne 2','PS2','Terminal Reality','USA'),
 	('Canis Canem Edit (Bully)','PS2','Rockstar Vancouver','Canada'),
 	('Cel Damage','PS2','Pseudo Interactive','Canada'),
-	('Crazy Taxi','PS2','SEGA (Hitmaker)','Japan'),
+	('Crazy Taxi','PS2','SEGA','Japan'),
 	('Dark Cloud','PS2','Level-5','Japan'),
 	('Dark Chronicle (Dark Cloud 2)','PS2','Level-5','Japan'),
 	('Destroy All Humans! (2005)','PS2','Pandemic Studios','USA'),
@@ -234,22 +102,22 @@ VALUES
 	('Devil May Cry 3: Dantes Awakening','PS2','Capcom','Japan'),
 	('DJ Hero','PS2','Ubisoft Leamington (FreeStyleGames and Exient Entertainment)','England'),
 	('Fahrenheit (Indigo Prophecy)','PS2','Quantic Dream','France'),
-	('Final Fantasy X','PS2','Square Enix (Squaresoft)','Japan'),
-	('Final Fantasy X-2','PS2','Square Enix','Japan'),
+	('Final Fantasy X','PS2','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy X-2','PS2','Square Enix (SquareSoft)','Japan'),
 	('God of War (2005)','PS2','Santa Monica Studio','USA'),
 	('God of War II','PS2','Santa Monica Studio','USA'),
-	('Grand Theft Auto III (2001)','PS2','Rockstar North (DMA Design)','Scotland'),
+	('Grand Theft Auto III (2001)','PS2','Rockstar North','Scotland'),
 	('Grand Theft Auto: Vice City (2002)','PS2','Rockstar North','Scotland'),
 	('Grand Theft Auto: San Andreas','PS2','Rockstar North','Scotland'),
 	('Harvest Moon: A Wonderful Life','PS2','Marvelous Interactive','Japan'),
-	('Ico','PS2','Team Asobi (Japan Studio Team Ico)','Japan'),
+	('Ico','PS2','Team Asobi (Japan Studio)','Japan'),
 	('Jak and Daxter: The Precursor Legacy','PS2','Naughty Dog','USA'),
 	('Jak II','PS2','Naughty Dog','USA'),
 	('Jak 3','PS2','Naughty Dog','USA'),
 	('Jak X: Combat Racing','PS2','Naughty Dog','USA'),
 	('Killzone','PS2','Guerrilla Games','Netherlands'),
-	('Kingdom Hearts','PS2','Square Enix (Squaresoft)','Japan'),
-	('Kingdom Hearts II','PS2','Square Enix','Japan'),
+	('Kingdom Hearts','PS2','Square Enix (SquareSoft)','Japan'),
+	('Kingdom Hearts II','PS2','Square Enix (SquareSoft)','Japan'),
 	('Klonoa 2: Lunateas Veil (2001)','PS2','Bandai Namco Studios','Japan'),
 	('LEGO Indiana Jones: The Original Adventures','PS2','TT Games (Travellers Tales)','England'),
 	('LEGO Batman: The Videogame','PS2','TT Games (Travellers Tales)','England'),
@@ -272,22 +140,27 @@ VALUES
 	('Red Dead Revolver','PS2','Rockstar San Diego','USA'),
 	('Resident Evil: Code Veronica X','PS2','Capcom','Japan'),
 	('Resident Evil 4 (2005)','PS2','Capcom','Japan'),
-	('Shadow of the Colossus','PS2','Team Asobi (Japan Studio Team Ico)','Japan'),
-	('Silent Hill 2','PS2','Konami (Team Silent)','Japan'),
-	('Silent Hill 3','PS2','Konami (Team Silent)','Japan'),
+	('Shadow of the Colossus','PS2','Team Asobi (Japan Studio)','Japan'),
+	('Silent Hill 2','PS2','Konami','Japan'),
+	('Silent Hill 3','PS2','Konami','Japan'),
 	('Sly Raccoon','PS2','Sucker Punch Productions','USA'),
 	('Sly 2: Band of Thieves','PS2','Sucker Punch Productions','USA'),
 	('Sly 3: Honour Among Thieves','PS2','Sucker Punch Productions','USA'),
-	('Sonic Heroes','PS2','SEGA (Sonic Team)','Japan'),
+	('Sonic Heroes','PS2','SEGA','Japan'),
 	('Stuntman: Ignition','PS2','Paradigm Entertainment','USA'),
 	('Super Monkey Ball Adventure','PS2','TT Games (Travellers Tales)','England'),
-	('The Simpsons Game','PS2','EA Redwood Shores','USA'),
+	('The Simpsons Game','PS2','Visceral Games (EA Redwood Shores)','USA'),
 	('The Sims','PS2','Maxis','USA'),
 	('The Sims 2','PS2','Maxis','USA'),
 	('The Warriors','PS2','Rockstar Toronto','Canada'),
+	('Timesplitters','PS2','Free Radical Design','England'),
+	('Timesplitters 2','PS2','Free Radical Design','England'),
+	('Timesplitters: Future Perfect','PS2','Free Radical Design','England'),
 	('Tomb Raider: Legend','PS2','Crystal Dynamics','USA'),
-	('Tomb Raider: Anniversary','PS2','Crystal Dynamics (Buzz Monkey Software)','USA'),
-	('Twisted Metal: Black','PS2','Incognito Entertainment','USA')
+	('Tomb Raider: Anniversary','PS2','Crystal Dynamics','USA'),
+	('Twisted Metal: Black','PS2','Incognito Entertainment','USA'),
+	('TY the Tasmanian Tiger','PS2','Krome Studios','Australia'),
+	('TY the Tasmanian Tiger 2: Bush Rescue','PS2','Krome Studios','Australia')
 
 -- PSP
 INSERT INTO origins
@@ -296,20 +169,20 @@ VALUES
 	('Ape Escape: On the Loose','PSP','Team Asobi (Japan Studio)','Japan'),
 	('Burnout Legends','PSP','Criterion Games','England'),
 	('Castlevania: Rondo of Blood (The Dracula X Chronicles)','PSP','Konami','Japan'),
-	('Crazy Taxi 2','PSP','SEGA (Hitmaker)','Japan'),
+	('Crazy Taxi 2','PSP','SEGA','Japan'),
 	('Daxter','PSP','Ready At Dawn Studios','USA'),
 	('Dead or Alive Paradise (Dead or Alive Xtreme 2)','PSP','Team Ninja','Japan'),
 	('Everybodys Golf 2','PSP','Clap Hanz','Japan'),
-	('Final Fantasy (2008)','PSP','Square Enix','Japan'),
-	('Final Fantasy II (2008)','PSP','Square Enix','Japan'),
-	('Final Fantasy III (2006)','PSP','Square Enix','Japan'),
-	('Final Fantasy IV: The Complete Collection','PSP','Square Enix','Japan'),
+	('Final Fantasy (2008)','PSP','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy II (2008)','PSP','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy III (2006)','PSP','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy IV: The Complete Collection','PSP','Square Enix (SquareSoft)','Japan'),
 	('Grand Theft Auto: Liberty City Stories','PSP','Rockstar Leeds','England'),
 	('Grand Theft Auto: Vice City Stories','PSP','Rockstar Leeds','England'),
 	('Grand Theft Auto: Chinatown Wars','PSP','Rockstar Leeds','England'),
 	('Jak and Daxter: The Lost Frontier','PSP','High Impact Games','USA'),
 	('Jetpack Joyride','PSP','Halfbrick Studios','Australia'),
-	('Kingdom Hearts Birth by Sleep and Re: Coded (HD 2.5 Remix)','PSP','Square Enix','Japan'),
+	('Kingdom Hearts Birth by Sleep and Re: Coded (HD 2.5 Remix)','PSP','Square Enix (SquareSoft)','Japan'),
 	('LEGO Star Wars III: The Clone Wars','PSP','TT Games (Travellers Tales)','England'),
 	('LEGO Pirates of the Caribbean: The Video Game','PSP','TT Games (Travellers Tales)','England'),
 	('Lemmings (2006)','PSP','Team17','England'),
@@ -317,8 +190,8 @@ VALUES
 	('Metal Gear Solid: Peace Walker','PSP','Konami','Japan'),
 	('Prinny: Can I Really Be The Hero?','PSP','Nippon Ichi Software','Japan'),
 	('Ratchet & Clank: Size Matters','PSP','High Impact Games','USA'),
-	('Resistance: Retribution','PSP','Bend Studio','USA'),
-	('Tekken 5: Dark Resurrection','PSP','Bandai Namco Studios (Eighting)','Japan'),
+	('Resistance: Retribution','PSP','Bend Studio (Eidetic)','USA'),
+	('Tekken 5: Dark Resurrection','PSP','Bandai Namco Studios','Japan'),
 	('Wipeout Pulse','PSP','Studio Liverpool (Psygnosis)','England')
 
 -- PS3
@@ -330,7 +203,7 @@ VALUES
 	('Angry Birds Classic (2009)','PS3','Rovio Entertainment (Housemarque)','Finland'),
 	('Angry Birds Seasons (2010)','PS3','Rovio Entertainment (Housemarque)','Finland'),
 	('Angry Birds Rio (2011)','PS3','Rovio Entertainment (Housemarque)','Finland'),
-	('Another World: 20th Anniversary','PS3','Delphine Software International (DSI Interplay)','France'),
+	('Another World: 20th Anniversary','PS3','Delphine Software International','France'),
 	('Army of Two','PS3','EA Montreal','Canada'),
 	('Back to the Future: The Telltale Game','PS3','Telltale Games','USA'),
 	('Badland','PS3','HypeHype (Frogmind)','Finland'),
@@ -363,6 +236,7 @@ VALUES
 	('Dark Souls','PS3','FromSoftware','Japan'),
 	('Dark Souls II','PS3','FromSoftware','Japan'),
 	('Daytona USA','PS3','SEGA','Japan'),
+	('Dead Island','PS3','Techland','Poland'),
 	('Dead or Alive 5','PS3','Team Ninja','Japan'),
 	('Dead Rising 2','PS3','Capcom Vancouver (Blue Castle Games)','Canada'),
 	('Dead Space (2008)','PS3','Visceral Games (EA Redwood Shores)','USA'),
@@ -376,7 +250,6 @@ VALUES
 	('Doki-Doki Universe','PS3','HumaNature Studios','USA'),
 	('Duke Nukem Forever','PS3','Gearbox Software','USA'),
 	('Earthworm Jim HD','PS3','Gameloft','France'),
-	('F.E.A.R (First Encounter Assault Recon)','PS3','Monolith Productions','USA'),
 	('F1 Race Stars','PS3','Codemasters Birmingham','England'),
 	('Family Guy: Back to the Multiverse','PS3','Heavy Iron Studios','USA'),
 	('Far Cry Classic','PS3','Crytek','Germany'),
@@ -384,6 +257,7 @@ VALUES
 	('Far Cry 3','PS3','Ubisoft Montreal','Canada'),
 	('Far Cry 4','PS3','Ubisoft Montreal','Canada'),
 	('Fat Princess','PS3','Titan Studios','USA'),
+	('F.E.A.R (First Encounter Assault Recon)','PS3','Monolith Productions','USA'),
 	('FEZ','PS3','Polytron Corporation','Canada'),
 	('FIFA 16','PS3','EA Vancouver','Canada'),
 	('FIFA 17','PS3','EA Vancouver','Canada'),
@@ -392,7 +266,7 @@ VALUES
 	('FIFA Street (2012)','PS3','EA Vancouver','Canada'),
 	('Fight Night Champion','PS3','EA Vancouver','Canada'),
 	('Final Exam','PS3','Mighty Rocket Studio','France'),
-	('Final Fantasy XIII','PS3','Square Enix','Japan'),
+	('Final Fantasy XIII','PS3','Square Enix (SquareSoft)','Japan'),
 	('flOw','PS3','Thatgamecompany','USA'),
 	('Flower','PS3','Thatgamecompany','USA'),
 	('Geometry Wars 3: Dimensions Evolved','PS3','Lucid Games','England'),
@@ -419,25 +293,24 @@ VALUES
 	('Kane and Lynch: Dead Men','PS3','IO Interactive','Denmark'),
 	('Kane and Lynch 2: Dog Days','PS3','IO Interactive','Denmark'),
 	('Killer Is Dead','PS3','Grasshopper Manufacture','Japan'),
-	('Kingdom Hearts Re: Chain of Memories and 358/2 Days','PS3','Square Enix','Japan'),
+	('Kingdom Hearts Re: Chain of Memories and 358/2 Days','PS3','Square Enix (SquareSoft)','Japan'),
 	('Kingdoms of Amalur: Reckoning','PS3','Big Huge Games','USA'),
 	('LA Noire','PS3','Team Bondi','Australia'),
-	('LEGO Batman 2: DC Super Heroes','PS3','TT Games','England'),
-	('LEGO Harry Potter Collection: Years 1-4','PS3','TT Games','England'),
-	('LEGO Harry Potter Collection: Years 5-7','PS3','TT Games','England'),
-	('LEGO Marvel Super Heroes','PS3','TT Games','England'),
-	('LEGO The Hobbit','PS3','TT Games','England'),
+	('LEGO Harry Potter Collection: Years 1-4','PS3','TT Games (Travellers Tales)','England'),
+	('LEGO Harry Potter Collection: Years 5-7','PS3','TT Games (Travellers Tales)','England'),
+	('LEGO Batman 2: DC Super Heroes','PS3','TT Games (Travellers Tales)','England'),
+	('LEGO Marvel Super Heroes','PS3','TT Games (Travellers Tales)','England'),
 	('Life is Strange','PS3','Dontnod Entertainment','France'),
 	('Like a Dragon 3 (Yakuza 3)','PS3','SEGA','Japan'),
 	('Like a Dragon 4 (Yakuza 4)','PS3','SEGA','Japan'),
 	('Like a Dragon 5 (Yakuza 5)','PS3','Ryu Ga Gotoku Studio','Japan'),
 	('LittleBigPlanet','PS3','Media Molecule','England'),
 	('LittleBigPlanet 2','PS3','Media Molecule','England'),
-	('LittleBigPlanet 3','PS3','Sumo Digital','England'),
 	('LittleBigPlanet Karting','PS3','United Front Games','Canada'),
+	('LittleBigPlanet 3','PS3','Sumo Digital','England'),	
 	('Lollipop Chainsaw','PS3','Grasshopper Manufacture','Japan'),
 	('Lone Survivor','PS3','Superflat Games','England'),
-	('Mafia II','PS3','Hangar 13 (2K Czech)','USA'),
+	('Mafia II','PS3','2K Czech','Czech Republic'),
 	('Malicious','PS3','Alvion','Japan'),
 	('Mass Effect','PS3','BioWare','Canada'),
 	('Mass Effect 2','PS3','BioWare','Canada'),
@@ -457,12 +330,13 @@ VALUES
 	('MotorStorm: RC','PS3','Evolution Studios','England'),
 	('Naughty Bear','PS3','Behaviour Interactive (Artificial Mind and Movement)','Canada'),
 	('Need for Speed: Shift','PS3','Slightly Mad Studios','England'),
+	('Need for Speed Hot Pursuit','PS3','Criterion Games','England'),	
 	('Need for Speed: The Run','PS3','EA Black Box','Canada'),
 	('Need for Speed: Most Wanted (2012)','PS3','Criterion Games','England'),
 	('Ni No Kuni: Wrath of the White Witch','PS3','Level-5','Japan'),
 	('Nitroplus Blasterz: Heroines Infinite Duel','PS3','Team Arcana (Examu)','Japan'),
-	('Oddworld: Munchs Oddysee','PS3','Oddworld Inhabitants','USA'),
 	('Oddworld: Strangers Wrath','PS3','Oddworld Inhabitants','USA'),
+	('Oddworld: Munchs Oddysee','PS3','Oddworld Inhabitants','USA'),
 	('One Piece: Unlimited World Red','PS3','Ganbarion','Japan'),
 	('Payday: The Heist','PS3','Overkill Software','Sweden'),
 	('Persona 5','PS3','Atlus','Japan'),
@@ -483,12 +357,12 @@ VALUES
 	('Rayman Origins','PS3','Ubisoft Montpellier','France'),
 	('Rayman Legends','PS3','Ubisoft Montpellier','France'),
 	('Red Dead Redemption','PS3','Rockstar San Diego','USA'),
-	('Resident Evil 0 (Zero)','PS3','Capcom','Japan'),
-	('Resident Evil (2002)','PS3','Capcom','Japan'),
 	('Resident Evil 5','PS3','Capcom','Japan'),
-	('Resident Evil: Revelations','PS3','Capcom','Japan'),
 	('Resident Evil 6','PS3','Capcom','Japan'),
+	('Resident Evil: Revelations','PS3','Capcom','Japan'),
+	('Resident Evil (2002)','PS3','Capcom','Japan'),
 	('Resident Evil: Revelations 2','PS3','Capcom','Japan'),
+	('Resident Evil 0 (Zero)','PS3','Capcom','Japan'),
 	('Resistance: Fall of Man','PS3','Insomniac Games','USA'),
 	('Retro City Rampage','PS3','Vblank Entertainment','Canada'),
 	('Rocketbirds: Hardboiled Chicken','PS3','Ratloop','USA'),
@@ -500,15 +374,16 @@ VALUES
 	('Sam & Max Season 2: Beyond Time and Space TTG','PS3','Telltale Games','USA'),
 	('Sam & Max Season 3: The Devils Playhouse TTG','PS3','Telltale Games','USA'),
 	('Scott Pilgrim vs The World: The Game','PS3','Ubisoft Montreal','Canada'),
+	('Serious Sam 3: BFE','PS3','Croteam','Croatia'),
 	('Shovel Knight: Treasure Trove','PS3','Yacht Club Games','USA'),
 	('Siren: Blood Curse','PS3','Team Asobi (Japan Studio)','Japan'),
 	('Skate 2','PS3','EA Black Box','Canada'),
 	('Sleeping Dogs','PS3','United Front Games','Canada'),
 	('Slender: The Arrival','PS3','Blue Isle Studios','Canada'),
 	('Sly Cooper: Thieves in Time','PS3','Sanzaru Games','USA'),
-	('Sniper Elite V2','PS3','Rebellion Developments','England'),
-	('Sonic CD (1993)','PS3','SEGA (Sonic Team)','Japan'),
-	('Sonic Generations','PS3','SEGA (Sonic Team)','Japan'),
+	('Sniper Elite V2','PS3','Rebellion Developments (Core Design)','England'),
+	('Sonic CD (1993)','PS3','SEGA','Japan'),
+	('Sonic Generations','PS3','SEGA','Japan'),
 	('Sound Shapes','PS3','Queasy Games','Canada'),
 	('South Park: The Stick of Truth','PS3','Obsidian Entertainment','USA'),
 	('Spec Ops: The Line','PS3','Yager Development','Germany'),
@@ -564,7 +439,7 @@ VALUES
 	('Virtua Fighter 5','PS3','SEGA','Japan'),
 	('Watch Dogs','PS3','Ubisoft Montreal','Canada'),
 	('When Vikings Attack','PS3','Clever Beans','England'),
-	('Wipeout HD (2008)','PS3','Studio Liverpool','England'),
+	('Wipeout HD (2008)','PS3','Studio Liverpool (Psygnosis)','England'),
 	('Wolfenstein: The New Order','PS3','MachineGames','Sweden'),
 	('Worms Revolution Extreme','PS3','Team17','England'),
 	('XCOM: Enemy Unknown','PS3','Firaxis Games','USA'),
@@ -592,6 +467,7 @@ VALUES
 	('forma.8','VITA','MixedBag','Italy'),
 	('Futuridium EP Deluxe','VITA','MixedBag','Italy'),
 	('Get Off My Lawn!','VITA','Digital Leisure Inc','Canada'),
+	('Gravity Rush','VITA','Team Asobi (Japan Studio)','Japan'),
 	('Grim Fandango: Remastered','VITA','LucasArts','USA'),
 	('Gunslugs','VITA','Abstraction Games','Netherlands'),
 	('Hatoful Boyfriend','VITA','Mediatonic','England'),
@@ -615,7 +491,7 @@ VALUES
 	('Skeleton Rider','VITA','iSquared Games','England'),
 	('Slain: Back From Hell','VITA','Wolf Brew Games','USA'),
 	('Spy Chameleon','VITA','Unfinished Pixel','Spain'),
-	('Spy Hunter (2012)','VITA','TT Games','England'),
+	('Spy Hunter (2012)','VITA','TT Games (Travellers Tales)','England'),
 	('SteamWorld Dig','VITA','Image & Form','Sweden'),
 	('SteamWorld Heist','VITA','Image & Form','Sweden'),
 	('SteamWorld Dig 2','VITA','Image & Form','Sweden'),
@@ -633,25 +509,26 @@ VALUES
 	('Twin Robots: Ultimate Edition','VITA','Thinice Games','Spain'),
 	('TxK','VITA','Llamasoft','England'),
 	('Uncanny Valley','VITA','Cowardly Creations','USA'),
-	('Uncharted: Golden Abyss','VITA','Bend Studio','USA'),
-	('Uncharted: Fight for Fortune','VITA','Bend Studio','USA'),
+	('Uncharted: Golden Abyss','VITA','Bend Studio (Eidetic)','USA'),
+	('Uncharted: Fight for Fortune','VITA','Bend Studio (Eidetic)','USA'),
 	('Undertale','VITA','Toby Fox','USA'),
 	('Velocity Ultra','VITA','FuturLab','England'),
 	('Velocity 2X','VITA','FuturLab','England'),
 	('Wanderjahr','VITA','Workyrie Game Studio','Japan'),
 	('Welcome Park','VITA','Sony Interactive Entertainment','Japan'),
-	('Wipeout 2048 (2012)','VITA','Studio Liverpool','England'),
+	('Wipeout 2048 (2012)','VITA','Studio Liverpool (Psygnosis)','England'),
+	('Witchcrafty','VITA','PigeonDev','Russia'),
 	('Xenoraid','VITA','10tons','Finland'),
-	('Yomawari: Midnight Shadows','VITA','Nippon Ichi Software','Japan'),
 	('Yomawari: Night Alone','VITA','Nippon Ichi Software','Japan'),
+	('Yomawari: Midnight Shadows','VITA','Nippon Ichi Software','Japan'),
 	('Zero Escape: Virtues Last Reward','VITA','Spike Chunsoft','Japan')
 
--- PS4 (A-Z)
+-- PS4 (A)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
-	('60 Seconds! Reatomized','PS4','Robot Gentleman','Poland'),
 	('101 Ways To Die','PS4','Four Door Lemon','England'),
+	('60 Seconds! Reatomized','PS4','Robot Gentleman','Poland'),
 	('A Plague Tale: Innocence','PS4','Asobo Studio','France'),
 	('Absolute Drift','PS4','Funselektor Labs Inc','Canada'),
 	('Abzu','PS4','Giant Squid Studios','USA'),
@@ -673,21 +550,21 @@ VALUES
 	('AWAY: The Survival Series','PS4','Breaking Walls','Canada'),
 	('Axiom Verge 2','PS4','Thomas Happ Games','USA')
 
+-- PS4 (B)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Batman: The Telltale Series (Season 1)','PS4','Telltale Games','USA'),
 	('Batman: The Enemy Within (Season 2 Telltale)','PS4','Telltale Games','USA'),
 	('Batman: Arkham Knight','PS4','Rocksteady Studios','England'),
-	('Battlefield 1','PS4','EA DICE','Sweden'),
-	('Battlefield 2042','PS4','EA DICE','Sweden'),
+	('Battlefield 1','PS4','EA DICE (Digital Illusions CE)','Sweden'),
+	('Battlefield 2042','PS4','EA DICE (Digital Illusions CE)','Sweden'),
 	('Bear with Me','PS4','Exordium Games','Croatia'),
 	('Beat Cop','PS4','Pixel Crow','Poland'),
 	('Beyond Eyes','PS4','Tiger & Squid','Netherlands'),
 	('Bio Inc Redemption','PS4','DryGin Studios','Canada'),
 	('Biomutant','PS4','Experiment 101','Sweden'),
 	('Blacksad: Under the Skin','PS4','Pendulo Studios','Spain'),
-	('Blazing Beaks','PS4','Applava','Lithuania'),
 	('Blood Bowl 2','PS4','Cyanide','France'),
 	('Bloodborne','PS4','FromSoftware','Japan'),
 	('Borderlands 3','PS4','Gearbox Software','USA'),
@@ -696,11 +573,12 @@ VALUES
 	('Bud Spencer & Terence Hill - Slaps And Beans','PS4','Trinity Team','Italy'),
 	('Bugsnax','PS4','Young Horses','USA')
 
+-- PS4 (C)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
-	('Call of Duty: Black Ops Cold War','PS4','Treyarch','USA'),
 	('Call of Duty: Black Ops III','PS4','Treyarch','USA'),
+	('Call of Duty: Black Ops Cold War','PS4','Treyarch','USA'),
 	('Cant Drive This','PS4','Pixel Maniacs','Germany'),
 	('Captain Tsubasa: Rise of New Champions','PS4','Tamsoft','Japan'),
 	('Celeste','PS4','Maddy Makes Games','Canada'),
@@ -720,22 +598,23 @@ VALUES
 	('Crash Bandicoot: N Sane Trilogy (2017)','PS4','Vicarious Visions','USA'),
 	('Crash Bandicoot 2: N Sane Trilogy (2017)','PS4','Vicarious Visions','USA'),
 	('Crash Bandicoot 3: N Sane Trilogy (2017)','PS4','Vicarious Visions','USA'),
-	('Crash Bandicoot 4: Its About Time','PS4','Toys For Bob','USA'),
 	('Crash Team Racing Nitro-Fueled','PS4','Beenox','Canada'),
+	('Crash Bandicoot 4: Its About Time','PS4','Toys For Bob','USA'),
 	('Croixleur Sigma','PS4','souvenir circ','Japan'),
 	('Cult of the Lamb','PS4','Massive Monster','Australia'),
 	('Curse of the Dead Gods','PS4','Passtech Games','France'),
 	('Cyberpunk 2077','PS4','CD Projekt Red','Poland')
 
+-- PS4 (D)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
-	('Danger Zone','PS4','Three Fields Entertainment','England'),
-	('Dangerous Driving','PS4','Three Fields Entertainment','England'),
 	('Dangerous Golf','PS4','Three Fields Entertainment','England'),
+	('Danger Zone','PS4','Three Fields Entertainment','England'),
+	('Dangerous Driving','PS4','Three Fields Entertainment','England'),	
 	('Dark Souls III','PS4','FromSoftware','Japan'),
 	('Darkwing Duck (1992): The Disney Afternoon Collection','PS4','Capcom','Japan'),
-	('Days Gone','PS4','Bend Studio','USA'),
+	('Days Gone','PS4','Bend Studio (Eidetic)','USA'),
 	('de Blob','PS4','Blue Tongue Entertainment','Australia'),
 	('Dead End Job','PS4','Ant Workshop','Scotland'),
 	('Dead Island: Retro Revenge','PS4','Empty Clip Studios','USA'),
@@ -751,20 +630,23 @@ VALUES
 	('Detroit: Become Human','PS4','Quantic Dream','France'),
 	('Devil May Cry 5','PS4','Capcom','Japan'),
 	('Dex','PS4','Dreadlocks Ltd','Czech Republic'),
-	('Digimon World: Next Order','PS4','B.B. Studio','Japan'),
 	('DIRT 5','PS4','Codemasters','England'),
 	('Discovery','PS4','Noowanda','Germany'),
 	('Disney Dreamlight Valley','PS4','Gameloft Montreal','Canada'),
+	('Disney Epic Mickey: Rebrushed','PS4','Purple Lamp Studios','Austria'),
+	('Doki Doki Literature Club Plus!','PS4','Team Salvato','USA'),
 	('Dont Starve','PS4','Klei Entertainment','Canada'),
 	('Donut County','PS4','Ben Esposito','USA'),
-	('DOOM 64','PS4','Midway Games','USA'),
-	('Doraemon: Story of Seasons','PS4','Brownies (Marvelous Interactive)','Japan'),
+	('DOOM 64','PS4','Midway','USA'),
+	('Doraemon: Story of Seasons','PS4','Brownies','Japan'),
+	('Dr Fetus Mean Meat Machine','PS4','Team Meat','USA'),
 	('DreamBall','PS4','Rampage Game Studios','Spain'),
 	('Dreams','PS4','Media Molecule','England'),
 	('DuckTales (1989): The Disney Afternoon Collection','PS4','Capcom','Japan'),
 	('DuckTales 2 (1993): The Disney Afternoon Collection','PS4','Capcom','Japan'),
 	('Dungeon Munchies','PS4','maJAJa','Taiwan')
 
+-- PS4 (E)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -780,6 +662,7 @@ VALUES
 	('Evil Inside','PS4','JanduSoft','Spain'),
 	('Exit the Gungeon','PS4','Dodge Roll','USA')
 
+-- PS4 (F)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -799,8 +682,8 @@ VALUES
 	('FIFA 21','PS4','EA Vancouver','Canada'),
 	('FIFA 22','PS4','EA Vancouver','Canada'),
 	('FIFA 23','PS4','EA Vancouver','Canada'),
-	('Final Fantasy VII (2020)','PS4','Square Enix','Japan'),
-	('Final Fantasy XV','PS4','Square Enix','Japan'),
+	('Final Fantasy XV','PS4','Square Enix (SquareSoft)','Japan'),
+	('Final Fantasy VII (2020)','PS4','Square Enix (SquareSoft)','Japan'),
 	('First Class Trouble','PS4','Invisible Walls','Denmark'),
 	('Five Dates','PS4','Wales Interactive','Wales'),
 	('Flashback: Remastered Edition','PS4','Delphine Software International','France'),
@@ -808,6 +691,7 @@ VALUES
 	('Formula Retro Racing','PS4','Repixel8','England'),
 	('Fortnite','PS4','Epic Games','USA')
 
+-- PS4 (G)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -819,6 +703,7 @@ VALUES
 	('Ghostbusters','PS4','FireForge Games','USA'),
 	('Ghostrunner','PS4','Slipgate Ironworks','Denmark'),
 	('God of War (2018)','PS4','Santa Monica Studio','USA'),
+	('God of War: Ragnarok','PS4','Santa Monica Studio','USA'),
 	('Godlike Burger','PS4','Liquid Pug','Belarus'),
 	('Going Under','PS4','Aggro Crab','USA'),
 	('Good Dog Bad Dog','PS4','Play-Em','USA'),
@@ -827,14 +712,16 @@ VALUES
 	('GRID Legends','PS4','Codemasters','England'),
 	('Grindstone','PS4','Capybara Games','Canada')
 
+-- PS4 (H)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Harry Potter: Quidditch Champions','PS4','Unbroken Studios','USA'),
-	('Harvest Moon: Light of Hope','PS4','Tabot Inc','Japan'),
+	('Headliner: NoviNews','PS4','Unbound Creations','USA'),
 	('Heart&Slash','PS4','aheartfulofgames','Spain'),
 	('Heavenly Bodies','PS4','2pt Interactive','Australia'),
 	('Helldivers','PS4','Arrowhead Game Studios','Sweden'),
+	('High on Life','PS4','Squanch Games','USA'),
 	('Hitman 2','PS4','IO Interactive','Denmark'),
 	('Hollow Knight','PS4','Team Cherry','Australia'),
 	('Holy Potatoes! A Weapon Shop?!','PS4','Daylight Studios','Singapore'),
@@ -844,9 +731,11 @@ VALUES
 	('Horizon Zero Dawn','PS4','Guerrilla Games','Netherlands'),
 	('Horizon Forbidden West','PS4','Guerrilla Games','Netherlands'),
 	('Hot Wheels Unleashed','PS4','Milestone','Italy'),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4','Milestone','Italy'),
 	('Hue','PS4','Fiddlesticks','England'),
 	('Human: Fall Flat','PS4','No Brakes Games','Lithuania')
 
+-- PS4 (I)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -859,14 +748,17 @@ VALUES
 	('Iris and the Giant','PS4','Louis Rigaud','France'),
 	('It Takes Two','PS4','Hazelight Studios','Sweden')
 
+-- PS4 (J)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Jazzpunk: Directors Cut','PS4','Necrophone Games','Canada'),
 	('Judgment','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Jurassic World Evolution 2','PS4','Frontier Developments','England'),
+	('Just Crow Things','PS4','Unbound Creations','USA'),
 	('Just Die Already','PS4','DoubleMoose Games','Sweden')
 
+-- PS4 (K)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -874,44 +766,50 @@ VALUES
 	('Katamari Damacy','PS4','Bandai Namco Studios','Japan'),
 	('Kena: Bridge of Spirits','PS4','Ember Lab','USA'),
 	('Kerbal Space Program','PS4','Squad','Mexico'),
-	('Kingdom Hearts 3D: Dream Drop Distance and Back Cover (HD 2.8 Final Chapter Prologue)','PS4','Square Enix','Japan'),
-	('Kingdom Hearts 0.2 Birth by Sleep - A Fragmentary Passage (HD 2.8 Final Chapter Prologue)','PS4','Square Enix','Japan'),
-	('Kingdom Hearts III','PS4','Square Enix','Japan'),
+	('Killer Frequency','PS4','Team17','England'),
+	('Kingdom Hearts 3D: Dream Drop Distance and Back Cover (HD 2.8 Final Chapter Prologue)','PS4','Square Enix (SquareSoft)','Japan'),
+	('Kingdom Hearts 0.2 Birth by Sleep - A Fragmentary Passage (HD 2.8 Final Chapter Prologue)','PS4','Square Enix (SquareSoft)','Japan'),
+	('Kingdom Hearts III','PS4','Square Enix (SquareSoft)','Japan'),
 	('Klonoa: Door to Phantomile (2008)','PS4','Paon','Japan'),
 	('Knack','PS4','Team Asobi (Japan Studio)','Japan'),
 	('Knack 2','PS4','Team Asobi (Japan Studio)','Japan'),
 	('Knockout City','PS4','Velan Studios','USA')
 
+-- PS4 (L)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('LA Cops','PS4','Modern Dream','England'),
-	('LEGO 2K Drive','PS4','Visual Concepts','USA'),
 	('LEGO City Undercover','PS4','TT Games (Travellers Tales)','England'),
 	('LEGO DC Super-Villains','PS4','TT Games (Travellers Tales)','England'),
 	('LEGO Star Wars: The Skywalker Saga','PS4','TT Games (Travellers Tales)','England'),
+	('LEGO 2K Drive','PS4','Visual Concepts','USA'),
 	('Leisure Suit Larry - Wet Dreams Dont Dry','PS4','CrazyBunch','Germany'),
 	('Leisure Suit Larry - Wet Dreams Dry Twice','PS4','CrazyBunch','Germany'),
 	('Lichtspeer','PS4','Lichthund','Poland'),
 	('Like a Dragon (Yakuza 0)','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Like a Dragon Kiwami (Yakuza Kiwami)','PS4','Ryu Ga Gotoku Studio','Japan'),
-	('Like a Dragon: Ishin','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Like a Dragon Kiwami 2 (Yakuza Kiwami 2)','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Like a Dragon 6 (Yakuza 6: The Song of Life)','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Like a Dragon 7 (Yakuza 7)','PS4','Ryu Ga Gotoku Studio','Japan'),
+	('Like a Dragon: Ishin','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Like a Dragon Gaiden: The Man Who Erased His Name','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Like a Dragon: Infinite Wealth','PS4','Ryu Ga Gotoku Studio','Japan'),
+	('LISA: The Painful','PS4','Dingaling Productions','USA'),
+	('LISA: The Joyful','PS4','Dingaling Productions','USA'),
 	('Little Nightmares','PS4','Tarsier Studios','Sweden'),
 	('Little Nightmares II','PS4','Tarsier Studios','Sweden'),
+	('Looney Tunes: Wacky World of Sports','PS4','Bamtang Games','Peru'),
 	('Lost Judgment','PS4','Ryu Ga Gotoku Studio','Japan'),
 	('Lovers in a Dangerous Spacetime','PS4','Asteroid Base','Canada'),
 	('LUMO','PS4','Triple Eh? Ltd','Wales')
 
+-- PS4 (M)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
-	('Mafia: Definitive Edition (2020)','PS4','Hangar 13 (2K Czech)','USA'),
 	('Mafia III','PS4','Hangar 13 (2K Czech)','USA'),
+	('Mafia: Definitive Edition (2020)','PS4','Hangar 13 (2K Czech)','USA'),
 	('Maneater','PS4','Tripwire Interactive','USA'),
 	('Manual Samuel','PS4','Perfectly Paranormal','Norway'),
 	('Maquette','PS4','Graceful Decay','USA'),
@@ -944,15 +842,16 @@ VALUES
 	('Minecraft Dungeons','PS4','Mojang Studios','Sweden'),
 	('Minecraft Legends','PS4','Mojang Studios','Sweden'),
 	('MLB The Show 24','PS4','San Diego Studio','USA'),
-	('My Monopoly (Monopoly Family Fun Pack)','PS4','Asobo Studio','France'),
 	('Monster Hunter: World','PS4','Capcom','Japan'),
 	('Monster Prom: XXL','PS4','Beautiful Glitch','Spain'),
 	('Moonshine Inc','PS4','Klabater','Poland'),
 	('Mortal Kombat X','PS4','NetherRealm Studios','USA'),
 	('Mortal Shell','PS4','Cold Symmetry','USA'),
 	('Mother Russia Bleeds','PS4','Le Cartel Studio','France'),
-	('Music Racer: Ultimate','PS4','Sometimes You','Russia')
+	('Music Racer: Ultimate','PS4','Sometimes You','Russia'),
+	('My Monopoly (Monopoly Family Fun Pack)','PS4','Asobo Studio','France')
 
+-- PS4 (N)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -970,6 +869,7 @@ VALUES
 	('Nobody Saves The World','PS4','Drinkbox Studios','Canada'),
 	('Nour: Play With Your Food','PS4','Terrifying Jellyfish','USA')
 
+-- PS4 (O)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -986,10 +886,12 @@ VALUES
 	('Oxenfree','PS4','Night School Studio','USA'),
 	('Oxenfree II: Lost Signals','PS4','Night School Studio','USA')
 
+-- PS4 (P)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('PAC-MAN 256','PS4','Hipster Whale','Australia'),
+	('Pac-Man World: Re-Pac','PS4','Now Production','Japan'),
 	('Party Hard','PS4','Pinokl Games','Ukraine'),
 	('Party Hard 2','PS4','Pinokl Games','Ukraine'),
 	('Persona 5 Strikers','PS4','Omega Force','Japan'),
@@ -1005,24 +907,26 @@ VALUES
 	('PowerWash Simulator','PS4','FuturLab','England'),
 	('Psychonauts 2','PS4','Double Fine Productions','USA')
 
+-- PS4 (Q)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Quake','PS4','id Software','USA'),
 	('Quest of Dungeons','PS4','Upfall Studios','Portugal')
 
+-- PS4 (R)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Ratchet & Clank (2016)','PS4','Insomniac Games','USA'),
 	('Red Dead Redemption 2','PS4','Rockstar San Diego','USA'),
+	('Resident Evil VII: Biohazard','PS4','Capcom','Japan'),
 	('Resident Evil 2 (2019)','PS4','Capcom','Japan'),
 	('Resident Evil 3 (2020)','PS4','Capcom','Japan'),
-	('Resident Evil 4 (2023)','PS4','Capcom','Japan'),
-	('Resident Evil VII: Biohazard','PS4','Capcom','Japan'),
 	('Resident Evil: Resistance','PS4','Capcom','Japan'),
-	('Resident Evil: Re:Verse','PS4','Capcom','Japan'),
 	('Resident Evil Village','PS4','Capcom','Japan'),
+	('Resident Evil: Re:Verse','PS4','Capcom','Japan'),
+	('Resident Evil 4 (2023)','PS4','Capcom','Japan'),
 	('RESOGUN','PS4','Housemarque','Finland'),
 	('Riptide GP: Renegade','PS4','Vector Unit','USA'),
 	('Rise of the Tomb Raider','PS4','Crystal Dynamics','USA'),
@@ -1034,6 +938,7 @@ VALUES
 	('Run Sausage Run!','PS4','CrazyLabs','Israel'),
 	('Rustler (Grand Theft Horse)','PS4','Jutsu Games','Poland')
 
+-- PS4 (S)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -1044,6 +949,8 @@ VALUES
 	('Scribblenauts Unlimited (Mega Pack)','PS4','5th Cell','USA'),
 	('Scribblenauts Unmasked: A DC Comics Adventure (Mega Pack)','PS4','5th Cell','USA'),
 	('Sekiro: Shadows Die Twice','PS4','FromSoftware','Japan'),
+	('Serious Sam: The First Encounter','PS4','Croteam','Croatia'),
+	('Serious Sam: The Second Encounter','PS4','Croteam','Croatia'),
 	('Shadow of the Tomb Raider','PS4','Eidos Montreal','Canada'),
 	('Shantae and the Pirates Curse','PS4','WayForward Technologies Inc','USA'),
 	('Shing','PS4','Mass Creation','Poland'),
@@ -1057,6 +964,7 @@ VALUES
 	('Sonic the Hedgehog 2 (1992): Sonic Origins (2022)','PS4','SEGA','Japan'),
 	('Sonic the Hedgehog 3 & Knuckles (1994): Sonic Origins (2022)','PS4','SEGA','Japan'),
 	('Sonic Mania','PS4','Christian Whitehead','Australia'),
+	('Sonic Colours: Ultimate','PS4','SEGA','Japan'),
 	('SoulCalibur VI','PS4','Bandai Namco Studios','Japan'),
 	('South Park: The Fractured But Whole','PS4','Ubisoft San Francisco','USA'),
 	('Spacebase Startopia','PS4','Realmforge Studios','Germany'),
@@ -1069,6 +977,7 @@ VALUES
 	('Star Wars Episode I: Pod Racer','PS4','LucasArts','USA'),
 	('Star Wars Jedi: Fallen Order','PS4','Respawn Entertainment','USA'),
 	('Stardew Valley','PS4','ConcernedApe (Eric Barone)','USA'),
+	('SteamWorld Build','PS4','Image & Form','Sweden'),
 	('Stikbold! A Dodgeball Adventure','PS4','Game Swing','Denmark'),
 	('Stranded Deep','PS4','Beam Team Games','Australia'),
 	('Stray','PS4','BlueTwelve Studio','France'),
@@ -1088,6 +997,7 @@ VALUES
 	('Supermarket Shriek','PS4','Billy Goat Entertainment Ltd','Northern Ireland'),
 	('Surgeon Simulator','PS4','Bossa Studios','England')
 
+-- PS4 (T)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -1097,13 +1007,26 @@ VALUES
 	('Tchia','PS4','Awaceb','France'),
 	('Team Sonic Racing','PS4','Sumo Digital','England'),
 	('Tearaway Unfolded','PS4','Media Molecule','England'),
+	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4','Konami','Japan'),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4','Konami','Japan'),
 	('Tekken 7','PS4','Bandai Namco Studios','Japan'),
 	('Tembo the Badass Elephant','PS4','Game Freak','Japan'),
 	('Tennis World Tour 2','PS4','Big Ant Studios','Australia'),
 	('Terminator: Resistance','PS4','Teyon','Poland'),
 	('Tethered','PS4','Secret Sorcery','England'),
-	('Tetris Effect','PS4','Monstars','Japan'),
 	('Tetris Ultimate','PS4','SoMa Play','USA'),
+	('Tetris Effect','PS4','Monstars','Japan'),
 	('Thats You!','PS4','Wish Studios','England'),
 	('The Amazing American Circus','PS4','Juggler Games','Poland'),
 	('The Bug Butcher','PS4','Awfully Nice Studios','Austria'),
@@ -1114,6 +1037,7 @@ VALUES
 	('The Darkside Detective Season 2: A Fumble in the Dark','PS4','Spooky Doorway','Republic of Ireland'),
 	('The Escapists','PS4','Mouldy Toof Studios','England'),
 	('The Flame in the Flood','PS4','The Molasses Flood','USA'),
+	('The Holy Gosh Darn','PS4','Perfectly Paranormal','Norway'),
 	('The Last Guardian','PS4','Team Asobi (Japan Studio)','Japan'),
 	('The Last of Us Part II','PS4','Naughty Dog','USA'),
 	('The Lion King (Disney Classic Games)','PS4','Digital Eclipse','USA'),
@@ -1125,6 +1049,7 @@ VALUES
 	('The Sinking City','PS4','Frogwares','Ukraine'),
 	('The Stanley Parable: Ultra Deluxe','PS4','Crows Crows Crows','Germany'),
 	('The Survivalists','PS4','Mouldy Toof Studios','England'),
+	('The Talos Principle','PS4','Croteam','Croatia'),
 	('The Walking Dead Season 3 TTG','PS4','Telltale Games','USA'),
 	('The Walking Dead Final Season TTG','PS4','Telltale Games','USA'),
 	('The Witcher 3: Wild Hunt','PS4','CD Projekt Red','Poland'),
@@ -1150,6 +1075,7 @@ VALUES
 	('Two Point Campus','PS4','Two Point Studios','England'),
 	('Typoman','PS4','Brainseed Factory','Germany')
 
+-- PS4 (U)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -1160,12 +1086,14 @@ VALUES
 	('Until Dawn','PS4','Supermassive Games','England'),
 	('Untitled Goose Game','PS4','House House','Australia')
 
+-- PS4 (V)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
 	('Viking Squad','PS4','Slick Entertainment','Canada'),
 	('Volume','PS4','Bithell Games','England')
 
+-- PS4 (W)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -1180,12 +1108,14 @@ VALUES
 	('Wolfenstein: Youngblood','PS4','MachineGames','Sweden'),
 	('Wonder Boy: The Dragons Trap','PS4','Lizardcube','France'),
 	('Worms Battlegrounds','PS4','Team17','England'),
-	('Worms Rumble','PS4','Team17','England'),
 	('Worms W.M.D','PS4','Team17','England'),
+	('Worms Rumble','PS4','Team17','England'),
 	('WRC 6','PS4','Kylotonn','France'),
 	('Wreckfest','PS4','Bugbear Entertainment','Finland'),
-	('WWE 2K Battlegrounds','PS4','Saber Interactive','USA')
+	('WWE 2K Battlegrounds','PS4','Saber Interactive','USA'),
+	('WWE 2K24','PS4','Visual Concepts','USA')
 
+-- PS4 (X, Y, Z)
 INSERT INTO origins
 (game, console, developer, country)
 VALUES
@@ -1233,7 +1163,7 @@ VALUES
 	('I Expect You to Die 2: The Spy and the Liar','VR','Schell Games','USA'),
 	('Job Simulator: The 2050 Archives','VR','Owlchemy Labs','USA'),
 	('Keep Talking and Nobody Explodes','VR','Steel Crate Games','Canada'),
-	('Kingdom Hearts: VR Experience','VR','Square Enix','Japan'),
+	('Kingdom Hearts: VR Experience','VR','Square Enix (SquareSoft)','Japan'),
 	('Knockout League','VR','Grab Games','USA'),
 	('Kona VR','VR','Parabole','Canada'),
 	('Lethal VR','VR','Three Fields Entertainment','England'),
@@ -1245,7 +1175,7 @@ VALUES
 	('Psychonauts in the Rhombus of Ruin VR','VR','Double Fine Productions','USA'),
 	('Rez Infinite VR','VR','Enhance Games','USA'),
 	('Rick and Morty: Virtual Rick-ality','VR','Owlchemy Labs','USA'),
-	('RIGS: Mechanized Combat League VR','VR','Guerrilla Cambridge','England'),
+	('RIGS: Mechanized Combat League VR','VR','Guerrilla Cambridge (SCE Studio Cambridge)','England'),
 	('Sam and Max: This Time Its Virtual!','VR','HappyGiant','USA'),
 	('Shooty Fruity','VR','nDreams','England'),
 	('Sniper Elite VR','VR','Just Add Water','England'),
@@ -1277,23 +1207,36 @@ INSERT INTO origins
 VALUES
 	('A Plague Tale: Requiem','PS5','Asobo Studio','France'),
 	('Animal Well','PS5','Shared Memory','USA'),
-	('Astro Bot','PS5','Team Asobi (Japan Studio)','Japan'),
 	('Astros Playroom','PS5','Team Asobi (Japan Studio)','Japan'),
+	('Astro Bot','PS5','Team Asobi (Japan Studio)','Japan'),
+	('Crime Boss: Rockay City','PS5','Ingame Studios','Czech Republic'),
 	('Dead Space (2023)','PS5','Motive Studio','Canada'),
 	('Destroy All Humans! 2: Reprobed','PS5','Black Forest Games','Germany'),
-	('Final Fantasy VII: Rebirth (2024)','PS5','Square Enix','Japan'),
+	('Final Fantasy VII: Rebirth (2024)','PS5','Square Enix (SquareSoft)','Japan'),
+	('Football Manager 2024','PS5','Sports Interactive','England'),
 	('Ghostwire: Tokyo','PS5','Tango Gameworks','Japan'),
 	('Goat Simulator 3','PS5','Coffee Stain Studios','Sweden'),
 	('Godfall','PS5','Counterplay Games','USA'),
 	('Hell Let Loose','PS5','Black Matter Games','Australia'),
 	('Hogwarts Legacy','PS5','Avalanche Software','USA'),
+	('Like a Dragon: Pirate Yakuza in Hawaii','PS5','Ryu Ga Gotoku Studio','Japan'),
+	('Little Goody Two Shoes','PS5','AstralShiftPro','Portugal'),
 	('Marvels Spider-Man 2','PS5','Insomniac Games','USA'),
 	('Pacific Drive','PS5','Ironwood Studios','USA'),
+	('Palworld','PS5','Pocket Pair','Japan'),
+	('Parcel Corps','PS5','Billy Goat Entertainment Ltd','Northern Ireland'),
 	('Planet Zoo','PS5','Frontier Developments','England'),
 	('Ratchet & Clank: Rift Apart','PS5','Insomniac Games','USA'),
 	('Returnal','PS5','Housemarque','Finland'),
 	('RoboCop: Rogue City','PS5','Teyon','Poland'),
 	('Sable','PS5','Shedworks','England'),
+	('South Park: Snow Day!','PS5','Question Games','USA'),
+	('Squirrel with a Gun','PS5','Dee Dee Creations','USA'),
 	('Steelrising','PS5','Spiders','France'),
+	('Techno Banter','PS5','Dexai Arts','Germany'),
+	('Tekken 8','PS5','Bandai Namco Studios','Japan'),
 	('The Plucky Squire','PS5','All Possible Futures','England'),
-	('TOEM: A Photo Adventure','PS5','Something We Made','Sweden')
+	('TOEM: A Photo Adventure','PS5','Something We Made','Sweden'),
+	('Undying','PS5','Vanimals','China')
+
+	

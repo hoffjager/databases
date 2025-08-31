@@ -1,12 +1,6 @@
 SELECT * FROM trophies
 
--- 31ST DEC 2024: DATA ENTRY OF 2025
-INSERT INTO trophies
-(year, platinum, gold, silver, bronze)
-VALUES
-(2025,0,0,0,0)
-
--- 20TH OCT 2024: INITIAL DATA ENTRY (2009 - 2024)
+-- 14TH AUG 2025: INITIAL DATA ENTRY (2009 - 2025)
 INSERT INTO trophies
 (year, platinum, gold, silver, bronze)
 VALUES
@@ -25,4 +19,5 @@ VALUES
 (2021,37,240,478,1353),
 (2022,39,270,554,1815),
 (2023,32,167,420,1519),
-(2024,24,116,271,893)
+(2024,37,160,357,1104),
+(2025,16,92,214,721)

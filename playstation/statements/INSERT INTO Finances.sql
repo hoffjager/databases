@@ -1,143 +1,10 @@
 SELECT * FROM finances
 
--- 4TH JUNE 2025 (ID 1087 - 1088)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('LISA: The Painful','PS4',12.50,6.25,6.25,1,6.25),
-	('LISA: The Joyful','PS4',12.49,6.24,6.25,1,6.24)
-
--- 23RD MAY 2025 (ID 1083 - 1086)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Just Crow Things','PS4',21.99,17.59,4.40,1,17.59),
-	('Techno Banter','PS5',19.99,13.99,6.00,1,13.99),
-	('Undying','PS5',16.99,11.04,5.95,1,11.04),
-	('Medievil 2','PS1',9.99,4.99,5.00,1,4.99)
-
--- 18TH MAR 2025 (ID 1079 - 1082)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Dead Island','PS3',19.99,2.99,17.00,1,2.99),
-	('Football Manager 2024','PS5',59.99,23.99,36.00,1,23.99),
-	('Headliner: NoviNews','PS4',13.99,6.99,7.00,1,6.99),
-	('Killer Frequency','PS4',24.99,8.49,16.50,1,8.49)
-
--- 14TH MAR 2025 (ID 1078)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Witchcrafty','VITA',9.99,3.99,6.00,1,3.99)
-
--- 10TH MAR 2025 (ID 1077)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Little Goody Two Shoes','PS5',19.99,11.99,8.00,1,11.99)
-
--- 3RD & 4TH MAR 2025 (ID 1062 - 1076)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Crime Boss: Rockay City','PS5',19.99,4.99,15.00,1,4.99),
-	('Sonic Colours: Ultimate','PS4',39.99,0.00,39.99,1,0.00),
-	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
-	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
-	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
-	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
-	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
-	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00)
-
--- 19TH FEB 2025 (ID 1061)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('The Talos Principle','PS4',29.99,4.49,25.50,1,4.49)
-
--- 12TH FEB 2025 (ID 1058 - 1060)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Serious Sam: The First Encounter','PS4',10.00,1.50,8.50,1,1.50),
-	('Serious Sam: The Second Encounter','PS4',10.00,1.50,8.50,1,1.50),
-	('Serious Sam 3: BFE','PS3',9.99,1.49,8.50,1,1.49)
-
--- 5TH FEB 2025 (ID 1055 - 1057)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('High on Life','PS4',39.99,0.00,39.99,1,0.00),
-	('Pac-Man World: Re-Pac','PS4',39.99,0.00,39.99,1,0.00),
-	('Dr Fetus Mean Meat Machine','PS4',9.99,1.99,8.00,1,1.99)
-
--- 1ST FEB 2025 (ID 1052 - 1054)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('TY the Tasmanian Tiger 2: Bush Rescue','PS2',26.99,2.85,24.14,10,0.29),
-	('Disney Epic Mickey Rebrushed','PS4',59.99,29.99,30.00,1,29.99),
-	('Need for Speed Hot Pursuit','PS3',39.99,0.00,39.99,1,0.00)
-
--- 31ST DEC 2024 (ID 1048 - 1051)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('God of War: Ragnarok','PS4',79.99,0.00,79.99,1,0.00),
-	('TY the Tasmanian Tiger','PS2',26.99,0.00,26.99,1,0.00),
-	('The Holy Gosh Darn','PS4',19.99,0.00,19.99,1,0.00),
-	('Like a Dragon: Pirate Yakuza in Hawaii','PS5',59.99,0.00,59.99,1,0.00)
-
--- 7TH NOV 2024 (ID 1042 - 1047)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Doki Doki Literature Club Plus!','PS4',12.49,0.00,12.49,1,0.00),
-	('Hot Wheels Unleashed 2 - Turbocharged','PS4',49.99,0.00,49.99,1,0.00),
-	('Parcel Corps','PS5',34.99,23.44,11.55,1,23.44),
-	('South Park: Snow Day!','PS5',29.99,19.49,10.50,1,19.49),
-	('Squirrel with a Gun','PS5',19.99,13.99,6.00,1,13.99),
-	('Tekken 8','PS5',79.99,39.99,40.00,1,39.99)
-
--- 21ST OCT 2024 (ID 1037 - 1041)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Palworld','PS5',28.99,28.99,0.00,8,3.62),
-	('SteamWorld Build','PS4',29.99,15.74,14.25,1,15.74),
-	('Timesplitters','PS2',9.99,6.99,3.00,1,6.99),
-	('Timesplitters 2','PS2',9.99,6.99,3.00,1,6.99),
-	('Timesplitters: Future Perfect','PS2',9.99,6.99,3.00,1,6.99)
-
--- 2ND OCT 2024 (ID 1036)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('WWE 2K24','PS4',74.99,0.00,74.99,1,0.00)
-
--- 10TH SEPT 2024 (ID 1035)
-INSERT INTO finances
-(game, console, full_price, paid_price, savings, hours, value)
-VALUES
-	('Gravity Rush','VITA',29.99,14.99,15.00,1,14.99)
-
--- INITIAL DATA ENTRY (ID 1 - 1034)
--- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
-
 -- PS1
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('A Bugs Life','PS1',1.49,1.49,0.00,15,0.10),
-	('Beyblade: Let it Rip!','PS1',4.99,0.00,4.99,1,0.00),
 	('Bishi Bashi Special','PS1',4.99,4.99,0.00,1,4.99),
 	('Buzz Lightyear of Star Command','PS1',1.99,1.99,0.00,10,0.20),
 	('Castlevania: Symphony of the Night','PS1',14.99,4.50,10.49,1,4.50),
@@ -166,9 +33,10 @@ VALUES
 	('Hercules','PS1',1.99,1.99,0.00,1,1.99),
 	('Hogs of War','PS1',9.99,9.99,0.00,70,0.14),
 	('Jumping Flash!','PS1',4.99,4.99,0.00,3,1.66),
-	('Klonoa: Door to Phantomile (1997)','PS1',4.99,2.50,2.49,1,2.50),
+	('Klonoa: Door to Phantomile (1997)','PS1',4.99,2.50,2.49,4,0.63),
 	('Kula World','PS1',4.99,4.99,0.00,3,1.66),
 	('Medievil (1998)','PS1',4.99,4.99,0.00,15,0.33),
+	('Medievil 2','PS1',9.99,4.99,5.00,11,0.45),
 	('Metal Gear Solid','PS1',9.99,4.99,5.00,30,0.17),
 	('Monsters Inc Scare Island','PS1',1.49,1.49,0.00,20,0.07),
 	('Mortal Kombat 3','PS1',3.33,3.33,0.00,1,3.33),
@@ -203,8 +71,8 @@ VALUES
 	('Tomb Raider III','PS1',5.99,1.99,4.00,1,1.99),
 	('Tomb Raider: The Last Revelation','PS1',5.99,1.99,4.00,1,1.99),
 	('Tomb Raider: Chronicles','PS1',5.99,1.99,4.00,1,1.99),
-	('Tombi!','PS1',7.99,4.99,3.00,10,0.50),
-	('Tombi 2!: The Evil Swine Return','PS1',7.99,7.99,0.00,1,7.99),
+	('Tombi!','PS1',27.98,4.99,22.99,18,0.28),
+	('Tombi 2!: The Evil Swine Return','PS1',7.99,7.99,0.00,2,4.00),
 	('Toy Story 2: Buzz Lightyear to the Rescue!','PS1',1.99,1.99,0.00,15,0.13),
 	('Toy Story Racer','PS1',1.99,1.99,0.00,20,0.10),
 	('Twisted Metal (1995)','PS1',4.99,1.99,3.00,1,1.99),
@@ -212,7 +80,7 @@ VALUES
 	('Vib-Ribbon','PS1',4.99,1.99,3.00,1,1.99),
 	('Wipeout (1995)','PS1',9.99,1.99,8.00,1,1.99),
 	('WWF! Smackdown 2: Know Your Role','PS1',9.99,9.99,0.00,45,0.22)
-	
+
 -- PS2
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
@@ -222,7 +90,7 @@ VALUES
 	('Bloodrayne','PS2',19.99,13.99,6.00,9,1.55),
 	('Bloodrayne 2','PS2',19.99,13.99,6.00,2,7.00),
 	('Canis Canem Edit (Bully)','PS2',23.98,15.98,8.00,29,0.55),
-	('Cel Damage','PS2',13.98,7.98,6.00,1,7.98),
+	('Cel Damage','PS2',13.98,7.98,6.00,10,0.80),
 	('Crazy Taxi','PS2',2.25,2.25,0.00,1,2.25),
 	('Dark Cloud','PS2',14.99,8.99,6.00,66,0.14),
 	('Dark Chronicle (Dark Cloud 2)','PS2',14.99,14.99,0.00,3,5.00),
@@ -239,15 +107,15 @@ VALUES
 	('God of War (2005)','PS2',12.99,4.99,8.00,25,0.20),
 	('God of War II','PS2',12.00,3.00,9.00,5,0.60),
 	('Grand Theft Auto III (2001)','PS2',10.99,5.99,5.00,55,0.11),
-	('Grand Theft Auto: Vice City (2002)','PS2',12.00,7.00,5.00,45,0.16),
+	('Grand Theft Auto: Vice City (2002)','PS2',12.00,7.00,5.00,60,0.12),
 	('Grand Theft Auto: San Andreas','PS2',12.00,7.00,5.00,110,0.06),
-	('Harvest Moon: A Wonderful Life','PS2',14.99,4.99,10.00,1,4.99),
+	('Harvest Moon: A Wonderful Life','PS2',14.99,4.99,10.00,2,2.50),
 	('Ico','PS2',10.00,10.00,0.00,1,10.00),
 	('Jak and Daxter: The Precursor Legacy','PS2',26.98,26.98,0.00,55,0.49),
 	('Jak II','PS2',24.97,24.97,0.00,35,0.71),
 	('Jak 3','PS2',26.98,26.98,0.00,30,0.90),
 	('Jak X: Combat Racing','PS2',9.99,9.99,0.00,30,0.33),
-	('Killzone','PS2',12.99,12.99,0.00,1,12.99),
+	('Killzone','PS2',12.99,12.99,0.00,2,6.50),
 	('Kingdom Hearts','PS2',9.25,3.03,6.22,35,0.09),
 	('Kingdom Hearts II','PS2',9.25,3.02,6.23,30,0.10),
 	('Klonoa 2: Lunateas Veil (2001)','PS2',24.99,14.99,10.00,6,2.50),
@@ -259,7 +127,7 @@ VALUES
 	('Metal Gear Solid 3: Snake Eater','PS2',22.99,22.99,0.00,2,11.50),
 	('Okami','PS2',19.99,13.99,6.00,45,0.31),
 	('PaRappa the Rapper 2','PS2',9.99,5.99,4.00,8,0.75),
-	('Primal','PS2',9.99,0.00,9.99,1,0.00),
+	('Primal','PS2',9.99,0.00,9.99,2,0.00),
 	('Prince of Persia: The Sands of Time','PS2',5.00,5.00,0.00,5,1.00),
 	('Prince of Persia: Warrior Within','PS2',5.00,5.00,0.00,1,5.00),
 	('Prince of Persia: The Two Thrones','PS2',4.99,4.99,0.00,1,4.99),
@@ -270,7 +138,7 @@ VALUES
 	('Ratchet: Gladiator','PS2',14.99,14.99,0.00,55,0.27),
 	('Rayman 3: Hoodlum Havoc','PS2',9.99,9.99,0.00,3,3.33),
 	('Red Dead Revolver','PS2',13.99,5.99,8.00,1,5.99),
-	('Resident Evil: Code Veronica X','PS2',14.99,0.99,14.00,1,0.99),
+	('Resident Evil: Code Veronica X','PS2',14.99,0.99,14.00,2,0.50),
 	('Resident Evil 4 (2005)','PS2',19.99,7.99,12.00,17,0.47),
 	('Shadow of the Colossus','PS2',9.99,9.99,0.00,1,9.99),
 	('Silent Hill 2','PS2',11.00,11.00,0.00,1,11.00),
@@ -285,9 +153,14 @@ VALUES
 	('The Sims','PS2',14.99,14.99,0.00,50,0.30),
 	('The Sims 2','PS2',14.99,14.99,0.00,80,0.19),
 	('The Warriors','PS2',13.99,5.99,8.00,36,0.17),
+	('Timesplitters','PS2',9.99,6.99,3.00,1,6.99),
+	('Timesplitters 2','PS2',9.99,6.99,3.00,1,6.99),
+	('Timesplitters: Future Perfect','PS2',9.99,6.99,3.00,1,6.99),
 	('Tomb Raider: Legend','PS2',9.99,3.99,6.00,1,3.99),
 	('Tomb Raider: Anniversary','PS2',9.99,3.99,6.00,1,3.99),
-	('Twisted Metal: Black','PS2',9.99,4.99,5.00,1,4.99)
+	('Twisted Metal: Black','PS2',9.99,4.99,5.00,1,4.99),
+	('TY the Tasmanian Tiger','PS2',26.99,0.00,26.99,15,0.00),
+	('TY the Tasmanian Tiger 2: Bush Rescue','PS2',26.99,2.85,24.14,10,0.29)
 
 -- PSP
 INSERT INTO finances
@@ -305,9 +178,9 @@ VALUES
 	('Final Fantasy III (2006)','PSP',9.99,4.99,5.00,1,4.99),
 	('Final Fantasy IV: The Complete Collection (2011)','PSP',14.99,7.49,7.50,1,7.49),
 	('Grand Theft Auto: Liberty City Stories','PSP',11.66,4.99,6.67,1,4.99),
-	('Grand Theft Auto: Vice City Stories','PSP',11.66,5.00,6.66,1,5.00),
+	('Grand Theft Auto: Vice City Stories','PSP',11.66,5.00,6.66,3,1.67),
 	('Grand Theft Auto: Chinatown Wars','PSP',11.66,5.00,6.66,1,5.00),
-	('Jak and Daxter: The Lost Frontier','PSP',7.99,3.99,4.00,1,3.99),
+	('Jak and Daxter: The Lost Frontier','PSP',7.99,3.99,4.00,2,2.00),
 	('Jetpack Joyride','PSP',5.58,3.98,1.60,10,0.40),
 	('Kingdom Hearts Birth by Sleep and Re: Coded (HD 2.5 Remix)','PSP',9.24,3.02,6.22,1,3.02),
 	('LEGO Star Wars III: The Clone Wars','PSP',4.99,0.00,4.99,1,0.00),
@@ -318,7 +191,7 @@ VALUES
 	('Prinny: Can I Really Be The Hero?','PSP',9.99,9.99,0.00,1,9.99),
 	('Ratchet & Clank: Size Matters','PSP',7.99,4.00,3.99,15,0.27),
 	('Resistance: Retribution','PSP',7.99,2.99,5.00,1,2.99),
-	('Tekken 5: Dark Resurrection','PSP',19.99,19.99,0.00,1,19.99),
+	('Tekken 5: Dark Resurrection','PSP',19.99,19.99,0.00,4,5.00),
 	('Wipeout Pulse','PSP',7.99,7.99,0.00,1,7.99)
 
 -- PS3
@@ -330,13 +203,13 @@ VALUES
 	('Angry Birds Classic (2009)','PS3',10.00,10.00,0.00,5,2.00),
 	('Angry Birds Seasons (2010)','PS3',10.00,10.00,0.00,2,5.00),
 	('Angry Birds Rio (2011)','PS3',9.99,9.99,0.00,1,9.99),
-	('Another World: 20th Anniversary','PS3',7.99,2.99,5.00,1,2.99),
+	('Another World: 20th Anniversary','PS3',7.99,2.99,5.00,2,1.50),
 	('Army of Two','PS3',14.99,2.00,12.99,2,1.00),
 	('Back to the Future: The Telltale Game','PS3',12.98,12.98,0.00,3,4.33),
-	('Badland','PS3',11.99,4.99,7.00,1,4.99),
+	('Badland','PS3',11.99,4.99,7.00,2,2.50),
 	('Bang Bang Racing','PS3',9.99,9.99,0.00,5,2.00),
-	('Batman: Arkham Asylum','PS3',19.99,7.99,12.00,15,0.53),
-	('Batman: Arkham City','PS3',19.99,7.99,12.00,14,0.57),
+	('Batman: Arkham Asylum','PS3',19.99,7.99,12.00,22,0.36),
+	('Batman: Arkham City','PS3',19.99,7.99,12.00,20,0.40),
 	('Battlefield 3','PS3',19.99,0.00,19.99,1,0.00),
 	('Bayonetta','PS3',14.99,4.00,10.99,5,0.80),
 	('Beat Hazard Ultra','PS3',6.99,6.99,0.00,20,0.35),
@@ -351,7 +224,7 @@ VALUES
 	('Borderlands 2','PS3',54.99,31.49,23.50,69,0.46),
 	('Brink','PS3',19.99,0.50,19.49,7,0.07),
 	('Brothers: A Tale of Two Sons (2013)','PS3',19.99,4.99,15.00,1,4.99),
-	('Burnout Paradise','PS3',39.98,9.99,29.99,1,9.99),
+	('Burnout Paradise','PS3',59.98,9.99,49.99,17,0.59),
 	('Buzz!: Quiz World','PS3',29.99,29.99,0.00,5,6.00),
 	('Call of Duty: Modern Warfare 2','PS3',29.99,4.00,25.99,20,0.20),
 	('Castle Crashers','PS3',30.98,30.98,0.00,4,7.75),
@@ -361,11 +234,12 @@ VALUES
 	('CounterSpy','PS3',12.99,3.99,9.00,5,0.80),
 	('Crazy Machines Elements','PS3',4.99,4.99,0.00,5,1.00),
 	('Dark Souls','PS3',39.99,14.79,25.20,22,0.67),
-	('Dark Souls II','PS3',19.99,9.99,10.00,1,9.99),
+	('Dark Souls II','PS3',19.99,9.99,10.00,2,5.00),
 	('Daytona USA','PS3',7.99,7.99,0.00,2,4.00),
+	('Dead Island','PS3',19.99,2.99,17.00,23,0.13),
 	('Dead or Alive 5','PS3',59.98,33.98,26.00,3,11.33),
 	('Dead Rising 2','PS3',14.99,3.50,11.49,5,0.70),
-	('Dead Space (2008)','PS3',19.99,4.00,15.99,1,4.00),
+	('Dead Space (2008)','PS3',19.99,4.00,15.99,5,0.80),
 	('Deadpool','PS3',39.99,19.99,20.00,40,0.50),
 	('Deathmatch Village','PS3',0.00,0.00,0.00,1,0.00),
 	('DeathSpank: The Baconing','PS3',12.99,12.99,0.00,30,0.43),
@@ -373,10 +247,9 @@ VALUES
 	('Devil May Cry 4','PS3',22.99,10.99,12.00,1,10.99),
 	('Dishonored','PS3',24.99,3.00,21.99,5,0.60),
 	('DJ Hero 2','PS3',2.50,2.50,0.00,5,0.50),
-	('Doki-Doki Universe','PS3',7.49,1.99,5.50,11,0.18),
+	('Doki-Doki Universe','PS3',8.98,3.48,5.50,11,0.32),
 	('Duke Nukem Forever','PS3',19.99,3.50,16.49,15,0.23),
 	('Earthworm Jim HD','PS3',9.99,9.99,0.00,20,0.50),
-	('F.E.A.R (First Encounter Assault Recon)','PS3',12.00,12.00,0.00,1,12.00),
 	('F1 Race Stars','PS3',24.99,9.99,15.00,25,0.40),
 	('Family Guy: Back to the Multiverse','PS3',59.99,8.00,51.99,40,0.20),
 	('Far Cry Classic','PS3',9.99,9.99,0.00,20,0.50),
@@ -384,12 +257,13 @@ VALUES
 	('Far Cry 3','PS3',29.99,17.99,12.00,36,0.50),
 	('Far Cry 4','PS3',24.99,7.99,17.00,42,0.19),
 	('Fat Princess','PS3',9.99,9.99,0.00,10,1.00),
-	('FEZ','PS3',9.99,1.99,8.00,1,1.99),
+	('F.E.A.R (First Encounter Assault Recon)','PS3',12.00,12.00,0.00,1,12.00),
+	('FEZ','PS3',9.99,1.99,8.00,2,1.00),
+	('FIFA Street (2012)','PS3',29.99,4.00,25.99,1,4.00),
 	('FIFA 16','PS3',69.99,69.99,0.00,11,6.36),
 	('FIFA 17','PS3',69.99,69.99,0.00,18,3.89),
 	('FIFA 18','PS3',69.99,69.99,0.00,14,5.00),
 	('FIFA 19','PS3',69.99,39.89,30.10,21,1.90),
-	('FIFA Street (2012)','PS3',29.99,4.00,25.99,1,4.00),
 	('Fight Night Champion','PS3',29.99,15.00,14.99,15,1.00),
 	('Final Exam','PS3',9.99,9.99,0.00,1,9.99),
 	('Final Fantasy XIII','PS3',19.99,4.00,15.99,45,0.09),
@@ -411,7 +285,7 @@ VALUES
 	('inFamous','PS3',14.99,8.99,6.00,60,0.15),
 	('inFamous 2','PS3',19.99,8.00,11.99,70,0.11),
 	('inFamous: Festival of Blood','PS3',9.99,8.00,1.99,10,0.80),
-	('Injustice: Gods Among Us','PS3',59.99,9.59,50.40,1,9.59),
+	('Injustice: Gods Among Us','PS3',59.99,9.59,50.40,2,4.80),
 	('Jet Car Stunts','PS3',6.99,6.99,0.00,3,2.33),
 	('Jet Set Radio','PS3',7.99,7.99,0.00,5,1.60),
 	('Joe Danger 2: The Movie','PS3',12.99,12.99,0.00,7,1.86),
@@ -422,19 +296,18 @@ VALUES
 	('Kingdom Hearts Re: Chain of Memories and 358/2 Days','PS3',9.25,3.03,6.22,1,3.03),
 	('Kingdoms of Amalur: Reckoning','PS3',39.99,0.00,39.99,1,0.00),
 	('LA Noire','PS3',29.99,29.99,0.00,55,0.55),
-	('LEGO Batman 2: DC Super Heroes','PS3',19.99,0.00,19.99,30,0.00),
 	('LEGO Harry Potter Collection: Years 1-4','PS3',20.00,10.00,10.00,10,1.00),
 	('LEGO Harry Potter Collection: Years 5-7','PS3',19.99,9.99,10.00,10,1.00),
+	('LEGO Batman 2: DC Super Heroes','PS3',19.99,0.00,19.99,30,0.00),
 	('LEGO Marvel Super Heroes','PS3',39.99,9.99,30.00,7,1.43),
-	('LEGO The Hobbit','PS3',39.99,4.79,35.20,1,4.79),
 	('Life is Strange','PS3',16.99,5.99,11.00,25,0.24),
-	('Like a Dragon 3 (Yakuza 3)','PS3',13.33,8.00,5.33,33,0.24),
-	('Like a Dragon 4 (Yakuza 4)','PS3',13.33,8.00,5.33,38,0.21),
-	('Like a Dragon 5 (Yakuza 5)','PS3',13.33,7.99,5.34,68,0.12),
+	('Like a Dragon 3 (Yakuza 3)','PS3',13.33,8.00,5.33,147,0.05),
+	('Like a Dragon 4 (Yakuza 4)','PS3',13.33,8.00,5.33,126,0.06),
+	('Like a Dragon 5 (Yakuza 5)','PS3',13.33,7.99,5.34,136,0.06),
 	('LittleBigPlanet','PS3',14.99,10.50,4.49,20,0.53),
 	('LittleBigPlanet 2','PS3',29.99,19.49,10.50,20,0.97),
-	('LittleBigPlanet 3','PS3',49.99,9.99,40.00,1,9.99),
 	('LittleBigPlanet Karting','PS3',19.99,14.99,5.00,25,0.60),
+	('LittleBigPlanet 3','PS3',49.99,9.99,40.00,1,9.99),
 	('Lollipop Chainsaw','PS3',19.99,12.00,7.99,20,0.60),
 	('Lone Survivor','PS3',9.99,9.99,0.00,1,9.99),
 	('Mafia II','PS3',29.99,10.00,19.99,45,0.22),
@@ -457,17 +330,18 @@ VALUES
 	('MotorStorm: RC','PS3',8.99,3.99,5.00,25,0.16),
 	('Naughty Bear','PS3',14.99,5.00,9.99,5,1.00),
 	('Need for Speed: Shift','PS3',19.99,4.00,15.99,60,0.07),
+	('Need for Speed Hot Pursuit','PS3',39.99,0.00,39.99,30,0.00),
 	('Need for Speed: The Run','PS3',19.99,4.00,15.99,15,0.27),
 	('Need for Speed: Most Wanted (2012)','PS3',19.99,0.00,19.99,25,0.00),
 	('Ni No Kuni: Wrath of the White Witch','PS3',49.99,0.00,49.99,18,0.00),
 	('Nitroplus Blasterz: Heroines Infinite Duel','PS3',19.99,14.99,5.00,4,3.75),
-	('Oddworld: Munchs Oddysee','PS3',8.99,8.99,0.00,30,0.30),
 	('Oddworld: Strangers Wrath','PS3',12.99,12.99,0.00,45,0.29),
+	('Oddworld: Munchs Oddysee','PS3',8.99,8.99,0.00,30,0.30),
 	('One Piece: Unlimited World Red','PS3',79.98,18.98,61.00,1,18.98),
-	('Payday: The Heist','PS3',12.99,12.99,0.00,2,6.50),
+	('Payday: The Heist','PS3',16.99,12.99,4.00,2,6.50),
 	('Persona 5','PS3',69.99,34.99,35.00,1,34.99),
 	('PixelJunk Shooter','PS3',11.99,2.99,9.00,1,2.99),
-	('PlayStation All-Stars Battle Royale','PS3',14.99,14.99,0.00,35,0.43),
+	('PlayStation All-Stars Battle Royale','PS3',19.99,14.99,5.00,35,0.43),
 	('PlayStation Move Heroes','PS3',14.99,7.50,7.49,20,0.38),
 	('Pro Evolution Soccer 2010','PS3',19.99,0.50,19.49,30,0.02),
 	('Prototype','PS3',24.99,7.99,17.00,1,7.99),
@@ -483,23 +357,24 @@ VALUES
 	('Rayman Origins','PS3',29.98,26.99,2.99,40,0.67),
 	('Rayman Legends','PS3',39.98,26.99,12.99,80,0.34),
 	('Red Dead Redemption','PS3',44.98,18.00,26.98,50,0.36),
-	('Resident Evil 0 (Zero)','PS3',19.99,4.99,15.00,19,0.26),
-	('Resident Evil (2002)','PS3',19.99,4.99,15.00,18,0.28),
 	('Resident Evil 5','PS3',19.99,7.99,12.00,12,0.67),
-	('Resident Evil: Revelations','PS3',19.99,7.49,12.50,11,0.68),
 	('Resident Evil 6','PS3',19.99,7.99,12.00,1,7.99),
+	('Resident Evil: Revelations','PS3',19.99,7.49,12.50,11,0.68),
+	('Resident Evil (2002)','PS3',19.99,4.99,15.00,18,0.28),
 	('Resident Evil: Revelations 2','PS3',19.99,7.49,12.50,1,7.49),
+	('Resident Evil 0 (Zero)','PS3',19.99,4.99,15.00,19,0.26),
 	('Resistance: Fall of Man','PS3',14.99,2.00,12.99,1,2.00),
 	('Retro City Rampage','PS3',9.99,4.99,5.00,3,1.66),
 	('Rocketbirds: Hardboiled Chicken','PS3',7.99,7.99,0.00,10,0.80),
 	('Rogue Legacy','PS3',12.99,4.99,8.00,15,0.33),
 	('Saints Row 2','PS3',4.99,0.00,4.99,3,0.00),
-	('Saints Row: The Third','PS3',49.98,39.98,10.00,115,0.35),
+	('Saints Row: The Third','PS3',49.98,39.98,10.00,155,0.26),
 	('Saints Row IV: Re-Elected','PS3',34.98,7.49,27.49,100,0.07),
-	('Saints Row IV: Gat out of Hell','PS3',19.99,7.99,12.00,1,7.99),
+	('Saints Row IV: Gat out of Hell','PS3',19.99,7.99,12.00,20,0.40),
 	('Sam & Max Season 2: Beyond Time and Space TTG','PS3',19.99,14.99,5.00,1,14.99),
 	('Sam & Max Season 3: The Devils Playhouse TTG','PS3',24.99,24.99,0.00,1,24.99),
 	('Scott Pilgrim vs The World: The Game','PS3',14.99,8.99,6.00,2,4.50),
+	('Serious Sam 3: BFE','PS3',9.99,1.49,8.50,1,1.49),
 	('Shovel Knight: Treasure Trove','PS3',24.99,24.99,0.00,3,8.33),
 	('Siren: Blood Curse','PS3',12.99,12.99,0.00,1,12.99),
 	('Skate 2','PS3',19.99,12.00,7.99,10,1.20),
@@ -562,7 +437,7 @@ VALUES
 	('Uncharted 3: Drakes Deception','PS3',22.16,15.16,7.00,70,0.22),
 	('UNO','PS3',19.99,7.99,12.00,1,7.99),
 	('Virtua Fighter 5','PS3',29.99,0.00,29.99,1,0.00),
-	('Watch Dogs','PS3',19.99,7.99,12.00,48,0.17),
+	('Watch Dogs','PS3',19.99,7.99,12.00,71,0.11),
 	('When Vikings Attack','PS3',4.99,4.99,0.00,5,1.00),
 	('Wipeout HD (2008)','PS3',22.49,5.00,17.49,5,1.00),
 	('Wolfenstein: The New Order','PS3',19.99,3.50,16.49,1,3.50),
@@ -576,12 +451,12 @@ VALUES
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
-	('A Boy and His Blob','VITA',9.99,3.99,6.00,1,3.99),
+	('A Boy and His Blob','VITA',9.99,3.99,6.00,12,0.33),
 	('Active Soccer 2 DX','VITA',9.99,6.99,3.00,1,6.99),
-	('Bridge Constructor','VITA',9.99,3.99,6.00,1,3.99),
+	('Bridge Constructor','VITA',9.99,3.99,6.00,2,2.00),
 	('Broken Age','VITA',14.99,6.99,8.00,1,6.99),
 	('Claire','VITA',16.99,4.99,12.00,1,4.99),
-	('Color Slayer','VITA',1.99,1.99,0.00,1,1.99),
+	('Color Slayer','VITA',1.99,1.99,0.00,2,1.00),
 	('Crazy Market','VITA',0.00,0.00,0.00,5,0.00),
 	('Day of the Tentacle: Remastered','VITA',14.99,4.74,10.25,16,0.30),
 	('Downwell','VITA',4.99,1.99,3.00,7,0.28),
@@ -592,11 +467,12 @@ VALUES
 	('forma.8','VITA',9.99,2.99,7.00,1,2.99),
 	('Futuridium EP Deluxe','VITA',9.99,2.99,7.00,1,2.99),
 	('Get Off My Lawn!','VITA',0.00,0.00,0.00,10,0.00),
+	('Gravity Rush','VITA',29.99,14.99,15.00,1,14.99),
 	('Grim Fandango: Remastered','VITA',14.99,3.99,11.00,1,3.99),
 	('Gunslugs','VITA',2.49,2.49,0.00,5,0.50),
 	('Hatoful Boyfriend','VITA',9.99,2.99,7.00,1,2.99),
 	('Home: A Unique Horror Adventure','VITA',4.99,1.99,3.00,1,1.99),
-	('Minutes','VITA',4.49,3.49,1.00,1,3.49),
+	('Minutes','VITA',4.49,3.49,1.00,2,1.75),
 	('ModNation Racers: Road Trip','VITA',14.99,14.99,0.00,25,0.60),
 	('Ninja Senki DX','VITA',5.99,1.99,4.00,1,1.99),
 	('No Heroes Allowed: No Puzzles Either!','VITA',5.99,5.99,0.00,25,0.24),
@@ -641,38 +517,40 @@ VALUES
 	('Wanderjahr','VITA',9.99,9.99,0.00,5,2.00),
 	('Welcome Park','VITA',0.00,0.00,0.00,5,0.00),
 	('Wipeout 2048 (2012)','VITA',22.49,4.99,17.50,10,0.50),
+	('Witchcrafty','VITA',9.99,3.99,6.00,1,3.99),
 	('Xenoraid','VITA',9.99,3.99,6.00,1,3.99),
-	('Yomawari: Midnight Shadows','VITA',29.99,14.99,15.00,1,14.99),
 	('Yomawari: Night Alone','VITA',19.99,9.99,10.00,10,1.00),
+	('Yomawari: Midnight Shadows','VITA',29.99,14.99,15.00,2,7.50),
 	('Zero Escape: Virtues Last Reward','VITA',19.99,19.99,0.00,10,2.00)
 
--- PS4
+-- PS4 (A)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
-	('60 Seconds! Reatomized','PS4',9.99,0.00,9.99,3,0.00),
 	('101 Ways To Die','PS4',9.99,4.99,5.00,1,4.99),
+	('60 Seconds! Reatomized','PS4',9.99,0.00,9.99,3,0.00),
 	('A Plague Tale: Innocence','PS4',51.98,16.98,35.00,34,0.50),
 	('Absolute Drift','PS4',11.99,7.99,4.00,9,0.89),
-	('Abzu','PS4',19.99,0.00,19.99,1,0.00),
+	('Abzu','PS4',19.99,0.00,19.99,2,0.00),
 	('Aladdin (Disney Classic Games)','PS4',17.50,17.50,0.00,1,17.50),
 	('Alan Wake','PS4',29.99,0.00,29.99,1,0.00),
 	('Aliens: Fireteam Elite','PS4',29.99,0.00,29.99,1,0.00),
 	('Amnesia: The Dark Descent','PS4',14.25,1.57,12.68,1,1.57),
 	('Amnesia: A Machine for Pigs','PS4',14.24,1.56,12.68,1,1.56),
-	('Amplitude','PS4',19.99,9.99,10.00,1,9.99),
+	('Amplitude','PS4',19.99,9.99,10.00,3,3.33),
 	('Apex Legends','PS4',0.00,0.00,0.00,1,0.00),
 	('ARK: Survival Evolved','PS4',29.99,0.00,29.99,1,0.00),
 	('Armello','PS4',19.99,7.99,12.00,1,7.99),
-	('Armikrog','PS4',9.99,1.99,8.00,1,1.99),
+	('Armikrog','PS4',9.99,1.99,8.00,2,1.00),
 	('Art of Balance','PS4',8.99,2.99,6.00,2,1.50),
 	('Art of Rally','PS4',20.99,13.64,7.35,42,0.32),
 	('Assassins Creed Valhalla','PS4',119.99,59.99,60.00,22,2.73),
 	('Assault Android Cactus','PS4',14.49,3.99,10.50,4,1.00),
-	('Aven Colony','PS4',29.99,14.99,15.00,1,14.99),
+	('Aven Colony','PS4',29.99,14.99,15.00,2,7.50),
 	('AWAY: The Survival Series','PS4',29.99,0.00,29.99,2,0.00),
 	('Axiom Verge 2','PS4',17.99,0.00,17.99,1,0.00)
 
+-- PS4 (B)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
@@ -681,37 +559,37 @@ VALUES
 	('Batman: Arkham Knight','PS4',19.99,7.99,12.00,1,7.99),
 	('Battlefield 1','PS4',19.99,0.00,19.99,1,0.00),
 	('Battlefield 2042','PS4',79.99,0.00,79.99,1,0.00),
-	('Bear with Me','PS4',14.99,7.49,7.50,1,7.49),
+	('Bear with Me','PS4',14.99,7.49,7.50,2,3.75),
 	('Beat Cop','PS4',14.99,1.49,13.50,20,0.07),
 	('Beyond Eyes','PS4',12.99,3.99,9.00,1,3.99),
-	('Bio Inc Redemption','PS4',14.99,9.89,5.10,1,9.89),
+	('Bio Inc Redemption','PS4',14.99,9.89,5.10,2,4.95),
 	('Biomutant','PS4',59.99,29.99,30.00,49,0.61),
 	('Blacksad: Under the Skin','PS4',39.99,7.99,32.00,1,7.99),
-	('Blazing Beaks','PS4',14.99,3.74,11.25,1,3.74),
 	('Blood Bowl 2','PS4',19.99,7.49,12.50,6,1.25),
 	('Bloodborne','PS4',34.99,18.24,16.75,38,0.48),
-	('Borderlands 3','PS4',114.98,114.98,0.00,158,0.73),
+	('Borderlands 3','PS4',114.98,114.98,0.00,241,0.48),
 	('Breaking Enigma','PS4',10.99,0.54,10.45,1,0.54),
 	('Broforce','PS4',14.99,4.99,10.00,18,0.28),
 	('Bud Spencer & Terence Hill - Slaps And Beans','PS4',19.99,3.99,16.00,8,0.50),
 	('Bugsnax','PS4',21.99,16.49,5.50,24,0.69)
 
+-- PS4 (C)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
-	('Call of Duty: Black Ops Cold War','PS4',74.99,0.00,74.99,1,0.00),
 	('Call of Duty: Black Ops III','PS4',69.99,0.00,69.99,1,0.00),
+	('Call of Duty: Black Ops Cold War','PS4',74.99,0.00,74.99,1,0.00),
 	('Cant Drive This','PS4',24.99,16.24,8.75,1,16.24),
-	('Captain Tsubasa: Rise of New Champions','PS4',59.99,19.79,40.20,1,19.79),
+	('Captain Tsubasa: Rise of New Champions','PS4',59.99,19.79,40.20,2,9.90),
 	('Celeste','PS4',19.99,11.99,8.00,2,6.00),
 	('Chicken Police: Paint It Red!','PS4',19.99,13.99,6.00,1,13.99),
 	('Chicory: A Colorful Tale','PS4',19.99,13.99,6.00,24,0.58),
 	('Chime Sharp','PS4',9.99,2.99,7.00,1,2.99),
-	('Chip n Dale Rescue Rangers (1990): The Disney Afternoon Collection','PS4',3.33,1.00,2.50,1,1.00),
-	('Chip n Dale Rescue Rangers 2 (1994): The Disney Afternoon Collection','PS4',3.33,0.50,2.50,1,0.50),
-	('Cities: Skylines','PS4',139.98,84.98,55.00,1,84.98),
+	('Chip n Dale Rescue Rangers (1990): The Disney Afternoon Collection','PS4',3.33,1.00,2.33,1,1.00),
+	('Chip n Dale Rescue Rangers 2 (1994): The Disney Afternoon Collection','PS4',3.33,0.50,2.83,1,0.50),
+	('Cities: Skylines','PS4',139.98,84.98,55.00,2,42.49),
 	('Cloudpunk','PS4',24.99,17.49,7.50,23,0.76),
-	('Clustertruck','PS4',14.99,4.49,10.50,1,4.49),
+	('Clustertruck','PS4',14.99,4.49,10.50,2,2.25),
 	('Code Vein','PS4',69.99,0.00,69.99,1,0.00),
 	('Coffee Talk','PS4',13.99,13.99,0.00,10,1.40),
 	('Coffee Talk Episode 2: Hibiscus and Butterfly','PS4',14.99,10.49,4.50,6,1.75),
@@ -720,21 +598,22 @@ VALUES
 	('Crash Bandicoot: N Sane Trilogy (2017)','PS4',13.33,13.33,0.00,14,0.95),
 	('Crash Bandicoot 2: N Sane Trilogy (2017)','PS4',13.33,13.33,0.00,14,0.95),
 	('Crash Bandicoot 3: N Sane Trilogy (2017)','PS4',13.33,13.33,0.00,13,1.03),
-	('Crash Bandicoot 4: Its About Time','PS4',69.99,0.00,69.99,46,0.00),
 	('Crash Team Racing Nitro-Fueled','PS4',59.99,59.99,0.00,168,0.36),
-	('Croixleur Sigma','PS4',13.99,4.99,9.00,1,4.99),
+	('Crash Bandicoot 4: Its About Time','PS4',69.99,0.00,69.99,46,0.00),
+	('Croixleur Sigma','PS4',13.99,4.99,9.00,3,1.66),
 	('Cult of the Lamb','PS4',29.99,23.99,6.00,24,1.00),
 	('Curse of the Dead Gods','PS4',19.99,0.00,19.99,13,0.00),
 	('Cyberpunk 2077','PS4',49.99,33.49,16.50,83,0.40)
 
+-- PS4 (D)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
+	('Dangerous Golf','PS4',7.99,2.99,5.00,1,2.99),
 	('Danger Zone','PS4',10.99,2.99,8.00,1,2.99),
 	('Dangerous Driving','PS4',29.99,7.49,22.50,1,7.49),
-	('Dangerous Golf','PS4',7.99,2.99,5.00,1,2.99),
 	('Dark Souls III','PS4',49.99,11.99,38.00,1,11.99),
-	('Darkwing Duck (1992): The Disney Afternoon Collection','PS4',3.33,0.99,2.50,1,0.99),
+	('Darkwing Duck (1992): The Disney Afternoon Collection','PS4',3.33,0.99,2.34,1,0.99),
 	('Days Gone','PS4',69.99,0.00,69.99,57,0.00),
 	('de Blob','PS4',19.99,3.99,16.00,1,3.99),
 	('Dead End Job','PS4',14.99,2.99,12.00,50,0.06),
@@ -742,51 +621,55 @@ VALUES
 	('Dead Island 2','PS4',69.99,34.99,35.00,42,0.83),
 	('Dead Rising','PS4',19.99,4.99,15.00,5,1.00),
 	('Death Squared','PS4',13.99,6.99,7.00,6,1.17),
-	('Deaths Door','PS4',19.99,0.00,19.99,1,0.00),
-	('DEEEER Simulator','PS4',16.99,13.59,3.40,1,13.59),
+	('Deaths Door','PS4',19.99,0.00,19.99,2,0.00),
+	('DEEEER Simulator','PS4',16.99,13.59,3.40,2,6.80),
 	('Deep Rock Galactic','PS4',29.99,0.00,29.99,1,0.00),
-	('Descenders','PS4',21.99,0.00,21.99,1,0.00),
+	('Descenders','PS4',21.99,0.00,21.99,19,0.00),
 	('Destiny 2','PS4',59.98,0.00,59.98,1,0.00),
 	('Destroy All Humans! (2020)','PS4',39.99,31.99,8.00,30,1.07),
 	('Detroit: Become Human','PS4',29.99,0.00,29.99,11,0.00),
 	('Devil May Cry 5','PS4',49.99,44.99,5.00,1,44.99),
 	('Dex','PS4',19.99,9.99,10.00,17,0.59),
-	('Digimon World: Next Order','PS4',59.99,9.59,50.40,1,9.59),
 	('DIRT 5','PS4',69.99,0.00,69.99,1,0.00),
 	('Discovery','PS4',11.99,4.99,7.00,4,1.25),
 	('Disney Dreamlight Valley','PS4',29.99,23.99,6.00,182,0.13),
+	('Disney Epic Mickey Rebrushed','PS4',59.99,29.99,30.00,4,7.50),
+	('Doki Doki Literature Club Plus!','PS4',12.49,0.00,12.49,2,0.00),
 	('Dont Starve','PS4',13.99,3.49,10.50,1,3.49),
 	('Donut County','PS4',12.99,6.49,6.50,6,1.08),
 	('DOOM 64','PS4',4.99,2.49,2.50,1,2.49),
 	('Doraemon: Story of Seasons','PS4',49.99,4.99,45.00,1,4.99),
+	('Dr Fetus Mean Meat Machine','PS4',9.99,1.99,8.00,1,1.99),
 	('DreamBall','PS4',5.99,5.99,0.00,5,1.20),
 	('Dreams','PS4',39.99,29.99,10.00,1,29.99),
-	('DuckTales (1989): The Disney Afternoon Collection','PS4',3.34,1.00,2.50,1,1.00),
-	('DuckTales 2 (1993): The Disney Afternoon Collection','PS4',3.33,0.50,2.50,1,0.50),
-	('Dungeon Munchies','PS4',14.99,0.00,14.99,7,0.00)
+	('DuckTales (1989): The Disney Afternoon Collection','PS4',3.34,1.00,2.34,1,1.00),
+	('DuckTales 2 (1993): The Disney Afternoon Collection','PS4',3.33,0.50,2.83,1,0.50),
+	('Dungeon Munchies','PS4',14.99,0.00,14.99,21,0.00)
 
+-- PS4 (E)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('EA Sports FC 24','PS4',79.99,15.99,64.00,8,2.00),
 	('EA Sports UFC 4','PS4',69.99,0.00,69.99,1,0.00),
 	('Elden Ring','PS4',59.99,41.99,18.00,1,41.99),
-	('Empire of Sin','PS4',49.99,12.49,37.50,1,12.49),
+	('Empire of Sin','PS4',49.99,12.49,37.50,64,0.20),
 	('Ender Lilies: Quietus of the Knights','PS4',29.99,0.00,29.99,1,0.00),
 	('Endling: Extinction is Forever','PS4',29.99,0.00,29.99,1,0.00),
 	('Enter the Gungeon','PS4',14.99,7.49,7.50,17,0.44),
 	('Entwined','PS4',7.99,1.99,6.00,1,1.99),
 	('Everybodys Golf (2017)','PS4',75.93,55.93,20.00,33,1.69),
 	('Evil Inside','PS4',12.99,9.09,3.90,1,9.09),
-	('Exit the Gungeon','PS4',9.99,6.99,3.00,1,6.99)
+	('Exit the Gungeon','PS4',9.99,6.99,3.00,2,3.50)
 
+-- PS4 (F)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('F1 2021','PS4',69.99,0.00,69.99,103,0.00),
 	('F1 23','PS4',79.99,0.00,79.99,82,0.00),
-	('F1 Manager 2022','PS4',54.99,0.00,54.99,1,0.00),
-	('Fall Guys: Ultimate Knockout','PS4',19.99,0.00,19.99,45,0.00),
+	('F1 Manager 2022','PS4',54.99,0.00,54.99,2,0.00),
+	('Fall Guys: Ultimate Knockout','PS4',19.99,0.00,19.99,55,0.00),
 	('Fallout 4','PS4',19.99,12.99,7.00,56,0.23),
 	('Fallout Shelter','PS4',6.96,0.00,6.96,1,0.00),
 	('Far Cry: Primal','PS4',24.99,7.99,17.00,30,0.27),
@@ -799,15 +682,16 @@ VALUES
 	('FIFA 21','PS4',89.99,24.29,65.70,4,6.07),
 	('FIFA 22','PS4',79.99,0.00,79.99,25,0.00),
 	('FIFA 23','PS4',79.99,31.99,48.00,2,16.00),
-	('Final Fantasy VII (2020)','PS4',79.99,45.59,34.40,38,1.20),
 	('Final Fantasy XV','PS4',34.99,0.00,34.99,1,0.00),
+	('Final Fantasy VII (2020)','PS4',79.99,45.59,34.40,38,1.20),
 	('First Class Trouble','PS4',19.99,0.00,19.99,1,0.00),
 	('Five Dates','PS4',11.66,5.83,5.83,1,5.83),
 	('Flashback: Remastered Edition','PS4',19.99,0.99,19.00,1,0.99),
 	('Flockers','PS4',24.99,4.99,20.00,1,4.99),
-	('Formula Retro Racing','PS4',5.99,3.59,2.40,1,3.59),
+	('Formula Retro Racing','PS4',5.99,3.59,2.40,2,1.80),
 	('Fortnite','PS4',0.00,0.00,0.00,1,0.00)
 
+-- PS4 (G)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
@@ -817,24 +701,27 @@ VALUES
 	('Ghost Blade HD','PS4',8.99,3.99,5.00,4,1.00),
 	('Ghost of Tsushima','PS4',69.99,49.69,20.30,74,0.67),
 	('Ghostbusters','PS4',29.99,7.99,22.00,9,0.89),
-	('Ghostrunner','PS4',29.99,0.00,29.99,1,0.00),
+	('Ghostrunner','PS4',29.99,0.00,29.99,2,0.00),
 	('God of War (2018)','PS4',19.99,0.00,19.99,44,0.00),
+	('God of War: Ragnarok','PS4',79.99,0.00,79.99,1,0.00),
 	('Godlike Burger','PS4',19.99,7.99,12.00,1,7.99),
 	('Going Under','PS4',19.99,0.00,19.99,25,0.00),
 	('Good Dog Bad Dog','PS4',16.99,0.00,16.99,6,0.00),
 	('Granblue Fantasy: Versus','PS4',19.99,0.00,19.99,1,0.00),
-	('Grand Ages: Medieval','PS4',39.99,3.99,36.00,1,3.99),
+	('Grand Ages: Medieval','PS4',39.99,3.99,36.00,2,2.00),
 	('GRID Legends','PS4',69.99,0.00,69.99,60,0.00),
-	('Grindstone','PS4',19.99,0.00,19.99,1,0.00)
+	('Grindstone','PS4',19.99,0.00,19.99,54,0.00)
 
+-- PS4 (H)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
-	('Harry Potter: Quidditch Champions','PS4',39.99,0.00,39.99,1,0.00),
-	('Harvest Moon: Light of Hope','PS4',44.99,8.99,36.00,1,8.99),
+	('Harry Potter: Quidditch Champions','PS4',39.99,0.00,39.99,2,0.00),
+	('Headliner: NoviNews','PS4',13.99,6.99,7.00,14,0.50),
 	('Heart&Slash','PS4',19.99,3.99,16.00,4,1.00),
 	('Heavenly Bodies','PS4',20.99,0.00,20.99,1,0.00),
 	('Helldivers','PS4',29.99,29.99,0.00,3,10.00),
+	('High on Life','PS4',39.99,0.00,39.99,23,0.00),
 	('Hitman 2','PS4',69.99,0.00,69.99,1,0.00),
 	('Hollow Knight','PS4',14.49,0.00,14.49,10,0.00),
 	('Holy Potatoes! A Weapon Shop?!','PS4',14.99,1.49,13.50,1,1.49),
@@ -842,38 +729,44 @@ VALUES
 	('Holy Potatoes! What the Hell?!','PS4',14.99,1.49,13.50,1,1.49),
 	('HoPiKo','PS4',6.99,1.99,5.00,1,1.99),
 	('Horizon Zero Dawn','PS4',34.98,27.98,7.00,100,0.28),
-	('Horizon Forbidden West','PS4',79.99,49.59,30.40,50,0.99),
+	('Horizon Forbidden West','PS4',79.99,49.59,30.40,67,0.74),
 	('Hot Wheels Unleashed','PS4',49.99,0.00,49.99,29,0.00),
+	('Hot Wheels Unleashed 2 - Turbocharged','PS4',49.99,0.00,49.99,25,0.00),
 	('Hue','PS4',14.99,4.99,10.00,10,0.50),
 	('Human: Fall Flat','PS4',14.99,9.99,5.00,8,1.25)
 
+-- PS4 (I)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('I am Bread','PS4',12.99,2.59,10.40,1,2.59),
 	('In Rays of the Light','PS4',7.99,5.59,2.40,5,1.12),
-	('inFamous Second Son','PS4',14.99,6.99,8.00,25,0.28),
-	('inFamous First Light','PS4',14.99,7.99,7.00,9,0.89),
+	('inFamous Second Son','PS4',25.00,6.99,18.01,25,0.28),
+	('inFamous First Light','PS4',24.99,7.99,17.00,9,0.89),
 	('Infliction: Extended Cut','PS4',17.99,8.99,9.00,5,1.80),
 	('Injustice 2','PS4',19.99,0.00,19.99,1,0.00),
 	('Iris and the Giant','PS4',14.99,0.00,14.99,1,0.00),
 	('It Takes Two','PS4',39.99,19.99,20.00,1,19.99)
 
+-- PS4 (J)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Jazzpunk: Directors Cut','PS4',17.99,4.99,13.00,4,1.25),
-	('Judgment','PS4',39.99,15.97,24.02,63,0.25),
+	('Judgment','PS4',39.99,15.97,24.02,150,0.11),
 	('Jurassic World Evolution 2','PS4',59.99,0.00,59.99,1,0.00),
+	('Just Crow Things','PS4',21.99,17.59,4.40,9,1.95),
 	('Just Die Already','PS4',13.99,6.29,7.70,14,0.45)
 
+-- PS4 (K)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Kandagawa Jet Girls','PS4',39.99,14.79,25.20,11,1.34),
 	('Katamari Damacy','PS4',29.99,20.99,9.00,7,3.00),
 	('Kena: Bridge of Spirits','PS4',39.99,0.00,39.99,19,0.00),
-	('Kerbal Space Program','PS4',39.99,19.99,20.00,1,19.99),
+	('Kerbal Space Program','PS4',39.99,19.99,20.00,2,10.00),
+	('Killer Frequency','PS4',24.99,8.49,16.50,3,2.83),
 	('Kingdom Hearts 3D: Dream Drop Distance and Back Cover (HD 2.8 Final Chapter Prologue)','PS4',18.50,6.05,12.45,1,6.05),
 	('Kingdom Hearts 0.2 Birth by Sleep - A Fragmentary Passage (HD 2.8 Final Chapter Prologue)','PS4',18.49,6.05,12.44,1,6.05),
 	('Kingdom Hearts III','PS4',35.99,12.09,23.90,31,0.39),
@@ -882,36 +775,41 @@ VALUES
 	('Knack 2','PS4',39.99,13.99,26.00,20,0.70),
 	('Knockout City','PS4',19.99,0.00,19.99,1,0.00)
 
+-- PS4 (L)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
-	('LA Cops','PS4',13.99,2.99,11.00,1,2.99),
-	('LEGO 2K Drive','PS4',69.99,0.00,69.99,1,0.00),
+	('LA Cops','PS4',13.99,2.99,11.00,6,0.50),
 	('LEGO City Undercover','PS4',59.99,16.99,43.00,10,1.70),
 	('LEGO DC Super-Villains','PS4',59.99,0.00,59.99,1,0.00),
 	('LEGO Star Wars: The Skywalker Saga','PS4',59.99,0.00,59.99,1,0.00),
+	('LEGO 2K Drive','PS4',69.99,0.00,69.99,1,0.00),
 	('Leisure Suit Larry - Wet Dreams Dont Dry','PS4',39.99,7.99,32.00,19,0.42),
 	('Leisure Suit Larry - Wet Dreams Dry Twice','PS4',39.99,11.99,28.00,21,0.57),
 	('Lichtspeer','PS4',9.99,5.99,4.00,5,1.20),
 	('Like a Dragon (Yakuza 0)','PS4',19.99,8.99,11.00,198,0.05),
 	('Like a Dragon Kiwami (Yakuza Kiwami)','PS4',19.99,7.99,12.00,119,0.07),
-	('Like a Dragon: Ishin','PS4',59.99,0.00,59.99,72,0.00),
 	('Like a Dragon Kiwami 2 (Yakuza Kiwami 2)','PS4',19.99,6.99,13.00,174,0.04),
 	('Like a Dragon 6 (Yakuza 6: The Song of Life)','PS4',19.99,8.99,11.00,42,0.21),
 	('Like a Dragon 7 (Yakuza 7)','PS4',99.98,56.98,43.00,130,0.44),
+	('Like a Dragon: Ishin','PS4',59.99,0.00,59.99,72,0.00),
 	('Like a Dragon Gaiden: The Man Who Erased His Name','PS4',54.99,0.00,54.99,47,0.00),
 	('Like a Dragon: Infinite Wealth','PS4',69.99,46.23,23.76,154,0.30),
+	('LISA: The Painful','PS4',12.50,6.25,6.25,1,6.25),
+	('LISA: The Joyful','PS4',12.49,6.24,6.25,1,6.24),
 	('Little Nightmares','PS4',19.99,0.00,19.99,1,0.00),
 	('Little Nightmares II','PS4',29.99,0.00,29.99,1,0.00),
-	('Lost Judgment','PS4',89.99,22.49,67.50,52,0.43),
+	('Looney Tunes: Wacky World of Sports','PS4',49.99,17.49,32.50,1,17.49),
+	('Lost Judgment','PS4',89.99,22.49,67.50,57,0.39),
 	('Lovers in a Dangerous Spacetime','PS4',14.99,4.99,10.00,16,0.31),
 	('LUMO','PS4',17.99,9.99,8.00,3,3.33)
 
+-- PS4 (M)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
-	('Mafia: Definitive Edition (2020)','PS4',39.99,29.99,10.00,13,2.31),
 	('Mafia III','PS4',39.99,9.99,30.00,1,9.99),
+	('Mafia: Definitive Edition (2020)','PS4',39.99,29.99,10.00,13,2.31),
 	('Maneater','PS4',39.99,19.99,20.00,14,1.43),
 	('Manual Samuel','PS4',9.99,4.99,5.00,10,0.50),
 	('Maquette','PS4',17.99,14.39,3.60,5,2.88),
@@ -941,18 +839,19 @@ VALUES
 	('Metro 2033','PS4',14.99,2.24,12.75,1,2.24),
 	('Metro Exodus','PS4',39.99,9.99,30.00,1,9.99),
 	('Micro Machines World Series','PS4',39.99,26.99,13.00,1,26.99),
-	('Minecraft Dungeons','PS4',19.99,0.00,19.99,1,0.00),
+	('Minecraft Dungeons','PS4',19.99,0.00,19.99,10,0.00),
 	('Minecraft Legends','PS4',39.99,0.00,39.99,1,0.00),
 	('MLB The Show 24','PS4',69.99,0.00,69.99,1,0.00),
-	('My Monopoly (Monopoly Family Fun Pack)','PS4',9.99,4.99,5.00,1,4.99),
 	('Monster Hunter: World','PS4',19.99,0.00,19.99,2,0.00),
 	('Monster Prom: XXL','PS4',15.99,0.00,15.99,5,0.00),
-	('Moonshine Inc','PS4',19.99,0.00,19.99,1,0.00),
+	('Moonshine Inc','PS4',19.99,0.00,19.99,2,0.00),
 	('Mortal Kombat X','PS4',19.99,0.00,19.99,1,0.00),
 	('Mortal Shell','PS4',29.99,0.00,29.99,1,0.00),
 	('Mother Russia Bleeds','PS4',12.99,4.49,8.50,8,0.56),
-	('Music Racer: Ultimate','PS4',6.99,0.00,6.99,1,0.00)
+	('Music Racer: Ultimate','PS4',6.99,0.00,6.99,1,0.00),
+	('My Monopoly (Monopoly Family Fun Pack)','PS4',9.99,4.99,5.00,1,4.99)
 
+-- PS4 (N)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
@@ -970,26 +869,29 @@ VALUES
 	('Nobody Saves The World','PS4',24.99,0.00,24.99,37,0.00),
 	('Nour: Play With Your Food','PS4',14.99,0.00,14.99,2,0.00)
 
+-- PS4 (O)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Octodad: Dadliest Catch','PS4',13.99,7.00,6.99,10,0.70),
 	('Oddworld: New n Tasty','PS4',23.58,20.98,2.60,58,0.36),
 	('Oddworld: Soulstorm (2021)','PS4',49.99,49.99,0.00,8,6.25),
-	('OlliOlli World','PS4',29.99,9.89,20.10,1,9.89),
+	('OlliOlli World','PS4',29.99,9.89,20.10,2,4.95),
 	('One Escape','PS4',4.99,3.49,1.50,2,1.75),
 	('Outbreak: Epidemic','PS4',14.99,8.24,6.75,5,1.65),
 	('Outlast','PS4',18.99,3.79,15.20,1,3.79),
-	('Overcooked','PS4',64.22,47.43,16.80,7,6.78),
-	('Overcooked 2','PS4',64.22,47.42,16.79,4,11.86),
+	('Overcooked','PS4',64.22,47.43,16.79,7,6.78),
+	('Overcooked 2','PS4',64.22,47.42,16.80,4,11.86),
 	('Ovivo','PS4',6.99,2.79,4.20,2,1.40),
 	('Oxenfree','PS4',9.99,4.99,5.00,15,0.33),
 	('Oxenfree II: Lost Signals','PS4',23.99,4.59,19.40,1,4.59)
 
+-- PS4 (P)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('PAC-MAN 256','PS4',4.99,4.99,0.00,24,0.21),
+	('Pac-Man World: Re-Pac','PS4',39.99,0.00,39.99,1,0.00),
 	('Party Hard','PS4',12.99,4.99,8.00,9,0.55),
 	('Party Hard 2','PS4',19.99,4.99,15.00,1,4.99),
 	('Persona 5 Strikers','PS4',59.99,0.00,59.99,1,0.00),
@@ -1000,40 +902,43 @@ VALUES
 	('Polybius','PS4',16.99,4.99,12.00,1,4.99),
 	('PONG Quest','PS4',17.99,8.99,9.00,11,0.82),
 	('Postal Redux','PS4',9.99,3.49,6.50,8,0.44),
-	('Postal 4: No Regerts','PS4',44.99,0.00,44.99,1,0.00),
+	('Postal 4: No Regerts','PS4',44.99,0.00,44.99,2,0.00),
 	('Potion Permit','PS4',24.99,0.00,24.99,35,0.00),
 	('PowerWash Simulator','PS4',32.98,2.99,29.99,76,0.04),
 	('Psychonauts 2','PS4',59.99,41.99,18.00,22,1.91)
 
+-- PS4 (Q)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Quake','PS4',9.99,4.99,5.00,1,4.99),
-	('Quest of Dungeons','PS4',8.99,3.99,5.00,1,3.99)
+	('Quest of Dungeons','PS4',8.99,3.99,5.00,3,1.33)
 
+-- PS4 (R)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Ratchet & Clank (2016)','PS4',39.99,16.49,23.50,28,0.59),
 	('Red Dead Redemption 2','PS4',69.99,34.99,35.00,62,0.56),
+	('Resident Evil VII: Biohazard','PS4',49.98,26.98,23.00,16,1.69),
 	('Resident Evil 2 (2019)','PS4',59.99,59.99,0.00,34,1.76),
 	('Resident Evil 3 (2020)','PS4',59.99,19.79,40.20,20,0.99),
-	('Resident Evil 4 (2023)','PS4',69.99,39.89,30.10,23,1.73),
-	('Resident Evil VII: Biohazard','PS4',49.98,26.98,23.00,16,1.69),
 	('Resident Evil: Resistance','PS4',0.00,0.00,0.00,1,0.00),
-	('Resident Evil: Re:Verse','PS4',0.00,0.00,0.00,1,0.00),
 	('Resident Evil Village','PS4',69.99,39.89,30.10,15,2.66),
+	('Resident Evil: Re:Verse','PS4',0.00,0.00,0.00,1,0.00),
+	('Resident Evil 4 (2023)','PS4',69.99,39.89,30.10,23,1.73),
 	('RESOGUN','PS4',12.99,3.99,9.00,7,0.57),
 	('Riptide GP: Renegade','PS4',9.99,3.99,6.00,18,0.22),
 	('Rise of the Tomb Raider','PS4',29.99,14.99,15.00,52,0.29),
 	('Road Redemption','PS4',19.99,7.99,12.00,14,0.57),
-	('Rocket League','PS4',34.58,26.58,8.00,241,0.11),
+	('Rocket League','PS4',34.58,26.58,8.00,260,0.10),
 	('Rogue Company','PS4',0.00,0.00,0.00,1,0.00),
 	('Rollercoaster Dreams','PS4',20.99,9.99,11.00,1,9.99),
 	('Rollerdrome','PS4',29.99,0.00,29.99,1,0.00),
 	('Run Sausage Run!','PS4',4.99,0.00,4.99,3,0.00),
 	('Rustler (Grand Theft Horse)','PS4',29.99,14.99,15.00,24,0.62)
 
+-- PS4 (S)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
@@ -1041,9 +946,11 @@ VALUES
 	('Sackboy: A Big Adventure','PS4',69.99,29.39,40.60,30,0.98),
 	('Saints Row (2022)','PS4',69.99,0.00,69.99,62,0.00),
 	('Sam & Max Season 1: Save the World TTG','PS4',19.99,14.99,5.00,1,14.99),
-	('Scribblenauts Unlimited (Mega Pack)','PS4',14.99,4.99,10.00,1,4.99),
+	('Scribblenauts Unlimited (Mega Pack)','PS4',14.99,4.99,10.00,2,2.50),
 	('Scribblenauts Unmasked: A DC Comics Adventure (Mega Pack)','PS4',14.99,4.99,10.00,1,4.99),
 	('Sekiro: Shadows Die Twice','PS4',69.99,45.49,24.50,5,9.10),
+	('Serious Sam: The First Encounter','PS4',10.00,1.50,8.50,2,0.75),
+	('Serious Sam: The Second Encounter','PS4',10.00,1.50,8.50,1,1.50),
 	('Shadow of the Tomb Raider','PS4',39.99,6.98,33.01,44,0.16),
 	('Shantae and the Pirates Curse','PS4',19.99,19.99,0.00,15,1.33),
 	('Shing','PS4',19.99,4.99,15.00,11,0.45),
@@ -1057,9 +964,10 @@ VALUES
 	('Sonic the Hedgehog 2 (1992): Sonic Origins (2022)','PS4',11.25,0.00,11.25,3,0.00),
 	('Sonic the Hedgehog 3 & Knuckles (1994): Sonic Origins (2022)','PS4',11.24,0.00,11.24,3,0.00),
 	('Sonic Mania','PS4',24.98,24.98,0.00,20,1.25),
+	('Sonic Colours: Ultimate','PS4',39.99,0.00,39.99,1,0.00),
 	('SoulCalibur VI','PS4',99.99,99.99,0.00,1,99.99),
 	('South Park: The Fractured But Whole','PS4',96.94,57.94,39.00,71,0.82),
-	('Spacebase Startopia','PS4',49.99,29.99,20.00,1,29.99),
+	('Spacebase Startopia','PS4',49.99,29.99,20.00,2,15.00),
 	('Spirit of the North','PS4',24.99,12.49,12.50,13,0.96),
 	('SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated','PS4',29.99,17.99,12.00,15,1.20),
 	('SpongeBob SquarePants: The Cosmic Shake','PS4',39.99,22.99,17.00,17,1.35),
@@ -1069,7 +977,8 @@ VALUES
 	('Star Wars Episode I: Pod Racer','PS4',14.99,9.74,5.25,7,1.39),
 	('Star Wars Jedi: Fallen Order','PS4',49.99,17.49,32.50,1,17.49),
 	('Stardew Valley','PS4',14.99,7.99,7.00,139,0.06),
-	('Stikbold! A Dodgeball Adventure','PS4',9.99,4.49,5.50,1,4.49),
+	('SteamWorld Build','PS4',29.99,15.74,14.25,1,15.74),
+	('Stikbold! A Dodgeball Adventure','PS4',9.99,4.49,5.50,2,2.25),
 	('Stranded Deep','PS4',19.99,0.00,19.99,2,0.00),
 	('Stray','PS4',29.99,18.99,11.00,11,1.73),
 	('Street Fighter (1987): 30th Anniversary Collection','PS4',3.34,1.24,2.10,1,1.24),
@@ -1088,22 +997,36 @@ VALUES
 	('Supermarket Shriek','PS4',19.99,11.99,8.00,8,1.50),
 	('Surgeon Simulator','PS4',30.98,24.98,6.00,5,5.00)
 
+-- PS4 (T)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Table Top Racing: World Tour','PS4',12.98,12.98,0.00,14,0.93),
-	('Tails of Iron','PS4',24.99,0.00,24.99,1,0.00),
-	('TaleSpin (1991): The Disney Afternoon Collection','PS4',3.33,1.00,2.50,1,1.00),
-	('Tchia','PS4',29.99,17.49,12.50,1,17.49),
-	('Team Sonic Racing','PS4',39.99,0.00,39.99,1,0.00),
+	('Tails of Iron','PS4',24.99,0.00,24.99,15,0.00),
+	('TaleSpin (1991): The Disney Afternoon Collection','PS4',3.33,1.00,2.33,1,1.00),
+	('Tchia','PS4',29.99,17.49,12.50,2,8.75),
+	('Team Sonic Racing','PS4',39.99,0.00,39.99,2,0.00),
 	('Tearaway Unfolded','PS4',19.99,11.99,8.00,1,11.99),
-	('Tekken 7','PS4',74.98,29.98,45.00,1,29.98),
+	('Teenage Mutant Ninja Turtles (NES 1989) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles (Arcade 1989) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles II: The Arcade Game (1990) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles: Fall of the Foot Clan (1990) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles: Turtles in Time (Arcade 1991) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles II: Back from the Sewers (1991) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles III: The Manhattan Project (1992) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles IV: Turtles in Time (1992) (The Cowabunga Collection)','PS4',3.08,0.00,3.08,1,0.00),
+	('Teenage Mutant Ninja Turtles: The Hyperstone Heist (1992) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles III: Radical Rescue (1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SNES 1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (SEGA 1993) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Teenage Mutant Ninja Turtles: Tournament Fighters (NES 1994) (The Cowabunga Collection)','PS4',3.07,0.00,3.07,1,0.00),
+	('Tekken 7','PS4',74.98,29.98,45.00,2,14.99),
 	('Tembo the Badass Elephant','PS4',12.99,3.49,9.50,14,0.25),
 	('Tennis World Tour 2','PS4',49.99,0.00,49.99,1,0.00),
 	('Terminator: Resistance','PS4',44.99,26.99,18.00,1,26.99),
 	('Tethered','PS4',28.49,28.49,0.00,1,28.49),
-	('Tetris Effect','PS4',39.99,39.99,0.00,14,2.86),
 	('Tetris Ultimate','PS4',39.99,5.99,34.00,1,5.99),
+	('Tetris Effect','PS4',39.99,39.99,0.00,14,2.86),
 	('Thats You!','PS4',0.00,0.00,0.00,1,0.00),
 	('The Amazing American Circus','PS4',19.99,0.00,19.99,1,0.00),
 	('The Bug Butcher','PS4',9.99,4.99,5.00,2,2.50),
@@ -1114,78 +1037,85 @@ VALUES
 	('The Darkside Detective Season 2: A Fumble in the Dark','PS4',12.99,12.99,0.00,15,0.87),
 	('The Escapists','PS4',17.99,6.99,11.00,9,0.78),
 	('The Flame in the Flood','PS4',14.99,4.49,10.50,9,0.50),
+	('The Holy Gosh Darn','PS4',19.99,0.00,19.99,13,0.00),
 	('The Last Guardian','PS4',34.99,0.00,34.99,1,0.00),
 	('The Last of Us Part II','PS4',69.99,0.00,69.99,75,0.00),
 	('The Lion King (Disney Classic Games)','PS4',17.49,17.49,0.00,1,17.49),
-	('The Outer Worlds','PS4',59.99,19.79,40.20,1,19.79),
+	('The Outer Worlds','PS4',59.99,19.79,40.20,2,9.90),
 	('The Pedestrian','PS4',15.99,10.39,5.60,4,2.60),
 	('The Persistence','PS4',29.99,0.00,29.99,1,0.00),
 	('The Playroom','PS4',0.00,0.00,0.00,1,0.00),
 	('The Sims 4','PS4',869.61,682.41,187.20,18,37.91),
 	('The Sinking City','PS4',64.99,45.49,19.50,4,11.37),
-	('The Stanley Parable: Ultra Deluxe','PS4',21.99,14.73,7.26,1,14.73),
+	('The Stanley Parable: Ultra Deluxe','PS4',21.99,14.73,7.26,2,7.37),
 	('The Survivalists','PS4',26.48,0.00,26.48,1,0.00),
+	('The Talos Principle','PS4',29.99,4.49,25.50,1,4.49),
 	('The Walking Dead Season 3 TTG','PS4',29.99,29.99,0.00,6,5.00),
 	('The Walking Dead Final Season TTG','PS4',23.99,23.99,0.00,20,1.20),
 	('The Witcher 3: Wild Hunt','PS4',74.98,24.98,50.00,10,2.50),
 	('The Witness','PS4',36.99,8.44,28.55,1,8.44),
 	('Think of the Children','PS4',12.99,2.59,10.40,2,1.30),
 	('This Is The Police','PS4',19.99,2.99,17.00,1,2.99),
-	('Tiny Tinas Wonderlands','PS4',89.99,44.99,45.00,44,1.02),
+	('Tiny Tinas Wonderlands','PS4',89.99,44.99,45.00,48,0.94),
 	('ToeJam and Earl: Back in the Groove','PS4',18.89,18.89,0.00,26,0.73),
 	('Tony Hawk`s Pro Skater 1 (2021)','PS4',27.50,19.25,8.25,9,2.14),
 	('Tony Hawk`s Pro Skater 2 (2021)','PS4',27.49,19.24,8.25,9,2.14),
-	('Total Arcade Racing','PS4',9.99,0.00,9.99,1,0.00),
+	('Total Arcade Racing','PS4',9.99,0.00,9.99,4,0.00),
 	('Trackmania Turbo','PS4',29.99,11.99,18.00,1,11.99),
 	('Trek to Yomi','PS4',19.99,0.00,19.99,1,0.00),
-	('Trials Fusion','PS4',39.99,9.99,30.00,1,9.99),
+	('Trials Fusion','PS4',39.99,9.99,30.00,2,5.00),
 	('Tribes of Midgard','PS4',19.99,0.00,19.99,1,0.00),
 	('Tricky Towers','PS4',14.99,5.99,9.00,2,3.00),
 	('Trine 3: The Artifacts of Power','PS4',9.99,1.99,8.00,1,1.99),
-	('Tropico 5','PS4',24.99,9.99,15.00,1,9.99),
+	('Tropico 5','PS4',24.99,9.99,15.00,28,0.36),
 	('Trover Saves The Universe','PS4',29.99,0.00,29.99,13,0.00),
-	('Tunic','PS4',29.99,0.00,29.99,1,0.00),
+	('Tunic','PS4',29.99,0.00,29.99,2,0.00),
 	('Turnip Boy Commits Tax Evasion','PS4',14.99,11.24,3.75,4,2.81),
 	('Two Point Hospital','PS4',56.98,37.58,19.40,15,2.51),
 	('Two Point Campus','PS4',29.99,14.99,15.00,1,14.99),
 	('Typoman','PS4',9.99,6.99,3.00,1,6.99)
 
+-- PS4 (U)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Unbox: Newbies Adventure','PS4',24.99,4.99,20.00,2,2.50),
 	('Uncharted 4: A Thiefs End','PS4',69.99,22.99,47.00,75,0.31),
-	('Uncharted: The Lost Legacy','PS4',19.99,17.99,2.00,28,0.64),
+	('Uncharted: The Lost Legacy','PS4',19.99,17.99,2.00,40,0.45),
 	('Unravel','PS4',19.99,7.99,12.00,1,7.99),
-	('Until Dawn','PS4',34.99,34.99,0.00,70,0.50),
+	('Until Dawn','PS4',59.99,34.99,25.00,70,0.50),
 	('Untitled Goose Game','PS4',19.99,14.99,5.00,20,0.75)
 
+-- PS4 (V)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Viking Squad','PS4',14.99,5.99,9.00,1,5.99),
 	('Volume','PS4',17.99,4.99,13.00,5,1.00)
 
+-- PS4 (W)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Warframe','PS4',0.00,0.00,0.00,1,0.00),
-	('Watch_Dogs 2','PS4',69.99,14.99,55.00,40,0.37),
-	('Watch_Dogs: Legion','PS4',69.99,34.99,35.00,36,0.97),
-	('Weedcraft Inc','PS4',24.99,9.90,15.09,1,9.90),
+	('Watch_Dogs 2','PS4',69.99,14.99,55.00,56,0.27),
+	('Watch_Dogs: Legion','PS4',69.99,34.99,35.00,79,0.44),
+	('Weedcraft Inc','PS4',24.99,9.90,15.09,2,4.95),
 	('Weird West','PS4',39.99,0.00,39.99,1,0.00),
-	('while true: learn( )','PS4',14.99,9.74,5.25,1,9.74),
+	('while true: learn( )','PS4',14.99,9.74,5.25,2,4.87),
 	('Wolfenstein: The Old Blood','PS4',19.99,3.50,16.49,1,3.50),
 	('Wolfenstein II: The New Colossus','PS4',39.99,3.50,36.49,1,3.50),
 	('Wolfenstein: Youngblood','PS4',19.99,3.49,16.50,1,3.49),
 	('Wonder Boy: The Dragons Trap','PS4',19.99,0.00,19.99,1,0.00),
 	('Worms Battlegrounds','PS4',17.49,8.99,8.50,1,8.99),
-	('Worms Rumble','PS4',14.99,9.74,5.25,1,9.74),
 	('Worms W.M.D','PS4',17.49,8.99,8.50,1,8.99),
+	('Worms Rumble','PS4',14.99,9.74,5.25,1,9.74),
 	('WRC 6','PS4',19.99,12.99,7.00,9,1.44),
 	('Wreckfest','PS4',29.99,0.00,29.99,43,0.00),
-	('WWE 2K Battlegrounds','PS4',39.99,0.00,39.99,3,0.00)
+	('WWE 2K Battlegrounds','PS4',39.99,0.00,39.99,3,0.00),
+	('WWE 2K24','PS4',74.99,0.00,74.99,1,0.00)
 
+-- PS4 (X, Y, Z)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
@@ -1201,7 +1131,7 @@ INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)
 VALUES
 	('Accounting Plus','VR',11.99,4.79,7.20,3,1.60),
-	('Animal Force','VR',14.99,4.99,10.00,1,4.99),
+	('Animal Force','VR',14.99,4.99,10.00,2,2.50),
 	('Apex Construct','VR',19.99,14.99,5.00,1,14.99),
 	('Apocalypse Rider','VR',5.99,5.99,0.00,3,2.00),
 	('Arizona Sunshine','VR',44.99,11.24,33.75,1,11.24),
@@ -1213,7 +1143,7 @@ VALUES
 	('Carnival Games VR','VR',19.99,4.99,15.00,1,4.99),
 	('Catch & Release','VR',19.99,19.99,0.00,1,19.99),
 	('Coolpaintr VR','VR',19.99,6.99,13.00,1,6.99),
-	('Creed: Rise to Glory','VR',24.99,11.99,13.00,1,11.99),
+	('Creed: Rise to Glory','VR',24.99,11.99,13.00,3,4.00),
 	('DOOM VFR','VR',29.99,0.00,29.99,2,0.00),
 	('Dream Match Tennis VR','VR',14.99,14.99,0.00,1,14.99),
 	('Driveclub VR','VR',19.99,19.99,0.00,2,10.00),
@@ -1222,12 +1152,12 @@ VALUES
 	('EVE: Valkyrie - Warzone','VR',29.99,10.99,19.00,1,10.99),
 	('Everybodys Golf VR','VR',29.99,14.99,15.00,1,14.99),
 	('Floor Plan','VR',5.99,0.00,5.99,1,0.00),
-	('Fruit Ninja VR','VR',16.99,16.99,0.00,1,16.99),
+	('Fruit Ninja VR','VR',16.99,16.99,0.00,3,5.66),
 	('Groundhog Day: Like Father Like Son','VR',19.99,19.99,0.00,2,10.00),
 	('Gun Club VR','VR',24.99,12.49,12.50,1,12.49),
 	('Headmaster','VR',28.98,14.98,14.00,8,1.87),
 	('Horror Bar VR','VR',19.99,12.99,7.00,1,12.99),
-	('Hotel R n R','VR',18.99,11.39,7.60,1,11.39),
+	('Hotel R n R','VR',18.99,11.39,7.60,2,5.70),
 	('Hustle Kings VR','VR',19.99,9.99,10.00,1,9.99),
 	('I Expect You To Die','VR',24.99,12.49,12.50,1,12.49),
 	('I Expect You to Die 2: The Spy and the Liar','VR',24.99,0.00,24.99,1,0.00),
@@ -1240,10 +1170,10 @@ VALUES
 	('Marvels Iron Man VR','VR',39.99,0.00,39.99,3,0.00),
 	('Mervils: A VR Adventure','VR',15.99,4.99,11.00,1,4.99),
 	('Moss','VR',29.99,17.99,12.00,2,9.00),
-	('Penn and Teller VR','VR',19.99,19.99,0.00,1,19.99),
+	('Penn and Teller VR','VR',19.99,19.99,0.00,2,10.00),
 	('PlayStation VR Worlds','VR',29.99,0.00,29.99,11,0.00),
 	('Psychonauts in the Rhombus of Ruin VR','VR',18.99,6.49,12.50,3,2.16),
-	('Rez Infinite VR','VR',29.99,14.99,15.00,1,14.99),
+	('Rez Infinite VR','VR',29.99,14.99,15.00,2,7.50),
 	('Rick and Morty: Virtual Rick-ality','VR',29.99,29.99,0.00,1,29.99),
 	('RIGS: Mechanized Combat League VR','VR',19.99,9.99,10.00,1,9.99),
 	('Sam and Max: This Time Its Virtual!','VR',19.99,13.99,6.00,1,13.99),
@@ -1262,7 +1192,7 @@ VALUES
 	('Track Lab','VR',19.99,8.99,11.00,1,8.99),
 	('Traffic Jams','VR',19.99,12.99,7.00,1,12.99),
 	('Tumble VR','VR',9.99,3.99,6.00,1,3.99),
-	('Ultrawings','VR',21.99,6.99,15.00,1,6.99),
+	('Ultrawings','VR',21.99,6.99,15.00,2,3.50),
 	('Until Dawn: Rush of Blood','VR',19.99,9.99,10.00,1,9.99),
 	('Until You Fall','VR',24.99,0.00,24.99,1,0.00),
 	('VR Karts','VR',24.99,9.99,15.00,1,9.99),
@@ -1277,23 +1207,34 @@ INSERT INTO finances
 VALUES
 	('A Plague Tale: Requiem','PS5',59.99,29.99,30.00,6,5.00),
 	('Animal Well','PS5',24.99,0.00,24.99,1,0.00),
-	('Astro Bot','PS5',69.99,0.00,69.99,14,0.00),
 	('Astros Playroom','PS5',0.00,0.00,0.00,7,0.00),
+	('Astro Bot','PS5',69.99,0.00,69.99,21,0.00),
+	('Crime Boss: Rockay City','PS5',19.99,4.99,15.00,1,4.99),
 	('Dead Space (2023)','PS5',79.99,27.99,52.00,5,5.60),
 	('Destroy All Humans! 2: Reprobed','PS5',39.99,0.00,39.99,24,0.00),
 	('Final Fantasy VII: Rebirth (2024)','PS5',79.99,0.00,79.99,89,0.00),
+	('Football Manager 2024','PS5',59.99,23.99,36.00,1,23.99),
 	('Ghostwire: Tokyo','PS5',69.99,34.99,35.00,49,0.71),
-	('Goat Simulator 3','PS5',29.99,14.99,15.00,10,1.50),
+	('Goat Simulator 3','PS5',29.99,14.99,15.00,14,1.07),
 	('Godfall','PS5',14.99,0.00,14.99,1,0.00),
 	('Hell Let Loose','PS5',39.99,0.00,39.99,1,0.00),
 	('Hogwarts Legacy','PS5',84.99,0.00,84.99,93,0.00),
+	('Like a Dragon: Pirate Yakuza in Hawaii','PS5',59.99,0.00,59.99,56,0.00),
+	('Little Goody Two Shoes','PS5',19.99,11.99,8.00,2,6.00),
 	('Marvels Spider-Man 2','PS5',89.99,0.00,89.99,44,0.00),
 	('Pacific Drive','PS5',29.99,17.99,12.00,1,17.99),
+	('Palworld','PS5',28.99,28.99,0.00,22,1.32),
+	('Parcel Corps','PS5',34.99,23.44,11.55,34,0.69),
 	('Planet Zoo','PS5',74.98,65.48,9.50,1,65.48),
 	('Ratchet & Clank: Rift Apart','PS5',79.99,0.00,79.99,19,0.00),
-	('Returnal','PS5',79.99,39.99,40.00,1,39.99),
+	('Returnal','PS5',79.99,39.99,40.00,2,20.00),
 	('RoboCop: Rogue City','PS5',59.99,15.99,44.00,17,0.94),
 	('Sable','PS5',24.99,0.00,24.99,1,0.00),
+	('South Park: Snow Day!','PS5',29.99,19.49,10.50,9,2.17),
+	('Squirrel with a Gun','PS5',19.99,13.99,6.00,8,1.75),
 	('Steelrising','PS5',59.99,0.00,59.99,1,0.00),
+	('Techno Banter','PS5',19.99,13.99,6.00,12,1.17),
+	('Tekken 8','PS5',79.99,39.99,40.00,14,2.86),
 	('The Plucky Squire','PS5',29.99,0.00,29.99,10,0.00),
-	('TOEM: A Photo Adventure','PS5',19.99,0.00,19.99,10,0.00)
+	('TOEM: A Photo Adventure','PS5',19.99,0.00,19.99,10,0.00),
+	('Undying','PS5',16.99,11.04,5.95,1,11.04)

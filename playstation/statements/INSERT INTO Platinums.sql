@@ -1,95 +1,6 @@
 SELECT * FROM platinums
 
--- 31ST JULY 2025 (ID 199)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Yakuza 4','PS3','2025-07-21',2.8)
-
--- 30TH JUNE 2025 (ID 196 - 198)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Techno Banter','PS5','2025-06-03',2.4),
-('Need for Speed Hot Pursuit','PS3','2025-06-22',0.5),
-('Yakuza 3','PS3','2025-07-08',1.7)
-
--- 31ST MAY 2025 (ID 192 - 195)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Grindstone','PS4','2025-05-06',9.6),
-('Borderlands 3','PS5','2025-05-13',1.0),
-('Just Crow Things','PS4','2025-05-28',6.9),
-('Medievil 2','PS1','2025-05-30',4.5)
-
--- 30TH APR 2025 (ID 188 - 191)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Dungeon Munchies','PS4','2025-04-06',6.9),
-('Tails of Iron','PS4','2025-04-09',10.8),
-('Total Arcade Racing','PS4','2025-04-14',7.6),
-('Judgment','PS4','2025-04-21',0.6)
-
--- 28TH MAR 2025 (ID 185 - 187)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Like a Dragon: Pirate Yakuza in Hawaii','PS5','2025-03-02',11.3),
-('Tekken 8','PS5','2025-03-26',3.8),
-('Headliner: NoviNews','PS4','2025-03-26',10.6)
-
--- 1ST FEB 2025 (ID 184)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Saints Row: The Third','PS5','2025-01-14',2.0)
-
--- 31ST DEC 2024 (ID 181 - 183)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Uncharted: The Lost Legacy','PS4','2024-12-24',1.9),
-('South Park: Snow Day','PS5','2024-12-27',2.1),
-('TY the Tasmanian Tiger','PS2','2024-12-28',15.2)
-
--- 22ND DEC 2024 (ID 180)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Watch Dogs Legion','PS4','2024-12-15',1.0)
-
--- 11TH DEC 2024 (ID 178 - 179)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Watch Dogs','PS3','2024-12-09',0.8),
-('Watch Dogs 2','PS4','2024-12-10',2.0)
-
--- 4TH DEC 2024 (ID 174 - 177)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Parcel Corps','PS5','2024-11-27',0.3),
-('LA Cops','PS4','2024-11-28',14.4),
-('Hot Wheels Unleashed 2 - Turbocharged','PS4','2024-11-30',0.4),
-('Horizon Forbidden West','PS4','2024-12-04',6.2)
-
--- 23RD NOV 2024 (ID 172 - 173)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Squirrel with a Gun','PS5','2024-11-08',5.4),
-('Yakuza Kiwami 2','PS4','2024-11-20',2.6)
-
--- 5TH NOV 2024 (ID 171)
-INSERT INTO platinums
-(game, console, completion_date, rarity)
-VALUES
-('Yakuza Kiwami','PS4','2024-11-05',0.5)
-
--- INITIAL DATA ENTRY (ID 1 - 170)
+-- INITIAL DATA ENTRY (ID 1 - 199)
 INSERT INTO platinums
 (game, console, completion_date, rarity)
 VALUES
@@ -262,4 +173,33 @@ VALUES
 ('Dead Island 2','PS5','2024-08-10',5.6),
 ('Ratchet & Clank: Size Matters','PSP','2024-08-18',5.6),
 ('Astro Bot','PS5','2024-09-09',3.3),
-('Yakuza 0','PS4','2024-10-17',0.8)
+('Yakuza 0','PS4','2024-10-17',0.8),
+('Yakuza Kiwami','PS4','2024-11-05',0.5),
+('Squirrel with a Gun','PS5','2024-11-08',5.4),
+('Yakuza Kiwami 2','PS4','2024-11-20',2.6),
+('Parcel Corps','PS5','2024-11-27',0.3),
+('LA Cops','PS4','2024-11-28',14.4),
+('Hot Wheels Unleashed 2 - Turbocharged','PS4','2024-11-30',0.4),
+('Horizon Forbidden West','PS4','2024-12-04',6.2),
+('Watch Dogs','PS3','2024-12-09',0.8),
+('Watch Dogs 2','PS4','2024-12-10',2.0),
+('Watch Dogs Legion','PS4','2024-12-15',1.0),
+('Uncharted: The Lost Legacy','PS4','2024-12-24',1.9),
+('South Park: Snow Day','PS5','2024-12-27',2.1),
+('TY the Tasmanian Tiger','PS2','2024-12-28',15.2),
+('Saints Row: The Third','PS5','2025-01-14',2.0),
+('Like a Dragon: Pirate Yakuza in Hawaii','PS5','2025-03-02',11.3),
+('Tekken 8','PS5','2025-03-26',3.8),
+('Headliner: NoviNews','PS4','2025-03-26',10.6),
+('Dungeon Munchies','PS4','2025-04-06',6.9),
+('Tails of Iron','PS4','2025-04-09',10.8),
+('Total Arcade Racing','PS4','2025-04-14',7.6),
+('Judgment','PS4','2025-04-21',0.6),
+('Grindstone','PS4','2025-05-06',9.6),
+('Borderlands 3','PS5','2025-05-13',1.0),
+('Just Crow Things','PS4','2025-05-28',6.9),
+('Medievil 2','PS1','2025-05-30',4.5),
+('Techno Banter','PS5','2025-06-03',2.4),
+('Need for Speed Hot Pursuit','PS3','2025-06-22',0.5),
+('Yakuza 3','PS3','2025-07-08',1.7),
+('Yakuza 4','PS3','2025-07-21',2.8)

@@ -1,5 +1,7 @@
 -- finances_all-time
 
+SELECT * FROM finances
+
 	-- totals
 		-- Sum of various pricing
 			SELECT COUNT(id) AS 'Total Number of Games',
@@ -39,7 +41,7 @@
 		-- Top games with the most hours played
 			SELECT * FROM finances ORDER BY hours DESC, value ASC, savings DESC
 
-	-- t10free
+	-- t10gifts
 		-- Top 10 games with the most hours played & the best value for money
 			SELECT * FROM finances WHERE value = 0.00 ORDER BY hours DESC, savings DESC
 
@@ -73,45 +75,45 @@
 	-- prices
 		-- Quantity of games with various price ranges (full price, paid price and savings)
 			-- < €0.01
-				SELECT * FROM finances WHERE full_price < 0.01 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price < 0.01 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings < 0.01 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price < 0.01 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price < 0.01 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings < 0.01 ORDER BY savings ASC
 			-- €0.01 - €9.99
-				SELECT * FROM finances WHERE full_price BETWEEN 0.01 AND 9.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 0.01 AND 9.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 0.01 AND 9.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 0.01 AND 9.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 0.01 AND 9.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 0.01 AND 9.99 ORDER BY savings ASC
 			-- €10.00 - €19.99
-				SELECT * FROM finances WHERE full_price BETWEEN 10.00 AND 19.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 10.00 AND 19.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 10.00 AND 19.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 10.00 AND 19.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 10.00 AND 19.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 10.00 AND 19.99 ORDER BY savings ASC
 			-- €20.00 - €29.99
-				SELECT * FROM finances WHERE full_price BETWEEN 20.00 AND 29.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 20.00 AND 29.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 20.00 AND 29.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 20.00 AND 29.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 20.00 AND 29.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 20.00 AND 29.99 ORDER BY savings ASC
 			-- €30.00 - €39.99
-				SELECT * FROM finances WHERE full_price BETWEEN 30.00 AND 39.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 30.00 AND 39.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 30.00 AND 39.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 30.00 AND 39.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 30.00 AND 39.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 30.00 AND 39.99 ORDER BY savings ASC
 			-- €40.00 - €49.99
-				SELECT * FROM finances WHERE full_price BETWEEN 40.00 AND 49.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 40.00 AND 49.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 40.00 AND 49.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 40.00 AND 49.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 40.00 AND 49.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 40.00 AND 49.99 ORDER BY savings ASC
 			-- €50.00 - €59.99
-				SELECT * FROM finances WHERE full_price BETWEEN 50.00 AND 59.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 50.00 AND 59.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 50.00 AND 59.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 50.00 AND 59.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 50.00 AND 59.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 50.00 AND 59.99 ORDER BY savings ASC
 			-- €60.00 - €69.99
-				SELECT * FROM finances WHERE full_price BETWEEN 60.00 AND 69.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 60.00 AND 69.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings BETWEEN 60.00 AND 69.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 60.00 AND 69.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 60.00 AND 69.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 60.00 AND 69.99 ORDER BY savings ASC
 			-- €70.00 - €79.99
-				SELECT * FROM finances WHERE full_price BETWEEN 70.00 AND 79.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price BETWEEN 70.00 AND 79.99 ORDER BY paid_price ASC							
-				SELECT * FROM finances WHERE savings BETWEEN 70.00 AND 79.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price BETWEEN 70.00 AND 79.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price BETWEEN 70.00 AND 79.99 ORDER BY paid_price ASC							
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings BETWEEN 70.00 AND 79.99 ORDER BY savings ASC
 			-- > €79.99
-				SELECT * FROM finances WHERE full_price > 79.99 ORDER BY full_price ASC
-				SELECT * FROM finances WHERE paid_price > 79.99 ORDER BY paid_price ASC
-				SELECT * FROM finances WHERE savings > 79.99 ORDER BY savings ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price > 79.99 ORDER BY full_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price > 79.99 ORDER BY paid_price ASC
+				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings > 79.99 ORDER BY savings ASC
 			
 	-- 2009 to 2025 savings
 		-- Quantity of games where year of purchase = 'Value between 2009 & 2025'
@@ -130,7 +132,7 @@
 			SUM(savings) AS 'Savings'
 			FROM finances f 
 			JOIN dates d ON d.id = f.id
-			WHERE MONTH(purchase_date) = '06'
+			WHERE MONTH(purchase_date) = '08'
 
 	-- January to December savings
 		-- Quantity of games where month of purchase = 'Value between 01(Jan) & 12(Dec)'
@@ -138,5 +140,5 @@
 			f.full_price, f.paid_price, f.savings
 			FROM finances f 
 			JOIN dates d ON d.id = f.id
-			WHERE MONTH(d.purchase_date) = '03'
+			WHERE MONTH(d.purchase_date) = '07'
 			ORDER BY d.purchase_date ASC
