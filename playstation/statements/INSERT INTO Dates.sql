@@ -1,5 +1,18 @@
 SELECT * FROM dates
 
+-- DATA ENTRY FOR SEPTEMBER 2025 (ID 1085 - 1092)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Viewfinder','PS5','2023-07-18','2025-09-02','2025-09-02','2025-09-02'),
+	('Tony Hawks Pro Skater 3 (2025)','PS4','2025-07-11','2025-09-07','2025-09-07','2025-09-07'),
+	('Tony Hawks Pro Skater 4 (2025)','PS4','2025-07-11','2025-09-07','2025-09-07','2025-09-07'),
+	('Bo: Path of the Teal Lotus','PS5','2024-07-17','2025-09-10','2025-09-10','2025-09-10'),
+	('Angry Video Game Adventures (Angry Video Game Nerd I & II Deluxe)','PS4','2021-03-19','2025-09-20','2025-09-20','2025-09-20'),
+	('Angry Video Game Adventures 2: ASSimilation (Angry Video Game Nerd I & II Deluxe)','PS4','2021-03-19','2025-09-20','2025-09-20','2025-09-20'),
+	('Croc: Legend of the Gobbos','PS1','1997-09-26','2025-09-20','2025-09-20','2025-09-20'),
+	('Anger Foot','PS5','2025-07-01','2025-09-20','2025-09-20','2025-09-20')
+
 -- INITIAL DATA ENTRY (ID 1 - 1084)
 -- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
 

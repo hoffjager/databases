@@ -1,5 +1,15 @@
 SELECT * FROM platinums
 
+-- DATA ENTRY FOR SEPTEMBER 2025 (ID 200 - 204)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Yakuza 5','PS3','2025-09-07',1.8),
+('Viewfinder','PS5','2025-09-11',4.7),
+('Holy Potatoes! A Weapon Shop?!','PS4','2025-09-16',9.7),
+('Looney Tunes: Wacky World of Sports','PS4','2025-09-21',1.1),
+('Gex Trilogy','PS1','2025-09-28',6.3)
+
 -- INITIAL DATA ENTRY (ID 1 - 199)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

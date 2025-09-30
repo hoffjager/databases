@@ -1,5 +1,21 @@
 SELECT * FROM finances
 
+-- DATA ENTRY FOR SEPTEMBER 2025 (ID 1085 - 1092)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Viewfinder','PS5',24.99,0.00,24.99,1,0.00),
+	('Tony Hawks Pro Skater 3 (2025)','PS4',25.00,0.00,25.00,1,0.00),
+	('Tony Hawks Pro Skater 4 (2025)','PS4',24.99,0.00,24.99,1,0.00),
+	('Bo: Path of the Teal Lotus','PS5',19.99,0.00,19.99,1,0.00),
+	('Angry Video Game Adventures (Angry Video Game Nerd I & II Deluxe)','PS4',5.00,0.00,5.00,1,0.00),
+	('Angry Video Game Adventures 2: ASSimilation (Angry Video Game Nerd I & II Deluxe)','PS4',4.99,0.00,4.99,1,0.00),
+	('Croc: Legend of the Gobbos','PS1',29.99,0.00,29.99,1,0.00),
+	('Anger Foot','PS5',19.99,0.00,19.99,1,0.00)
+
+-- INITIAL DATA ENTRY (ID 1 - 1084)
+-- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
+
 -- PS1
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

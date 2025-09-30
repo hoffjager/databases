@@ -1,5 +1,21 @@
 SELECT * FROM origins
 
+-- DATA ENTRY FOR SEPTEMBER 2025 (ID 1085 - 1092)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Viewfinder','PS5','Sad Owl Studios','Scotland'),
+	('Tony Hawks Pro Skater 3 (2025)','PS4','Iron Galaxy Studios','USA'),
+	('Tony Hawks Pro Skater 4 (2025)','PS4','Iron Galaxy Studios','USA'),
+	('Bo: Path of the Teal Lotus','PS5','Squid Shock Studios','Thailand'),
+	('Angry Video Game Adventures (Angry Video Game Nerd I & II Deluxe)','PS4','FreakZone Games','England'),
+	('Angry Video Game Adventures 2: ASSimilation (Angry Video Game Nerd I & II Deluxe)','PS4','FreakZone Games','England'),
+	('Croc: Legend of the Gobbos','PS1','Argonaut Games','England'),
+	('Anger Foot','PS5','Free Lives','South Africa')
+
+-- INITIAL DATA ENTRY (ID 1 - 1084)
+-- Entered in order of console generation: PS1, PS2, PSP, PS3, VITA, PS4, VR and PS5 GAMES
+
 -- PS1
 INSERT INTO origins
 (game, console, developer, country)

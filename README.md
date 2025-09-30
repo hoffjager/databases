@@ -1,6 +1,6 @@
 # gamescollection  
 
-Updated as of 31st August 2025
+Updated as of 30th September 2025
 
 Introduction  
 I decided to create this repository to display my relational databases, consisting of both my PlayStation & Nintendo video game collections.  
@@ -39,7 +39,7 @@ The total number of video games released per year & per decade:
 	* Year: Games  
 	* 1995: 9  
 	* 1996: 8  
-	* 1997: 11  
+	* 1997: 12  
 	* 1998: 13  
 	* 1999: 13  
 	* 2000: 15  
@@ -63,46 +63,46 @@ The total number of video games released per year & per decade:
 	* 2018: 71  
 	* 2019: 49  
 	* 2020: 83  
-	* 2021: 64  
+	* 2021: 66  
 	* 2022: 61  
-	* 2023: 33  
-	* 2024: 19  
-	* 2025: 4  
-	* Total: 1,084  
+	* 2023: 34  
+	* 2024: 20  
+	* 2025: 7  
+	* Total: 1,092  
 
 	* Decade: Games  
-	* 1990's: 54  
+	* 1990's: 55  
 	* 2000's: 163  
 	* 2010's: 603  
-	* 2020's: 264  
+	* 2020's: 271  
 
 The majority of video games in the collection were released in the 2010’s and 2020’s.
-These decades account for 80% (867/1084; 4/5) of the entire video game collection:
-The 2010’s account for 56% (603/1084) of the collection.
-The 2020’s account for 24% (264/1084) of the collection.
+These decades account for 80% (874/1092; 4/5) of the entire video game collection:
+The 2010’s account for 55% (603/1092) of the collection.
+The 2020’s account for 25% (271/1092) of the collection.
 All video games have been sorted by the earliest release dates, followed by the earliest purchase dates.  
 
 List of all pre-ordered video games sorted by purchase date in descending order:  
 There are 22 instances of pre-orders in the video game collection, beginning in 2017.  
 
-There are 416 video games in the collection that have yet to be played.
-Unplayed games account for 38% (416/1084; 2/5) of the entire video game collection.
+There are 413 video games in the collection that have yet to be played.
+Unplayed games account for 38% (413/1092; 2/5) of the entire video game collection.
 All unplayed video games have been sorted by the earliest release dates, followed by the earliest purchase dates.  
 
 # 2: Spending & Savings  
 The total number of video games & consoles in the collection:  
   
-There are 1,084 distinct video games across 8 distinct consoles in the collection.  
+There are 1,092 distinct video games across 8 distinct consoles in the collection.  
 
 The sum & average values of full prices, paid prices, savings and hours:  
 
 	* Sum Values  
 	* Games: Full Price: Paid Price: Savings: Hours
-	* 1,084: €25,876.30, €10,923.89, €14,952.41, 16,253  
+	* 1,084: €26,061.23, €10,946.38, €15,114.85, 16,378  
   
 	* Average Values  
 	* Games: Full Price: Paid Price: Savings: Hours
-	* 1: €23.87, €10.08, €13.79, 15  
+	* 1: €23.87, €10.02, €13.85, 15  
 
 The number of games & the sum of full prices, paid prices, savings per year:  
 
@@ -123,45 +123,45 @@ The number of games & the sum of full prices, paid prices, savings per year:
 	* 2022 (95): €3,049.63, €931.37, €2,118.26  
 	* 2023 (79): €2,764.20, €420.91, €2,343.29  
 	* 2024 (51): €2,126.44, €473.83, €1,652.61  
-	* 2025 (38): €669.77, €184.83, €484.94  
-	* Total (1,084): €25,876.30, €10,923.89, €14,952.41  
+	* 2025 (46): €824.71, €184.83, €639.88  
+	* Total (1,092): €25,876.30, €10,923.89, €14,952.41  
   
-The entire collection would have cost €25,876.30 at full price.
-Thanks to sales, gifts and the PlayStation Plus Essential subscription service, the collection cost €10,923.89.
-This resulted in savings of €14,952.41 (58% of the full price).
+The entire collection would have cost €26,061.23 at full price.
+Thanks to sales, gifts and the PlayStation Plus Essential subscription service, the collection cost €10,946.38.  
+This resulted in savings of €15,114.85 (58% of the full price).
 The average full price per game would work out at €23.87.
-Whereas the average paid price per game is €10.08.
-Resulting in average savings of €13.79 per game.  
-The years 2017-2025 accounted for savings of €13,536.75 (91% of the total savings).  
+Whereas the average paid price per game is €10.02.
+Resulting in average savings of €13.85 per game.  
+The years 2017-2025 accounted for savings of €13,691.69 (91% of the total savings).  
 The majority of games in the collection were purchased from 2017 onwards, resulting in higher full prices & paid prices, but also resulting in higher savings, compared to pre-2017.  
 
 The total number of video games redeemed as gifts & via subscription:  
 
-There are a total of 200 games purchased via birthday or Christmas gifts, along with the PlayStation Plus Essential subscription service, since 2013.  
-Savings compared to the full price came to €6,060.82 (an average of €30.30 per game).  
-These savings account for approximately 41% of the total savings.
+There are a total of 208 games purchased via birthday or Christmas gifts, along with the PlayStation Plus Essential subscription service, since 2013.  
+Savings compared to the full price came to €6,215.76 (an average of €29.88 per game).  
+These savings account for approximately 43% of the total savings.
 
 List of all video games sorted by hours played in descending order:  
 
-	* #: Game: Hours  
-	* #1: Rocket League: 260  
-	* #2: Yakuza 5: 244  
+	* #: Game: Hours
+	* #1: Yakuza 5: 274  
+	* #2: Rocket League: 260  
 	* #3: Borderlands 3: 241
 	* #4: Yakuza 0: 198  
-	* #5: Disney Dreamlight Valley: 182  
+	* #5: Disney Dreamlight Valley: 185  
 	* #6: Yakuza Kiwami 2: 174  
 	* #7: Grand Theft Auto V: 170  
 	* #8: Crash Team Racing Nitro-Fueled: 168  
 	* #9: Saints Row The Third: 155  
 	* #10: Like a Dragon Infinite Wealth: 154  
 
-A total of 1,946 hours were spent playing the Top 10 games in the video game collection.  
-The Top 10 accounts for 12% (1,946/16,253) of the total hours played in the collection.  
+A total of 1,979 hours were spent playing the Top 10 games in the video game collection.  
+The Top 10 accounts for 12% (1,979/16,378) of the total hours played in the collection.  
 The following ranking system is in place in the finances_all-time.xlsx file:  
 
 	* Bracket: Hours  
 	* The Top 100:  
-	* Gold Tier: Top 10; 154 - 260  
+	* Gold Tier: Top 10; 154 - 274  
 	* Silver Tier: 11th - 55th; 66 - 153  
 	* Bronze Tier: 56th - 100th; 46 - 65  
 	* Class I  
@@ -171,7 +171,7 @@ The following ranking system is in place in the finances_all-time.xlsx file:
 	* Class III  
 	* 701st - 1,000th; 1  
 	* Class RED  
-	* 1,001st - 1,084th; 1  
+	* 1,001st - 1,092nd; 1  
 
 All video games in the t10hours XLSX tab are sorted by hours played in descending order:  
 In the event that games are equal in hours played, they are sorted by value for money:  
@@ -202,14 +202,16 @@ The following ranking system is in place in the finances_all-time.xlsx file:
 	* The Top 100:  
 	* Gold Tier: Top 10; 57 - 103  
 	* Silver Tier: 11th - 55th; 10 - 56  
-	* Bronze Tier: 56th - 100th; 1 - 9  
+	* Bronze Tier: 56th - 100th; 2 - 9  
 	* Class I  
-	* 101st - 201st; 1  
+	* 101st - 200th; 1  
+	* Class II  
+	* 201st - 208th; 1  
 
 List of all games from my favourite video game series, Yakuza/Like a Dragon/Judgment, sorted by hours played in descending order:  
 
 	* #: Game: Hours  
-	* #1: Yakuza 5: 244  
+	* #1: Yakuza 5: 274  
 	* #2: Yakuza 0: 198  
 	* #3: Yakuza Kiwami 2: 174  
 	* #4: Infinite Wealth: 154  
@@ -225,12 +227,12 @@ List of all games from my favourite video game series, Yakuza/Like a Dragon/Judg
 	* #14: Like a Dragon Gaiden: 47  
 	* #15: Yakuza 6: 42  
 
-A total of 1,766 hours were spent across all 15 games in the Yakuza/Like a Dragon/Judgment series, developed by SEGA and Ryu Ga Gotoku Studio.
+A total of 1,796 hours were spent across all 15 games in the Yakuza/Like a Dragon/Judgment series, developed by SEGA and Ryu Ga Gotoku Studio.
 The XLSX tab consists of the following ranking system based on hours played:
 
 	* Bracket: Game: Hours  
 	* The Top 3:  
-	* Gold Tier: #1; Yakuza 5; 244  
+	* Gold Tier: #1; Yakuza 5; 274  
 	* Silver Tier: #2; Yakuza 0; 198  
 	* Bronze Tier: #3; Yakuza Kiwami 2; 174  
 	* Class I  
@@ -240,22 +242,22 @@ The total number of video games played for a range of hours (from 1 hour, to 11-
 
 	* Range of Hours: Games  
 	* > 100: 22  
-	* 91 - 100: 5  
-	* 81 - 90: 6  
+	* 91 - 100: 6  
+	* 81 - 90: 5  
 	* 71 - 80: 13  
-	* 61 - 70: 16  
+	* 61 - 70: 15  
 	* 51 - 60: 22  
 	* 41 - 50: 37  
-	* 31 - 40: 29  
+	* 31 - 40: 30  
 	* 21 - 30: 75  
-	* 11 - 20: 121  
-	* 2 - 10: 323  
-	* 1: 416  
+	* 11 - 20: 123  
+	* 2 - 10: 331  
+	* 1: 413  
 
-Many video games have yet to be played (416 games recorded at 1 hour).  
-Many video games were played briefly (323 games recorded between 2 to 10 hours).  
-These 743 games account for 68% (739/1084) of the collection.  
-There is a trend where there are a lower number of games with more hours played through each ascending range of values (121 between 11 to 20 hours, 75 between 21 to 30 hours, etc).  
+Many video games have yet to be played (413 games recorded at 1 hour).  
+Many video games were played briefly (331 games recorded between 2 to 10 hours).  
+These 744 games account for 68% (744/1092) of the collection.  
+There is a trend where there are a lower number of games with more hours played through each ascending range of values (123 between 11 to 20 hours, 75 between 21 to 30 hours, etc).  
 Video games in the hours XLSX tab are sorted the same as the t10hours XLSX tab:  
 In the event that games are equal in hours played, those games are then sorted by value for money in ascending order.  
 In the event that games are also equal in value for money, those games are then sorted by savings in descending order.  
@@ -263,10 +265,10 @@ In the event that games are also equal in value for money, those games are then 
 The total numbers of video games purchased, with a range of different prices (from < €0.01, to €0.01 - €9.99, and over €79.99) outlining the values of full price, paid price and savings upon purchasing.
 
 	* Range of Prices: Full Price: Paid Price: Savings  
-	* < €0.01: 22; 200; 238  
-	* €0.01 - €9.99: 306; 568; 352  
-	* €10.00 - €19.99: 381; 205; 269  
-	* €20.00 - €29.99: 164; 56; 87  
+	* < €0.01: 22; 208; 238  
+	* €0.01 - €9.99: 305; 565; 354  
+	* €10.00 - €19.99: 386; 208; 271  
+	* €20.00 - €29.99: 168; 56; 91  
 	* €30.00 - €39.99: 70; 23; 57  
 	* €40.00 - €49.99: 27; 15; 25  
 	* €50.00 - €59.99: 37; 8; 19  
@@ -275,11 +277,11 @@ The total numbers of video games purchased, with a range of different prices (fr
 	* > €79.99: 15; 4; 3  
 
 Many video games cost no higher than €39.99 to purchase at full price:  
-943 games (22 + 306 + 381 + 164 + 70), 87% of the collection.  
+951 games (22 + 305 + 386 + 168 + 70), 87% of the collection.  
 Many video games were purchased for no higher than €29.99:  
-1,029 games (200 + 568 + 205 + 56), 95% of the collection.  
+1,037 games (208 + 565 + 208 + 56), 95% of the collection.  
 Purchasing video games resulted in savings of between €0.01 to €39.99:  
-765 games (352 + 269 + 87 + 57), 71% of the collection.  
+773 games (354 + 271 + 91 + 57), 71% of the collection.  
 
 The number of games & the sum of full prices, paid prices, savings per month:  
 
@@ -292,11 +294,11 @@ The number of games & the sum of full prices, paid prices, savings per month:
 	* June (55): €1,520.16, €761.12, €759.04  
 	* July (69): €1,457.41, €550.17, €907.24  
 	* August (111): €2,225.97, €923.27, €1,302.70  
-	* September (123): €3,200.56, €920.83, €2,279.73  
-	* October (105): €2,264.98, €1,080.07, €1,184.91  
+	* September (131): €3,355.50, €920.83, €2,434.67  
+	* October (105): €2,294.97, €1,102.56, €1,192.41  
 	* November (80): €2,177.59, €1,017.16, €1,160.43  
 	* December (100): €3,510.30, €1,708.24, €1,802.06  
-	* Total (1,084): €25,876.30, €10,923.89, €14,952.41  
+	* Total (1,092): €25,876.30, €10,923.89, €14,952.41  
 
 September saw the most game purchases & most savings, my birthday month.  
 August was also a busy month, as a result of redeeming pre-orders prior to my birthday.  
@@ -305,15 +307,15 @@ December & January were also busy months as a result of the Christmas season wit
 # 3: Countries & Developers:  
 The total number of distinct countries & video game developers in the collection:  
 
-There are 534 distinct video game developers from 47 distinct countries.
+There are 539 distinct video game developers from 48 distinct countries.
 All distinct countries & developers are sorted by hours played in descending order:  
 
 	#: Country: Games/Hours  
-	1. USA = 300/6,013  
-	2. Japan = 243/3,617  
-	3. England = 174/1,844  
-	4. Canada = 87/1,825  
-	5. Scotland = 9/536  
+	1. USA = 302/6,031  
+	2. Japan = 243/3,647  
+	3. England = 177/1,854  
+	4. Canada = 87/1,828  
+	5. Scotland = 10/549  
 	6. France = 38/449  
 	7. Australia = 23/285  
 	8. Sweden = 40/222  
@@ -321,7 +323,7 @@ All distinct countries & developers are sorted by hours played in descending ord
 	10. Poland = 17/206  
 
 	#: Developer: Hours  
-	1. Ryu Ga Gotoku Studio = 12/1,443  
+	1. Ryu Ga Gotoku Studio = 12/1,473  
 	2. Naughty Dog = 15/890  
 	3. Insomniac Games = 18/853  
 	4. Rockstar North = 6/480  
@@ -337,14 +339,14 @@ The total number of console generations in the collection along with the number 
 There are 8 distinct PlayStation console generations in the video game collection:  
 
 	* Console: Games  
-	* PS1: 76  
+	* PS1: 77  
 	* PS2: 76  
 	* PSP: 27  
 	* PS3: 248  
 	* VITA: 71  
-	* PS4: 483  
+	* PS4: 487  
 	* VR: 70  
-	* PS5: 33  
+	* PS5: 36  
 
 FURTHER DATA ANALYSIS OF COUNTRIES & DEVELOPERS UNDER CONSIDERATION:  
 
@@ -355,7 +357,7 @@ Discuss my personal favourite games based on all the above charts.
 # 4: Platinums & Trophies  
 The total number of platinum trophies achieved, sorted by ID or sorted by percentage rarity in ascending order:  
 
-There have been 199 platinum trophies earned, since the 1st platinum trophy achieved in 2012.  
+There have been 204 platinum trophies earned, since the 1st platinum trophy achieved in 2012.  
 
 The total number of all trophies earned per year:  
 
@@ -376,7 +378,7 @@ The total number of all trophies earned per year:
 	* 2022: 39, 270, 554, 1,815  
 	* 2023: 32, 167, 420, 1,519  
 	* 2024: 37, 160, 357, 1,104  
-	* 2025: 16, 94, 216, 728  
-	* Total: 199, 1,260, 3,044, 10,381  
+	* 2025: 21, 122, 261, 829  
+	* Total: 204, 1,288, 3,089, 10,482  
 
 Fin  
