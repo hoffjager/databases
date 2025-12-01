@@ -1,5 +1,13 @@
 SELECT * FROM finances
 
+-- DATA ENTRY FOR OCTOBER 2025 (ID 1093 - 1095)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Cocoon','PS4',24.99,0.00,24.99,1,0.00),
+	('Moon: Remix RPG Adventure','PS1',15.99,7.99,8.00,1,7.99),
+	('Tekken 3','PS1',9.99,9.99,0.00,1,9.99)
+
 -- DATA ENTRY FOR SEPTEMBER 2025 (ID 1085 - 1092)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

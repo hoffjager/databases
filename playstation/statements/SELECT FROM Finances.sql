@@ -132,7 +132,7 @@ SELECT * FROM finances
 			SUM(savings) AS 'Savings'
 			FROM finances f 
 			JOIN dates d ON d.id = f.id
-			WHERE MONTH(purchase_date) = '08'
+			WHERE MONTH(purchase_date) = '02'
 
 	-- January to December savings
 		-- Quantity of games where month of purchase = 'Value between 01(Jan) & 12(Dec)'

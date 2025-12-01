@@ -22,8 +22,7 @@
 			SELECT SUM(full_price) AS 'Full Price',
 			SUM(paid_price) AS 'Paid Price',
 			SUM(savings) AS 'Savings',
-			SUM(hours) AS 'Hours',
-			SUM(value) AS 'Value'
+			SUM(hours) AS 'Hours'
 			FROM origins o 
 			JOIN finances f ON o.id = f.id
 			WHERE country = 'Wales'

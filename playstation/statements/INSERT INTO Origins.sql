@@ -1,5 +1,13 @@
 SELECT * FROM origins
 
+-- DATA ENTRY FOR OCTOBER 2025 (ID 1093 - 1095)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Cocoon','PS4','Geometric Interactive','Denmark'),
+	('Moon: Remix RPG Adventure','PS1','Love-De-Lic','Japan'),
+	('Tekken 3','PS1','Bandai Namco Studios','Japan')
+
 -- DATA ENTRY FOR SEPTEMBER 2025 (ID 1085 - 1092)
 INSERT INTO origins
 (game, console, developer, country)

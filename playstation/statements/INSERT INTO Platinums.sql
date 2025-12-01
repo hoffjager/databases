@@ -1,5 +1,21 @@
 SELECT * FROM platinums
 
+-- DATA ENTRY FOR NOVEMBER 2025 (ID 209 - 210)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Yakuza: Dead Souls','PS3','2025-11-06',3.7),
+('High on Life','PS4','2025-11-30',1.6)
+
+-- DATA ENTRY FOR OCTOBER 2025 (ID 205 - 208)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('AVGN I & II Deluxe','PS4','2025-10-06',6.9),
+('Mass Effect','PS3','2025-10-13',4.1),
+('Oddworld: Abes Oddysee (1997)','PS1','2025-10-21',3.3),
+('Oddworld: Abes Exoddus (1998)','PS1','2025-10-22',4.2)
+
 -- DATA ENTRY FOR SEPTEMBER 2025 (ID 200 - 204)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

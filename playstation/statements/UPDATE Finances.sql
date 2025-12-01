@@ -1,21 +1,92 @@
 -- Finances
 SELECT * FROM finances
 
+SELECT * FROM finances WHERE id = 425
+SELECT * FROM finances WHERE id = 1095
+SELECT * FROM finances WHERE id = 1088
+SELECT * FROM finances WHERE id = 709
 SELECT * FROM finances WHERE id = 605
-SELECT * FROM finances WHERE id = 285
-SELECT * FROM finances WHERE id = 1085
-SELECT * FROM finances WHERE id = 1086
-SELECT * FROM finances WHERE id = 1087
-SELECT * FROM finances WHERE id = 661
-SELECT * FROM finances WHERE id = 716
-SELECT * FROM finances WHERE id = 1092
-SELECT * FROM finances WHERE id = 1091
+SELECT * FROM finances WHERE id = 296
+SELECT * FROM finances WHERE id = 658
+SELECT * FROM finances WHERE id = 589
+
+		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 30TH NOVEMBER 2025
+					UPDATE finances SET hours = REPLACE(hours, 101, 118) WHERE id = 425
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 1095
+					UPDATE finances SET value = REPLACE(value, 9.99, 5.00) WHERE id = 1095
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 4) WHERE id = 1088
+
+					UPDATE finances SET hours = REPLACE(hours, 72, 99) WHERE id = 709
+
+					UPDATE finances SET full_price = REPLACE(full_price, 49.99, 64.98) WHERE id = 605
+					UPDATE finances SET paid_price = REPLACE(paid_price, 12.49, 19.23) WHERE id = 605
+					UPDATE finances SET savings = REPLACE(savings, 37.50, 45.75) WHERE id = 605
+					UPDATE finances SET hours = REPLACE(hours, 111, 126) WHERE id = 605
+					UPDATE finances SET value = REPLACE(value, 0.11, 0.15) WHERE id = 605
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 11) WHERE id = 296
+					UPDATE finances SET value = REPLACE(value, 14.93, 1.36) WHERE id = 296
+
+					UPDATE finances SET hours = REPLACE(hours, 23, 37) WHERE id = 658
+
+					UPDATE finances SET hours = REPLACE(hours, 188, 194) WHERE id = 589
+					UPDATE finances SET value = REPLACE(value, 0.13, 0.12) WHERE id = 589
+					
+SELECT * FROM finances WHERE id = 63
+SELECT * FROM finances WHERE id = 64
+SELECT * FROM finances WHERE id = 65
 SELECT * FROM finances WHERE id = 1089
 SELECT * FROM finances WHERE id = 1090
-SELECT * FROM finances WHERE id = 24
-SELECT * FROM finances WHERE id = 25
-SELECT * FROM finances WHERE id = 26
+SELECT * FROM finances WHERE id = 605
 SELECT * FROM finances WHERE id = 589
+SELECT * FROM finances WHERE id = 659
+SELECT * FROM finances WHERE id = 294
+SELECT * FROM finances WHERE id = 38
+SELECT * FROM finances WHERE id = 39
+SELECT * FROM finances WHERE id = 295
+SELECT * FROM finances WHERE id = 777
+SELECT * FROM finances WHERE id = 425
+
+		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST OCTOBER 2025
+					UPDATE finances SET full_price = REPLACE(full_price, 5.99, 15.99) WHERE id = 63
+					UPDATE finances SET paid_price = REPLACE(paid_price, 1.99, 3.99) WHERE id = 63
+					UPDATE finances SET savings = REPLACE(savings, 4.00, 12.00) WHERE id = 63
+					UPDATE finances SET value = REPLACE(value, 1.99, 3.99) WHERE id = 63
+
+					UPDATE finances SET full_price = REPLACE(full_price, 5.99, 15.99) WHERE id = 64
+					UPDATE finances SET paid_price = REPLACE(paid_price, 1.99, 3.99) WHERE id = 64
+					UPDATE finances SET savings = REPLACE(savings, 4.00, 12.00) WHERE id = 64
+					UPDATE finances SET value = REPLACE(value, 1.99, 3.99) WHERE id = 64
+
+					UPDATE finances SET full_price = REPLACE(full_price, 5.99, 15.98) WHERE id = 65
+					UPDATE finances SET paid_price = REPLACE(paid_price, 1.99, 3.98) WHERE id = 65
+					UPDATE finances SET savings = REPLACE(savings, 4.00, 12.00) WHERE id = 65
+					UPDATE finances SET value = REPLACE(value, 1.99, 3.98) WHERE id = 65
+
+					UPDATE finances SET hours = REPLACE(hours, 2, 6) WHERE id = 1089
+					
+					UPDATE finances SET hours = REPLACE(hours, 2, 5) WHERE id = 1090
+
+					UPDATE finances SET hours = REPLACE(hours, 92, 111) WHERE id = 605
+					UPDATE finances SET value = REPLACE(value, 0.14, 0.11) WHERE id = 605
+
+					UPDATE finances SET hours = REPLACE(hours, 185, 188) WHERE id = 589
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 2) WHERE id = 659
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 43) WHERE id = 294
+					UPDATE finances SET value = REPLACE(value, 14.93, 0.35) WHERE id = 294
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 30) WHERE id = 295
+					UPDATE finances SET value = REPLACE(value, 14.93, 0.50) WHERE id = 295
+					
+					UPDATE finances SET hours = REPLACE(hours, 50, 101) WHERE id = 425
 
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed

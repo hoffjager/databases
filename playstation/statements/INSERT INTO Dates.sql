@@ -1,5 +1,13 @@
 SELECT * FROM dates
 
+-- DATA ENTRY FOR OCTOBER 2025 (ID 1093 - 1095)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Cocoon','PS4','2023-09-29','2025-10-07','2025-10-07','2025-10-07'),
+	('Moon: Remix RPG Adventure','PS1','1997-10-16','2025-10-19','2025-10-19','2025-10-19'),
+	('Tekken 3','PS1','1998-09-12','2025-10-26','2025-10-26','2025-10-26')
+
 -- DATA ENTRY FOR SEPTEMBER 2025 (ID 1085 - 1092)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)
