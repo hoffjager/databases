@@ -1,5 +1,12 @@
 SELECT * FROM platinums
 
+-- DATA ENTRY FOR DECEMBER 2025 (ID 211 - 212)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Journey to the Savage Planet','PS4','2025-12-26',0.5),
+('Secret Agent Clank','PSP','2025-12-30',3.9)
+
 -- DATA ENTRY FOR NOVEMBER 2025 (ID 209 - 210)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

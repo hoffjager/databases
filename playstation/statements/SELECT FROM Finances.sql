@@ -29,7 +29,7 @@ SELECT * FROM finances
 			WHERE YEAR(purchase_date) = '2025'
 
 	-- gifts
-		-- Quantity of games as all gifts & subscriptions redeemed)
+		-- Quantity of games as all gifts & subscriptions redeemed
 			SELECT d.id, d.game, d.console, d.purchase_date,
 			f.full_price, f.paid_price, f.savings
 			FROM finances f 

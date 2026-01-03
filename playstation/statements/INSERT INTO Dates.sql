@@ -1,5 +1,18 @@
 SELECT * FROM dates
 
+-- DATA ENTRY FOR DECEMBER 2025 (ID 1096 - 1103)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Shenmue','PS4','2018-08-21','2025-12-08','2025-12-08','2025-12-08'),
+	('Shenmue II','PS4','2018-08-21','2025-12-08','2025-12-08','2025-12-08'),
+	('Journey to the Savage Planet','PS4','2020-01-28','2025-12-14','2025-12-14','2025-12-14'),
+	('PlateUp!','PS4','2024-02-15','2025-12-14','2025-12-14','2025-12-14'),
+	('Disco Elysium: The Final Cut','PS4','2021-03-30','2025-12-25','2025-12-25','2025-12-25'),
+	('Thank Goodness Youre Here','PS4','2024-08-01','2025-12-25','2025-12-25','2025-12-25'),
+	('Wanderstop','PS5','2025-03-11','2025-12-25','2025-12-25','2025-12-25'),
+	('Secret Agent Clank','PSP','2008-07-11','2025-12-25','2025-12-25','2025-12-25')
+
 -- DATA ENTRY FOR OCTOBER 2025 (ID 1093 - 1095)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

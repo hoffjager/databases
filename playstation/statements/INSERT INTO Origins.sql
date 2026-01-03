@@ -1,5 +1,18 @@
 SELECT * FROM origins
 
+-- DATA ENTRY FOR DECEMBER 2025 (ID 1096 - 1103)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Shenmue','PS4','SEGA','Japan'),
+	('Shenmue II','PS4','SEGA','Japan'),
+	('Journey to the Savage Planet','PS4','Typhoon Studios','Canada'),
+	('PlateUp!','PS4','Its Happening','England'),
+	('Disco Elysium: The Final Cut','PS4','Robert Kurvitz (ZA/UM)','Estonia'),
+	('Thank Goodness Youre Here','PS4','Coal Supper','England'),
+	('Wanderstop','PS5','Ivy Road','USA'),
+	('Secret Agent Clank','PSP','High Impact Games','USA')
+
 -- DATA ENTRY FOR OCTOBER 2025 (ID 1093 - 1095)
 INSERT INTO origins
 (game, console, developer, country)

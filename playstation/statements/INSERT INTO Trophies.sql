@@ -1,5 +1,11 @@
 SELECT * FROM trophies
 
+-- 31ST DEC 2025: INITIAL RECORD SETUP FOR 2026
+INSERT INTO trophies
+(year, platinum, gold, silver, bronze)
+VALUES
+(2026,0,0,0,0)
+
 -- 14TH AUG 2025: INITIAL DATA ENTRY (2009 - 2025)
 INSERT INTO trophies
 (year, platinum, gold, silver, bronze)

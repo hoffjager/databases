@@ -1,14 +1,30 @@
 -- Dates
 SELECT * FROM dates
 
-SELECT * FROM dates WHERE id = 425
-SELECT * FROM dates WHERE id = 1095
-SELECT * FROM dates WHERE id = 1088
-SELECT * FROM dates WHERE id = 709
-SELECT * FROM dates WHERE id = 605
+SELECT * FROM dates WHERE id = 858
+SELECT * FROM dates WHERE id = 1098
 SELECT * FROM dates WHERE id = 296
-SELECT * FROM dates WHERE id = 658
+SELECT * FROM dates WHERE id = 1103
 SELECT * FROM dates WHERE id = 589
+SELECT * FROM dates WHERE id = 1099
+
+-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST DECEMBER 2025
+					UPDATE dates SET finish_date = REPLACE(finish_date,'2020-11-28','2025-12-21') WHERE id = 858
+					
+					UPDATE dates SET start_date = REPLACE(start_date,'2025-12-14','2025-12-22') WHERE id = 1098
+					UPDATE dates SET finish_date = REPLACE(finish_date,'2025-12-14','2025-12-26') WHERE id = 1098
+
+					UPDATE dates SET finish_date = REPLACE(finish_date,'2025-11-29','2025-12-26') WHERE id = 296
+
+					UPDATE dates SET start_date = REPLACE(start_date,'2025-12-25','2025-12-27') WHERE id = 1103
+					UPDATE dates SET finish_date = REPLACE(finish_date,'2025-12-25','2025-12-30') WHERE id = 1103
+
+					UPDATE dates SET finish_date = REPLACE(finish_date,'2025-11-30','2025-12-31') WHERE id = 589
+
+					UPDATE dates SET start_date = REPLACE(start_date,'2025-12-14','2025-12-22') WHERE id = 1099
+					UPDATE dates SET finish_date = REPLACE(finish_date,'2025-12-14','2025-12-31') WHERE id = 1099
 
 -- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed

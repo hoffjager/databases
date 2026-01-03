@@ -1,5 +1,18 @@
 SELECT * FROM finances
 
+-- DATA ENTRY FOR DECEMBER 2025 (ID 1096 - 1103)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Shenmue','PS4',17.50,2.62,14.88,1,2.62),
+	('Shenmue II','PS4',17.49,2.62,14.87,1,2.62),
+	('Journey to the Savage Planet','PS4',29.99,5.99,24.00,1,5.99),
+	('PlateUp!','PS4',19.99,3.99,16.00,1,3.99),
+	('Disco Elysium: The Final Cut','PS4',39.99,0.00,39.99,1,0.00),
+	('Thank Goodness Youre Here','PS4',17.99,0.00,17.99,1,0.00),
+	('Wanderstop','PS5',24.99,0.00,24.99,1,0.00),
+	('Secret Agent Clank','PSP',9.99,5.76,4.23,1,5.76)
+
 -- DATA ENTRY FOR OCTOBER 2025 (ID 1093 - 1095)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

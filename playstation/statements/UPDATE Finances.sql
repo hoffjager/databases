@@ -1,14 +1,32 @@
 -- Finances
 SELECT * FROM finances
 
-SELECT * FROM finances WHERE id = 425
-SELECT * FROM finances WHERE id = 1095
-SELECT * FROM finances WHERE id = 1088
-SELECT * FROM finances WHERE id = 709
-SELECT * FROM finances WHERE id = 605
+SELECT * FROM finances WHERE id = 858
+SELECT * FROM finances WHERE id = 1098
 SELECT * FROM finances WHERE id = 296
-SELECT * FROM finances WHERE id = 658
+SELECT * FROM finances WHERE id = 1103
 SELECT * FROM finances WHERE id = 589
+SELECT * FROM finances WHERE id = 1099
+
+		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
+			-- Updating Start_Date & Finish_Dates as games are started & completed
+				-- 31ST DECEMBER 2025
+					UPDATE finances SET hours = REPLACE(hours, 139, 147) WHERE id = 858
+					UPDATE finances SET value = REPLACE(value, 0.06, 0.05) WHERE id = 858
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 25) WHERE id = 1098
+					UPDATE finances SET value = REPLACE(value, 5.99, 0.24) WHERE id = 1098
+
+					UPDATE finances SET hours = REPLACE(hours, 11, 15) WHERE id = 296
+					UPDATE finances SET value = REPLACE(value, 1.36, 1.00) WHERE id = 296
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 16) WHERE id = 1103
+					UPDATE finances SET value = REPLACE(value, 5.76, 0.36) WHERE id = 1103
+
+					UPDATE finances SET hours = REPLACE(hours, 194, 195) WHERE id = 589
+
+					UPDATE finances SET hours = REPLACE(hours, 1, 6) WHERE id = 1099
+					UPDATE finances SET value = REPLACE(value, 3.99, 0.67) WHERE id = 1099
 
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
@@ -36,21 +54,6 @@ SELECT * FROM finances WHERE id = 589
 					UPDATE finances SET hours = REPLACE(hours, 188, 194) WHERE id = 589
 					UPDATE finances SET value = REPLACE(value, 0.13, 0.12) WHERE id = 589
 					
-SELECT * FROM finances WHERE id = 63
-SELECT * FROM finances WHERE id = 64
-SELECT * FROM finances WHERE id = 65
-SELECT * FROM finances WHERE id = 1089
-SELECT * FROM finances WHERE id = 1090
-SELECT * FROM finances WHERE id = 605
-SELECT * FROM finances WHERE id = 589
-SELECT * FROM finances WHERE id = 659
-SELECT * FROM finances WHERE id = 294
-SELECT * FROM finances WHERE id = 38
-SELECT * FROM finances WHERE id = 39
-SELECT * FROM finances WHERE id = 295
-SELECT * FROM finances WHERE id = 777
-SELECT * FROM finances WHERE id = 425
-
 		-- UPDATE Table SET Field = REPLACE(Field, 'OLD VALUE', 'NEW VALUE') WHERE ID = Number
 			-- Updating Start_Date & Finish_Dates as games are started & completed
 				-- 31ST OCTOBER 2025
