@@ -26,52 +26,8 @@ SELECT * FROM finances
 			SUM(savings) AS 'Savings'
 			FROM finances f 
 			JOIN dates d ON d.id = f.id
-			WHERE YEAR(purchase_date) = '2025'
+			WHERE YEAR(purchase_date) = '2026'
 
-	-- gifts
-		-- Quantity of games as all gifts & subscriptions redeemed
-			SELECT d.id, d.game, d.console, d.purchase_date,
-			f.full_price, f.paid_price, f.savings
-			FROM finances f 
-			JOIN dates d ON d.id = f.id
-			WHERE f.paid_price = 0 
-			ORDER BY d.purchase_date ASC
-
-	-- t10hours
-		-- Top games with the most hours played
-			SELECT * FROM finances ORDER BY hours DESC, value ASC, savings DESC
-
-	-- t10gifts
-		-- Top 10 games with the most hours played & the best value for money
-			SELECT * FROM finances WHERE value = 0.00 ORDER BY hours DESC, savings DESC
-
-	-- t10yakuza
-		-- Yakuza/Like a Dragon/Judgment, my favourite game series with the most hours played per game
-			SELECT * FROM finances
-			WHERE game LIKE ('Yakuza%')
-			OR game LIKE ('Like a Dragon%')
-			OR game LIKE ('%Judgment%')
-			ORDER BY hours DESC
-
-	-- ranges_hrs
-	-- &
-	-- hours
-		-- Quantity of games with various ranges of hours played
-			SELECT * FROM finances WHERE hours > 100 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 91 AND 100 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 81 AND 90 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 71 AND 80 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 61 AND 70 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 51 AND 60 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 41 AND 50 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 31 AND 40 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 21 AND 30 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 11 AND 20 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours BETWEEN 2 AND 10 ORDER BY hours DESC, value ASC, savings DESC
-			SELECT * FROM finances WHERE hours = 1 ORDER BY hours DESC, value ASC, savings DESC
-
-	-- ranges_pr
-	-- &
 	-- prices
 		-- Quantity of games with various price ranges (full price, paid price and savings)
 			-- < €0.01
@@ -114,14 +70,52 @@ SELECT * FROM finances
 				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE full_price > 79.99 ORDER BY full_price ASC
 				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE paid_price > 79.99 ORDER BY paid_price ASC
 				SELECT id, game, console, full_price, paid_price, savings FROM finances WHERE savings > 79.99 ORDER BY savings ASC
+
+	-- t10hours
+		-- Top games with the most hours played
+			SELECT * FROM finances ORDER BY hours DESC, value ASC, savings DESC
+		-- Quantity of games with various ranges of hours played
+			SELECT * FROM finances WHERE hours > 100 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 91 AND 100 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 81 AND 90 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 71 AND 80 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 61 AND 70 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 51 AND 60 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 41 AND 50 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 31 AND 40 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 21 AND 30 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 11 AND 20 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours BETWEEN 2 AND 10 ORDER BY hours DESC, value ASC, savings DESC
+			SELECT * FROM finances WHERE hours = 1 ORDER BY hours DESC, value ASC, savings DESC
+
+	-- gifts
+		-- Quantity of games as all gifts & subscriptions redeemed
+			SELECT d.id, d.game, d.console, d.purchase_date,
+			f.full_price, f.paid_price, f.savings
+			FROM finances f 
+			JOIN dates d ON d.id = f.id
+			WHERE f.paid_price = 0 
+			ORDER BY d.purchase_date ASC
+
+	-- t10gifts
+		-- Top 10 games with the most hours played & the best value for money
+			SELECT * FROM finances WHERE value = 0.00 ORDER BY hours DESC, savings DESC
+
+	-- t10yakuza
+		-- Yakuza/Like a Dragon/Judgment, my favourite game series with the most hours played per game
+			SELECT * FROM finances
+			WHERE game LIKE ('Yakuza%')
+			OR game LIKE ('Like a Dragon%')
+			OR game LIKE ('%Judgment%')
+			ORDER BY hours DESC
 			
-	-- 2009 to 2025 savings
+	-- 2009 to 2026 savings
 		-- Quantity of games where year of purchase = 'Value between 2009 & 2025'
 			SELECT d.id, d.game, d.console, d.purchase_date,
 			f.full_price, f.paid_price, f.savings
 			FROM finances f
 			JOIN dates d ON d.id = f.id
-			WHERE YEAR(d.purchase_date) = '2025'
+			WHERE YEAR(d.purchase_date) = '2026'
 			ORDER BY d.purchase_date ASC
 
 -- finances_monthly
@@ -132,7 +126,7 @@ SELECT * FROM finances
 			SUM(savings) AS 'Savings'
 			FROM finances f 
 			JOIN dates d ON d.id = f.id
-			WHERE MONTH(purchase_date) = '02'
+			WHERE MONTH(purchase_date) = '01'
 
 	-- January to December savings
 		-- Quantity of games where month of purchase = 'Value between 01(Jan) & 12(Dec)'

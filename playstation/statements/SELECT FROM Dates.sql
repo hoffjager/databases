@@ -37,6 +37,7 @@
 				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) = '2023'
 				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) = '2024'
 				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) = '2025'
+				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) = '2026'
 		
 		-- Quantity of games released in each decade
 			-- (1990's)
@@ -46,7 +47,7 @@
 			-- (2010's)
 				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) BETWEEN '2010' AND '2019'
 			-- (2020's)
-				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) BETWEEN '2020' AND '2025'
+				SELECT COUNT(*) AS 'Games' FROM dates WHERE YEAR(release_date) BETWEEN '2020' AND '2026'
 	
 	-- releases
 		-- All games released from earliest to latest
@@ -87,6 +88,7 @@
 				SELECT * FROM dates WHERE YEAR(release_date) = '2023' ORDER BY release_date, purchase_date ASC
 				SELECT * FROM dates WHERE YEAR(release_date) = '2024' ORDER BY release_date, purchase_date ASC
 				SELECT * FROM dates WHERE YEAR(release_date) = '2025' ORDER BY release_date, purchase_date ASC
+				SELECT * FROM dates WHERE YEAR(release_date) = '2026' ORDER BY release_date, purchase_date ASC
 
 	-- pre-orders
 		-- Games purchased prior to their release dates

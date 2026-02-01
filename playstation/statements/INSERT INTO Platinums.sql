@@ -1,5 +1,13 @@
 SELECT * FROM platinums
 
+-- DATA ENTRY FOR JANUARY 2026 (ID 213 - 215)
+INSERT INTO platinums
+(game, console, completion_date, rarity)
+VALUES
+('Thank Goodness Youre Here','PS4','2026-01-02',9.8),
+('Need for Speed Unbound','PS5','2026-01-24',0.4),
+('Wanderstop','PS5','2026-01-25',25.8)
+
 -- DATA ENTRY FOR DECEMBER 2025 (ID 211 - 212)
 INSERT INTO platinums
 (game, console, completion_date, rarity)

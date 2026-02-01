@@ -1,5 +1,14 @@
 SELECT * FROM dates
 
+-- DATA ENTRY FOR JANUARY 2026 (ID 1104 - 1107)
+INSERT INTO dates
+(game, console, release_date, purchase_date, start_date, finish_date)
+VALUES
+	('Phoenix Wright: Ace Attorney','PS4','2019-04-09','2026-01-05','2026-01-05','2026-01-05'),
+	('Phoenix Wright: Justice for All','PS4','2019-04-09','2026-01-05','2026-01-05','2026-01-05'),
+	('Phoenix Wright: Trials and Tribulations','PS4','2019-04-09','2026-01-05','2026-01-05','2026-01-05'),
+	('Need for Speed Unbound','PS5','2022-12-02','2026-01-08','2026-01-08','2026-01-08')
+
 -- DATA ENTRY FOR DECEMBER 2025 (ID 1096 - 1103)
 INSERT INTO dates
 (game, console, release_date, purchase_date, start_date, finish_date)

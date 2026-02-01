@@ -1,5 +1,14 @@
 SELECT * FROM finances
 
+-- DATA ENTRY FOR JANUARY 2026 (ID 1104 - 1107)
+INSERT INTO finances
+(game, console, full_price, paid_price, savings, hours, value)
+VALUES
+	('Phoenix Wright: Ace Attorney','PS4',10.00,3.30,6.70,1,3.30),
+	('Phoenix Wright: Justice for All','PS4',10.00,3.30,6.70,1,3.30),
+	('Phoenix Wright: Trials and Tribulations','PS4',9.99,3.29,6.70,1,3.29),
+	('Need for Speed Unbound','PS5',79.99,0.00,79.99,1,0.00)
+
 -- DATA ENTRY FOR DECEMBER 2025 (ID 1096 - 1103)
 INSERT INTO finances
 (game, console, full_price, paid_price, savings, hours, value)

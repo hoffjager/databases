@@ -1,5 +1,14 @@
 SELECT * FROM origins
 
+-- DATA ENTRY FOR JANUARY 2026 (ID 1104 - 1107)
+INSERT INTO origins
+(game, console, developer, country)
+VALUES
+	('Phoenix Wright: Ace Attorney','PS4','Capcom','Japan'),
+	('Phoenix Wright: Justice for All','PS4','Capcom','Japan'),
+	('Phoenix Wright: Trials and Tribulations','PS4','Capcom','Japan'),
+	('Need for Speed Unbound','PS5','Criterion Games','England')
+
 -- DATA ENTRY FOR DECEMBER 2025 (ID 1096 - 1103)
 INSERT INTO origins
 (game, console, developer, country)
